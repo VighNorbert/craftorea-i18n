@@ -1,0 +1,1002 @@
+{
+  "general": {
+    "apply": "Použiť",
+    "cancel": "Zrušiť",
+    "free": "Zadarmo",
+    "edit": "Upraviť",
+    "remove": "Odstrániť",
+    "quantity": "Množstvo",
+    "note": "Poznámka",
+    "warning": "Upozornenie",
+    "back": "Späť",
+    "continue": "Pokračovať",
+    "save": "Uložiť",
+    "loading": "Načítavam...",
+    "send": "Odoslať",
+    "close_menu": "Zavrieť menu",
+    "categories": "Kategórie",
+    "logout": "Odhlásiť",
+    "login": "Prihlásenie",
+    "cart": "Nákupný košík",
+    "profile": "Môj profil",
+    "show_more": "Zobraziť viac",
+    "secure_payment": "Bezpečná platba",
+    "home": "Domov",
+    "contact_us": {
+      "title": "Kontakt",
+      "shop": "Prevádzka",
+      "registration_id": "IČO",
+      "tax_id": "DIČ",
+      "vat_id": "IČ DPH",
+      "button": "Kontaktovať"
+    },
+    "follow_us": {
+      "title": "Sledujte nás"
+    },
+    "information": {
+      "title": "Informácie",
+      "how_to": "Ako nakupovať",
+      "order_status": "Stav mojej objednávky",
+      "terms": "Obchodné podmienky",
+      "complaints": "Reklamačný poriadok",
+      "delivery": "Doprava",
+      "payment": "Spôsoby platby",
+      "privacy": "Ochrana osobných údajov",
+      "cookies": "Prehľad súborov Cookie",
+      "cookie_settings": "Spravovať nastavenia Cookies",
+      "downloads": "Informácie a poučenia pre spotrebiteľa"
+    },
+    "product_categories": {
+      "title": "Kategórie výrobkov"
+    },
+    "nav": {
+      "eshop": "E-shop",
+      "about": "O nás",
+      "order_status": "Stav objednávky",
+      "faq": "Najčastejšie otázky",
+      "contact": "Kontakt",
+      "admin": {
+        "products": "Produkty",
+        "options": "Možnosti produktov",
+        "variants": "Varianty",
+        "questions": "Otázky",
+        "statistics": "Štatistiky",
+        "invoices": "Faktúry",
+        "orders": "Objednávky"
+      }
+    },
+    "join_newsletter": "Prihláste sa na odber noviniek"
+  },
+  "grids": {
+    "filters": "Filtrovanie",
+    "filter": "Filtrovať",
+    "reset": "Reset",
+    "results": "Výsledky",
+    "actions": "Akcie",
+    "loading": "Načítavam dáta",
+    "no_results": "Nenašli sa žiadne položky",
+    "AdminProductsGrid": {
+      "photo": "Fotka",
+      "name": "Názov",
+      "hex": "Farba",
+      "category_name": "Kategória",
+      "available": "Dostupné",
+      "visible": "Viditeľné",
+      "price": "Cena",
+      "buttons": {
+        "new_product": "Pridať nový"
+      },
+      "filters": {
+        "name": "Názov",
+        "category": "Kategória"
+      }
+    },
+    "AdminVariantsGrid": {
+      "attribute_category_name": "Kategória",
+      "name": "Názov",
+      "hex": "Farba",
+      "is_visual": "Viditeľné",
+      "buttons": {
+        "new_variant": "Pridať novú"
+      },
+      "filters": {
+        "attribute_category_id": "Kategória",
+        "name": "Názov"
+      }
+    },
+    "AdminProductOptionsGrid": {
+      "id": "ID",
+      "name": "Názov",
+      "buttons": {
+        "new_option": "Pridať nové"
+      }
+    },
+    "AdminInvoicesGrid": {
+      "number": "Číslo faktúry",
+      "invoice_type_name": "Typ faktúry",
+      "company_name": "Dodávateľ",
+      "customer_name": "Odberateľ",
+      "issued_at": "Vystavená dňa",
+      "price": "Hodnota",
+      "buttons": {
+        "new_invoice": "Pridať novú"
+      },
+      "filters": {
+        "number": "Číslo faktúry",
+        "invoice_type": "Typ faktúry",
+        "company_name": "Dodávateľ",
+        "customer_name": "Odberateľ"
+      }
+    },
+    "AdminQuestionsGrid": {
+      "created_at": "Dátum",
+      "name": "Meno",
+      "email": "E-mail",
+      "status": "Stav",
+      "filters": {
+        "status": "Stav"
+      }
+    },
+    "AdminOrdersGrid": {
+      "id": "Č. objednávky",
+      "name": "Kupujúci",
+      "source": "Pôvod",
+      "status": "Stav",
+      "expected_shipping_at": "Dátum predp. výroby",
+      "payment_type": "Spôsob platby",
+      "delivery_type": "Spôsob doručenia",
+      "price_total": "Hodnota",
+      "priority": "Prednosť",
+      "buttons": {
+        "sp_export": "Exportovať na poštu",
+        "sp_import": "Importovať z pošty"
+      },
+      "filters": {
+        "name": "Kupujúci",
+        "status": "Stav",
+        "price_total_from": "Hodnota od",
+        "price_total_to": "do",
+        "id": "Č. objednávky, Faktúra, VS"
+      }
+    },
+    "OrdersGrid": {
+      "id": "Č. objednávky",
+      "created_at": "Dátum",
+      "status": "Stav",
+      "delivery_type": "Doručenie",
+      "price_total": "Hodnota",
+      "actions": {
+        "details": "Detail",
+        "invoice": "Faktúra"
+      }
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "Prosím vyplňte {field}.",
+      "minLength": "{field} musí mať aspoň {count} znakov.",
+      "maxLength": "{field} musí mať najviac {count} znakov.",
+      "min": "{field} musí byť aspoň {min}.",
+      "max": "{field} musí byť najviac {max}.",
+      "pattern": "{field} musí mať správny tvar.",
+      "email": "Toto pole musí obsahovať platnú e-mailovú adresu.",
+      "checkbox_required": "Zaškrtnutie je povinné."
+    },
+    "url": "URL",
+    "title": "Názov",
+    "titlePlaceholder": "Ako sa má tento odkaz zobraziť?",
+    "save": "Uložiť",
+    "cancel": "Zrušiť",
+    "edit": "Upraviť",
+    "remove": "Odstrániť",
+    "copy": "Kopírovať"
+  },
+  "home": {
+    "newest_products": "Najnovšie výrobky",
+    "popular_categories": "Populárne kategórie",
+    "favourite_products": "Obľúbené výrobky",
+    "bestsellers": "Bestsellery",
+    "our_reviews": "Naše recenzie",
+    "latest_reviews": "Najnovšie recenzie",
+    "banners_cta_button": "Nakupovať",
+    "colors_title": "Nakupovať podľa farby",
+    "customer_stories": "Príbehy našich zákazníkov",
+    "trusted_by_customers": "Dôveruje nám viac ako 1000 zákazníkov"
+  },
+  "cart": {
+    "title": "Košík",
+    "add_to_cart": "Pridať do košíka",
+    "add_to_offer": "Pridať do ponuky",
+    "product_added": "Produkt bol pridaný do nákupného košíka.",
+    "select_all_variants": "Prosím vyberte nejakú možnosť zo všetkých kategórií",
+    "error_adding_to_cart": "Chyba pri pridávaní produktu do košíka. Prosím skúste to znova.",
+    "proceed_to_cart": "Prejsť do košíka",
+    "continue_shopping": "Pokračovať v nákupe",
+    "proceed_to_checkout": "Prejsť k pokladni",
+    "empty": {
+      "title": "Váš košík je prázdny",
+      "message": "Pre pridanie položky do košíka musíte kliknúť na tlačidlo \"Pridať do košíka\" pri každom produkte.",
+      "resolution_1": "Všetky produkty nájdete v",
+      "resolution_2": "prehľade výrobkov",
+      "resolution_3": "alebo skúste vyhľadávanie nižšie."
+    },
+    "unavailable_products_alert": "Váš košík obsahuje nedostupné výrobky. Takúto objednávku nie je možné spracovať.",
+    "cart_contains": "Váš košík obsahuje <strong>{count}</strong> {count, plural, =0 {výrobkov} one {výrobok} few {výrobky} other {výrobkov}}",
+    "product": {
+      "singular": "výrobok",
+      "few": "výrobky",
+      "many": "výrobkov"
+    },
+    "priority_handling": "Prednostné vybavenie objednávky do 7 dní od uzavretia zmluvy",
+    "discount_code_section": "Uplatniť zľavový kód",
+    "discount_code_label": "Zľavový kód",
+    "discount_code_error": "Zadaný zľavový kód nie je platný.",
+    "discount_code_required": "Prosím vyplňte zľavový kód.",
+    "discount_code_min_price": "Zadaný zľavový kód nie je možné použiť pre Vašu objednávku. Minimálna cena objednávky musí byť",
+    "prices": {
+      "product_price": "Cena výrobkov",
+      "before_discount": "pred zľavou",
+      "discount": "Zľava",
+      "priority_handling": "Prednostné vybavenie",
+      "shipping": "Poštovné a balné",
+      "total_price": "Celková cena",
+      "shipping_not_included": "* Cena nezahŕňa poštovné a balné."
+    },
+    "item": {
+      "delete_confirmation_title": "Odstrániť produkt?",
+      "delete_confirmation_message": "Ste si istý že chcete odstrániť z košíka produkt",
+      "options_edit_title": "Úprava možností výrobku",
+      "cancellation_warning": "Pri tomto produkte podľa OP nie je možné odstúpiť od od zmluvy.",
+      "options": {
+        "name": "Názov",
+        "your_choice": "Váš výber",
+        "surcharge": "Príplatok"
+      }
+    },
+    "checkout": {
+      "title": "Pokladňa",
+      "personal_details": "1/3. Osobné údaje",
+      "account": {
+        "have_account_question": "Máte už u nás účet?",
+        "account_prefill": "Prihláste sa a všetky Vaše údaje Vám predvyplníme.",
+        "login": "Prihlásiť sa",
+        "create_account": "Chcem si vytvoriť nový užívateľský účet.",
+        "saved_password": "Vaše heslo sme uložili.",
+        "change_password": "Zmeniť heslo",
+        "newsletter": "Chcem sa prihlásiť na odber noviniek a súhlasím so",
+        "newsletter_consent": "spracovaním osobných údajov pre účely zasielania marketingových ponúk",
+        "gdpr_consent": "spracovaním osobných údajov pre účely vytvorenia osobného konta",
+        "gdpr_required": "Odsúhlasenie podmienok ochrany osobných údajov je povinné."
+      },
+      "contact_info": {
+        "title": "Kontaktné údaje",
+        "subtitle": "Budú použité na informovanie o vybavení objednávky.",
+        "name": "Meno a priezvisko",
+        "email": "E-mail",
+        "phone": "Telefónne číslo",
+        "phone_invalid": "Telefónne číslo nie je validné."
+      },
+      "address": {
+        "billing_title": "Fakturačná adresa",
+        "delivery_title": "Doručovacia adresa",
+        "delivery_same": "Doručovacia adresa je rovnaká ako fakturačná adresa.",
+        "street": "Ulica a číslo",
+        "zip": "PSČ",
+        "zip_invalid": "PSČ nie je validné.",
+        "city": "Mesto",
+        "country": "Krajina",
+        "recipient_name": "Meno a priezvisko adresáta",
+        "organization": "Organizácia",
+        "organization_tooltip": "Ak si prajete doručenie na adresu firmy, vyplňte názov firmy.",
+        "price_recalculation_info": "Ceny budú prepočítané na základe zvolenej krajiny doručenia po uložení formulára."
+      },
+      "password": {
+        "new": "Heslo",
+        "confirm": "Heslo znova",
+        "pattern_error": "Heslo musí obsahovať malé, veľké písmeno a číslo.",
+        "match_error": "Heslá sa musia zhodovať."
+      },
+      "errors": {
+        "email_exists": "Používateľ s týmto e-mailom už existuje. Prosím prihláste sa.",
+        "unexpected": "Nastala neočakávaná chyba. Prosím skúste znova."
+      },
+      "continue_to_shipping": "Pokračovať na dopravu a platbu"
+    },
+    "options": {
+      "title": "Doprava a Platba",
+      "step_title": "2/3. Doprava a Platba",
+      "shipping_method": "Spôsob doručenia",
+      "payment_method": "Spôsob platby",
+      "shipping_required": "Vyberte spôsob doručenia.",
+      "payment_required": "Vyberte spôsob platby.",
+      "continue_to_summary": "Pokračovať na zhrnutie",
+      "your_cart": "Váš nákupný košík"
+    },
+    "summary": {
+      "title": "Zhrnutie objednávky",
+      "step_title": "3/3. Zhrnutie objednávky",
+      "order_contents": "Obsah objednávky",
+      "your_order_contains": "Vaša objednávka obsahuje",
+      "error_message": "Nastala chyba pri spracovaní objednávky. Skúste to prosím znova.",
+      "delivery_details": "Dodacie údaje",
+      "email": "Email",
+      "phone": "Telefónne číslo",
+      "billing_address": "Fakturačná adresa",
+      "shipping_address": "Doručovacia adresa",
+      "same_as_billing": "Rovnaká ako fakturačná",
+      "shipping_payment": "Doprava a platba",
+      "shipping_method": "Spôsob doručenia",
+      "payment_method": "Spôsob platby",
+      "gdpr_consent": "Beriem na vedomie",
+      "gdpr_link": "spracovanie osobných údajov",
+      "gdpr_consent_suffix": "pre účel vybavenia objednávky.",
+      "gdpr_required": "Odsúhlasenie podmienok ochrany osobných údajov je povinné.",
+      "terms_consent": "Oboznámil/a som sa so",
+      "terms_link": "všeobecnými obchodnými podmienkami",
+      "terms_consent_suffix": ".",
+      "terms_required": "Odsúhlasenie všeobecných obchodných podmienok je povinné.",
+      "note": "Poznámka",
+      "submit_order": "Odoslať objednávku",
+      "payment_obligation": "s povinnosťou platby",
+      "processing": {
+        "title": "Vaša objednávka sa spracováva.",
+        "please_wait": "Prosím, počkajte.",
+        "may_take_time": "Môže to trvať niekoľko sekúnd.",
+        "redirect_to_payment": "Budete presmerovaný/á na platobnú bránu."
+      }
+    },
+    "order_received": {
+      "title": "Objednávka prijatá",
+      "thank_you": "Ďakujeme za Vašu objednávku!",
+      "success_message": "Vaša objednávka č. {orderNumber} bola úspešne prijatá. Na Váš e‑mail sme Vám odoslali potvrdenie o prijatí objednávky. O ďalšom spracovaní objednávky Vás budeme informovať e‑mailom.",
+      "success_message_paid": "Vaša objednávka č. {orderNumber} bola úspešne prijatá a zaplatená. Na Váš e‑mail sme Vám odoslali potvrdenie o prijatí objednávky a zaplatení. O ďalšom spracovaní objednávky Vás budeme informovať e‑mailom.",
+      "track_order": "Stav Vašej objednávky môžete priebežne sledovať na stránke",
+      "track_order_2": "po zadaní čísla objednávky a Vašej e‑mailovej adresy.",
+      "order_status": "\"Stav objednávky\"",
+      "payment_errors": {
+        "payment_failed": "Nepodarilo sa spracovať Vašu platbu. Vaša objednávka však bola úspešne prijatá.",
+        "payment_processing": "Vaša platba sa spracováva. Po spracovaní platby Vás budeme informovať e‑mailom.",
+        "unknown_error": "Nastala neznáma chyba pri spojení s platobnou bránou. Vaša objednávka však bola úspešne prijatá.",
+        "apology": "Ospravedlňujeme sa za vzniknutú situáciu. Prosím vykonajte platbu prevodom podľa platobných údajov nižšie. Platobné údaje sme Vám odoslali aj na Váš e‑mail."
+      }
+    },
+    "stripe_checkout": {
+      "title": "Platba cez Stripe"
+    }
+  },
+  "options": {
+    "option": "Možnosť",
+    "your_choice": "Váš výber",
+    "custom_instruction": "Ak vyberiete možnosť \"Vlastné\", dopíšte Vaše želanie do Poznámky."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "operator": "Prevádzkovateľ e-shopu",
+    "name": "Názov",
+    "headquarters": "Sídlo",
+    "store": "Prevádzka",
+    "pickup": "Osobný odber",
+    "phone": "Telefón",
+    "email": "e\u2011mail",
+    "registration_id": "IČO",
+    "tax_id": "DIČ",
+    "vat_id": "IČ DPH",
+    "not_vat_payer": "Nie je platcom DPH",
+    "form": {
+      "title": "Kontaktný formulár",
+      "description": "V prípade otázok ma neváhajte kontaktovať pomocou tohto formulára.",
+      "name": "Meno a priezvisko",
+      "email": "E-mail",
+      "message": "Správa",
+      "zip": "PSČ",
+      "message_required": "Prosím vyplňte správu.",
+      "gdpr_consent": "Som informovaný/á s <gdpr_link>podmienkami ochrany osobných údajov</gdpr_link>.",
+      "gdpr_required": "Odsúhlasenie podmienok ochrany osobných údajov je povinné.",
+      "submit": "Odoslať",
+      "success": "Vaša správa bola odoslaná. Odpovieme Vám v čo najkratšom čase.",
+      "error": "Vaša správa bola odfiltrovaná SPAM filtrom."
+    },
+    "ask_a_question": "Opýtať sa",
+    "ask_the_seller": "Opýtať sa predajcu"
+  },
+  "cookies": {
+    "title": "Prehľad súborov Cookies",
+    "what_are_cookies": {
+      "title": "Čo sú súbory cookie?",
+      "description": "Súbor cookie je malý textový súbor, ktorý webové sídlo ukladá vo Vašom počítači alebo mobilnom zariadení v momente, keď dané sídlo navštívite. Súbory cookie môžu webové stránky používať na zefektívnenie používateľskej skúsenosti.",
+      "host_domain": "Súbory cookie hostiteľskej domény sú súbory cookie ukladané webovým sídlom, ktoré si práve prezeráte. Prečítať ich dokáže iba toto sídlo. Okrem toho môže webové sídlo využívať externé služby, ktoré takisto ukladajú svoje vlastné súbory cookie, známe ako súbory cookie tretej strany.",
+      "persistent": "Trvalé súbory cookie sú súbory cookie ukladané vo Vašom počítači, ktoré sa po zatvorení prehliadača automaticky nevymažú, na rozdiel od relačných súborov cookie, ktoré sa po zatvorení prehliadača vymažú.",
+      "purpose_1": "Účelom je umožniť, aby si webové sídlo na určitý čas uchovalo informácie o Vašich nastaveniach (ako sú používateľské meno, jazyk atď.).",
+      "purpose_2": "Vďaka tomu ich pri prehliadaní webového sídla v rámci jednej návštevy nemusíte opätovne zadávať.",
+      "purpose_3": "Súbory cookie sa môžu používať aj na zostavenie anonymizovaných štatistík o využívaní nášho webového sídla."
+    },
+    "manage_cookies": {
+      "title": "Ako môžete spravovať súbory cookie?",
+      "description": "Súbory cookie môžete spravovať/odstraňovať podľa uváženia – podrobnosti nájdete na webovom sídle",
+      "adjust_settings": {
+        "title": "Upravenie nastavení cookies",
+        "description": "Upraviť svoje nastavenia a povolenia ukladania cookies",
+        "click_here": "môžete kliknutím sem."
+      },
+      "remove_cookies": {
+        "title": "Odstránenie súborov cookie zo zariadenia",
+        "description_1": "Vymazaním histórie prehliadania vo svojom prehliadači môžete odstrániť všetky súbory cookie, ktoré sa vo Vašom zariadení už nachádzajú. Odstránite tak všetky súbory cookie zo všetkých navštívených webových sídel.",
+        "description_2": "Upozorňujeme však, že môžete prísť aj o niektoré uložené informácie (napríklad uložené prihlasovacie údaje, preferencie na webovom sídle)."
+      },
+      "block_cookies": {
+        "title": "Blokovanie súborov cookie",
+        "description": "Väčšinu moderných prehliadačov môžete nastaviť tak, aby zabránili ukladaniu všetkých súborov cookie do vášho zariadenia; v takom prípade však niektoré preferencie možno budete musieť upravovať manuálne pri každej návšteve webového sídla/webovej stránky. Niektoré služby a funkcie navyše vôbec nemusia fungovať správne (napr. prihlasovanie sa do profilu)."
+      }
+    },
+    "our_cookies": {
+      "title": "Súbory cookies na {domain}",
+      "description": "Záleží nám na Vašom súkromí a preto používame iba súbory cookies, ktoré sú nevyhnutné k správnemu fungovaniu stránky, prípadne nám umožňujú zlepšovať služby, ktoré Vám poskytujeme vďaka meraniu návštevnosti našej webstránky. Súbory Cookies, ktoré používame, obsahujú anonymizované údaje. Zoznam používaných cookies súborov si môžete pozrieť v tabuľke nižšie.",
+      "table": {
+        "name": "Názov",
+        "explanation": "Vysvetlenie",
+        "expiration": "Exspirácia",
+        "type": "Druh",
+        "days": "dní",
+        "months": "mesiacov",
+        "years": "roky",
+        "necessary": "Nevyhnutné",
+        "analytical": "Analytické",
+        "cookies": {
+          "session": {
+            "name": "session",
+            "description": "Každý užívateľ, ktorý vstúpi na stránku obdrží jednoznačný identifikátor. Tento identifikátor je nevyhnutný pre fungovanie nákupného košíka pre neprihlásených používateľov. Okrem toho obsahuje aj prihlasovacie tokeny, ktoré sú nevyhnutné pre prihlásenie sa a zabezpečenie vášho účtu.",
+            "expiration": "30 dní",
+            "type": "Nevyhnutné"
+          },
+          "cc_cookie": {
+            "name": "cc_cookie",
+            "description": "Táto cookie uchováva stav súhlasu používateľa s používaním súborov cookies pre aktuálnu doménu.",
+            "expiration": "6 mesiacov",
+            "type": "Nevyhnutné"
+          },
+          "ga": {
+            "name": "_ga",
+            "description": "Tento súbor cookie je využívaný vrámci služby Google Analytics a používa sa na rozlíšenie jedinečných používateľov priradením náhodne generovaného čísla ako identifikátor klienta.",
+            "expiration": "2 roky",
+            "type": "Analytické"
+          },
+          "ga_star": {
+            "name": "_ga_*",
+            "description": "Tento súbor cookie je využívaný vrámci služby Google Analytics a slúži na zachovanie stavu relácie.",
+            "expiration": "2 roky",
+            "type": "Analytické"
+          }
+        }
+      }
+    },
+    "google_analytics": {
+      "title": "Google Analytics",
+      "description_1": "Táto stránka používa službu Google Analytics 4, poskytovanú spoločnosťou Google, Inc. (ďalej len \"Google\"). Služba Google Analytics používa súbory cookies (odkaz na vyhlásenie o používanie cookies). Informácie o užívaní stránky spolu s obsahom súboru cookie budú spoločnosťou Google prenesené a uložené na serveroch v Spojených štátoch. Google bude užívať tieto informácie na účely vyhodnocovania používania stránky a vytváranie správ o jej aktivite, určených pre jej prevádzkovateľa, a na poskytovanie ďalších služieb týkajúcich sa činností na stránke a používanie internetu vôbec. Google môže tiež poskytnúť tieto informácie tretím osobám, ak to vyžaduje zákon alebo ak budú takéto tretie osoby spracovávať tieto informácie pre Google.",
+      "description_2": "Služba Google Analytics 4 nezaznamenáva Vašu IP adresu, čím ste ako používateľ anonymizovaný.",
+      "more_info": "Bližšie informácie:",
+      "privacy_policy": "Podmienky ochrany súkromia spoločnosti Google",
+      "cookies_policy": "Pravidlá používania cookies spoločnosti Google"
+    }
+  },
+  "delivery": {
+    "title": "Doprava",
+    "delivery_methods": {
+      "title": "Spôsoby dodania produktu:",
+      "description": "Dodanie tovaru je možné nasledujúcim spôsobom:",
+      "slovak_post": "doručovanie Slovenskou poštou",
+      "pickup": "osobný odber v dohodnutom čase na adrese:",
+      "packeta": "doručenie do výdajného miesta siete Packeta",
+      "gls": "doručenie GLS kuriérom"
+    },
+    "shipping_cost": {
+      "title": "Cena dopravy",
+      "table": {
+        "header_1": "Pri objednávke produktu a doručovaní.",
+        "header_2": "poštovné + balné spolu"
+      },
+      "eu_shipping": "Cena dodania tovaru je platná v rámci územia Slovenskej republiky, resp. ostatných členských štátov Európskej únie.",
+      "non_eu_shipping": "Zaslanie tovaru do krajín mimo Európskej únie z\u00A0technických príčin nie je možné."
+    },
+    "full_terms": {
+      "description": "Kompletné znenie dodacích podmienok nájdete v",
+      "terms_link": "Obchodných podmienkach"
+    }
+  },
+  "errors": {
+    "not_found": {
+      "title": "Stránku sa nepodarilo nájsť",
+      "code": "404",
+      "description": "Je mi to ľúto, ale hľadanú stránku sa nepodarilo nájsť.",
+      "resolution": "Môžete prejsť na <home_link>hlavnú stránku</home_link>, alebo skúsiť vyhľadávanie nižšie.",
+      "alt_text": "Stránku sa nepodarilo nájsť"
+    },
+    "forbidden": {
+      "title": "Prístup zakázaný",
+      "code": "403",
+      "description": "Je mi to ľúto, ale pre prístup k tejto stránke nemáte dostatočné povolenie.",
+      "resolution": "Môžete prejsť na <home_link>hlavnú stránku</home_link>, alebo sa <login_link>prihláste</login_link>.",
+      "alt_text": "Prístup zakázaný"
+    }
+  },
+  "shop": {
+    "title": "E-shop",
+    "explore": "Preskúmať",
+    "category": {
+      "title": "{name} · E-shop"
+    },
+    "not_found": "Kategória sa nenašla",
+    "attribute_filter": {
+      "title": "Produkty s {category}: {name}",
+      "description": "Prezrite si všetky produkty s atribútom {category} nastaveným na {name}",
+      "products_with_attribute": "Produkty s {category}: {name}",
+      "no_products_found": "Nenašli sa žiadne produkty s týmto atribútom."
+    },
+    "products": {
+      "description": "Popis výrobku",
+      "price_from": "od",
+      "unavailable": "Dočasne nedostupné",
+      "in_stock": "Na sklade",
+      "to_order": "Na objednávku",
+      "production_time": "Výrobná doba",
+      "days": "{days, plural, one {# deň} few {# dni} other {# dní}}",
+      "priority_delivery": "Prednostné vybavenie do 7 dní",
+      "no_image": "Žiadna fotografia",
+      "show_less_photos": "Zobraziť menej fotiek",
+      "show_all_photos": "Zobraziť všetky fotky",
+      "show_whole_description": "Zobraziť celý popis",
+      "cancellation_impossible": "Pri tomto produkte nie je možné odstúpiť od zmluvy, keďže sa jedná o tovar zhotovený podľa osobitných požiadaviek spotrebiteľa, tovar vyrobený na mieru alebo tovar určený osobitne pre jedného spotrebiteľa.",
+      "sort": {
+        "sort_by": "Zoradiť podľa",
+        "best_selling": "Najpredávanejšie",
+        "alphabetically_az": "Podľa názvu A-Z",
+        "alphabetically_za": "Podľa názvu Z-A",
+        "price_low_high": "Najlacnejšie",
+        "price_high_low": "Najdrahšie"
+      },
+      "view": {
+        "grid": "Mriežka",
+        "list": "Zoznam"
+      },
+      "product": "{count, plural, =0 {produktov} one {produkt} few {produkty} other {produktov}}"
+    }
+  },
+  "gdpr": {
+    "title": "Ochrana osobných údajov",
+    "default_city": "V Bratislave"
+  },
+  "documents": {
+    "not_found": "Dokument neexistuje.",
+    "date": "dňa",
+    "original_language_notice": "Tento dokument je dostupný iba v pôvodnom jazyku e-shopu."
+  },
+  "terms": {
+    "title": "Obchodné podmienky"
+  },
+  "complaints": {
+    "title": "Reklamačný poriadok"
+  },
+  "downloads": {
+    "title": "Informácie a poučenia pre spotrebiteľa",
+    "files": {
+      "terms": "Obchodné podmienky",
+      "gdpr": "Ochrana osobných údajov",
+      "special_obligations": "Osobitné informačné povinnosti obchodníka",
+      "withdrawal_right": "Poučenie o práve spotrebiteľa na odstúpenie od zmluvy",
+      "withdrawal_form": "Formulár na odstúpenie od zmluvy",
+      "dispute_resolution": "Poučenie o alternatívnom riešení sporov",
+      "complaints_policy": "Reklamačný poriadok",
+      "complaint_form": "Reklamačný protokol"
+    }
+  },
+  "auth": {
+    "logout": {
+      "title": "Odhlásenie",
+      "processing": "Prebieha odhlasovanie..."
+    },
+    "login": {
+      "title": "Prihlásenie",
+      "session_expired": "Boli ste odhlásený z dôvodu nečinnosti. Pred pokračovaním sa prosím znova prihláste.",
+      "errors": {
+        "login_failed": "Nastala chyba pri prihlasovaní.",
+        "invalid_2fa": "Nespávny 2FA kód."
+      },
+      "form": {
+        "email": "E-mail",
+        "password": "Heslo",
+        "submit": "Prihlásiť sa",
+        "confirm": "Potvrdiť"
+      },
+      "forgot_password": "Zabudli ste Vaše heslo?",
+      "or": "alebo",
+      "register": "Zaregistrovať sa",
+      "google_loading": "Načítava sa Google prihlásenie...",
+      "passkey": {
+        "required": "Pre pokračovanie je potrebné použiť Váš bezpečnostný kľúč.",
+        "use_2fa": "Prihlásiť sa pomocou 2FA",
+        "use_passkey": "Prihlásiť sa pomocou bezp. kľúča"
+      },
+      "otp": {
+        "instructions": "Zadajte kód z aplikácie pre dvojfaktorovú autentifikáciu."
+      }
+    },
+    "forgot_password": {
+      "title": "Zabudnuté heslo",
+      "instructions": "V prípade ak ste zabudli Vaše heslo, zadajte Váš e‑mail, ktorý ste použili pri registrácii.",
+      "success_message": "V prípade, že existuje účet so zadaným e-mailom, odoslali sme Vám e-mail s inštrukciami na obnovenie hesla. Skontrolujte si svoju e-mailovú schránku.",
+      "form": {
+        "email": "E-mail",
+        "submit": "Potvrdiť"
+      }
+    },
+    "new_password": {
+      "title": "Vytvorenie nového hesla",
+      "instructions": "Zadajte nové heslo pre Váš účet.",
+      "error_message": "Nepodarilo sa zmeniť Vaše heslo. Skúste to prosím znova.",
+      "success_message": "Vaše heslo bolo úspešne zmenené. Môžete sa prihlásiť.",
+      "go_to_login": "Prejsť na prihlásenie",
+      "error_request": "Chyba. Požiadavka na zmenu hesla nebola nájdená alebo expirovala.",
+      "form": {
+        "password": "Heslo",
+        "password_repeat": "Heslo znova",
+        "submit": "Uložiť",
+        "errors": {
+          "password_pattern": "Heslo musí obsahovať malé, veľké písmeno a číslo.",
+          "passwords_must_match": "Heslá sa musia zhodovať."
+        }
+      }
+    },
+    "email_confirm": {
+      "title": "Potvrdenie e-mailu",
+      "please_wait": "Prosím čakajte, overujeme Vašu e-mailovú adresu.",
+      "success_message": "Ďakujeme za potvrdenie e-mailovej adresy. Teraz sa môžete prihlásiť.",
+      "go_to_login": "Prejsť na prihlásenie",
+      "errors": {
+        "invalid_params": "Nepodarilo sa overiť e-mailovú adresu. Skúste znova.",
+        "email_not_found": "E-mailová adresa nebola nájdená. Skúste znova.",
+        "already_confirmed": "Táto e-mailová adresa už bola overená.",
+        "confirmation_failed": "Nepodarilo sa overiť e-mailovú adresu. Skúste znova."
+      }
+    }
+  },
+  "order_status_labels": {
+    "1-NEW": "Nová",
+    "2-CONFIRMED": "Neuhradená",
+    "3-PAID": "Uhradená",
+    "4-IN_PRODUCTION": "Vyrába sa",
+    "5-AWAITING_SHIPMENT": "Čaká na odoslanie",
+    "5-AWAITING_TAKEOVER": "Čaká na prevzatie",
+    "6-SHIPPED": "Odoslaná",
+    "7-DELIVERED": "Doručená",
+    "8-CANCELLED": "Zrušená",
+    "9-COMPLAINT": "Reklamácia",
+    "9-COMPLAINT_RESOLVED": "Reklamácia vybavená",
+    "9-ARCHIVED": "Archivovaná"
+  },
+  "order_status_messages": {
+    "1-NEW": "Ďakujeme za Vašu objednávku! Vašu objednávku bezodkladne skontrolujeme a potvrdíme e-mailom na Vašu e-mailovú adresu, ktorú ste zadali pri objednávaní.",
+    "2-CONFIRMED": "U Vašej objednávky zatiaľ neevidujeme žiadnu platbu. V prípade ak ste objednávku zaplatili už dávnejšie, prosím, ozvite sa nám prostredníctvom",
+    "2-CONFIRMED_message": "kontaktného formulára",
+    "3-PAID": "Vaša objednávka bola uhradená a je spracovávaná. Už čoskoro ju zaradíme do výroby a o pár dní na to, by mala byť odoslaná.",
+    "4-IN_PRODUCTION": "Na Vašej objednávke už usilovne pracujeme a vyrábame Vami objednaný tovar. Do niekoľkých dní by sme Vám mali objednávku odoslať.",
+    "5-AWAITING_SHIPMENT": "Vaša objednávka je pripravená na odoslanie. Odošleme Vám ju už dnes alebo najbližší pracovný deň.",
+    "5-AWAITING_TAKEOVER": "Vaša objednávka je hotová a je pripravená na vyzdvihnutie na našej prevádzke.",
+    "6-SHIPPED": "Vaša objednávka bola odoslaná. Očakávajte doručenie ďalší pracovný deň po odoslaní, vo výnimočných prípadoch 2 dni po odoslaní.",
+    "7-DELIVERED": "Vaša objednávka bola doručená a už by mala byť vo Vašich rukách.",
+    "8-CANCELLED": "Vaša objednávka bola zrušená. Prosím, kontaktujte nás, ak máte nejaké otázky.",
+    "9-COMPLAINT": "Vaša objednávka bola označená ako reklamácia. Prosím, kontaktujte nás, ak máte nejaké otázky.",
+    "9-COMPLAINT_RESOLVED": "Reklamácia bola vybavená. Prosím, kontaktujte nás, ak máte nejaké otázky.",
+    "9-ARCHIVED": "Vaša objednávka bola archivovaná ako vybavená."
+  },
+  "order_status": {
+    "title": "Stav objednávky",
+    "form": {
+      "instructions": "Ak chcete zistiť aktuálny stav Vašej objednávky, zadajte číslo objednávky a e-mailovú adresu, ktorú ste použili pri objednávke.",
+      "order_id": "Číslo objednávky",
+      "email": "E-mail zadaný pri objednávke",
+      "submit": "Zistiť stav objednávky"
+    },
+    "result": {
+      "order": "Objednávka č.",
+      "last_status_change": "Posledná zmena stavu",
+      "contact_form": "kontaktného formulára"
+    },
+    "payment_details": {
+      "title": "Platobné údaje",
+      "instructions": "Platbu prosím zrealizujte bezodkladne. Vašu objednávku začneme vybavovať po pripísaní platby na účet. Ak nebude platba pripísaná na účet do 3 pracovných dní, predávajúci si vyhradzuje právo objednávku zrušiť.",
+      "iban": "IBAN",
+      "swift": "SWIFT / BIC",
+      "variable_symbol": "Variabilný symbol",
+      "amount": "Suma",
+      "qr_code": "QR kód pre platbu"
+    },
+    "errors": {
+      "fetch_failed": "Nepodarilo sa získať stav objednávky",
+      "check_inputs": "Prosím skontrolujte, či ste zadali správne číslo objednávky a e-mail."
+    }
+  },
+  "payment": {
+    "title": "Spôsoby platby",
+    "payment_obligation": "Kupujúci je povinný zaplatiť predávajúcemu kúpnu cenu produktu dohodnutú v kúpnej zmluve formou:",
+    "bank": "IBAN",
+    "swift": "SWIFT/BIC",
+    "full_terms": {
+      "description": "Kompletné znenie dodacích podmienok nájdete v",
+      "terms_link": "Obchodných podmienkach"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "my_profile": "Môj profil",
+    "edit_profile": "Upraviť profil",
+    "my_orders": "Moje objednávky",
+    "my_invoices": "Moje faktúry",
+    "form": {
+      "basic_details": "Základné údaje",
+      "additional_details": "Ďalšie údaje",
+      "password_change": "Zmena hesla",
+      "password_change_info": "Ak heslo nechcete zmeniť, ponechajte tieto polia prázdne.",
+      "old_password": "Staré heslo",
+      "new_password": "Nové heslo",
+      "confirm_new_password": "Nové heslo znova",
+      "success": "Váš profil bol úspešne upravený.",
+      "errors": {
+        "update_failed": "Nepodarilo sa upraviť Váš profil.",
+        "old_password_required": "Ak chcete zmeniť heslo, musíte zadať aj staré heslo.",
+        "incorrect_old_password": "Zadané staré heslo je nesprávne."
+      }
+    },
+    "order": {
+      "title": "Objednávka č. {number}",
+      "status": "Stav objednávky",
+      "status_message": "Váša objednávka je v stave",
+      "not_found": "Objednávka nebola nájdená",
+      "dates": {
+        "created": "Objednávka bola prijatá v čase",
+        "confirmed": "Objednávka bola potvrdená v čase",
+        "paid": "Objednávka bola zaplatená v čase",
+        "delivered": "Objednávka bola doručená v čase"
+      },
+      "email_notifications": "O zmene stavu objednávky Vás budeme priebežne informovať pomocou e-mailových správ.",
+      "payment_details": {
+        "title": "Platobné údaje",
+        "instructions": "Platbu prosím zrealizujte bezodkladne. Vašu objednávku začneme vybavovať po pripísaní platby na účet. Ak nebude platba pripísaná na účet do 3 pracovných dní, predávajúci si vyhradzuje právo objednávku zrušiť.",
+        "iban": "IBAN",
+        "swift": "SWIFT / BIC",
+        "variable_symbol": "Variabilný symbol",
+        "due_date": "Dátum splatnosti",
+        "amount": "Suma",
+        "qr_code": "QR kód pre platbu"
+      },
+      "pickup": {
+        "prepared": "Vaša objednávka č. {id} je teraz pripravená na prevziatie.",
+        "instructions": "Čas prevzatia si prosím vopred dohodnime cez telefón. Prosím zavolajte na tel.č.",
+        "address": "Vašu objednávku si môžte prevziať na adrese"
+      },
+      "shipping": {
+        "sent": "Vaša objednávka č. {id} bola odoslaná.",
+        "tracking": "Referenčné číslo Vašej zásielky je",
+        "tracking_link": "Sledovať Vašu zásielku môžete",
+        "tracking_link_text": "TU",
+        "package_check": "Po obdržaní tovaru, prosím, skontrolujte neporušenosť obalu.",
+        "package_problem": "Doma poriadne prekontrolujte balíček. Ak zistíte chybu, v prvom rade nám napíšte na {email} alebo využite náš <contact_form>kontaktný formulár</contact_form>."
+      },
+      "payment_received": {
+        "message": "Prijali sme od Vás platbu",
+        "message_2": "za objednávku č."
+      },
+      "order_content": {
+        "title": "Obsah objednávky",
+        "contains": "Vaša objednávka obsahuje <strong>{count}</strong> {count, plural, =0 {výrobkov} one {výrobok} few {výrobky} other {výrobkov}}",
+        "product_singular": "výrobok",
+        "product_few": "výrobky",
+        "product_many": "výrobkov"
+      },
+      "prices": {
+        "product_price": "Cena výrobkov",
+        "before_discount": "pred zľavou",
+        "discount": "Zľava",
+        "priority_handling": "Prednostné vybavenie",
+        "shipping": "Poštovné a balné",
+        "free": "Zadarmo",
+        "total_price": "Celková cena"
+      },
+      "delivery_details": {
+        "title": "Dodacie údaje",
+        "email": "Email",
+        "phone": "Telefónne číslo",
+        "billing_address": "Fakturačná adresa",
+        "shipping_address": "Doručovacia adresa",
+        "same_as_billing": "Rovnaká ako fakturačná"
+      },
+      "delivery_payment": {
+        "title": "Doprava a platba",
+        "shipping_method": "Spôsob doručenia",
+        "payment_method": "Spôsob platby"
+      },
+      "note": "Poznámka k objednávke"
+    }
+  },
+  "register": {
+    "title": "Registrácia",
+    "create_account": "Vytvoriť účet",
+    "account_creation_success": "Úspešne ste sa zaregistrovali. Skontrolujte si prosím emailovú schránku pre overenie pravosti.",
+    "login_link": "Prihláste sa tu",
+    "have_account": "Už máte účet?",
+    "newsletter_success": "Úspešne ste sa prihlásili na odber noviniek.",
+    "google_loading": "Načítava sa Google registrácia...",
+    "verification": {
+      "title": "Skontrolujte svoju emailovú schránku",
+      "instructions": "Pred pokračovaním je potrebné overiť Vašu emailovú adresu. Do Vašej emailovej schránky sme vám poslali overovací odkaz. Ak ste ho neobdržali, skontrolujte prosím aj SPAM priečinok. Doručenie emailu môže trvať niekoľko minút."
+    },
+    "form": {
+      "basic_details": "Základné údaje",
+      "additional_details": "Ďalšie údaje",
+      "name": "Meno a priezvisko",
+      "email": "E-mail",
+      "phone": "Telefónne číslo",
+      "password": "Heslo",
+      "password_confirm": "Heslo znova",
+      "street": "Ulica a číslo",
+      "zip": "PSČ",
+      "city": "Mesto",
+      "country": "Krajina",
+      "gender": "Pohlavie",
+      "newsletter_consent_prefix": "Chcem sa prihlásiť na odber noviniek a súhlasím so",
+      "newsletter_consent": "spracovaním osobných údajov pre účely zasielania marketingových ponúk",
+      "gdpr_consent_prefix": "Súhlasím so",
+      "gdpr_consent": "spracovaním osobných údajov pre účely vytvorenia osobného konta",
+      "submit": "Registrovať sa",
+      "errors": {
+        "password_pattern": "Heslo musí obsahovať malé, veľké písmeno a číslo.",
+        "passwords_must_match": "Heslá sa musia zhodovať.",
+        "phone_invalid": "Telefónne číslo nie je validné.",
+        "zip_invalid": "PSČ nie je validné.",
+        "email_exists": "Používateľ s týmto e-mailom už existuje.",
+        "spam_filter": "Vaša registrácia bola odfiltrovaná SPAM filtrom.",
+        "gdpr_required": "Odsúhlasenie podmienok ochrany osobných údajov je povinné."
+      }
+    }
+  },
+  "review": {
+    "title": "Recenzia",
+    "reviews": "Hodnotenia",
+    "read_all": "Prečítať všetky",
+    "read_less": "Zobraziť menej",
+    "description": "Keďže od Vášho nákupu už prešlo niekoľko dní, radi by sme Vás poprosili o spätnú väzbu k Vami zakúpeným produktom. Pomôžete tým nám a našim ďalším potenciálnym zákazníkom, ktorí sa vďaka Vám budú vedieť lepšie rozhodnúť.",
+    "overall_rating": "Celkové hodnotenie objednávky",
+    "overall_comment": "Celkové hodnotenie",
+    "overall_comment_placeholder": "Ako ste boli spokojný/á s vybavením Vašej objednávky a s komunikáciou s predajcom?",
+    "products_rating": "Hodnotenie zakúpených výrobkov",
+    "product_rating": "Hodnotenie produktu",
+    "product_review": "Recenzia výrobku",
+    "product_review_placeholder": "Ako ste boli spokojný/á s výrobkom, prípadne s balením výrobku?",
+    "gdpr_consent_prefix": "Súhlasím so",
+    "gdpr_consent": "spracovaním osobných údajov",
+    "gdpr_required": "Odsúhlasenie podmienok ochrany osobných údajov je povinné.",
+    "submit": "Odoslať recenziu",
+    "success": {
+      "title": "Recenzia bola úspešne odoslaná.",
+      "message": "Ako poďakovanie sme Vám na Vašu e-mailovú adresu odoslali zľavový kód vo výške 5 € na ďalšiu objednávku."
+    },
+    "error": {
+      "title": "Recenziu sa nepodarilo odoslať.",
+      "message": "Skúste to prosím neskôr."
+    },
+    "not_found": {
+      "title": "Recenzia neexistuje alebo už bola odoslaná."
+    },
+    "review_count": "{count, plural, =0 {0 hodnotení} one {1 hodnotenie} few {# hodnotenia} other {# hodnotení}}",
+    "unreviewed_product": "Produkt zatiaľ nebol ohodnotený",
+    "verified_customers": "Všetky hodnotenia pochádzajú od overených zákazníkov z nášho e-shopu."
+  },
+  "search": {
+    "title": "Vyhľadávanie",
+    "results_title": "Výsledky vyhľadávania",
+    "search_for": "Vyhľadávanie podľa",
+    "no_results": "Nenašli sme žiadne vhodné výsledky",
+    "one_result": "Nájdený 1 výsledok",
+    "few_results": "Nájdené {count} výsledky",
+    "many_results": "Nájdených {count} výsledkov",
+    "placeholder": "Vyhľadávanie",
+    "search_button": "Vyhľadať",
+    "searching": "Vyhľadávam",
+    "view_all_results": "Zobraziť všetkých {count} výsledkov",
+    "no_results_for": "Žiadne výsledky pre \"{query}\"",
+    "type_to_search": "Zadajte aspoň 2 znaky na vyhľadávanie"
+  },
+  "unsubscribe": {
+    "title": "Odhlásiť sa z odberu noviniek",
+    "email": "E-mail",
+    "submit": "Zrušiť odber",
+    "success": "Odber noviniek bol úspešne zrušený.",
+    "error": "Tento e-mail nie je prihlásený na odber noviniek alebo už bol odhlásený."
+  },
+  "newsletter": {
+    "email": "E-mail",
+    "email_placeholder": "email@email.sk",
+    "submit": "Prihlásiť",
+    "success": "Úspešne ste sa prihlásili na odber noviniek.",
+    "email_already_subscribed": "E-mail je už prihlásený na odber noviniek.",
+    "gdpr_consent_prefix": "Súhlasím so",
+    "gdpr_consent": "spracovaním osobných údajov",
+    "gdpr_required": "Odsúhlasenie podmienok ochrany osobných údajov je povinné."
+  },
+  "how_to_shop": {
+    "title": "Ako nakupovať",
+    "intro": "Nákup na tejto stránke je jednoduchý, pripravili sme však pre Vás návod, ako na to:",
+    "step_1": "V <product_list>zozname výrobkov</product_list> si nájdite výrobok, o ktorý by ste mali záujem.<br></br>Po rozkliknutí produktu si môžete o ňom prečítať detailný popis, či pozrieť si fotografie produktu.",
+    "step_2": "Ak sa vám podarilo rozhodnúť pre kúpu konkrétneho produktu, <strong>zvoľte jednu z ponúkaných variant, resp. farebných kombinácií</strong> a následne kliknite na <strong>tlačidlo \"Pridať do košíka\"</strong> a vyplňte formulár s Vašimi požiadavkami na vyrábaný produkt.",
+    "step_3": "V ktoromkoľvek čase môžete prejsť do vášho <cart_link>nákupného košíka</cart_link> kliknutím na ikonu nákupného košíka na paneli hore vpravo.<br></br>V košíku máte možnosť upravovať obsah košíka a spraviť prípadné zmeny (zmeniť množstvo, požiadavky, poznámku pre predávajúceho).",
+    "step_4": "Keď budete spokojný s výberom navolených produktov vo Vašom košíku, môžete prejsť na úpravu dodacích údajov k objednávke pomocou <strong>tlačidla \"Pokračovať na dodacie údaje\"</strong>.",
+    "step_5": "Následne budete mať možnosť prihlásiť sa, zaregistrovať sa, alebo pokračovať \"jednorázovou objednávkou\" bez potreby registrácie. Po kliknutí sa vám zobrazí formulár s Dodacími údajmi, ktoré budú použité pre vybavenie Vašej objednávky. Po vyplnení Vašich dodacích údajov môžete prejsť na voľbu spôsobu doručenia a spôsobu platby pomocou <strong>tlačidla \"Pokračovať na dopravu\"</strong>.",
+    "step_6": "Po zvolení spôsobu dopravy a platby, môžete prejsť na zhrnutie Vašej objednávky pomocou <strong>tlačidla \"Pokračovať na zhrnutie\"</strong>.",
+    "step_7": "Na tejto stránke máte možnosť pred odoslaním skontrolovať obsah Vašej objednávky a všetky vami zadané údaje.<br></br>Pokiaľ ste našli chybu, môžete prejsť na úpravu danej sekcie pomocou tlačidla \"Upraviť\" zobrazenej pri danej sekcii.",
+    "step_8": "Oboznámte sa s našimi <privacy_policy>Podmienkami ochrany osobných údajov</privacy_policy> a <terms>Obchodnými podmienkami</terms>.<br></br>Váš súhlas s obsahom týchto dokumentov vyjadrite zaškrtnutím políčok \"Súhlasím s Podmienkami ochrany osobných údajov.\" a \"Súhlasím so Všeobecnými obchodnými podmienkami.\"",
+    "step_9": "Následne môžete odoslať záväznú objednávku kliknutím na tlačidlo <strong>\"Odoslať objednávku s povinnosťou platby\"</strong>.",
+    "step_10": "O ďalších krokoch a o stave Vašej objednávky Vás budeme informovať pomocou e-mailových správ na e-mailovú adresu, ktorú ste zadali v časti \"Dodacie údaje\".<br></br>Stav objednávky môžete priebežne sledovať na stránke <order_status_link>\"Stav objednávky\"</order_status_link>."
+  },
+  "maintenance": {
+    "title": "Údržba stránky",
+    "login": "Prihlásenie",
+    "password": "Heslo",
+    "message": "E-shop {domain} je z technických dôvodov dočasne nedostupný. Všetky existujúce objednávky budú vybavené v dohodnutom termíne.",
+    "contact_info": "V prípade potreby nás môžete kontaktovať na tel.č.",
+    "or": "alebo emailom na",
+    "thank_you": "Ďakujeme za pochopenie.",
+    "all_rights_reserved": "Všetky práva vyhradené.",
+    "admin_access": "Prechod do administrácie"
+  },
+  "care_marks": {
+    "washing": {
+      "999": "Nezobrazovať",
+      "0": "Nesmie sa prať.",
+      "1": "Iba ručné a opatrné pranie, maximálna teplota vody 40°C.",
+      "30": "Pranie v práčke pri maximálnej teplote 30°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie.",
+      "31": "Pranie bielizne v práčke pri maximálnej teplote 30°C a značne obmedzenom mechanickom pôsobení. Normálne plákanie a mierne odstreďovanie bielizne.",
+      "32": "Pranie v práčke pri maximálnej teplote 30°C a pri značne obmedzenom mechanickom pôsobení. Mierne plákanie a mierne odstreďovanie. Nesmie sa žmýkať ručne.",
+      "40": "Pranie v práčke pri maximálnej teplote 40°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie.",
+      "41": "Pranie bielizne v práčke pri maximálnej teplote 40°C a značne obmedzenom mechanickom pôsobení. Normálne plákanie a mierne odstreďovanie bielizne.",
+      "42": "Pranie v práčke pri maximálnej teplote 40°C a pri značne obmedzenom mechanickom pôsobení. Mierne plákanie a mierne odstreďovanie.",
+      "60": "Pranie v práčke pri maximálnej teplote 60°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie.",
+      "61": "Pranie bielizne v práčke pri maximálnej teplote 60°C a značne obmedzenom mechanickom pôsobení. Normálne plákanie a mierne odstreďovanie bielizne.",
+      "95": "Pranie v práčke pri maximálnej teplote 95°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie. Biela bavlna a bielizeň vhodná pre vývarku."
+    },
+    "whitening": {
+      "999": "Nezobrazovať",
+      "0": "Nesmie sa bieliť prostriedkami, ktoré uvoľňujú chlór.",
+      "1": "Môže sa bieliť všetkými bieliacimi prostriedkami.",
+      "2": "Môže sa bieliť len oxidačnými / nechlórovými prostriedkami."
+    },
+    "drying": {
+      "999": "Nezobrazovať",
+      "0": "Nesmie sa sušiť v bubnovej sušičke.",
+      "1": "Môže sa sušiť v bubnovej sušičke pri nižšej teplote sušenia (byť viac opatrný).",
+      "2": "Môže sa sušiť v bubnovej sušičke pri normálnej teplote."
+    },
+    "ironing": {
+      "999": "Nezobrazovať",
+      "0": "Nesmie sa žehliť. Naparovanie a spracovanie parou je neprípustné.",
+      "1": "Žehlenie pri maximálnej teplote žehliacej plochy 110°C bez pary. Žehlenie s parou môže spôsobiť nenávratné poškodenie.",
+      "2": "Žehlenie pri maximálnej teplote žehliacej plochy 150°C.",
+      "3": "Žehlenie pri maximálnej teplote žehliacej plochy 200°C."
+    },
+    "chemical_cleaning": {
+      "999": "Nezobrazovať",
+      "0": "Nesmie sa chemicky čistiť. Škvrny sa nemôžu odstraňovať organickými rozpúšťadlami."
+    }
+  },
+  "faq": {
+    "title": "Najčastejšie otázky",
+    "answer_not_found": "Pokiaľ sa vám nepodarilo nájsť odpoveď na vašu otázku, neváhajte nás kontaktovať pomocou nášho <contact_form>kontaktného formulára</contact_form>."
+  },
+  "about_us": {
+    "title": "O nás",
+    "no_text": "Tento obsah pre Vás momentálne pripravujeme."
+  },
+  "unit": {
+    "ks": "ks",
+    "pár": "pár",
+    "balenie": "balenie",
+    "set": "set"
+  }
+}

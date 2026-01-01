@@ -1,0 +1,1002 @@
+{
+  "general": {
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "free": "Free",
+    "edit": "Edit",
+    "remove": "Remove",
+    "quantity": "Quantity",
+    "note": "Note",
+    "warning": "Warning",
+    "back": "Back",
+    "continue": "Continue",
+    "save": "Save",
+    "loading": "Loading...",
+    "send": "Send",
+    "close_menu": "Close menu",
+    "categories": "Categories",
+    "logout": "Logout",
+    "login": "Login",
+    "cart": "Shopping cart",
+    "profile": "My profile",
+    "show_more": "Show more",
+    "secure_payment": "Secure payment",
+    "home": "Home",
+    "contact_us": {
+      "title": "Contact",
+      "shop": "Shop",
+      "registration_id": "Registration ID",
+      "tax_id": "Tax ID",
+      "vat_id": "VAT ID",
+      "button": "Contact"
+    },
+    "follow_us": {
+      "title": "Follow us"
+    },
+    "information": {
+      "title": "Information",
+      "how_to": "How to Shop",
+      "order_status": "My order status",
+      "terms": "Terms and conditions",
+      "complaints": "Complaint policy",
+      "delivery": "Delivery",
+      "payment": "Payment methods",
+      "privacy": "Privacy policy",
+      "cookies": "Cookie overview",
+      "cookie_settings": "Manage cookie settings",
+      "downloads": "Consumer information and instructions"
+    },
+    "product_categories": {
+      "title": "Product categories"
+    },
+    "nav": {
+      "eshop": "E-shop",
+      "about": "About us",
+      "order_status": "Order status",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "admin": {
+        "products": "Products",
+        "options": "Product options",
+        "variants": "Variants",
+        "questions": "Questions",
+        "statistics": "Statistics",
+        "invoices": "Invoices",
+        "orders": "Orders"
+      }
+    },
+    "join_newsletter": "Subscribe to newsletter"
+  },
+  "grids": {
+    "filters": "Filtering",
+    "filter": "Filter",
+    "reset": "Reset",
+    "results": "Results",
+    "actions": "Actions",
+    "loading": "Loading data",
+    "no_results": "No items found",
+    "AdminProductsGrid": {
+      "photo": "Photo",
+      "name": "Name",
+      "hex": "Color",
+      "category_name": "Category",
+      "available": "Available",
+      "visible": "Visible",
+      "price": "Price",
+      "buttons": {
+        "new_product": "Add new"
+      },
+      "filters": {
+        "name": "Name",
+        "category": "Category"
+      }
+    },
+    "AdminVariantsGrid": {
+      "attribute_category_name": "Category",
+      "name": "Name",
+      "hex": "Color",
+      "is_visual": "Visual",
+      "buttons": {
+        "new_variant": "Add new"
+      },
+      "filters": {
+        "attribute_category_id": "Category",
+        "name": "Name"
+      }
+    },
+    "AdminProductOptionsGrid": {
+      "id": "ID",
+      "name": "Name",
+      "buttons": {
+        "new_option": "Add new"
+      }
+    },
+    "AdminInvoicesGrid": {
+      "number": "Invoice number",
+      "invoice_type_name": "Invoice type",
+      "company_name": "Supplier",
+      "customer_name": "Customer",
+      "issued_at": "Issued on",
+      "price": "Value",
+      "buttons": {
+        "new_invoice": "Add new"
+      },
+      "filters": {
+        "number": "Invoice number",
+        "invoice_type": "Invoice type",
+        "company_name": "Supplier",
+        "customer_name": "Customer"
+      }
+    },
+    "AdminQuestionsGrid": {
+      "created_at": "Date",
+      "name": "Name",
+      "email": "Email",
+      "status": "Status",
+      "filters": {
+        "status": "Status"
+      }
+    },
+    "AdminOrdersGrid": {
+      "id": "Order no.",
+      "name": "Buyer",
+      "source": "Origin",
+      "status": "Status",
+      "expected_shipping_at": "Expected production date",
+      "payment_type": "Payment method",
+      "delivery_type": "Delivery method",
+      "price_total": "Value",
+      "priority": "Priority",
+      "buttons": {
+        "sp_export": "Export to post",
+        "sp_import": "Import from post"
+      },
+      "filters": {
+        "name": "Buyer",
+        "status": "Status",
+        "price_total_from": "Value from",
+        "price_total_to": "to",
+        "id": "Order no., Invoice, Variable symbol"
+      }
+    },
+    "OrdersGrid": {
+      "id": "Order no.",
+      "created_at": "Date",
+      "status": "Status",
+      "delivery_type": "Delivery",
+      "price_total": "Value",
+      "actions": {
+        "details": "Details",
+        "invoice": "Invoice"
+      }
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "Please fill in {field}.",
+      "minLength": "{field} must be at least {count} characters.",
+      "maxLength": "{field} must be at most {count} characters.",
+      "min": "{field} must be at least {min}.",
+      "max": "{field} must be at most {max}.",
+      "pattern": "{field} must have a valid format.",
+      "email": "This field must contain a valid email address.",
+      "checkbox_required": "Checkbox is required."
+    },
+    "url": "URL",
+    "title": "Title",
+    "titlePlaceholder": "How should this link be displayed?",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "remove": "Remove",
+    "copy": "Copy"
+  },
+  "home": {
+    "newest_products": "Newest products",
+    "popular_categories": "Popular categories",
+    "favourite_products": "Favorite products",
+    "bestsellers": "Bestsellers",
+    "our_reviews": "Our reviews",
+    "latest_reviews": "Latest reviews",
+    "banners_cta_button": "Shop",
+    "colors_title": "Shop by Color",
+    "customer_stories": "Customer stories",
+    "trusted_by_customers": "Trusted by over 1000 customers"
+  },
+  "cart": {
+    "title": "Cart",
+    "add_to_cart": "Add to cart",
+    "add_to_offer": "Add to offer",
+    "product_added": "The product has been added to the shopping cart.",
+    "select_all_variants": "Please choose an option from all the categories",
+    "error_adding_to_cart": "Error adding product to cart. Please try again.",
+    "proceed_to_cart": "Proceed to cart",
+    "continue_shopping": "Continue shopping",
+    "proceed_to_checkout": "Proceed to checkout",
+    "empty": {
+      "title": "Your cart is empty",
+      "message": "To add an item to the cart, you must click the \"Add to cart\" button on each product.",
+      "resolution_1": "You can find all products in",
+      "resolution_2": "the product overview",
+      "resolution_3": "or try the search below."
+    },
+    "unavailable_products_alert": "Your cart contains unavailable products. Such an order cannot be processed.",
+    "cart_contains": "Your cart contains <strong>{count}</strong> {count, plural, =0 {products} one {product} few {products} other {products}}",
+    "product": {
+      "singular": "product",
+      "few": "products",
+      "many": "products"
+    },
+    "priority_handling": "Priority order handling within 7 days from contract conclusion",
+    "discount_code_section": "Apply discount code",
+    "discount_code_label": "Discount code",
+    "discount_code_error": "The entered discount code is not valid.",
+    "discount_code_required": "Please enter the discount code.",
+    "discount_code_min_price": "The entered discount code cannot be applied to your order. The minimum order price must be",
+    "prices": {
+      "product_price": "Product price",
+      "before_discount": "before discount",
+      "discount": "Discount",
+      "priority_handling": "Priority handling",
+      "shipping": "Shipping and handling",
+      "total_price": "Total price",
+      "shipping_not_included": "* Price does not include shipping and handling."
+    },
+    "item": {
+      "delete_confirmation_title": "Remove product?",
+      "delete_confirmation_message": "Are you sure you want to remove the product from your cart",
+      "options_edit_title": "Edit product options",
+      "cancellation_warning": "Withdrawal from the contract is not possible for this product according to the terms and conditions.",
+      "options": {
+        "name": "Name",
+        "your_choice": "Your choice",
+        "surcharge": "Surcharge"
+      }
+    },
+    "checkout": {
+      "title": "Checkout",
+      "personal_details": "1/3. Personal details",
+      "account": {
+        "have_account_question": "Do you already have an account with us?",
+        "account_prefill": "Log in and we will prefill all your data.",
+        "login": "Log in",
+        "create_account": "I want to create a new user account.",
+        "saved_password": "Your password has been saved.",
+        "change_password": "Change password",
+        "newsletter": "I want to subscribe to the newsletter and agree with",
+        "newsletter_consent": "processing personal data for marketing purposes",
+        "gdpr_consent": "processing personal data for account creation purposes",
+        "gdpr_required": "Acceptance of the personal data protection terms is mandatory."
+      },
+      "contact_info": {
+        "title": "Contact details",
+        "subtitle": "They will be used to inform about order processing.",
+        "name": "First and last name",
+        "email": "Email",
+        "phone": "Phone number",
+        "phone_invalid": "Phone number is not valid."
+      },
+      "address": {
+        "billing_title": "Billing address",
+        "delivery_title": "Delivery address",
+        "delivery_same": "Delivery address is the same as billing address.",
+        "street": "Street and number",
+        "zip": "Postal code",
+        "zip_invalid": "Postal code is not valid.",
+        "city": "City",
+        "country": "Country",
+        "recipient_name": "Recipient's first and last name",
+        "organization": "Organization",
+        "organization_tooltip": "If you wish delivery to a company's address, enter the company name.",
+        "price_recalculation_info": "Prices will be recalculated based on the selected delivery country after saving the form."
+      },
+      "password": {
+        "new": "Password",
+        "confirm": "Password again",
+        "pattern_error": "Password must contain lowercase, uppercase letters and a number.",
+        "match_error": "Passwords must match."
+      },
+      "errors": {
+        "email_exists": "A user with this email already exists. Please log in.",
+        "unexpected": "An unexpected error occurred. Please try again."
+      },
+      "continue_to_shipping": "Continue to shipping and payment"
+    },
+    "options": {
+      "title": "Shipping and Payment",
+      "step_title": "2/3. Shipping and Payment",
+      "shipping_method": "Delivery method",
+      "payment_method": "Payment method",
+      "shipping_required": "Please select a delivery method.",
+      "payment_required": "Please select a payment method.",
+      "continue_to_summary": "Continue to summary",
+      "your_cart": "Your shopping cart"
+    },
+    "summary": {
+      "title": "Order summary",
+      "step_title": "3/3. Order summary",
+      "order_contents": "Order contents",
+      "your_order_contains": "Your order contains",
+      "error_message": "An error occurred while processing your order. Please try again.",
+      "delivery_details": "Delivery details",
+      "email": "Email",
+      "phone": "Phone number",
+      "billing_address": "Billing address",
+      "shipping_address": "Delivery address",
+      "same_as_billing": "Same as billing",
+      "shipping_payment": "Shipping and payment",
+      "shipping_method": "Delivery method",
+      "payment_method": "Payment method",
+      "gdpr_consent": "I acknowledge",
+      "gdpr_link": "processing of personal data",
+      "gdpr_consent_suffix": "for the purpose of order processing.",
+      "gdpr_required": "Acceptance of the personal data protection terms is mandatory.",
+      "terms_consent": "I have read",
+      "terms_link": "the general terms and conditions",
+      "terms_consent_suffix": ".",
+      "terms_required": "Acceptance of the general terms and conditions is mandatory.",
+      "note": "Note",
+      "submit_order": "Submit order",
+      "payment_obligation": "with payment obligation",
+      "processing": {
+        "title": "Your order is being processed.",
+        "please_wait": "Please wait.",
+        "may_take_time": "This may take a few seconds.",
+        "redirect_to_payment": "You will be redirected to the payment gateway."
+      }
+    },
+    "order_received": {
+      "title": "Order received",
+      "thank_you": "Thank you for your order!",
+      "success_message": "Your order no. {orderNumber} has been successfully received. A confirmation email has been sent to your email address. We will inform you about further order processing by email.",
+      "success_message_paid": "Your order no. {orderNumber} has been successfully received and paid. A confirmation of order receipt and payment has been sent to your email. We will inform you about further processing by email.",
+      "track_order": "You can track the status of your order anytime at",
+      "track_order_2": "by entering your order number and email address.",
+      "order_status": "\"Order status\"",
+      "payment_errors": {
+        "payment_failed": "Your payment could not be processed. However, your order has been successfully received.",
+        "payment_processing": "Your payment is being processed. We will inform you by email once completed.",
+        "unknown_error": "An unknown error occurred connecting to the payment gateway. However, your order has been successfully received.",
+        "apology": "We apologize for the situation. Please make payment by bank transfer according to the payment details below. Payment details have also been sent to your email."
+      }
+    },
+    "stripe_checkout": {
+      "title": "Payment via Stripe"
+    }
+  },
+  "options": {
+    "option": "Option",
+    "your_choice": "Your choice",
+    "custom_instruction": "If you select the \"Custom\" option, please write your wish in the Note."
+  },
+  "contact": {
+    "title": "Contact",
+    "operator": "E-shop operator",
+    "name": "Name",
+    "headquarters": "Headquarters",
+    "store": "Store",
+    "pickup": "Personal pickup",
+    "phone": "Phone",
+    "email": "e-mail",
+    "registration_id": "Company ID",
+    "tax_id": "Tax ID",
+    "vat_id": "VAT ID",
+    "not_vat_payer": "Not VAT payer",
+    "form": {
+      "title": "Contact form",
+      "description": "If you have any questions, feel free to contact me using this form.",
+      "name": "First and last name",
+      "email": "Email",
+      "message": "Message",
+      "zip": "Postal code",
+      "message_required": "Please enter a message.",
+      "gdpr_consent": "I have been informed about the <gdpr_link>personal data protection terms</gdpr_link>.",
+      "gdpr_required": "Acceptance of personal data protection terms is mandatory.",
+      "submit": "Send",
+      "success": "Your message has been sent. We will respond as soon as possible.",
+      "error": "Your message was filtered by the SPAM filter."
+    },
+    "ask_a_question": "Ask a question",
+    "ask_the_seller": "Ask the seller"
+  },
+  "cookies": {
+    "title": "Cookies overview",
+    "what_are_cookies": {
+      "title": "What are cookies?",
+      "description": "A cookie is a small text file that a website stores on your computer or mobile device when you visit the site. Cookies can be used by websites to improve the user experience.",
+      "host_domain": "Host domain cookies are cookies stored by the website you are currently visiting. Only this site can read them. Additionally, the site may use external services that also store their own cookies, known as third-party cookies.",
+      "persistent": "Persistent cookies are cookies stored on your computer that do not automatically delete after closing the browser, unlike session cookies which do.",
+      "purpose_1": "Their purpose is to allow the website to retain information about your settings (like username, language, etc.) for a set time.",
+      "purpose_2": "This way, you don't have to re-enter them during one visit to the website.",
+      "purpose_3": "Cookies may also be used to compile anonymized statistics about our website usage."
+    },
+    "manage_cookies": {
+      "title": "How can you manage cookies?",
+      "description": "You can manage/delete cookies at your discretion - details can be found on the website",
+      "adjust_settings": {
+        "title": "Adjust cookie settings",
+        "description": "Modify your cookie storage settings and permissions",
+        "click_here": "by clicking here."
+      },
+      "remove_cookies": {
+        "title": "Remove cookies from device",
+        "description_1": "By clearing your browsing history in your browser, you can delete all cookies stored on your device. This removes all cookies from all visited websites.",
+        "description_2": "Note, however, you may lose some saved information (e.g., saved login data, website preferences)."
+      },
+      "block_cookies": {
+        "title": "Blocking cookies",
+        "description": "Most modern browsers can be set to block all cookies from being stored on your device; however, you may have to adjust some preferences manually on each visit. Some services/features may also not function properly (e.g., logging in)."
+      }
+    },
+    "our_cookies": {
+      "title": "Cookies on {domain}",
+      "description": "We care about your privacy and therefore use only cookies necessary for proper site operation, or those that help us improve our services by measuring website traffic. Our cookies contain anonymized data. You can view the list of used cookies in the table below.",
+      "table": {
+        "name": "Name",
+        "explanation": "Explanation",
+        "expiration": "Expiration",
+        "type": "Type",
+        "days": "days",
+        "months": "months",
+        "years": "years",
+        "necessary": "Necessary",
+        "analytical": "Analytical",
+        "cookies": {
+          "session": {
+            "name": "session",
+            "description": "Every user visiting the site receives a unique identifier. This identifier is necessary for the shopping cart function for non-logged-in users. It also contains login tokens necessary for login and account security.",
+            "expiration": "30 days",
+            "type": "Necessary"
+          },
+          "cc_cookie": {
+            "name": "cc_cookie",
+            "description": "This cookie stores the user's consent status with using cookies for the current domain.",
+            "expiration": "6 months",
+            "type": "Necessary"
+          },
+          "ga": {
+            "name": "_ga",
+            "description": "This cookie is used by the Google Analytics service to distinguish unique users by assigning a randomly generated client ID.",
+            "expiration": "2 years",
+            "type": "Analytical"
+          },
+          "ga_star": {
+            "name": "_ga_*",
+            "description": "This cookie is used by the Google Analytics service to maintain session state.",
+            "expiration": "2 years",
+            "type": "Analytical"
+          }
+        }
+      }
+    },
+    "google_analytics": {
+      "title": "Google Analytics",
+      "description_1": "This site uses Google Analytics 4 service provided by Google, Inc. (\"Google\"). Google Analytics uses cookies (link to cookie usage statement). Information about site usage along with cookie content will be transmitted to and stored on servers in the United States. Google uses this information to evaluate site usage and generate activity reports for the site operator and provide related internet services. Google may also provide this information to third parties if required by law or if these third parties process the information on Google's behalf.",
+      "description_2": "Google Analytics 4 does not record your IP address, thus you are anonymized as a user.",
+      "more_info": "More information:",
+      "privacy_policy": "Google Privacy Policy",
+      "cookies_policy": "Google Cookie Usage Policy"
+    }
+  },
+  "delivery": {
+    "title": "Shipping",
+    "delivery_methods": {
+      "title": "Product delivery methods:",
+      "description": "Delivery of goods is possible by the following means:",
+      "slovak_post": "delivery by Slovak Post",
+      "pickup": "personal pickup at agreed time at the address:",
+      "packeta": "delivery to a Packeta network pickup point",
+      "gls": "delivery by GLS courier"
+    },
+    "shipping_cost": {
+      "title": "Shipping cost",
+      "table": {
+        "header_1": "When ordering product and delivery.",
+        "header_2": "postage + packaging total"
+      },
+      "eu_shipping": "The delivery price is valid within the territory of the Slovak Republic or other European Union member states.",
+      "non_eu_shipping": "Sending goods to countries outside the European Union is not possible due to technical reasons."
+    },
+    "full_terms": {
+      "description": "Full delivery terms can be found in",
+      "terms_link": "the Terms and Conditions"
+    }
+  },
+  "errors": {
+    "not_found": {
+      "title": "Page not found",
+      "code": "404",
+      "description": "Sorry, but the requested page could not be found.",
+      "resolution": "You can go to the <home_link>homepage</home_link>, or try the search below.",
+      "alt_text": "Page not found"
+    },
+    "forbidden": {
+      "title": "Access forbidden",
+      "code": "403",
+      "description": "Sorry, but you do not have sufficient permission to access this page.",
+      "resolution": "You can go to the <home_link>homepage</home_link>, or <login_link>log in</login_link>.",
+      "alt_text": "Access forbidden"
+    }
+  },
+  "shop": {
+    "title": "E-shop",
+    "explore": "Explore",
+    "category": {
+      "title": "{name} · E-shop"
+    },
+    "not_found": "Category not found",
+    "attribute_filter": {
+      "title": "Products with {category}: {name}",
+      "description": "Browse all products that have the {category} attribute set to {name}",
+      "products_with_attribute": "Products with {category}: {name}",
+      "no_products_found": "No products found with this attribute."
+    },
+    "products": {
+      "description": "Product description",
+      "price_from": "from",
+      "unavailable": "Temporarily unavailable",
+      "in_stock": "In stock",
+      "to_order": "Made to Order",
+      "production_time": "Production time",
+      "days": "{days, plural, one {# day} few {# days} other {# days}}",
+      "priority_delivery": "Priority handling within 7 days",
+      "no_image": "No photo",
+      "show_less_photos": "Show fewer photos",
+      "show_all_photos": "Show all photos",
+      "show_whole_description": "Show full description",
+      "cancellation_impossible": "Withdrawal from the contract is not possible for this product as it is made to the consumer's specific requests, custom-made, or intended specifically for one consumer.",
+      "sort": {
+        "sort_by": "Sort by",
+        "best_selling": "Best selling",
+        "alphabetically_az": "Alphabetically, A-Z",
+        "alphabetically_za": "Alphabetically, Z-A",
+        "price_low_high": "Cheapest",
+        "price_high_low": "Most expensive"
+      },
+      "view": {
+        "grid": "Grid view",
+        "list": "List view"
+      },
+      "product": "{count, plural, =0 {products} one {product} few {products} other {products}}"
+    }
+  },
+  "gdpr": {
+    "title": "Personal data protection",
+    "default_city": "In Bratislava"
+  },
+  "documents": {
+    "not_found": "Document does not exist.",
+    "date": "on",
+    "original_language_notice": "This document is only available in the original language of the e-shop."
+  },
+  "terms": {
+    "title": "Terms and Conditions"
+  },
+  "complaints": {
+    "title": "Complaint policy"
+  },
+  "downloads": {
+    "title": "Information and instructions for consumers",
+    "files": {
+      "terms": "Terms and Conditions",
+      "gdpr": "Personal data protection",
+      "special_obligations": "Special informational obligations of the trader",
+      "withdrawal_right": "Consumer's right of withdrawal instructions",
+      "withdrawal_form": "Withdrawal form",
+      "dispute_resolution": "Information about alternative dispute resolution",
+      "complaints_policy": "Complaint policy",
+      "complaint_form": "Complaint report"
+    }
+  },
+  "auth": {
+    "logout": {
+      "title": "Logout",
+      "processing": "Logging out..."
+    },
+    "login": {
+      "title": "Login",
+      "session_expired": "You have been logged out due to inactivity. Please log in again to continue.",
+      "errors": {
+        "login_failed": "An error occurred during login.",
+        "invalid_2fa": "Invalid 2FA code."
+      },
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "submit": "Log in",
+        "confirm": "Confirm"
+      },
+      "forgot_password": "Forgot your password?",
+      "or": "or",
+      "register": "Register",
+      "google_loading": "Loading Google Sign-In...",
+      "passkey": {
+        "required": "You need to use your security key to continue.",
+        "use_2fa": "Log in with 2FA",
+        "use_passkey": "Log in with security key"
+      },
+      "otp": {
+        "instructions": "Enter the code from the two-factor authentication app."
+      }
+    },
+    "forgot_password": {
+      "title": "Forgot password",
+      "instructions": "If you forgot your password, enter the email you used during registration.",
+      "success_message": "If an account with the entered email exists, we have sent you an email with instructions to reset your password. Please check your inbox.",
+      "form": {
+        "email": "Email",
+        "submit": "Confirm"
+      }
+    },
+    "new_password": {
+      "title": "Create new password",
+      "instructions": "Enter a new password for your account.",
+      "error_message": "Failed to change your password. Please try again.",
+      "success_message": "Your password has been successfully changed. You can now log in.",
+      "go_to_login": "Go to login",
+      "error_request": "Error. Password reset request not found or expired.",
+      "form": {
+        "password": "Password",
+        "password_repeat": "Password again",
+        "submit": "Save",
+        "errors": {
+          "password_pattern": "Password must contain lowercase, uppercase letters, and a number.",
+          "passwords_must_match": "Passwords must match."
+        }
+      }
+    },
+    "email_confirm": {
+      "title": "Email confirmation",
+      "please_wait": "Please wait, we are verifying your email address.",
+      "success_message": "Thank you for confirming your email address. You can now log in.",
+      "go_to_login": "Go to login",
+      "errors": {
+        "invalid_params": "Failed to verify the email address. Please try again.",
+        "email_not_found": "Email address not found. Please try again.",
+        "already_confirmed": "This email address has already been verified.",
+        "confirmation_failed": "Failed to verify the email address. Please try again."
+      }
+    }
+  },
+  "order_status_labels": {
+    "1-NEW": "New",
+    "2-CONFIRMED": "Unpaid",
+    "3-PAID": "Paid",
+    "4-IN_PRODUCTION": "In production",
+    "5-AWAITING_SHIPMENT": "Awaiting shipment",
+    "5-AWAITING_TAKEOVER": "Awaiting pickup",
+    "6-SHIPPED": "Shipped",
+    "7-DELIVERED": "Delivered",
+    "8-CANCELLED": "Cancelled",
+    "9-COMPLAINT": "Complaint",
+    "9-COMPLAINT_RESOLVED": "Complaint resolved",
+    "9-ARCHIVED": "Archived"
+  },
+  "order_status_messages": {
+    "1-NEW": "Thank you for your order! We will check your order immediately and confirm it by email sent to the address you provided during ordering.",
+    "2-CONFIRMED": "We have no recorded payment for your order yet. If you already paid the order, please contact us via",
+    "2-CONFIRMED_message": "contact form",
+    "3-PAID": "Your order has been paid and is being processed. It will soon be queued for production and shipped within a few days.",
+    "4-IN_PRODUCTION": "We are actively working on your order producing the goods you ordered. It should be shipped within a few days.",
+    "5-AWAITING_SHIPMENT": "Your order is ready for shipment. We will send it today or on the next business day.",
+    "5-AWAITING_TAKEOVER": "Your order is ready and awaiting pickup at our store.",
+    "6-SHIPPED": "Your order has been shipped. Expect delivery on the next business day after dispatch, or up to 2 days in exceptional cases.",
+    "7-DELIVERED": "Your order has been delivered and should be in your hands now.",
+    "8-CANCELLED": "Your order has been cancelled. Please contact us if you have any questions.",
+    "9-COMPLAINT": "Your order has been marked as a complaint. Please contact us if you have any questions.",
+    "9-COMPLAINT_RESOLVED": "The complaint has been resolved. Please contact us if you have any questions.",
+    "9-ARCHIVED": "Your order has been archived as completed."
+  },
+  "order_status": {
+    "title": "Order status",
+    "form": {
+      "instructions": "To check the current status of your order, enter the order number and the email address you used when placing the order.",
+      "order_id": "Order number",
+      "email": "Email used in the order",
+      "submit": "Check order status"
+    },
+    "result": {
+      "order": "Order no.",
+      "last_status_change": "Last status change",
+      "contact_form": "contact form"
+    },
+    "payment_details": {
+      "title": "Payment details",
+      "instructions": "Please make payment promptly. We will start processing your order once the payment is credited. If payment is not credited within 3 working days, the seller reserves the right to cancel the order.",
+      "iban": "IBAN",
+      "swift": "SWIFT / BIC",
+      "variable_symbol": "Variable symbol",
+      "amount": "Amount",
+      "qr_code": "QR code for payment"
+    },
+    "errors": {
+      "fetch_failed": "Failed to get order status",
+      "check_inputs": "Please check that you entered the correct order number and email."
+    }
+  },
+  "payment": {
+    "title": "Payment methods",
+    "payment_obligation": "The buyer is required to pay the purchase price to the seller as agreed in the purchase contract by one of the following methods:",
+    "bank": "IBAN",
+    "swift": "SWIFT/BIC",
+    "full_terms": {
+      "description": "Full delivery terms can be found in",
+      "terms_link": "the Terms and Conditions"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "my_profile": "My profile",
+    "edit_profile": "Edit profile",
+    "my_orders": "My orders",
+    "my_invoices": "My invoices",
+    "form": {
+      "basic_details": "Basic details",
+      "additional_details": "Additional details",
+      "password_change": "Change password",
+      "password_change_info": "If you do not want to change the password, leave these fields blank.",
+      "old_password": "Old password",
+      "new_password": "New password",
+      "confirm_new_password": "New password again",
+      "success": "Your profile has been updated successfully.",
+      "errors": {
+        "update_failed": "Failed to update your profile.",
+        "old_password_required": "You must enter the old password to change password.",
+        "incorrect_old_password": "The old password entered is incorrect."
+      }
+    },
+    "order": {
+      "title": "Order no. {number}",
+      "status": "Order status",
+      "status_message": "Your order is currently",
+      "not_found": "Order not found",
+      "dates": {
+        "created": "Order was received on",
+        "confirmed": "Order was confirmed on",
+        "paid": "Order was paid on",
+        "delivered": "Order was delivered on"
+      },
+      "email_notifications": "We will keep you informed of order status changes via email messages.",
+      "payment_details": {
+        "title": "Payment details",
+        "instructions": "Please make payment promptly. We will start processing your order once the payment is credited. If payment is not credited within 3 working days, the seller reserves the right to cancel the order.",
+        "iban": "IBAN",
+        "swift": "SWIFT / BIC",
+        "variable_symbol": "Variable symbol",
+        "due_date": "Due date",
+        "amount": "Amount",
+        "qr_code": "Payment QR code"
+      },
+      "pickup": {
+        "prepared": "Your order no. {id} is now ready for pickup.",
+        "instructions": "Please arrange pickup time in advance by phone. Please call",
+        "address": "You can pick up your order at the address"
+      },
+      "shipping": {
+        "sent": "Your order no. {id} has been shipped.",
+        "tracking": "Your shipment tracking number is",
+        "tracking_link": "You can track your shipment",
+        "tracking_link_text": "HERE",
+        "package_check": "After receiving the goods, please check the packaging for damage.",
+        "package_problem": "Carefully check the package at home. If you find an issue, please first contact us at {email} or use our <contact_form>contact form</contact_form>."
+      },
+      "payment_received": {
+        "message": "We have received your payment",
+        "message_2": "for order no."
+      },
+      "order_content": {
+        "title": "Order contents",
+        "contains": "Your order contains <strong>{count}</strong> {count, plural, =0 {products} one {product} few {products} other {products}}",
+        "product_singular": "product",
+        "product_few": "products",
+        "product_many": "products"
+      },
+      "prices": {
+        "product_price": "Product price",
+        "before_discount": "before discount",
+        "discount": "Discount",
+        "priority_handling": "Priority handling",
+        "shipping": "Shipping and handling",
+        "free": "Free",
+        "total_price": "Total price"
+      },
+      "delivery_details": {
+        "title": "Delivery details",
+        "email": "Email",
+        "phone": "Phone number",
+        "billing_address": "Billing address",
+        "shipping_address": "Delivery address",
+        "same_as_billing": "Same as billing"
+      },
+      "delivery_payment": {
+        "title": "Shipping and payment",
+        "shipping_method": "Delivery method",
+        "payment_method": "Payment method"
+      },
+      "note": "Order note"
+    }
+  },
+  "register": {
+    "title": "Registration",
+    "create_account": "Create account",
+    "account_creation_success": "You have registered successfully. Please check your email inbox to verify your email.",
+    "login_link": "Log in here",
+    "have_account": "Already have an account?",
+    "newsletter_success": "You have successfully subscribed to the newsletter.",
+    "google_loading": "Loading Google Sign-Up...",
+    "verification": {
+      "title": "Check your email inbox",
+      "instructions": "Before continuing, you need to verify your email address. A verification link has been sent to your email inbox. If you did not receive it, please check the SPAM folder. Email delivery may take a few minutes."
+    },
+    "form": {
+      "basic_details": "Basic details",
+      "additional_details": "Additional details",
+      "name": "First and last name",
+      "email": "Email",
+      "phone": "Phone number",
+      "password": "Password",
+      "password_confirm": "Password again",
+      "street": "Street and number",
+      "zip": "Postal code",
+      "city": "City",
+      "country": "Country",
+      "gender": "Gender",
+      "newsletter_consent_prefix": "I want to subscribe to the newsletter and agree with",
+      "newsletter_consent": "processing personal data for marketing purposes",
+      "gdpr_consent_prefix": "I agree with",
+      "gdpr_consent": "processing personal data for account creation purposes",
+      "submit": "Register",
+      "errors": {
+        "password_pattern": "Password must contain lowercase, uppercase letters and a number.",
+        "passwords_must_match": "Passwords must match.",
+        "phone_invalid": "Phone number is not valid.",
+        "zip_invalid": "Postal code is not valid.",
+        "email_exists": "A user with this email already exists.",
+        "spam_filter": "Your registration was filtered by the SPAM filter.",
+        "gdpr_required": "Acceptance of personal data protection terms is mandatory."
+      }
+    }
+  },
+  "review": {
+    "title": "Review",
+    "reviews": "Reviews",
+    "read_all": "Read all",
+    "read_less": "Show less",
+    "description": "Since several days have passed since your purchase, we would like to ask for your feedback on the products you bought. This helps us and other potential customers who can make better-informed decisions thanks to you.",
+    "overall_rating": "Overall order rating",
+    "overall_comment": "Overall rating",
+    "overall_comment_placeholder": "How satisfied were you with the order handling and communication with the seller?",
+    "products_rating": "Purchased products rating",
+    "product_rating": "Product rating",
+    "product_review": "Product review",
+    "product_review_placeholder": "How satisfied were you with the product and its packaging?",
+    "gdpr_consent_prefix": "I agree with",
+    "gdpr_consent": "processing personal data",
+    "gdpr_required": "Acceptance of the personal data protection terms is mandatory.",
+    "submit": "Submit review",
+    "success": {
+      "title": "Review submitted successfully.",
+      "message": "As a thank you, we have sent you a discount code for €5 for your next order to your email."
+    },
+    "error": {
+      "title": "Failed to submit review.",
+      "message": "Please try again later."
+    },
+    "not_found": {
+      "title": "Review does not exist or has already been submitted."
+    },
+    "review_count": "{count, plural, =0 {0 reviews} one {1 review} few {# reviews} other {# reviews}}",
+    "unreviewed_product": "Product has not been reviewed yet",
+    "verified_customers": "All reviews come from verified customers from our e-shop."
+  },
+  "search": {
+    "title": "Search",
+    "results_title": "Search results",
+    "search_for": "Search by",
+    "no_results": "No suitable results found",
+    "one_result": "1 result found",
+    "few_results": "{count} results found",
+    "many_results": "{count} results found",
+    "placeholder": "Search",
+    "search_button": "Search",
+    "searching": "Searching",
+    "view_all_results": "View all {count} results",
+    "no_results_for": "No results found for \"{query}\"",
+    "type_to_search": "Type at least 2 characters to search"
+  },
+  "unsubscribe": {
+    "title": "Unsubscribe from newsletter",
+    "email": "Email",
+    "submit": "Unsubscribe",
+    "success": "Newsletter subscription has been successfully cancelled.",
+    "error": "This email is not subscribed to the newsletter or has already been unsubscribed."
+  },
+  "newsletter": {
+    "email": "Email",
+    "email_placeholder": "email@email.com",
+    "submit": "Subscribe",
+    "success": "You have successfully subscribed to the newsletter.",
+    "email_already_subscribed": "Email is already subscribed to the newsletter.",
+    "gdpr_consent_prefix": "I agree with",
+    "gdpr_consent": "processing personal data",
+    "gdpr_required": "Acceptance of personal data protection terms is mandatory."
+  },
+  "how_to_shop": {
+    "title": "How to Shop",
+    "intro": "Shopping on this site is simple, but we have prepared a guide for you on how to do it:",
+    "step_1": "In the <product_list>product list</product_list>, find the product you are interested in.<br></br>After clicking on the product, you can read a detailed description or view photos of the product.",
+    "step_2": "If you decided to buy a specific product, <strong>choose one of the offered variants or color combinations</strong> and then click the <strong>\"Add to cart\" button</strong> and fill in the form with your requirements for the manufactured product.",
+    "step_3": "At any time, you can go to your <cart_link>shopping cart</cart_link> by clicking the shopping cart icon on the top right panel.<br></br>In the cart, you can adjust its contents and make changes (change quantity, requests, note for the seller).",
+    "step_4": "When you are satisfied with your selected products in the cart, you can proceed to edit delivery details for the order using the <strong>\"Continue to delivery details\" button</strong>.",
+    "step_5": "Next, you will have the option to log in, register, or continue with a \"one-time order\" without registration. After clicking, a form with delivery details will appear to be used for order processing. After filling in your delivery details, you can proceed to select the shipping method and payment method using the <strong>\"Continue to shipping\" button</strong>.",
+    "step_6": "After selecting the shipping and payment method, you can proceed to the summary of your order using the <strong>\"Continue to summary\" button</strong>.",
+    "step_7": "On this page, you can check your order contents and all entered data before submission.<br></br>If you find a mistake, you can go to edit the respective section using the \"Edit\" button shown near that section.",
+    "step_8": "Read our <privacy_policy>Privacy Policy</privacy_policy> and <terms>Terms and Conditions</terms>.<br></br>Express your consent by checking the boxes \"I agree with the Privacy Policy\" and \"I agree with the Terms and Conditions.\"",
+    "step_9": "Then you can submit a binding order by clicking the <strong>\"Submit order with payment obligation\" button</strong>.",
+    "step_10": "We will inform you about further steps and order status by email messages to the email address you provided in the \"Delivery details\" section.<br></br>You can track your order status anytime at the <order_status_link>\"Order status\"</order_status_link> page."
+  },
+  "maintenance": {
+    "title": "Site maintenance",
+    "login": "Login",
+    "password": "Password",
+    "message": "The {domain} e-shop is temporarily unavailable due to technical reasons. All existing orders will be processed at the agreed date.",
+    "contact_info": "If needed, you can contact us by phone at",
+    "or": "or by email at",
+    "thank_you": "Thank you for your understanding.",
+    "all_rights_reserved": "All rights reserved.",
+    "admin_access": "Go to administration"
+  },
+  "care_marks": {
+    "washing": {
+      "0": "Do not wash.",
+      "1": "Hand wash only, gentle handling, max water temperature 40°C.",
+      "30": "Machine wash at max 30°C with normal mechanical action. Normal rinsing and spinning.",
+      "31": "Machine wash at max 30°C with reduced mechanical action. Normal rinsing and gentle spinning.",
+      "32": "Machine wash at max 30°C with severely reduced mechanical action. Gentle rinsing and gentle spinning. Do not wring by hand.",
+      "40": "Machine wash at max 40°C with normal mechanical action. Normal rinsing and spinning.",
+      "41": "Machine wash at max 40°C with reduced mechanical action. Normal rinsing and gentle spinning.",
+      "42": "Machine wash at max 40°C with severely reduced mechanical action. Gentle rinsing and spinning.",
+      "60": "Machine wash at max 60°C with normal mechanical action. Normal rinsing and spinning.",
+      "61": "Machine wash at max 60°C with reduced mechanical action. Normal rinsing and gentle spinning.",
+      "95": "Machine wash at max 95°C with normal mechanical action. Normal rinsing and spinning. Suitable for white cotton and laundry.",
+      "999": "Do not display"
+    },
+    "whitening": {
+      "0": "Do not bleach with chlorine-releasing agents.",
+      "1": "May be bleached with all bleaching agents.",
+      "2": "May only be bleached with oxygen/non-chlorine agents.",
+      "999": "Do not display"
+    },
+    "drying": {
+      "0": "Do not tumble dry.",
+      "1": "Tumble dry at low heat (more care needed).",
+      "2": "Tumble dry at normal heat.",
+      "999": "Do not display"
+    },
+    "ironing": {
+      "0": "Do not iron. Steaming or processing with steam not allowed.",
+      "1": "Iron at max sole-plate temperature 110°C without steam. Ironing with steam may cause irreversible damage.",
+      "2": "Iron at max sole-plate temperature 150°C.",
+      "3": "Iron at max sole-plate temperature 200°C.",
+      "999": "Do not display"
+    },
+    "chemical_cleaning": {
+      "0": "Do not dry clean. Stains cannot be removed by organic solvents.",
+      "999": "Do not display"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "answer_not_found": "If you did not find an answer to your question, please contact us using our <contact_form>contact form</contact_form>."
+  },
+  "about_us": {
+    "title": "About us",
+    "no_text": "This content is currently being prepared."
+  },
+  "unit": {
+    "ks": "pc",
+    "pár": "pair",
+    "balenie": "package",
+    "set": "set"
+  }
+}
