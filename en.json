@@ -557,7 +557,8 @@
         "grid": "Grid view",
         "list": "List view"
       },
-      "product": "{count, plural, =0 {products} one {product} few {products} other {products}}"
+      "product": "{count, plural, =0 {products} one {product} few {products} other {products}}",
+      "swiper_photos": "Image {index} of {total}"
     }
   },
   "gdpr": {

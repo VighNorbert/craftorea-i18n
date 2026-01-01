@@ -557,7 +557,8 @@
         "grid": "Mriežka",
         "list": "Zoznam"
       },
-      "product": "{count, plural, =0 {produktov} one {produkt} few {produkty} other {produktov}}"
+      "product": "{count, plural, =0 {produktov} one {produkt} few {produkty} other {produktov}}",
+      "swiper_photos": "Obrázok {index} z {total}"
     }
   },
   "gdpr": {

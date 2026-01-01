@@ -557,7 +557,8 @@
         "grid": "Rasteransicht",
         "list": "Listenansicht"
       },
-      "product": "{count, plural, =0 {Produkte} one {Produkt} few {Produkte} other {Produkte}}"
+      "product": "{count, plural, =0 {Produkte} one {Produkt} few {Produkte} other {Produkte}}",
+      "swiper_photos": "Bild {index} von {total}"
     }
   },
   "gdpr": {
