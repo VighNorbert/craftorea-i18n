@@ -20,7 +20,7 @@
     "cart": "Shopping cart",
     "profile": "My profile",
     "show_more": "Show more",
-    "secure_payment": "Secure payment",
+    "secure_payment": "Secure payment | All card information is fully encrypted, secure, and protected.",
     "home": "Home",
     "contact_us": {
       "title": "Contact",
@@ -543,7 +543,6 @@
       "no_image": "No photo",
       "show_less_photos": "Show fewer photos",
       "show_all_photos": "Show all photos",
-      "show_whole_description": "Show full description",
       "cancellation_impossible": "Withdrawal from the contract is not possible for this product as it is made to the consumer's specific requests, custom-made, or intended specifically for one consumer.",
       "sort": {
         "sort_by": "Sort by",
@@ -558,7 +557,8 @@
         "list": "List view"
       },
       "product": "{count, plural, =0 {products} one {product} few {products} other {products}}",
-      "swiper_photos": "Image {index} of {total}"
+      "swiper_photos": "Image {index} of {total}",
+      "similar_products": "Similar products"
     }
   },
   "gdpr": {
