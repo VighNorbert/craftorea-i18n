@@ -347,6 +347,7 @@
     },
     "order_received": {
       "title": "Order received",
+      "error_title": "Order error",
       "thank_you": "Thank you for your order!",
       "success_message": "Your order no. {orderNumber} has been successfully received. A confirmation email has been sent to your email address. We will inform you about further order processing by email.",
       "success_message_paid": "Your order no. {orderNumber} has been successfully received and paid. A confirmation of order receipt and payment has been sent to your email. We will inform you about further processing by email.",
@@ -357,7 +358,8 @@
         "payment_failed": "Your payment could not be processed. However, your order has been successfully received.",
         "payment_processing": "Your payment is being processed. We will inform you by email once completed.",
         "unknown_error": "An unknown error occurred connecting to the payment gateway. However, your order has been successfully received.",
-        "apology": "We apologize for the situation. Please make payment by bank transfer according to the payment details below. Payment details have also been sent to your email."
+        "apology": "We apologize for the situation. Please make payment by bank transfer according to the payment details below. Payment details have also been sent to your email.",
+        "express_checkout_error": "An unknown error occurred while processing your order. Please try again later or contact us."
       }
     },
     "stripe_checkout": {

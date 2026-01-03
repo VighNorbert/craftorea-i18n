@@ -347,6 +347,7 @@
     },
     "order_received": {
       "title": "Objednávka prijatá",
+      "error_title": "Chyba pri objednávke",
       "thank_you": "Ďakujeme za Vašu objednávku!",
       "success_message": "Vaša objednávka č. {orderNumber} bola úspešne prijatá. Na Váš e‑mail sme Vám odoslali potvrdenie o prijatí objednávky. O ďalšom spracovaní objednávky Vás budeme informovať e‑mailom.",
       "success_message_paid": "Vaša objednávka č. {orderNumber} bola úspešne prijatá a zaplatená. Na Váš e‑mail sme Vám odoslali potvrdenie o prijatí objednávky a zaplatení. O ďalšom spracovaní objednávky Vás budeme informovať e‑mailom.",
@@ -357,7 +358,8 @@
         "payment_failed": "Nepodarilo sa spracovať Vašu platbu. Vaša objednávka však bola úspešne prijatá.",
         "payment_processing": "Vaša platba sa spracováva. Po spracovaní platby Vás budeme informovať e‑mailom.",
         "unknown_error": "Nastala neznáma chyba pri spojení s platobnou bránou. Vaša objednávka však bola úspešne prijatá.",
-        "apology": "Ospravedlňujeme sa za vzniknutú situáciu. Prosím vykonajte platbu prevodom podľa platobných údajov nižšie. Platobné údaje sme Vám odoslali aj na Váš e‑mail."
+        "apology": "Ospravedlňujeme sa za vzniknutú situáciu. Prosím vykonajte platbu prevodom podľa platobných údajov nižšie. Platobné údaje sme Vám odoslali aj na Váš e‑mail.",
+        "express_checkout_error": "Nastala neznáma chyba pri spracovaní Vašej objednávky. Prosím skúste to znova neskôr alebo nás kontaktujte."
       }
     },
     "stripe_checkout": {

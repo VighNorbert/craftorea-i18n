@@ -347,6 +347,7 @@
     },
     "order_received": {
       "title": "Bestellung erhalten",
+      "error_title": "Bestellfehler",
       "thank_you": "Vielen Dank für Ihre Bestellung!",
       "success_message": "Ihre Bestellung Nr. {orderNumber} wurde erfolgreich erhalten. Eine Bestätigung wurde an Ihre E-Mail-Adresse gesendet. Über den weiteren Ablauf werden Sie per E-Mail informiert.",
       "success_message_paid": "Ihre Bestellung Nr. {orderNumber} wurde erfolgreich erhalten und bezahlt. Eine Empfangs- und Zahlungsbestätigung wurde an Ihre E-Mail gesendet. Über den weiteren Ablauf werden Sie per E-Mail informiert.",
@@ -357,7 +358,8 @@
         "payment_failed": "Ihre Zahlung konnte nicht verarbeitet werden. Ihre Bestellung wurde dennoch erfolgreich erhalten.",
         "payment_processing": "Ihre Zahlung wird aktuell verarbeitet. Nach Abschluss informieren wir Sie per E-Mail.",
         "unknown_error": "Beim Verbinden mit dem Zahlungsanbieter trat ein unbekannter Fehler auf. Ihre Bestellung wurde dennoch erfolgreich erhalten.",
-        "apology": "Wir entschuldigen uns für die Situation. Bitte zahlen Sie per Überweisung gemäß den untenstehenden Zahlungsdaten. Die Zahlungsdaten wurden Ihnen auch per E-Mail zugesendet."
+        "apology": "Wir entschuldigen uns für die Situation. Bitte zahlen Sie per Überweisung gemäß den untenstehenden Zahlungsdaten. Die Zahlungsdaten wurden Ihnen auch per E-Mail zugesendet.",
+        "express_checkout_error": "Beim Verarbeiten Ihrer Bestellung ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie uns."
       }
     },
     "stripe_checkout": {
