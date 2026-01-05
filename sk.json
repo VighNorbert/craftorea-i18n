@@ -50,9 +50,10 @@
       "title": "Kategórie výrobkov"
     },
     "nav": {
-      "eshop": "E-shop",
+      "all_products": "Všetky výrobky",
       "about": "O nás",
       "order_status": "Stav objednávky",
+      "favourites": "Obľúbené výrobky",
       "faq": "Najčastejšie otázky",
       "contact": "Kontakt",
       "admin": {

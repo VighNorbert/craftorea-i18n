@@ -50,9 +50,10 @@
       "title": "Produktkategorien"
     },
     "nav": {
-      "eshop": "E-Shop",
+      "all_products": "Alle Produkte",
       "about": "Über uns",
       "order_status": "Bestellstatus",
+      "favourites": "Ihre Favoriten",
       "faq": "Häufig gestellte Fragen",
       "contact": "Kontakt",
       "admin": {
