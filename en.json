@@ -236,6 +236,12 @@
     "discount_code_error": "The entered discount code is not valid.",
     "discount_code_required": "Please enter the discount code.",
     "discount_code_min_price": "The entered discount code cannot be applied to your order. The minimum order price must be",
+    "free_shipping": {
+      "add_more": "Add <red>+ {amount} €</red> more to get FREE SHIPPING",
+      "achieved": "You qualify for FREE SHIPPING!",
+      "condition": "On orders over {amount} €",
+      "continue_shopping": "Continue shopping"
+    },
     "prices": {
       "product_price": "Product price",
       "before_discount": "before discount",

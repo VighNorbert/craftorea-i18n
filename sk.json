@@ -236,6 +236,12 @@
     "discount_code_error": "Zadaný zľavový kód nie je platný.",
     "discount_code_required": "Prosím vyplňte zľavový kód.",
     "discount_code_min_price": "Zadaný zľavový kód nie je možné použiť pre Vašu objednávku. Minimálna cena objednávky musí byť",
+    "free_shipping": {
+      "add_more": "Pridajte <red>+ {amount} €</red> viac a získajte DOPRAVU ZADARMO",
+      "achieved": "Máte nárok na DOPRAVU ZADARMO!",
+      "condition": "Pri objednávkach nad {amount} €",
+      "continue_shopping": "Pokračovať v nákupe"
+    },
     "prices": {
       "product_price": "Cena výrobkov",
       "before_discount": "pred zľavou",

@@ -236,6 +236,12 @@
     "discount_code_error": "Der eingegebene Rabattcode ist ungültig.",
     "discount_code_required": "Bitte geben Sie den Rabattcode ein.",
     "discount_code_min_price": "Der eingegebene Rabattcode kann nicht auf Ihre Bestellung angewendet werden. Der Mindestbestellwert muss betragen",
+    "free_shipping": {
+      "add_more": "Fügen Sie <red>+ {amount} €</red> hinzu, um KOSTENLOSEN VERSAND zu erhalten",
+      "achieved": "Sie haben Anspruch auf KOSTENLOSEN VERSAND!",
+      "condition": "Bei Bestellungen über {amount} €",
+      "continue_shopping": "Weiter einkaufen"
+    },
     "prices": {
       "product_price": "Produktpreis",
       "before_discount": "vor Rabatt",
