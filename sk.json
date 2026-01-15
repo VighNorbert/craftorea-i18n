@@ -542,6 +542,10 @@
       "products_with_attribute": "Produkty s {category}: {name}",
       "no_products_found": "Nenašli sa žiadne produkty s týmto atribútom."
     },
+    "favorites": {
+      "title": "Obľúbené výrobky",
+      "no_favorites": "Zatiaľ nemáte žiadne obľúbené výrobky."
+    },
     "products": {
       "description": "Popis výrobku",
       "price_from": "od",

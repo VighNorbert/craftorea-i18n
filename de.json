@@ -542,6 +542,10 @@
       "products_with_attribute": "Produkte mit {category}: {name}",
       "no_products_found": "Keine Produkte mit diesem Attribut gefunden."
     },
+    "favorites": {
+      "title": "Ihre Favoriten",
+      "no_favorites": "Sie haben noch keine Favoriten."
+    },
     "products": {
       "description": "Produktbeschreibung",
       "price_from": "ab",
