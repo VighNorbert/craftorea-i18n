@@ -2,6 +2,7 @@
   "general": {
     "apply": "Použiť",
     "cancel": "Zrušiť",
+    "add": "Pridať",
     "free": "Zadarmo",
     "edit": "Upraviť",
     "remove": "Odstrániť",
@@ -236,6 +237,8 @@
     "discount_code_error": "Zadaný zľavový kód nie je platný.",
     "discount_code_required": "Prosím vyplňte zľavový kód.",
     "discount_code_min_price": "Zadaný zľavový kód nie je možné použiť pre Vašu objednávku. Minimálna cena objednávky musí byť",
+    "order_note_label": "Poznámka",
+    "order_note_modal_title": "Zanechajte poznámku",
     "free_shipping": {
       "add_more": "Pridajte <red>+ {amount} €</red> viac a získajte DOPRAVU ZADARMO",
       "achieved": "Máte nárok na DOPRAVU ZADARMO!",
