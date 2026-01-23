@@ -143,6 +143,7 @@
     },
     "AdminOrdersGrid": {
       "id": "Č. objednávky",
+      "created_at": "Dátum obj.",
       "name": "Kupujúci",
       "source": "Pôvod",
       "status": "Stav",

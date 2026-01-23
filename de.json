@@ -143,6 +143,7 @@
     },
     "AdminOrdersGrid": {
       "id": "Bestellnummer",
+      "created_at": "Bestelldatum",
       "name": "Kunde",
       "source": "Herkunft",
       "status": "Status",

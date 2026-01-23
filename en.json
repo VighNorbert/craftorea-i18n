@@ -143,6 +143,7 @@
     },
     "AdminOrdersGrid": {
       "id": "Order no.",
+      "created_at": "Order date",
       "name": "Buyer",
       "source": "Origin",
       "status": "Status",
@@ -339,7 +340,7 @@
       "shipping_payment": "Shipping and payment",
       "shipping_method": "Delivery method",
       "payment_method": "Payment method",
-      "gdpr_consent": "I acknowledge",
+      "gdpr_consent": "I agree to the",
       "gdpr_link": "processing of personal data",
       "gdpr_consent_suffix": "for the purpose of order processing.",
       "gdpr_required": "Acceptance of the personal data protection terms is mandatory.",
