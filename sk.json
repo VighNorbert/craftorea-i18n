@@ -264,7 +264,22 @@
         "name": "Názov",
         "your_choice": "Váš výber",
         "surcharge": "Príplatok"
+      },
+      "addons": {
+        "title": "Doplnky k produktu"
       }
+    },
+    "addons": {
+      "description": "Prispôsobte si produkt týmito voliteľnými doplnkami. Každý doplnok môže byť personalizovaný, aby bol váš produkt skutočne jedinečný.",
+      "show_it": "Zobraziť",
+      "modal_title": "Doplnky",
+      "select": "Vybrať",
+      "selected": "Vybrané",
+      "no_addons_available": "V tejto kategórii nie sú k dispozícii žiadne doplnky.",
+      "adding": "Pridáva sa...",
+      "updating": "Aktualizuje sa...",
+      "add_to_cart": "Pridať do košíka",
+      "update_addons": "Aktualizovať doplnky ({count} {count, plural, =1 {položka} few {položky} other {položiek}} • +{price} {currency})"
     },
     "checkout": {
       "title": "Pokladňa",

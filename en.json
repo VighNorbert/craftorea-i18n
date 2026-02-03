@@ -264,7 +264,22 @@
         "name": "Name",
         "your_choice": "Your choice",
         "surcharge": "Surcharge"
+      },
+      "addons": {
+        "title": "Product addons"
       }
+    },
+    "addons": {
+      "description": "Customize your product with these optional extras. Each addon can be personalized to make your item truly unique.",
+      "show_it": "Show It",
+      "modal_title": "Addons",
+      "select": "Select",
+      "selected": "Selected",
+      "no_addons_available": "No addons available in this category.",
+      "adding": "Adding...",
+      "updating": "Updating...",
+      "add_to_cart": "Add to Cart",
+      "update_addons": "Update Addons ({count} {count, plural, =1 {item} other {items}} • +{price} {currency})"
     },
     "checkout": {
       "title": "Checkout",

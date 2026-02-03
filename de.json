@@ -264,7 +264,22 @@
         "name": "Name",
         "your_choice": "Ihre Auswahl",
         "surcharge": "Aufpreis"
+      },
+      "addons": {
+        "title": "Produktdoppelungen"
       }
+    },
+    "addons": {
+      "description": "Passen Sie Ihr Produkt mit diesen optionalen Extras an. Jedes Addon kann personalisiert werden, um Ihr Produkt wirklich einzigartig zu machen.",
+      "show_it": "Anzeigen",
+      "modal_title": "Addons",
+      "select": "Auswählen",
+      "selected": "Ausgewählt",
+      "no_addons_available": "Keine Addons in dieser Kategorie verfügbar.",
+      "adding": "Wird hinzugefügt...",
+      "updating": "Wird aktualisiert...",
+      "add_to_cart": "In den Warenkorb",
+      "update_addons": "Addons aktualisieren ({count} {count, plural, =1 {Artikel} other {Artikel}} • +{price} {currency})"
     },
     "checkout": {
       "title": "Kasse",
