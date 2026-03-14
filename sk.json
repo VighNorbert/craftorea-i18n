@@ -281,6 +281,24 @@
       "add_to_cart": "Pridať do košíka",
       "update_addons": "Aktualizovať doplnky ({count} {count, plural, =1 {položka} few {položky} other {položiek}} • +{price} {currency})"
     },
+    "frames": {
+      "upload_title": "Nahrajte svoje fotografie",
+      "upload_step": "Fotografia {current} z {total}",
+      "select_color": "Farba rámu (z variantu)",
+      "orientation": "Orientácia",
+      "vertical": "Vertikálna",
+      "horizontal": "Horizontálna",
+      "crop_instruction": "Presuňte fotku na požadovanú pozíciu",
+      "skip_all": "Preskočiť fotografie",
+      "previous": "Predchádzajúca",
+      "next": "Ďalšia",
+      "upload": "Nahrať",
+      "price_info": "Každá fotografia pridá €{price}",
+      "photos": "Fotografie v rámoch",
+      "add_more": "Pridať ďalšie fotografie",
+      "delete": "Zmazať fotografiu",
+      "photo_count": "{count} z {max} fotografií nahraných"
+    },
     "checkout": {
       "title": "Pokladňa",
       "personal_details": "1/3. Osobné údaje",

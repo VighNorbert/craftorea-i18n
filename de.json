@@ -281,6 +281,24 @@
       "add_to_cart": "In den Warenkorb",
       "update_addons": "Addons aktualisieren ({count} {count, plural, =1 {Artikel} other {Artikel}} • +{price} {currency})"
     },
+    "frames": {
+      "upload_title": "Laden Sie Ihre Fotos hoch",
+      "upload_step": "Foto {current} von {total}",
+      "select_color": "Rahmenfarbe (aus Variante)",
+      "orientation": "Ausrichtung",
+      "vertical": "Vertikal",
+      "horizontal": "Horizontal",
+      "crop_instruction": "Ziehen Sie das Foto an die gewünschte Position",
+      "skip_all": "Fotos überspringen",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "upload": "Hochladen",
+      "price_info": "Jedes Foto kostet €{price} zusätzlich",
+      "photos": "Rahmenfotos",
+      "add_more": "Weitere Fotos hinzufügen",
+      "delete": "Foto löschen",
+      "photo_count": "{count} von {max} Fotos hochgeladen"
+    },
     "checkout": {
       "title": "Kasse",
       "personal_details": "1/3. Persönliche Angaben",

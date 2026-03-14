@@ -281,6 +281,24 @@
       "add_to_cart": "Add to Cart",
       "update_addons": "Update Addons ({count} {count, plural, =1 {item} other {items}} • +{price} {currency})"
     },
+    "frames": {
+      "upload_title": "Upload Your Photos",
+      "upload_step": "Photo {current} of {total}",
+      "select_color": "Frame color (from variant)",
+      "orientation": "Orientation",
+      "vertical": "Vertical",
+      "horizontal": "Horizontal",
+      "crop_instruction": "Drag to position your photo",
+      "skip_all": "Skip photos",
+      "previous": "Previous",
+      "next": "Next",
+      "upload": "Upload",
+      "price_info": "Each photo adds €{price}",
+      "photos": "Frame Photos",
+      "add_more": "Add more photos",
+      "delete": "Delete photo",
+      "photo_count": "{count} of {max} photos uploaded"
+    },
     "checkout": {
       "title": "Checkout",
       "personal_details": "1/3. Personal details",
