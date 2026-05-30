@@ -1052,5 +1052,31 @@
     "pár": "Paar",
     "balenie": "Packung",
     "set": "Set"
+  },
+  "withdrawal": {
+	  "title": "Widerruf des Vertrags",
+	  "intro": "Wenn Sie vom Vertrag zurücktreten möchten, geben Sie die Bestellnummer und die bei der Bestellung verwendete E‑Mail-Adresse ein und wählen Sie die betroffenen Produkte aus.",
+	  "form": {
+		  "name": "Vor- und Nachname",
+		  "order_id": "Bestellnummer",
+		  "email": "Bei der Bestellung verwendete E‑Mail",
+		  "lookup": "Weiter",
+		  "reason": "Grund (optional)"
+	  },
+	  "items": {
+		  "heading": "Wählen Sie die Produkte aus, die Sie widerrufen möchten",
+		  "quantity": "Menge",
+		  "none": "Diese Bestellung enthält keine widerrufbaren Produkte."
+	  },
+	  "confirm": "Widerruf des Vertrags bestätigen",
+	  "expired": "Die Widerrufsfrist für diese Bestellung ist bereits abgelaufen.",
+	  "success": {
+		  "title": "Ihr Vertragswiderruf wurde erfasst",
+		  "message": "Wir haben eine Bestätigung an Ihre E‑Mail-Adresse gesendet. Übermittelt am {date}."
+	  },
+	  "errors": {
+		  "not_found": "Eine Bestellung mit dieser Nummer und E‑Mail-Adresse wurde nicht gefunden.",
+		  "submit_failed": "Der Widerruf konnte nicht übermittelt werden. Bitte versuchen Sie es erneut."
+	  }
   }
 }

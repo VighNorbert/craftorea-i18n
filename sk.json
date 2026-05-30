@@ -1052,5 +1052,32 @@
     "pár": "pár",
     "balenie": "balenie",
     "set": "set"
-  }
+  },
+
+	"withdrawal": {
+		"title": "Odstúpenie od zmluvy",
+		"intro": "Ak chcete odstúpiť od zmluvy, zadajte číslo objednávky a e‑mail, ktorý ste použili pri objednávke, a vyberte výrobky, ktorých sa odstúpenie týka.",
+		"form": {
+			"name": "Meno a priezvisko",
+			"order_id": "Číslo objednávky",
+			"email": "E‑mail použitý v objednávke",
+			"lookup": "Pokračovať",
+			"reason": "Dôvod (nepovinné)"
+		},
+		"items": {
+			"heading": "Vyberte výrobky, ktoré chcete vrátiť",
+			"quantity": "Množstvo",
+			"none": "Táto objednávka neobsahuje výrobky, pri ktorých je možné odstúpiť od zmluvy."
+		},
+		"confirm": "Potvrdiť odstúpenie od zmluvy",
+		"expired": "Lehota na odstúpenie od zmluvy pri tejto objednávke už uplynula.",
+		"success": {
+			"title": "Vaše odstúpenie od zmluvy bolo zaznamenané",
+			"message": "Potvrdenie sme odoslali na Vašu e‑mailovú adresu. Odoslané dňa {date}."
+		},
+		"errors": {
+			"not_found": "Objednávku s týmto číslom a e‑mailom sa nepodarilo nájsť.",
+			"submit_failed": "Odstúpenie sa nepodarilo odoslať. Skúste to znova."
+		}
+	}
 }

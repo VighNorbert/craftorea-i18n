@@ -1052,5 +1052,31 @@
     "pár": "pair",
     "balenie": "package",
     "set": "set"
+  },
+  "withdrawal": {
+	  "title": "Withdrawal from contract",
+	  "intro": "If you wish to withdraw from the contract, enter the order number and the email address you used when placing the order, then select the products you are withdrawing from.",
+	  "form": {
+		  "name": "First and last name",
+		  "order_id": "Order number",
+		  "email": "Email used in the order",
+		  "lookup": "Continue",
+		  "reason": "Reason (optional)"
+	  },
+	  "items": {
+		  "heading": "Select the products you are withdrawing from",
+		  "quantity": "Quantity",
+		  "none": "This order has no products eligible for withdrawal."
+	  },
+	  "confirm": "Confirm withdrawal from contract",
+	  "expired": "The withdrawal period for this order has already expired.",
+	  "success": {
+		  "title": "Your withdrawal from contract has been recorded",
+		  "message": "We have sent a confirmation to your email address. Submitted on {date}."
+	  },
+	  "errors": {
+		  "not_found": "We could not find an order with this number and email address.",
+		  "submit_failed": "Failed to submit the withdrawal. Please try again."
+	  }
   }
 }
