@@ -61,6 +61,7 @@
       "contact": "Contact",
       "admin": {
         "products": "Products",
+        "categories": "Categories",
         "options": "Product options",
         "variants": "Variants",
         "questions": "Questions",
@@ -94,6 +95,24 @@
       "filters": {
         "name": "Name",
         "category": "Category"
+      }
+    },
+    "AdminCategoriesGrid": {
+      "image": "Image",
+      "name": "Name",
+      "parent_name": "Parent category",
+      "visibility": "Visibility",
+      "show_in_panel": "Show in panel",
+      "is_popular": "Popular",
+      "panel_ordering": "Panel order",
+      "product_count": "Products",
+      "buttons": {
+        "new_category": "Add new"
+      },
+      "filters": {
+        "name": "Name",
+        "parent_id": "Parent category",
+        "visibility": "Visibility"
       }
     },
     "AdminVariantsGrid": {
