@@ -67,7 +67,14 @@
         "statistics": "Statistiken",
         "invoices": "Rechnungen",
         "orders": "Bestellungen",
-        "documents": "Dokumente"
+        "documents": "Dokumente",
+        "dashboard": "Dashboard",
+        "categories": "Kategorien",
+        "new": "Neu",
+        "account": "Konto",
+        "settings": "Einstellungen",
+        "create_shop": "Neuen E-Shop erstellen",
+        "switch_shop": "E-Shop wechseln"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -653,6 +660,8 @@
     },
     "login": {
       "title": "Anmelden",
+      "welcome": "Willkommen zurück",
+      "subtitle": "Melden Sie sich an, um Ihren Craftorea-Shop zu verwalten.",
       "session_expired": "Sie wurden wegen Inaktivität abgemeldet. Bitte melden Sie sich erneut an.",
       "errors": {
         "login_failed": "Beim Login ist ein Fehler aufgetreten.",

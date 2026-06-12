@@ -67,7 +67,14 @@
         "statistics": "Štatistiky",
         "invoices": "Faktúry",
         "orders": "Objednávky",
-        "documents": "Dokumenty"
+        "documents": "Dokumenty",
+        "dashboard": "Prehľad",
+        "categories": "Kategórie",
+        "new": "Nové",
+        "account": "Účet",
+        "settings": "Nastavenia",
+        "create_shop": "Vytvoriť nový e-obchod",
+        "switch_shop": "Prepnúť e-obchod"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -653,6 +660,8 @@
     },
     "login": {
       "title": "Prihlásenie",
+      "welcome": "Vitajte späť",
+      "subtitle": "Prihláste sa a spravujte svoj obchod Craftorea.",
       "session_expired": "Boli ste odhlásený z dôvodu nečinnosti. Pred pokračovaním sa prosím znova prihláste.",
       "errors": {
         "login_failed": "Nastala chyba pri prihlasovaní.",
