@@ -356,6 +356,10 @@
       "payment_method": "Zahlungsart",
       "shipping_required": "Bitte wählen Sie eine Lieferart.",
       "payment_required": "Bitte wählen Sie eine Zahlungsart.",
+      "pickup_point_required": "Bitte wählen Sie einen Abholpunkt.",
+      "dpd_pickup_choose": "Abholpunkt wählen",
+      "dpd_pickup_change": "Abholpunkt ändern",
+      "dpd_pickup_unavailable": "Die Auswahl eines DPD-Abholpunkts ist derzeit nicht verfügbar.",
       "continue_to_summary": "Weiter zur Zusammenfassung",
       "your_cart": "Ihr Warenkorb"
     },

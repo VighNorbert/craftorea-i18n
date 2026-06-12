@@ -356,6 +356,10 @@
       "payment_method": "Payment method",
       "shipping_required": "Please select a delivery method.",
       "payment_required": "Please select a payment method.",
+      "pickup_point_required": "Please select a pickup point.",
+      "dpd_pickup_choose": "Choose a pickup point",
+      "dpd_pickup_change": "Change pickup point",
+      "dpd_pickup_unavailable": "DPD pickup point selection is currently unavailable.",
       "continue_to_summary": "Continue to summary",
       "your_cart": "Your shopping cart"
     },

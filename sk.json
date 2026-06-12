@@ -356,6 +356,10 @@
       "payment_method": "Spôsob platby",
       "shipping_required": "Vyberte spôsob doručenia.",
       "payment_required": "Vyberte spôsob platby.",
+      "pickup_point_required": "Vyberte výdajné miesto.",
+      "dpd_pickup_choose": "Vybrať výdajné miesto",
+      "dpd_pickup_change": "Zmeniť výdajné miesto",
+      "dpd_pickup_unavailable": "Výber výdajného miesta DPD momentálne nie je dostupný.",
       "continue_to_summary": "Pokračovať na zhrnutie",
       "your_cart": "Váš nákupný košík"
     },
