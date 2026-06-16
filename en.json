@@ -67,6 +67,8 @@
         "statistics": "Statistics",
         "invoices": "Invoices",
         "orders": "Orders",
+        "delivery": "Delivery",
+        "payments": "Payment methods",
         "documents": "Documents",
         "dashboard": "Dashboard",
         "categories": "Categories",
