@@ -77,7 +77,15 @@
         "switch_shop": "E-Shop wechseln",
         "delivery": "Versand",
         "payments": "Zahlungen",
-        "regions": "Regionen"
+        "regions": "Regionen",
+        "settings_general": "Allgemein",
+        "settings_appearance": "Darstellung",
+        "settings_contact": "Kontakt",
+        "settings_addresses": "Adressen",
+        "settings_companies": "Unternehmen",
+        "settings_languages": "Sprachen",
+        "settings_integrations": "Soziale Medien",
+        "settings_features": "Funktionen"
       }
     },
     "join_newsletter": "Newsletter abonnieren"

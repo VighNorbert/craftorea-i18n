@@ -77,7 +77,15 @@
         "switch_shop": "Switch e-shop",
         "delivery": "Delivery",
         "payments": "Payments",
-        "regions": "Regions"
+        "regions": "Regions",
+        "settings_general": "General",
+        "settings_appearance": "Appearance",
+        "settings_contact": "Contact",
+        "settings_addresses": "Addresses",
+        "settings_companies": "Companies",
+        "settings_languages": "Languages",
+        "settings_integrations": "Social media",
+        "settings_features": "Features"
       }
     },
     "join_newsletter": "Subscribe to newsletter"

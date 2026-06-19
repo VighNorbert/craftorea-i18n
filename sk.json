@@ -77,7 +77,15 @@
         "switch_shop": "Prepnúť e-obchod",
         "delivery": "Doprava",
         "payments": "Platby",
-        "regions": "Regióny"
+        "regions": "Regióny",
+        "settings_general": "Všeobecné",
+        "settings_appearance": "Vzhľad",
+        "settings_contact": "Kontakt",
+        "settings_addresses": "Adresy",
+        "settings_companies": "Spoločnosti",
+        "settings_languages": "Jazyky",
+        "settings_integrations": "Sociálne siete",
+        "settings_features": "Funkcie"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
