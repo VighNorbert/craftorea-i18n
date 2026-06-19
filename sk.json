@@ -74,7 +74,9 @@
         "account": "Účet",
         "settings": "Nastavenia",
         "create_shop": "Vytvoriť nový e-obchod",
-        "switch_shop": "Prepnúť e-obchod"
+        "switch_shop": "Prepnúť e-obchod",
+        "delivery": "Doprava",
+        "payments": "Platby"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"

@@ -74,7 +74,9 @@
         "account": "Konto",
         "settings": "Einstellungen",
         "create_shop": "Neuen E-Shop erstellen",
-        "switch_shop": "E-Shop wechseln"
+        "switch_shop": "E-Shop wechseln",
+        "delivery": "Versand",
+        "payments": "Zahlungen"
       }
     },
     "join_newsletter": "Newsletter abonnieren"

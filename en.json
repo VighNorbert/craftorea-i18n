@@ -74,7 +74,9 @@
         "account": "Account",
         "settings": "Settings",
         "create_shop": "Create new e-shop",
-        "switch_shop": "Switch e-shop"
+        "switch_shop": "Switch e-shop",
+        "delivery": "Delivery",
+        "payments": "Payments"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
