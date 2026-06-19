@@ -76,7 +76,8 @@
         "create_shop": "Create new e-shop",
         "switch_shop": "Switch e-shop",
         "delivery": "Delivery",
-        "payments": "Payments"
+        "payments": "Payments",
+        "regions": "Regions"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
