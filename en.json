@@ -1736,6 +1736,7 @@
       "vs_prev_year": "vs previous 12 months",
       "chart_title": "Period comparison",
       "recent_orders_title": "Recent orders",
+      "view_all_orders": "View all",
       "recent_orders_empty": "No orders yet.",
       "th_order": "Order",
       "th_customer": "Customer",
