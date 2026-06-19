@@ -61,6 +61,7 @@
       "contact": "Kontakt",
       "admin": {
         "products": "Produkty",
+        "categories": "Kategórie",
         "options": "Možnosti produktov",
         "variants": "Varianty",
         "questions": "Otázky",
@@ -103,6 +104,24 @@
       "filters": {
         "name": "Názov",
         "category": "Kategória"
+      }
+    },
+    "AdminCategoriesGrid": {
+      "image": "Obrázok",
+      "name": "Názov",
+      "parent_name": "Nadradená kategória",
+      "visibility": "Viditeľnosť",
+      "show_in_panel": "Zobraziť v paneli",
+      "is_popular": "Obľúbené",
+      "panel_ordering": "Poradie v paneli",
+      "product_count": "Počet produktov",
+      "buttons": {
+        "new_category": "Pridať novú"
+      },
+      "filters": {
+        "name": "Názov",
+        "parent_id": "Nadradená kategória",
+        "visibility": "Viditeľnosť"
       }
     },
     "AdminVariantsGrid": {

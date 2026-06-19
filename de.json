@@ -61,6 +61,7 @@
       "contact": "Kontakt",
       "admin": {
         "products": "Produkte",
+        "categories": "Kategorien",
         "options": "Produktoptionen",
         "variants": "Varianten",
         "questions": "Fragen",
@@ -103,6 +104,24 @@
       "filters": {
         "name": "Name",
         "category": "Kategorie"
+      }
+    },
+    "AdminCategoriesGrid": {
+      "image": "Bild",
+      "name": "Name",
+      "parent_name": "Übergeordnete Kategorie",
+      "visibility": "Sichtbarkeit",
+      "show_in_panel": "Im Panel anzeigen",
+      "is_popular": "Beliebt",
+      "panel_ordering": "Panel-Reihenfolge",
+      "product_count": "Produkte",
+      "buttons": {
+        "new_category": "Neu hinzufügen"
+      },
+      "filters": {
+        "name": "Name",
+        "parent_id": "Übergeordnete Kategorie",
+        "visibility": "Sichtbarkeit"
       }
     },
     "AdminVariantsGrid": {
