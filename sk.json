@@ -1337,7 +1337,13 @@
       "yes": "Áno",
       "no": "Nie",
       "load_failed": "Kategóriu sa nepodarilo načítať.",
-      "delete_failed": "Kategóriu sa nepodarilo odstrániť."
+      "delete_failed": "Kategóriu sa nepodarilo odstrániť.",
+      "image": "Obrázok",
+      "no_image": "Bez obrázka",
+      "upload_image": "Nahrať obrázok",
+      "change_image": "Zmeniť obrázok",
+      "remove_image": "Odstrániť obrázok",
+      "image_upload_failed": "Nahrávanie obrázka zlyhalo."
     },
     "catalog": {
       "attribute": "Atribút",

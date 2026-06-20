@@ -1337,7 +1337,13 @@
       "yes": "Ja",
       "no": "Nein",
       "load_failed": "Die Kategorie konnte nicht geladen werden.",
-      "delete_failed": "Die Kategorie konnte nicht gelöscht werden."
+      "delete_failed": "Die Kategorie konnte nicht gelöscht werden.",
+      "image": "Bild",
+      "no_image": "Kein Bild",
+      "upload_image": "Bild hochladen",
+      "change_image": "Bild ändern",
+      "remove_image": "Bild entfernen",
+      "image_upload_failed": "Bild-Upload fehlgeschlagen."
     },
     "catalog": {
       "attribute": "Attribut",

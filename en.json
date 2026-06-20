@@ -1337,7 +1337,13 @@
       "yes": "Yes",
       "no": "No",
       "load_failed": "Failed to load the category.",
-      "delete_failed": "Failed to delete the category."
+      "delete_failed": "Failed to delete the category.",
+      "image": "Image",
+      "no_image": "No image",
+      "upload_image": "Upload image",
+      "change_image": "Change image",
+      "remove_image": "Remove image",
+      "image_upload_failed": "Image upload failed."
     },
     "catalog": {
       "attribute": "Attribute",
