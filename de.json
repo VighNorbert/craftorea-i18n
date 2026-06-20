@@ -97,7 +97,8 @@
         "banners": "Banner",
         "about": "Über uns",
         "faq": "FAQ",
-        "settings_email": "E-Mail (SMTP)"
+        "settings_email": "E-Mail (SMTP)",
+        "settings_api_keys": "API-Schlüssel"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -1958,6 +1959,23 @@
       "question": "Frage",
       "answer": "Antwort",
       "add_question": "Frage hinzufügen"
+    },
+    "api_keys": {
+      "meta_title": "API-Schlüssel",
+      "title": "API-Schlüssel der Integrationen",
+      "subtitle": "Verwalten Sie Zugangsdaten für Zahlungs-, Versand- und Marktplatz-Integrationen.",
+      "manage_keys": "Schlüssel verwalten",
+      "configured": "Konfiguriert",
+      "not_configured": "Nicht gesetzt",
+      "category_payment": "Zahlungen",
+      "category_shipping": "Versand",
+      "category_marketplace": "Marktplätze",
+      "category_invoicing": "Rechnungsstellung",
+      "add_integration": "Integration hinzufügen",
+      "add_description": "Wählen Sie eine Integration zum Verbinden und geben Sie die Zugangsdaten ein.",
+      "all_configured": "Alle Integrationen sind bereits verbunden.",
+      "connect": "Verbinden",
+      "empty_connected": "Noch keine Integrationen verbunden. Verwenden Sie „Integration hinzufügen“."
     }
   }
 }

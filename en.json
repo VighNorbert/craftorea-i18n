@@ -97,7 +97,8 @@
         "banners": "Banners",
         "about": "About",
         "faq": "FAQ",
-        "settings_email": "Email (SMTP)"
+        "settings_email": "Email (SMTP)",
+        "settings_api_keys": "API keys"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
@@ -1958,6 +1959,23 @@
       "question": "Question",
       "answer": "Answer",
       "add_question": "Add question"
+    },
+    "api_keys": {
+      "meta_title": "API keys",
+      "title": "Integration API keys",
+      "subtitle": "Manage credentials for payment, shipping and marketplace integrations.",
+      "manage_keys": "Manage keys",
+      "configured": "Configured",
+      "not_configured": "Not set",
+      "category_payment": "Payments",
+      "category_shipping": "Shipping",
+      "category_marketplace": "Marketplaces",
+      "category_invoicing": "Invoicing",
+      "add_integration": "Add integration",
+      "add_description": "Choose an integration to connect, then enter its credentials.",
+      "all_configured": "All integrations are already connected.",
+      "connect": "Connect",
+      "empty_connected": "No integrations connected yet. Use \"Add integration\" to connect one."
     }
   }
 }

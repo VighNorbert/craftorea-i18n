@@ -97,7 +97,8 @@
         "banners": "Bannery",
         "about": "O nás",
         "faq": "Časté otázky",
-        "settings_email": "E-mail (SMTP)"
+        "settings_email": "E-mail (SMTP)",
+        "settings_api_keys": "API kľúče"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -1958,6 +1959,23 @@
       "question": "Otázka",
       "answer": "Odpoveď",
       "add_question": "Pridať otázku"
+    },
+    "api_keys": {
+      "meta_title": "API kľúče",
+      "title": "API kľúče integrácií",
+      "subtitle": "Spravujte prístupové údaje pre platobné, doručovacie a trhoviskové integrácie.",
+      "manage_keys": "Spravovať kľúče",
+      "configured": "Nastavené",
+      "not_configured": "Nenastavené",
+      "category_payment": "Platby",
+      "category_shipping": "Doprava",
+      "category_marketplace": "Trhoviská",
+      "category_invoicing": "Fakturácia",
+      "add_integration": "Pridať integráciu",
+      "add_description": "Vyberte integráciu, ktorú chcete pripojiť, a zadajte prístupové údaje.",
+      "all_configured": "Všetky integrácie sú už pripojené.",
+      "connect": "Pripojiť",
+      "empty_connected": "Zatiaľ nie sú pripojené žiadne integrácie. Použite „Pridať integráciu“."
     }
   }
 }
