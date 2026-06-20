@@ -79,13 +79,25 @@
         "payments": "Zahlungen",
         "regions": "Regionen",
         "settings_general": "Allgemein",
+        "settings_domains": "Domains",
         "settings_appearance": "Darstellung",
         "settings_contact": "Kontakt",
         "settings_addresses": "Adressen",
         "settings_companies": "Unternehmen",
         "settings_languages": "Sprachen",
         "settings_integrations": "Soziale Medien",
-        "settings_features": "Funktionen"
+        "settings_features": "Funktionen",
+        "promos": "Rabattcodes",
+        "newsletter": "Newsletter",
+        "reviews": "Bewertungen",
+        "customer_photos": "Kundenfotos",
+        "customers": "Kunden",
+        "marketing": "Marketing",
+        "content": "Inhalt",
+        "banners": "Banner",
+        "about": "Über uns",
+        "faq": "FAQ",
+        "settings_email": "E-Mail (SMTP)"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -210,6 +222,69 @@
       "actions": {
         "details": "Details",
         "invoice": "Rechnung"
+      }
+    },
+    "AdminPromosGrid": {
+      "code": "Code",
+      "starts_at": "Gültig ab",
+      "ends_at": "Gültig bis",
+      "category_name": "Kategorie",
+      "status": "Status",
+      "one_time": "Einmalig",
+      "buttons": {
+        "new_promo": "Neu hinzufügen"
+      },
+      "filters": {
+        "code": "Code",
+        "status": "Status"
+      }
+    },
+    "AdminReviewsGrid": {
+      "created_at": "Datum",
+      "reviewer": "Rezensent",
+      "stars": "Bewertung",
+      "product_name": "Produkt",
+      "photo_count": "Fotos",
+      "filters": {
+        "reviewer": "Rezensent",
+        "stars": "Bewertung"
+      }
+    },
+    "AdminCustomersGrid": {
+      "name": "Name",
+      "email": "E-Mail",
+      "city": "Stadt",
+      "order_count": "Bestellungen",
+      "total_spent": "Gesamtausgaben",
+      "created_at": "Registriert",
+      "filters": {
+        "name": "Name",
+        "email": "E-Mail"
+      }
+    },
+    "AdminBannersGrid": {
+      "image": "Bild",
+      "heading": "Überschrift",
+      "language_id": "Sprache",
+      "ordering": "Reihenfolge",
+      "active": "Aktiv",
+      "buttons": {
+        "new_banner": "Neu hinzufügen"
+      },
+      "filters": {
+        "heading": "Überschrift",
+        "language_id": "Sprache",
+        "active": "Status"
+      }
+    },
+    "AdminNewsletterGrid": {
+      "email": "E-Mail",
+      "created_at": "Angemeldet",
+      "buttons": {
+        "export": "CSV exportieren"
+      },
+      "filters": {
+        "email": "E-Mail"
       }
     }
   },
@@ -1496,7 +1571,8 @@
       "required_field": "Dieses Feld ist erforderlich",
       "color_picker_label": "{label} (Farbauswahl)",
       "color_format_hint": "Geben Sie eine Farbe im Format #RRGGBB ein.",
-      "setup_guide": "Einrichtungsassistent"
+      "setup_guide": "Einrichtungsassistent",
+      "delete_confirm": "Möchten Sie dieses Element wirklich löschen?"
     },
     "questions": {
       "detail_title": "Fragedetail",
@@ -1666,7 +1742,7 @@
     "settings": {
       "general_meta_title": "Allgemein · Einstellungen · Admin",
       "general_title": "Allgemein",
-      "general_subtitle": "Name, Domain und Beschreibung Ihres Shops.",
+      "general_subtitle": "Name und Beschreibung Ihres Shops.",
       "general_card_title": "Grundlegende Informationen",
       "field_shop_name": "Shop-Name",
       "field_slug": "Bezeichner (Slug)",
@@ -1675,6 +1751,14 @@
       "field_description": "Shop-Beschreibung",
       "field_gmap_query": "Google-Maps-Abfrage",
       "field_gmap_query_placeholder": "Stadt, Straße 1, PLZ",
+      "domains_meta_title": "Domains · Einstellungen · Admin",
+      "domains_title": "Domains",
+      "domains_subtitle": "Domain- und DNS-Konfiguration Ihres Shops.",
+      "domains_card_title": "Primäre Domain",
+      "domains_card_subtitle": "Die Hauptdomain, unter der Ihr Shop erreichbar ist.",
+      "domains_dns_card_title": "DNS & Vercel-Integration",
+      "domains_dns_card_subtitle": "DNS-Einträge und Domain-Verifizierung.",
+      "domains_dns_coming_soon": "DNS-Einträge und die Vercel-Integration erscheinen hier.",
       "branding_meta_title": "Darstellung · Einstellungen · Admin",
       "branding_title": "Darstellung",
       "branding_subtitle": "Theme, Logo-Format und Farbschema Ihres Shops.",
@@ -1728,7 +1812,17 @@
       "feature_allow_priority": "Vorrangige Auftragsbearbeitung aktivieren",
       "feature_allow_invoices": "Rechnungen aktivieren",
       "feature_allow_availability": "Verfügbarkeits- (Bestands-) Verfolgung aktivieren",
-      "field_frame_photo_price": "Preis pro gerahmtes Foto"
+      "field_frame_photo_price": "Preis pro gerahmtes Foto",
+      "email_meta_title": "E-Mail (SMTP)",
+      "email_title": "E-Mail (SMTP)",
+      "email_subtitle": "Konfigurieren Sie den SMTP-Server für den Versand von Transaktions-E-Mails.",
+      "email_card_title": "SMTP-Server",
+      "email_field_host": "Host",
+      "email_field_port": "Port",
+      "email_field_from": "Absenderadresse",
+      "email_field_username": "Benutzername",
+      "email_field_password": "Passwort",
+      "email_password_keep": "leer lassen zum Beibehalten"
     },
     "dashboard": {
       "subtitle": "Überblick über Leistung und Aufgaben Ihres Shops.",
@@ -1766,6 +1860,104 @@
       "kpi_review_rate_hint": "Bewertete Web-Bestellungen",
       "chart_current": "Aktuell",
       "chart_previous": "Vorherige"
+    },
+    "promos": {
+      "new_promo": "Neuer Rabattcode",
+      "edit_promo": "Rabattcode bearbeiten",
+      "code": "Code",
+      "code_pattern_error": "Nur Buchstaben, Zahlen, Binde- und Unterstriche sind erlaubt.",
+      "starts_at": "Gültig ab",
+      "ends_at": "Gültig bis",
+      "discount_type": "Rabattart",
+      "discount_percentage": "Prozentual",
+      "discount_fixed": "Fester Betrag",
+      "discount_value": "Rabatt",
+      "min_price": "Mindestbestellwert",
+      "category_scope": "Auf Kategorie beschränken",
+      "category_all": "Alle Produkte",
+      "one_time": "Einmalige Verwendung",
+      "delete_confirm": "Diesen Rabattcode löschen?",
+      "generate_code": "Generieren"
+    },
+    "newsletter": {
+      "email": "E-Mail",
+      "subscribed_at": "Angemeldet",
+      "search_placeholder": "Nach E-Mail suchen…",
+      "export": "CSV exportieren",
+      "empty": "Noch keine Abonnenten.",
+      "total": "Gesamt",
+      "delete_confirm": "Diesen Abonnenten entfernen?"
+    },
+    "reviews": {
+      "detail_title": "Bewertung",
+      "reviewer": "Rezensent",
+      "date": "Datum",
+      "product": "Produkt",
+      "review_text": "Bewertung",
+      "photos": "Fotos"
+    },
+    "customer_photos": {
+      "empty": "Noch keine Kundenfotos."
+    },
+    "customers": {
+      "detail_title": "Kunde",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Adresse",
+      "registered_at": "Registriert",
+      "confirmed": "Bestätigt",
+      "not_confirmed": "Nicht bestätigt",
+      "order_history": "Bestellverlauf",
+      "order_id": "Bestellung",
+      "date": "Datum",
+      "status": "Status",
+      "total": "Gesamt",
+      "no_orders": "Keine Bestellungen.",
+      "gdpr_title": "DSGVO",
+      "gdpr_help": "Die Anonymisierung entfernt die personenbezogenen Daten, behält aber die Bestellungen für die Buchhaltung. Das Löschen entfernt das Konto vollständig, wenn es keine Bestellungen hat.",
+      "anonymize": "Anonymisieren",
+      "anonymize_confirm": "Personenbezogene Daten dieses Kunden anonymisieren?",
+      "delete": "Löschen",
+      "delete_confirm": "Diesen Kunden löschen?"
+    },
+    "banners": {
+      "new_banner": "Neues Banner",
+      "edit_banner": "Banner bearbeiten",
+      "image": "Bild",
+      "no_image": "Kein Bild",
+      "upload_image": "Bild hochladen",
+      "change_image": "Bild ändern",
+      "image_upload_failed": "Bild-Upload fehlgeschlagen.",
+      "language": "Sprache",
+      "heading": "Überschrift",
+      "text": "Text",
+      "subtitle": "Untertitel",
+      "discount": "Rabattkennzeichnung",
+      "ordering": "Reihenfolge",
+      "button_text": "Button-Text",
+      "button_link": "Button-Link",
+      "date_from": "Anzeigen ab",
+      "date_until": "Anzeigen bis",
+      "text_color": "Textfarbe",
+      "background_position": "Hintergrundposition",
+      "active": "Aktiv",
+      "delete_confirm": "Dieses Banner löschen?"
+    },
+    "about": {
+      "title_page": "Über-uns-Seite",
+      "subtitle": "Verwalten Sie den Inhalt der Über-uns-Seite für jede Sprache.",
+      "title": "Titel",
+      "short_text": "Kurztext",
+      "text": "Inhalt"
+    },
+    "faq": {
+      "title_page": "FAQ",
+      "subtitle": "Verwalten Sie häufig gestellte Fragen für jede Sprache.",
+      "language": "Sprache",
+      "empty": "Noch keine Fragen.",
+      "question": "Frage",
+      "answer": "Antwort",
+      "add_question": "Frage hinzufügen"
     }
   }
 }

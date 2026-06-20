@@ -79,13 +79,25 @@
         "payments": "Platby",
         "regions": "Regióny",
         "settings_general": "Všeobecné",
+        "settings_domains": "Domény",
         "settings_appearance": "Vzhľad",
         "settings_contact": "Kontakt",
         "settings_addresses": "Adresy",
         "settings_companies": "Spoločnosti",
         "settings_languages": "Jazyky",
         "settings_integrations": "Sociálne siete",
-        "settings_features": "Funkcie"
+        "settings_features": "Funkcie",
+        "promos": "Zľavové kódy",
+        "newsletter": "Newsletter",
+        "reviews": "Recenzie",
+        "customer_photos": "Zákaznícke fotky",
+        "customers": "Zákazníci",
+        "marketing": "Marketing",
+        "content": "Obsah",
+        "banners": "Bannery",
+        "about": "O nás",
+        "faq": "Časté otázky",
+        "settings_email": "E-mail (SMTP)"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -210,6 +222,69 @@
       "actions": {
         "details": "Detail",
         "invoice": "Faktúra"
+      }
+    },
+    "AdminPromosGrid": {
+      "code": "Kód",
+      "starts_at": "Platí od",
+      "ends_at": "Platí do",
+      "category_name": "Kategória",
+      "status": "Stav",
+      "one_time": "Jednorazový",
+      "buttons": {
+        "new_promo": "Pridať nový"
+      },
+      "filters": {
+        "code": "Kód",
+        "status": "Stav"
+      }
+    },
+    "AdminReviewsGrid": {
+      "created_at": "Dátum",
+      "reviewer": "Recenzent",
+      "stars": "Hodnotenie",
+      "product_name": "Produkt",
+      "photo_count": "Fotky",
+      "filters": {
+        "reviewer": "Recenzent",
+        "stars": "Hodnotenie"
+      }
+    },
+    "AdminCustomersGrid": {
+      "name": "Meno",
+      "email": "E-mail",
+      "city": "Mesto",
+      "order_count": "Objednávky",
+      "total_spent": "Spolu minuté",
+      "created_at": "Registrácia",
+      "filters": {
+        "name": "Meno",
+        "email": "E-mail"
+      }
+    },
+    "AdminBannersGrid": {
+      "image": "Obrázok",
+      "heading": "Nadpis",
+      "language_id": "Jazyk",
+      "ordering": "Poradie",
+      "active": "Aktívny",
+      "buttons": {
+        "new_banner": "Pridať nový"
+      },
+      "filters": {
+        "heading": "Nadpis",
+        "language_id": "Jazyk",
+        "active": "Stav"
+      }
+    },
+    "AdminNewsletterGrid": {
+      "email": "E-mail",
+      "created_at": "Prihlásený",
+      "buttons": {
+        "export": "Exportovať CSV"
+      },
+      "filters": {
+        "email": "E-mail"
       }
     }
   },
@@ -1044,7 +1119,6 @@
   },
   "care_marks": {
     "washing": {
-      "999": "Nezobrazovať",
       "0": "Nesmie sa prať.",
       "1": "Iba ručné a opatrné pranie, maximálna teplota vody 40°C.",
       "30": "Pranie v práčke pri maximálnej teplote 30°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie.",
@@ -1055,30 +1129,31 @@
       "42": "Pranie v práčke pri maximálnej teplote 40°C a pri značne obmedzenom mechanickom pôsobení. Mierne plákanie a mierne odstreďovanie.",
       "60": "Pranie v práčke pri maximálnej teplote 60°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie.",
       "61": "Pranie bielizne v práčke pri maximálnej teplote 60°C a značne obmedzenom mechanickom pôsobení. Normálne plákanie a mierne odstreďovanie bielizne.",
-      "95": "Pranie v práčke pri maximálnej teplote 95°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie. Biela bavlna a bielizeň vhodná pre vývarku."
+      "95": "Pranie v práčke pri maximálnej teplote 95°C a normálnom mechanickom pôsobení. Normálne plákanie a normálne odstreďovanie. Biela bavlna a bielizeň vhodná pre vývarku.",
+      "999": "Nezobrazovať"
     },
     "whitening": {
-      "999": "Nezobrazovať",
       "0": "Nesmie sa bieliť prostriedkami, ktoré uvoľňujú chlór.",
       "1": "Môže sa bieliť všetkými bieliacimi prostriedkami.",
-      "2": "Môže sa bieliť len oxidačnými / nechlórovými prostriedkami."
+      "2": "Môže sa bieliť len oxidačnými / nechlórovými prostriedkami.",
+      "999": "Nezobrazovať"
     },
     "drying": {
-      "999": "Nezobrazovať",
       "0": "Nesmie sa sušiť v bubnovej sušičke.",
       "1": "Môže sa sušiť v bubnovej sušičke pri nižšej teplote sušenia (byť viac opatrný).",
-      "2": "Môže sa sušiť v bubnovej sušičke pri normálnej teplote."
+      "2": "Môže sa sušiť v bubnovej sušičke pri normálnej teplote.",
+      "999": "Nezobrazovať"
     },
     "ironing": {
-      "999": "Nezobrazovať",
       "0": "Nesmie sa žehliť. Naparovanie a spracovanie parou je neprípustné.",
       "1": "Žehlenie pri maximálnej teplote žehliacej plochy 110°C bez pary. Žehlenie s parou môže spôsobiť nenávratné poškodenie.",
       "2": "Žehlenie pri maximálnej teplote žehliacej plochy 150°C.",
-      "3": "Žehlenie pri maximálnej teplote žehliacej plochy 200°C."
+      "3": "Žehlenie pri maximálnej teplote žehliacej plochy 200°C.",
+      "999": "Nezobrazovať"
     },
     "chemical_cleaning": {
-      "999": "Nezobrazovať",
-      "0": "Nesmie sa chemicky čistiť. Škvrny sa nemôžu odstraňovať organickými rozpúšťadlami."
+      "0": "Nesmie sa chemicky čistiť. Škvrny sa nemôžu odstraňovať organickými rozpúšťadlami.",
+      "999": "Nezobrazovať"
     }
   },
   "faq": {
@@ -1496,7 +1571,8 @@
       "required_field": "Toto pole je povinné",
       "color_picker_label": "{label} (výber farby)",
       "color_format_hint": "Zadajte farbu vo formáte #RRGGBB.",
-      "setup_guide": "Sprievodca nastavením"
+      "setup_guide": "Sprievodca nastavením",
+      "delete_confirm": "Naozaj chcete odstrániť túto položku?"
     },
     "questions": {
       "detail_title": "Detail otázky",
@@ -1666,7 +1742,7 @@
     "settings": {
       "general_meta_title": "Všeobecné · Nastavenia · Admin",
       "general_title": "Všeobecné",
-      "general_subtitle": "Názov, doména a popis vášho obchodu.",
+      "general_subtitle": "Názov a popis vášho obchodu.",
       "general_card_title": "Základné informácie",
       "field_shop_name": "Názov obchodu",
       "field_slug": "Identifikátor (slug)",
@@ -1675,6 +1751,14 @@
       "field_description": "Popis obchodu",
       "field_gmap_query": "Google Maps dopyt",
       "field_gmap_query_placeholder": "Mesto, ulica 1, PSČ",
+      "domains_meta_title": "Domény · Nastavenia · Admin",
+      "domains_title": "Domény",
+      "domains_subtitle": "Doména a nastavenie DNS vášho obchodu.",
+      "domains_card_title": "Hlavná doména",
+      "domains_card_subtitle": "Hlavná doména, na ktorej beží váš obchod.",
+      "domains_dns_card_title": "DNS a integrácia Vercel",
+      "domains_dns_card_subtitle": "DNS záznamy a overenie domény.",
+      "domains_dns_coming_soon": "DNS záznamy a integrácia Vercel sa zobrazia tu.",
       "branding_meta_title": "Vzhľad · Nastavenia · Admin",
       "branding_title": "Vzhľad",
       "branding_subtitle": "Téma, formát loga a farebná schéma vášho obchodu.",
@@ -1728,7 +1812,17 @@
       "feature_allow_priority": "Povoliť prioritné spracovanie objednávok",
       "feature_allow_invoices": "Povoliť faktúry",
       "feature_allow_availability": "Povoliť sledovanie dostupnosti (skladu)",
-      "field_frame_photo_price": "Cena za fotografiu v ráme"
+      "field_frame_photo_price": "Cena za fotografiu v ráme",
+      "email_meta_title": "E-mail (SMTP)",
+      "email_title": "E-mail (SMTP)",
+      "email_subtitle": "Nastavte SMTP server na odosielanie transakčných e-mailov.",
+      "email_card_title": "SMTP server",
+      "email_field_host": "Host",
+      "email_field_port": "Port",
+      "email_field_from": "Adresa odosielateľa",
+      "email_field_username": "Používateľské meno",
+      "email_field_password": "Heslo",
+      "email_password_keep": "nechajte prázdne pre zachovanie"
     },
     "dashboard": {
       "subtitle": "Prehľad výkonu a úloh vášho obchodu.",
@@ -1766,6 +1860,104 @@
       "kpi_review_rate_hint": "Recenzované webové objednávky",
       "chart_current": "Aktuálne",
       "chart_previous": "Predchádzajúce"
+    },
+    "promos": {
+      "new_promo": "Nový zľavový kód",
+      "edit_promo": "Upraviť zľavový kód",
+      "code": "Kód",
+      "code_pattern_error": "Povolené sú iba písmená, čísla, pomlčky a podčiarkovníky.",
+      "starts_at": "Platí od",
+      "ends_at": "Platí do",
+      "discount_type": "Typ zľavy",
+      "discount_percentage": "Percentuálna",
+      "discount_fixed": "Pevná suma",
+      "discount_value": "Zľava",
+      "min_price": "Minimálna hodnota objednávky",
+      "category_scope": "Obmedziť na kategóriu",
+      "category_all": "Všetky produkty",
+      "one_time": "Jednorazové použitie",
+      "delete_confirm": "Odstrániť tento zľavový kód?",
+      "generate_code": "Vygenerovať"
+    },
+    "newsletter": {
+      "email": "E-mail",
+      "subscribed_at": "Prihlásený",
+      "search_placeholder": "Hľadať podľa e-mailu…",
+      "export": "Exportovať CSV",
+      "empty": "Zatiaľ žiadni odberatelia.",
+      "total": "Spolu",
+      "delete_confirm": "Odstrániť tohto odberateľa?"
+    },
+    "reviews": {
+      "detail_title": "Recenzia",
+      "reviewer": "Recenzent",
+      "date": "Dátum",
+      "product": "Produkt",
+      "review_text": "Recenzia",
+      "photos": "Fotky"
+    },
+    "customer_photos": {
+      "empty": "Zatiaľ žiadne zákaznícke fotky."
+    },
+    "customers": {
+      "detail_title": "Zákazník",
+      "email": "E-mail",
+      "phone": "Telefón",
+      "address": "Adresa",
+      "registered_at": "Registrácia",
+      "confirmed": "Potvrdený",
+      "not_confirmed": "Nepotvrdený",
+      "order_history": "História objednávok",
+      "order_id": "Objednávka",
+      "date": "Dátum",
+      "status": "Stav",
+      "total": "Spolu",
+      "no_orders": "Žiadne objednávky.",
+      "gdpr_title": "GDPR",
+      "gdpr_help": "Anonymizácia odstráni osobné údaje, ale zachová objednávky pre účtovníctvo. Vymazanie odstráni účet úplne, ak nemá objednávky.",
+      "anonymize": "Anonymizovať",
+      "anonymize_confirm": "Anonymizovať osobné údaje tohto zákazníka?",
+      "delete": "Vymazať",
+      "delete_confirm": "Vymazať tohto zákazníka?"
+    },
+    "banners": {
+      "new_banner": "Nový banner",
+      "edit_banner": "Upraviť banner",
+      "image": "Obrázok",
+      "no_image": "Bez obrázka",
+      "upload_image": "Nahrať obrázok",
+      "change_image": "Zmeniť obrázok",
+      "image_upload_failed": "Nahrávanie obrázka zlyhalo.",
+      "language": "Jazyk",
+      "heading": "Nadpis",
+      "text": "Text",
+      "subtitle": "Podnadpis",
+      "discount": "Označenie zľavy",
+      "ordering": "Poradie",
+      "button_text": "Text tlačidla",
+      "button_link": "Odkaz tlačidla",
+      "date_from": "Zobraziť od",
+      "date_until": "Zobraziť do",
+      "text_color": "Farba textu",
+      "background_position": "Pozícia pozadia",
+      "active": "Aktívny",
+      "delete_confirm": "Odstrániť tento banner?"
+    },
+    "about": {
+      "title_page": "Stránka O nás",
+      "subtitle": "Spravujte obsah stránky O nás pre každý jazyk.",
+      "title": "Nadpis",
+      "short_text": "Krátky text",
+      "text": "Obsah"
+    },
+    "faq": {
+      "title_page": "Časté otázky",
+      "subtitle": "Spravujte často kladené otázky pre každý jazyk.",
+      "language": "Jazyk",
+      "empty": "Zatiaľ žiadne otázky.",
+      "question": "Otázka",
+      "answer": "Odpoveď",
+      "add_question": "Pridať otázku"
     }
   }
 }
