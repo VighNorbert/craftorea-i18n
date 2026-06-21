@@ -1198,6 +1198,59 @@
     }
   },
   "admin": {
+    "documents": {
+      "new_document": "Neues Dokument",
+      "edit_document": "Dokument bearbeiten",
+      "empty": "Noch keine Dokumente.",
+      "preview": "Vorschau",
+      "columns": {
+        "title": "Titel",
+        "type": "Typ",
+        "language": "Sprache",
+        "updated_at": "Aktualisiert"
+      },
+      "fields": {
+        "type": "Typ",
+        "language": "Sprache",
+        "title": "Titel",
+        "subtitle": "Untertitel",
+        "content": "Inhalt"
+      },
+      "types": {
+        "vop": "Allgemeine Geschäftsbedingungen",
+        "gdpr": "Schutz personenbezogener Daten",
+        "reklamacie": "Reklamationsordnung",
+        "odstupenie": "Widerrufsrecht",
+        "povinnosti": "Besondere Informationspflichten",
+        "ars": "Alternative Streitbeilegung"
+      },
+      "content_mode": {
+        "rich": "Rich-Text",
+        "html": "HTML-Quelle",
+        "hint": "Visuell bearbeiten oder zur HTML-Quelle wechseln, um das Markup für das PDF zu verfeinern."
+      },
+      "buttons": {
+        "new": "Neues Dokument",
+        "edit": "Bearbeiten",
+        "save": "Speichern",
+        "saving": "Wird gespeichert…",
+        "cancel": "Abbrechen",
+        "delete": "Löschen"
+      },
+      "delete_confirm": {
+        "title": "Dokument löschen?",
+        "description": "Dadurch wird das Dokument dauerhaft entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
+      },
+      "errors": {
+        "title_required": "Titel ist erforderlich."
+      },
+      "toasts": {
+        "created": "Dokument erstellt.",
+        "updated": "Dokument aktualisiert.",
+        "deleted": "Dokument gelöscht.",
+        "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+      }
+    },
     "onboarding": {
       "getting_started": "Erste Schritte",
       "create_shop": "Shop erstellen",
