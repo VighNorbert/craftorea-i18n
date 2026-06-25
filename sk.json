@@ -790,7 +790,8 @@
       },
       "otp": {
         "instructions": "Zadajte kód z aplikácie pre dvojfaktorovú autentifikáciu."
-      }
+      },
+      "banner": "Ručná práca, krásne spravovaná."
     },
     "forgot_password": {
       "title": "Zabudnuté heslo",
@@ -2058,6 +2059,347 @@
       "all_configured": "Všetky integrácie sú už pripojené.",
       "connect": "Pripojiť",
       "empty_connected": "Zatiaľ nie sú pripojené žiadne integrácie. Použite „Pridať integráciu“."
+    },
+    "landing": {
+      "header": {
+        "features": "Funkcie",
+        "pricing": "Cenník",
+        "contact": "Kontakt",
+        "login": "Prihlásiť sa",
+        "getStarted": "Začať",
+        "dashboard": "Vstúpiť",
+        "menu": "Ponuka"
+      },
+      "hero": {
+        "badge": "Novinka: Viacjazyčné e-shopy sú teraz dostupné",
+        "headlineStart": "Vytvorte si",
+        "headlineHighlight": "kreatívne impérium",
+        "headlineEnd": "s Craftoreou",
+        "subheading": "Dokonalá e-commerce platforma pre tvorcov a remeselníkov. Predstavte svoje ručne vyrábané produkty, oslovte zákazníkov po celom svete a rozvíjajte svoje remeselné podnikanie.",
+        "cta": "Začnite svoju cestu",
+        "scroll": "Posuňte pre viac"
+      },
+      "features": {
+        "title": "Funkcie platformy",
+        "subtitle": "Všetko, čo potrebujete na prezentáciu a predaj svojich výrobkov",
+        "items": {
+          "multilang": {
+            "title": "Viacjazyčná podpora",
+            "description": "Zdieľajte svoje remeslo po celom svete vďaka vstavanej internacionalizácii s podporou viacerých jazykov a mien."
+          },
+          "galleries": {
+            "title": "Viacero galérií kolekcií",
+            "description": "Usporiadajte rôzne remeselné kolekcie do samostatných galérií, každú s vlastným vzhľadom a prezentáciou."
+          },
+          "themes": {
+            "title": "Vlastné témy",
+            "description": "Predstavte svoj umelecký štýl pomocou vlastných tém a značky, ktoré odrážajú vašu jedinečnú kreatívnu víziu."
+          },
+          "payments": {
+            "title": "Bezpečné platby",
+            "description": "Prijímajte platby za svoje produkty bezpečne vďaka integrácii so Stripe a viacerým platobným možnostiam."
+          },
+          "dashboard": {
+            "title": "Nástenka pre tvorcov",
+            "description": "Intuitívna nástenka na správu vašich produktov, objednávok, zákazníkov a sledovanie rastu vášho podnikania."
+          },
+          "mobile": {
+            "title": "Responzívny dizajn",
+            "description": "Váš e-shop vyzerá skvele na všetkých zariadeniach, takže zákazníci môžu oceniť vašu prácu kdekoľvek."
+          }
+        },
+        "ctaText": "Pripravení predstaviť svoje remeslo?",
+        "ctaLink": "Spustite svoj e-shop teraz →"
+      },
+      "cta": {
+        "titleStart": "Pripravení zdieľať svoje",
+        "titleEnd": "umenie so svetom?",
+        "subtitle": "Pridajte sa k talentovaným remeselníkom, ktorí dôverujú Craftorei pri prezentácii svojich ručných výrobkov. Začnite svoju kreatívnu cestu ešte dnes s naším nezáväzným skúšobným obdobím.",
+        "benefits": {
+          "trial": "30-dňová skúšobná verzia zdarma",
+          "noFees": "Žiadne poplatky za zriadenie",
+          "support": "Podpora pre tvorcov",
+          "cancel": "Zrušenie kedykoľvek"
+        },
+        "button": "Začnite svoju kreatívnu cestu",
+        "footnote": "Bez platobnej karty • Spustite za menej ako 5 minút"
+      },
+      "footer": {
+        "tagline": "Pomáhame remeselníkom predstaviť ich ručné výrobky prostredníctvom krásnych a funkčných e-shopov, ktoré oslovia zákazníkov po celom svete.",
+        "platform": "Platforma",
+        "resources": "Zdroje",
+        "legal": "Právne informácie",
+        "links": {
+          "features": "Funkcie",
+          "pricing": "Cenník",
+          "contact": "Kontakt",
+          "creatorGuide": "Príručka pre tvorcov",
+          "helpCenter": "Centrum pomoci",
+          "status": "Stav",
+          "privacy": "Zásady ochrany súkromia",
+          "terms": "Obchodné podmienky",
+          "cookies": "Prehľad súborov Cookie",
+          "agreement": "Zmluva o poskytovaní služby",
+          "dpa": "Dohoda o spracovaní údajov",
+          "comingSoon": "Pripravujeme"
+        },
+        "rights": "© {year} Craftorea. Všetky práva vyhradené."
+      }
+    },
+    "pricing": {
+      "badge": "Cenové plány",
+      "titleStart": "Vyberte si ideálny",
+      "titleHighlight": "plán pre svoje remeslo",
+      "subtitle": "Začnite zadarmo a rasťte podľa potreby. Všetky plány obsahujú základné funkcie, ktoré vám pomôžu uspieť.",
+      "monthly": "Mesačne",
+      "yearly": "Ročne",
+      "saveBadge": "Ušetríte 17 %",
+      "free": "Zadarmo",
+      "perYear": "/ rok",
+      "perMonth": "/ mesiac",
+      "saveVsMonthly": "Ušetríte {percent} % oproti mesačnému",
+      "mostPopular": "Najobľúbenejší",
+      "getStartedFree": "Začať zadarmo",
+      "choosePlan": "Vybrať plán",
+      "tiers": {
+        "hobby": {
+          "name": "Hobby",
+          "description": "Ideálne pre začínajúcich remeselníkov, ktorí rozbiehajú svoje podnikanie"
+        },
+        "growth": {
+          "name": "Growth",
+          "description": "Vhodné pre rastúce firmy s vybudovanou zákazníckou základňou"
+        },
+        "pro": {
+          "name": "Pro",
+          "description": "Pre etablované firmy a prevádzku viacerých obchodov"
+        }
+      },
+      "features": {
+        "basicStorefront": "Základný obchod",
+        "products10": "Až 10 produktov",
+        "subdomain": "Subdoména na Craftorea.com",
+        "mobileResponsive": "Responzívny dizajn pre mobily",
+        "emailSupport": "E-mailová podpora",
+        "basicSeo": {
+          "name": "Základná SEO optimalizácia",
+          "tooltip": "Základné SEO nástroje a optimalizácia meta značiek, ktoré pomôžu vášmu obchodu lepšie sa umiestniť vo vyhľadávačoch"
+        },
+        "allHobby": "Všetky funkcie plánu Hobby",
+        "products100": "Až 100 produktov",
+        "customDomain": "Vlastná doména",
+        "priorityEmail": "Prioritná e-mailová podpora",
+        "seo": {
+          "name": "SEO optimalizácia",
+          "tooltip": "Pokročilé SEO nástroje vrátane meta značiek, máp stránok a funkcií na optimalizáciu pre vyhľadávače"
+        },
+        "variants20": {
+          "name": "Až 20 variantov na produkt",
+          "tooltip": "Vytvárajte rôzne verzie svojich produktov (veľkosť, farba, materiál atď.) s až 20 variantmi na každý. Počet variantov sa vypočíta vynásobením vašich možností (napr. 2 farby × 3 veľkosti = 6 variantov)"
+        },
+        "invoiceManagement": {
+          "name": "Správa faktúr",
+          "tooltip": "Automatické generovanie faktúr, sledovanie a správa fakturácie zákazníkov"
+        },
+        "discounts": {
+          "name": "Zľavy a promo kódy",
+          "tooltip": "Vytvárajte percentuálne alebo pevné zľavy s vlastnými kódmi pre marketingové kampane"
+        },
+        "advancedAnalytics": {
+          "name": "Pokročilá analytika",
+          "tooltip": "Podrobné správanie zákazníkov, sledovanie konverzií a prehľad o tržbách"
+        },
+        "allGrowth": "Všetky funkcie plánu Growth",
+        "unlimitedProducts": "Neobmedzený počet produktov",
+        "phoneEmail": "Telefonická + e-mailová podpora",
+        "variants1000": {
+          "name": "Až 1000 variantov na produkt",
+          "tooltip": "Vytvárajte rozsiahle variácie produktov s až 1000 variantmi na produkt pre zložité katalógy. Počet variantov sa vypočíta vynásobením vašich možností (napr. 5 farieb × 4 veľkosti × 2 materiály = 40 variantov)"
+        },
+        "multiLanguage": {
+          "name": "Viacjazyčný e-shop",
+          "tooltip": "Preložte svoj obchod do viacerých jazykov pre zahraničných zákazníkov a trhy"
+        },
+        "personalizedProducts": {
+          "name": "Podpora personalizovaných produktov",
+          "tooltip": "Umožnite zákazníkom prispôsobiť si produkty vlastným textom, obrázkami alebo dizajnom"
+        },
+        "customDevelopment": {
+          "name": "Vývoj na mieru",
+          "tooltip": "Funkcie a integrácie vytvorené špeciálne pre potreby vášho podnikania"
+        },
+        "advancedIntegrations": {
+          "name": "Pokročilé integrácie",
+          "tooltip": "Prepojenie s externými službami ako účtovný softvér, CRM systémy a marketingové nástroje"
+        },
+        "apiAccess": {
+          "name": "Prístup k API",
+          "tooltip": "Plný programový prístup k údajom vášho obchodu pre vlastné aplikácie a integrácie tretích strán"
+        },
+        "productVariants": "Varianty produktov",
+        "basicAnalyticsOnly": "Len základná analytika",
+        "oneLanguage": "Len 1 jazyk"
+      },
+      "comparison": {
+        "title": "Porovnanie všetkých funkcií",
+        "featuresColumn": "Funkcie",
+        "categories": {
+          "core": "Základné funkcie",
+          "ecommerce": "E-commerce funkcie",
+          "analytics": "Analytika a podpora",
+          "advanced": "Pokročilé funkcie"
+        },
+        "values": {
+          "unlimited": "Neobmedzene",
+          "subdomainShort": "Subdoména Craftorea",
+          "customDomain": "Vlastná doména",
+          "basic": "Základná",
+          "advanced": "Pokročilá",
+          "variants20short": "Až 20 na produkt",
+          "variants1000short": "Až 1000 na produkt",
+          "emailSupport": "E-mailová podpora",
+          "priorityEmail": "Prioritný e-mail",
+          "phoneEmail": "Telefón + e-mail"
+        },
+        "features": {
+          "products": {
+            "name": "Produkty"
+          },
+          "domain": {
+            "name": "Doména"
+          },
+          "mobileResponsive": {
+            "name": "Responzívny dizajn pre mobily"
+          },
+          "seo": {
+            "name": "SEO optimalizácia",
+            "tooltip": "Základná: meta značky a optimalizácia. Pokročilá: mapy stránok, vlastné meta značky a pokročilé funkcie"
+          },
+          "productVariants": {
+            "name": "Varianty produktov",
+            "tooltip": "Rôzne verzie vašich produktov (veľkosť, farba, materiál atď.), z ktorých si zákazníci môžu vybrať. Počet variantov sa vypočíta vynásobením vašich možností (napr. 2 farby × 3 veľkosti = 6 variantov)"
+          },
+          "invoiceManagement": {
+            "name": "Správa faktúr",
+            "tooltip": "Automatické generovanie faktúr, sledovanie a správa fakturácie zákazníkov"
+          },
+          "discounts": {
+            "name": "Zľavy a promo kódy",
+            "tooltip": "Vytvárajte percentuálne alebo pevné zľavy s vlastnými kódmi pre marketingové kampane"
+          },
+          "translations": {
+            "name": "Preklady",
+            "tooltip": "Viacjazyčná podpora vám umožní preložiť obchod do viacerých jazykov pre zahraničných zákazníkov"
+          },
+          "analytics": {
+            "name": "Analytika",
+            "tooltip": "Pokročilá: podrobné správanie zákazníkov, sledovanie konverzií a prehľad o tržbách"
+          },
+          "supportType": {
+            "name": "Typ podpory"
+          },
+          "personalizedProducts": {
+            "name": "Personalizované produkty",
+            "tooltip": "Umožnite zákazníkom prispôsobiť si produkty vlastným textom, obrázkami alebo dizajnom"
+          },
+          "customDevelopment": {
+            "name": "Vývoj na mieru",
+            "tooltip": "Funkcie a integrácie vytvorené špeciálne pre potreby vášho podnikania"
+          },
+          "advancedIntegrations": {
+            "name": "Pokročilé integrácie",
+            "tooltip": "Prepojenie s externými službami ako účtovný softvér, CRM systémy a marketingové nástroje"
+          },
+          "apiAccess": {
+            "name": "Prístup k API",
+            "tooltip": "Plný programový prístup k údajom vášho obchodu pre vlastné aplikácie a integrácie tretích strán"
+          }
+        }
+      },
+      "faq": {
+        "title": "Často kladené otázky",
+        "subtitle": "Zhromaždili sme najdôležitejšie informácie, ktoré vám pomôžu vyťažiť z platformy pre vaše remeslo maximum.",
+        "stillTitle": "Máte ešte otázky?",
+        "stillText": "Náš tím vám pomôže vybrať ideálny plán pre vaše remeselné podnikanie a odpovie na akékoľvek otázky týkajúce sa funkcií, cien alebo nasadenia.",
+        "contactButton": "Kontaktujte nás",
+        "contactAria": "Kontaktovať náš tím podpory",
+        "items": {
+          "startHobby": {
+            "question": "Môžem začať s plánom Hobby a neskôr prejsť na vyšší?",
+            "answer": "Samozrejme! Začnite s naším bezplatným plánom Hobby a vyskúšajte si platformu. Na Growth alebo Pro môžete prejsť kedykoľvek, ako vaše podnikanie rastie. Všetky prechody sú účinné okamžite a prípadné rozdiely vo fakturácii pomerne zúčtujeme."
+          },
+          "freeIncludes": {
+            "question": "Čo je zahrnuté v bezplatnom pláne Hobby?",
+            "answer": "Plán Hobby obsahuje všetko, čo potrebujete na začiatok: základný obchod, až 10 produktov, subdoménu na Craftorea.com, responzívny dizajn pre mobily, e-mailovú podporu a základnú SEO optimalizáciu. Ideálne na otestovanie vášho nápadu na remeselné podnikanie!"
+          },
+          "variants": {
+            "question": "Čo sú varianty produktov a koľko ich potrebujem?",
+            "answer": "Varianty produktov sú rôzne možnosti toho istého produktu (napríklad veľkosti, farby alebo materiály). Počet variantov sa vypočíta vynásobením vašich možností – napríklad 2 farby × 3 veľkosti = 6 variantov. Plán Growth zahŕňa až 20 variantov na produkt, zatiaľ čo Pro ponúka až 1000 variantov – ideálne pre zložité katalógy produktov s mnohými možnosťami prispôsobenia."
+          },
+          "multiLanguage": {
+            "question": "Ponúkate viacjazyčnú podporu?",
+            "answer": "Viacjazyčná podpora je dostupná výhradne v pláne Pro a umožňuje vám preložiť celý obchod a osloviť zahraničných zákazníkov. Táto funkcia je nevyhnutná pre celosvetové rozšírenie vášho remeselného podnikania."
+          },
+          "paymentMethods": {
+            "question": "Aké spôsoby platby akceptujete?",
+            "answer": "Pri plánoch Pro akceptujeme všetky hlavné platobné karty, PayPal a bankové prevody. Všetky platby sú spracované bezpečne so šifrovaním podľa priemyselných štandardov. Žiadne poplatky za zriadenie – platíte iba mesačný alebo ročný poplatok za predplatné."
+          },
+          "exceedLimits": {
+            "question": "Čo sa stane, ak prekročím limity produktov?",
+            "answer": "Upozorníme vás, keď sa budete blížiť k limitom, a navrhneme prechod na vyšší plán. Limity môžete dočasne prekročiť za primerané poplatky, no pre najlepší zážitok a ďalšie funkcie odporúčame prejsť na vyšší plán."
+          },
+          "customDevelopment": {
+            "question": "Môžem získať pomoc s vývojom na mieru?",
+            "answer": "Vývoj na mieru je súčasťou plánu Pro. Náš tím dokáže vytvoriť konkrétne funkcie a integrácie prispôsobené potrebám vášho podnikania. Patria sem integrácie cez API, vlastné pracovné postupy a špecializované nástroje pre remeselné podnikanie."
+          }
+        }
+      }
+    },
+    "contact": {
+      "badge": "Kontaktujte nás",
+      "title": "Spojte sa s nami",
+      "subtitle": "Máte otázky o Craftorei? Chcete sa dozvedieť viac o našich plánoch? Radi si vás vypočujeme a pomôžeme vám rozvíjať vaše remeselné podnikanie.",
+      "helpTitle": "Ako vám môžeme pomôcť?",
+      "helpText": "Či už len začínate s plánom Hobby alebo chcete rásť s funkciami plánu Pro, náš tím je tu, aby podporil vašu cestu remeselným podnikaním.",
+      "helpListTitle": "S čím vám vieme pomôcť:",
+      "helpList": [
+        "Výber správneho cenového plánu",
+        "Dopyty na vývoj na mieru",
+        "Otázky technickej podpory",
+        "Možnosti spolupráce",
+        "Všeobecné otázky o platforme"
+      ],
+      "form": {
+        "name": "Meno",
+        "namePlaceholder": "Vaše celé meno",
+        "email": "E-mail",
+        "emailPlaceholder": "vas.email@example.com",
+        "phone": "Telefón (nepovinné)",
+        "phonePlaceholder": "+421 900 123 456",
+        "pricingPlan": "Cenový plán (nepovinné)",
+        "pricingPlanPlaceholder": "Vyberte cenový plán",
+        "free": "Zadarmo",
+        "perMonth": "{price} € / mesiac",
+        "message": "Vaša správa",
+        "messagePlaceholder": "Napíšte nám o vašom remeselnom podnikaní, otázky o našej platforme alebo ako vám môžeme pomôcť rásť...",
+        "submit": "Odoslať správu",
+        "submitting": "Odosielanie...",
+        "errors": {
+          "nameRequired": "Meno je povinné",
+          "nameMax": "Meno musí mať menej ako 100 znakov",
+          "emailRequired": "E-mail je povinný",
+          "emailInvalid": "Zadajte platnú e-mailovú adresu",
+          "inquiryRequired": "Napíšte nám, prosím, o vašom dopyte",
+          "inquiryMin": "Uveďte, prosím, viac podrobností (aspoň 10 znakov)",
+          "inquiryMax": "Správa musí mať menej ako 1000 znakov"
+        },
+        "toast": {
+          "successTitle": "Správa odoslaná!",
+          "successDesc": "Ďakujeme, že ste nás kontaktovali. Ozveme sa vám do 24 hodín.",
+          "errorTitle": "Chyba",
+          "errorDesc": "Niečo sa pokazilo. Skúste to znova."
+        }
+      }
     }
   }
 }

@@ -790,7 +790,8 @@
       },
       "otp": {
         "instructions": "Enter the code from the two-factor authentication app."
-      }
+      },
+      "banner": "Handmade, beautifully managed."
     },
     "forgot_password": {
       "title": "Forgot password",
@@ -2058,6 +2059,347 @@
       "all_configured": "All integrations are already connected.",
       "connect": "Connect",
       "empty_connected": "No integrations connected yet. Use \"Add integration\" to connect one."
+    },
+    "landing": {
+      "header": {
+        "features": "Features",
+        "pricing": "Pricing",
+        "contact": "Contact",
+        "login": "Login",
+        "getStarted": "Get Started",
+        "dashboard": "Enter",
+        "menu": "Menu"
+      },
+      "hero": {
+        "badge": "New: Multi-Language E-Shops Now Available",
+        "headlineStart": "Craft Your",
+        "headlineHighlight": "Creative Empire",
+        "headlineEnd": "with Craftorea",
+        "subheading": "The ultimate e-commerce platform for makers and creators. Showcase your handmade products, reach global customers, and grow your craft business.",
+        "cta": "Start Your Journey",
+        "scroll": "Scroll to Explore"
+      },
+      "features": {
+        "title": "Platform Features",
+        "subtitle": "Everything you need to showcase and sell your creations",
+        "items": {
+          "multilang": {
+            "title": "Multi-Language Support",
+            "description": "Share your craft worldwide with built-in internationalization supporting multiple languages and currencies."
+          },
+          "galleries": {
+            "title": "Multiple Collection Galleries",
+            "description": "Organize different craft collections with separate galleries, each with unique themes and presentations."
+          },
+          "themes": {
+            "title": "Custom Themes",
+            "description": "Showcase your artistic style with custom themes and branding that reflect your unique creative vision."
+          },
+          "payments": {
+            "title": "Secure Payments",
+            "description": "Receive payments safely for your products with Stripe integration and multiple payment options."
+          },
+          "dashboard": {
+            "title": "Creator Dashboard",
+            "description": "Intuitive dashboard to manage your products, orders, customers, and track your business growth."
+          },
+          "mobile": {
+            "title": "Mobile Responsive",
+            "description": "Your eshop looks stunning on all devices, letting customers appreciate your work anywhere."
+          }
+        },
+        "ctaText": "Ready to showcase your craft?",
+        "ctaLink": "Start your eshop now →"
+      },
+      "cta": {
+        "titleStart": "Ready to Share Your",
+        "titleEnd": "Artistry with the World?",
+        "subtitle": "Join talented artisans who trust Craftorea to showcase their handmade creations. Begin your creative journey today with our risk-free trial.",
+        "benefits": {
+          "trial": "30-day free trial",
+          "noFees": "No setup fees",
+          "support": "Creator support",
+          "cancel": "Cancel anytime"
+        },
+        "button": "Begin Your Creative Journey",
+        "footnote": "No credit card required • Get started in under 5 minutes"
+      },
+      "footer": {
+        "tagline": "Empowering artisans to showcase their handmade creations with beautiful, feature-rich eshops that reach customers worldwide.",
+        "platform": "Platform",
+        "resources": "Resources",
+        "legal": "Legal",
+        "links": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "contact": "Contact",
+          "creatorGuide": "Creator Guide",
+          "helpCenter": "Help Center",
+          "status": "Status",
+          "privacy": "Privacy Policy",
+          "terms": "Terms of Service",
+          "cookies": "Cookie Policy",
+          "agreement": "Service Agreement",
+          "dpa": "Data Processing Agreement",
+          "comingSoon": "Coming soon"
+        },
+        "rights": "© {year} Craftorea. All rights reserved."
+      }
+    },
+    "pricing": {
+      "badge": "Pricing Plans",
+      "titleStart": "Choose Your Perfect",
+      "titleHighlight": "Craft Plan",
+      "subtitle": "Start free and scale as you grow. All plans include our core features to help you succeed.",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "saveBadge": "Save 17%",
+      "free": "Free",
+      "perYear": "/ year",
+      "perMonth": "/ month",
+      "saveVsMonthly": "Save {percent}% vs monthly",
+      "mostPopular": "Most Popular",
+      "getStartedFree": "Get Started Free",
+      "choosePlan": "Choose Plan",
+      "tiers": {
+        "hobby": {
+          "name": "Hobby",
+          "description": "Perfect for new artisans starting their craft business"
+        },
+        "growth": {
+          "name": "Growth",
+          "description": "Ideal for growing businesses with established customer base"
+        },
+        "pro": {
+          "name": "Pro",
+          "description": "For established businesses and multi-store operations"
+        }
+      },
+      "features": {
+        "basicStorefront": "Basic storefront",
+        "products10": "Up to 10 products",
+        "subdomain": "Craftorea.com subdomain",
+        "mobileResponsive": "Mobile responsive design",
+        "emailSupport": "Email support",
+        "basicSeo": {
+          "name": "Basic SEO optimization",
+          "tooltip": "Basic SEO tools and meta tag optimization to help your store rank better in search engines"
+        },
+        "allHobby": "All features in the Hobby plan",
+        "products100": "Up to 100 products",
+        "customDomain": "Custom domain",
+        "priorityEmail": "Priority email support",
+        "seo": {
+          "name": "SEO optimization",
+          "tooltip": "Advanced SEO tools including meta tags, sitemaps, and search engine optimization features"
+        },
+        "variants20": {
+          "name": "Up to 20 Product variants per product",
+          "tooltip": "Create different versions of your products (size, color, material, etc.) with up to 20 variants each. The count of variants is calculated by multiplying your options together (e.g., 2 colors × 3 sizes = 6 variants)"
+        },
+        "invoiceManagement": {
+          "name": "Invoice management",
+          "tooltip": "Automated invoice generation, tracking, and customer billing management"
+        },
+        "discounts": {
+          "name": "Discounts & Promo codes",
+          "tooltip": "Create percentage or fixed-amount discounts with custom codes for marketing campaigns"
+        },
+        "advancedAnalytics": {
+          "name": "Advanced analytics",
+          "tooltip": "Detailed customer behavior, conversion tracking, and revenue insights"
+        },
+        "allGrowth": "All features in the Growth plan",
+        "unlimitedProducts": "Unlimited products",
+        "phoneEmail": "Phone + email support",
+        "variants1000": {
+          "name": "Up to 1000 Product variants per product",
+          "tooltip": "Create extensive product variations with up to 1000 variants per product for complex catalogs. The count of variants is calculated by multiplying your options together (e.g., 5 colors × 4 sizes × 2 materials = 40 variants)"
+        },
+        "multiLanguage": {
+          "name": "Multi-language e-shop",
+          "tooltip": "Translate your store into multiple languages for international customers and markets"
+        },
+        "personalizedProducts": {
+          "name": "Personalized products support",
+          "tooltip": "Allow customers to customize products with their own text, images, or design choices"
+        },
+        "customDevelopment": {
+          "name": "Custom development",
+          "tooltip": "Custom features and integrations built specifically for your business needs"
+        },
+        "advancedIntegrations": {
+          "name": "Advanced integrations",
+          "tooltip": "Connect with external services like accounting software, CRM systems, and marketing tools"
+        },
+        "apiAccess": {
+          "name": "API access",
+          "tooltip": "Full programmatic access to your store data for custom applications and third-party integrations"
+        },
+        "productVariants": "Product variants",
+        "basicAnalyticsOnly": "Basic analytics only",
+        "oneLanguage": "1 language only"
+      },
+      "comparison": {
+        "title": "Compare All Features",
+        "featuresColumn": "Features",
+        "categories": {
+          "core": "Core Features",
+          "ecommerce": "E-commerce Features",
+          "analytics": "Analytics & Support",
+          "advanced": "Advanced Features"
+        },
+        "values": {
+          "unlimited": "Unlimited",
+          "subdomainShort": "Craftorea subdomain",
+          "customDomain": "Custom domain",
+          "basic": "Basic",
+          "advanced": "Advanced",
+          "variants20short": "Up to 20 per product",
+          "variants1000short": "Up to 1000 per product",
+          "emailSupport": "Email support",
+          "priorityEmail": "Priority email",
+          "phoneEmail": "Phone + email"
+        },
+        "features": {
+          "products": {
+            "name": "Products"
+          },
+          "domain": {
+            "name": "Domain"
+          },
+          "mobileResponsive": {
+            "name": "Mobile Responsive Design"
+          },
+          "seo": {
+            "name": "SEO Optimization",
+            "tooltip": "Basic: meta tags and optimization. Advanced: sitemaps, custom meta tags, and advanced features"
+          },
+          "productVariants": {
+            "name": "Product Variants",
+            "tooltip": "Different versions of your products (size, color, material, etc.) that customers can choose from. The count of variants is calculated by multiplying your options together (e.g., 2 colors × 3 sizes = 6 variants)"
+          },
+          "invoiceManagement": {
+            "name": "Invoice Management",
+            "tooltip": "Automated invoice generation, tracking, and customer billing management"
+          },
+          "discounts": {
+            "name": "Discounts & Promo Codes",
+            "tooltip": "Create percentage or fixed-amount discounts with custom codes for marketing campaigns"
+          },
+          "translations": {
+            "name": "Translations",
+            "tooltip": "Multi-language support allows you to translate your store into multiple languages for international customers"
+          },
+          "analytics": {
+            "name": "Analytics",
+            "tooltip": "Advanced: detailed customer behavior, conversion tracking, and revenue insights"
+          },
+          "supportType": {
+            "name": "Support Type"
+          },
+          "personalizedProducts": {
+            "name": "Personalized Products",
+            "tooltip": "Allow customers to customize products with their own text, images, or design choices"
+          },
+          "customDevelopment": {
+            "name": "Custom Development",
+            "tooltip": "Custom features and integrations built specifically for your business needs"
+          },
+          "advancedIntegrations": {
+            "name": "Advanced Integrations",
+            "tooltip": "Connect with external services like accounting software, CRM systems, and marketing tools"
+          },
+          "apiAccess": {
+            "name": "API Access",
+            "tooltip": "Full programmatic access to your store data for custom applications and third-party integrations"
+          }
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "subtitle": "We've compiled the most important information to help you get the most out of your craft business platform.",
+        "stillTitle": "Still have questions?",
+        "stillText": "Our team is here to help you choose the perfect plan for your craft business and answer any questions about features, pricing, or implementation.",
+        "contactButton": "Contact us",
+        "contactAria": "Contact our support team",
+        "items": {
+          "startHobby": {
+            "question": "Can I start with the Hobby plan and upgrade later?",
+            "answer": "Absolutely! Start with our free Hobby plan to test the waters. You can upgrade to Growth or Pro at any time as your business grows. All upgrades take effect immediately, and we'll prorate any billing differences."
+          },
+          "freeIncludes": {
+            "question": "What's included in the free Hobby plan?",
+            "answer": "The Hobby plan includes everything you need to start: a basic storefront, up to 10 products, Craftorea.com subdomain, mobile responsive design, email support, and basic SEO optimization. Perfect for testing your craft business idea!"
+          },
+          "variants": {
+            "question": "What are product variants and how many do I need?",
+            "answer": "Product variants are different options for the same product (like sizes, colors, or materials). The count of variants is calculated by multiplying your options together - for example, 2 colors × 3 sizes = 6 variants. The Growth plan includes up to 20 variants per product, while Pro offers up to 1000 variants - perfect for complex product catalogs with many customization options."
+          },
+          "multiLanguage": {
+            "question": "Do you offer multi-language support?",
+            "answer": "Multi-language support is available exclusively with the Pro plan, allowing you to translate your entire store and reach international customers. This feature is essential for expanding your craft business globally."
+          },
+          "paymentMethods": {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept all major credit cards, PayPal, and bank transfers for Pro plans. All payments are processed securely with industry-standard encryption. No setup fees - you only pay the monthly or yearly subscription fee."
+          },
+          "exceedLimits": {
+            "question": "What happens if I exceed my product limits?",
+            "answer": "We'll notify you when you're approaching your limits and suggest upgrading to the next tier. You can also temporarily exceed limits with reasonable overage rates, but we recommend upgrading for the best experience and additional features."
+          },
+          "customDevelopment": {
+            "question": "Can I get help with custom development?",
+            "answer": "Custom development is included with the Pro plan. Our team can build specific features and integrations tailored to your business needs. This includes API integrations, custom workflows, and specialized craft business tools."
+          }
+        }
+      }
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "title": "Get in Touch",
+      "subtitle": "Have questions about Craftorea? Want to learn more about our plans? We'd love to hear from you and help you grow your craft business.",
+      "helpTitle": "How can we help you?",
+      "helpText": "Whether you're just starting out with the Hobby plan or looking to scale with our Pro features, our team is here to support your craft business journey.",
+      "helpListTitle": "What we can help with:",
+      "helpList": [
+        "Choosing the right pricing plan",
+        "Custom development inquiries",
+        "Technical support questions",
+        "Partnership opportunities",
+        "General platform questions"
+      ],
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Your full name",
+        "email": "Email",
+        "emailPlaceholder": "your.email@example.com",
+        "phone": "Phone (optional)",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "pricingPlan": "Pricing Plan (optional)",
+        "pricingPlanPlaceholder": "Select a pricing plan",
+        "free": "Free",
+        "perMonth": "{price} € / month",
+        "message": "Your Message",
+        "messagePlaceholder": "Tell us about your craft business, questions about our platform, or how we can help you grow...",
+        "submit": "Send Message",
+        "submitting": "Sending...",
+        "errors": {
+          "nameRequired": "Name is required",
+          "nameMax": "Name must be less than 100 characters",
+          "emailRequired": "Email is required",
+          "emailInvalid": "Please enter a valid email address",
+          "inquiryRequired": "Please tell us about your inquiry",
+          "inquiryMin": "Please provide more details (at least 10 characters)",
+          "inquiryMax": "Message must be less than 1000 characters"
+        },
+        "toast": {
+          "successTitle": "Message sent!",
+          "successDesc": "Thank you for contacting us. We'll get back to you within 24 hours.",
+          "errorTitle": "Error",
+          "errorDesc": "Something went wrong. Please try again."
+        }
+      }
     }
   }
 }

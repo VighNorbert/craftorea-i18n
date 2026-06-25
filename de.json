@@ -790,7 +790,8 @@
       },
       "otp": {
         "instructions": "Geben Sie den Code aus Ihrer Zwei-Faktor-App ein."
-      }
+      },
+      "banner": "Handgemacht, schön verwaltet."
     },
     "forgot_password": {
       "title": "Passwort vergessen",
@@ -2058,6 +2059,347 @@
       "all_configured": "Alle Integrationen sind bereits verbunden.",
       "connect": "Verbinden",
       "empty_connected": "Noch keine Integrationen verbunden. Verwenden Sie „Integration hinzufügen“."
+    },
+    "landing": {
+      "header": {
+        "features": "Funktionen",
+        "pricing": "Preise",
+        "contact": "Kontakt",
+        "login": "Anmelden",
+        "getStarted": "Loslegen",
+        "dashboard": "Eintreten",
+        "menu": "Menü"
+      },
+      "hero": {
+        "badge": "Neu: Mehrsprachige E-Shops jetzt verfügbar",
+        "headlineStart": "Erschaffen Sie Ihr",
+        "headlineHighlight": "kreatives Imperium",
+        "headlineEnd": "mit Craftorea",
+        "subheading": "Die ultimative E-Commerce-Plattform für Macher und Kreative. Präsentieren Sie Ihre handgefertigten Produkte, erreichen Sie Kunden weltweit und lassen Sie Ihr Handwerksunternehmen wachsen.",
+        "cta": "Starten Sie Ihre Reise",
+        "scroll": "Zum Entdecken scrollen"
+      },
+      "features": {
+        "title": "Plattform-Funktionen",
+        "subtitle": "Alles, was Sie zum Präsentieren und Verkaufen Ihrer Kreationen brauchen",
+        "items": {
+          "multilang": {
+            "title": "Mehrsprachige Unterstützung",
+            "description": "Teilen Sie Ihr Handwerk weltweit dank integrierter Internationalisierung mit Unterstützung für mehrere Sprachen und Währungen."
+          },
+          "galleries": {
+            "title": "Mehrere Kollektionsgalerien",
+            "description": "Organisieren Sie verschiedene Handwerkskollektionen in separaten Galerien, jede mit eigenem Design und eigener Präsentation."
+          },
+          "themes": {
+            "title": "Individuelle Themes",
+            "description": "Präsentieren Sie Ihren künstlerischen Stil mit individuellen Themes und Branding, die Ihre einzigartige kreative Vision widerspiegeln."
+          },
+          "payments": {
+            "title": "Sichere Zahlungen",
+            "description": "Empfangen Sie Zahlungen für Ihre Produkte sicher dank Stripe-Integration und mehreren Zahlungsoptionen."
+          },
+          "dashboard": {
+            "title": "Creator-Dashboard",
+            "description": "Intuitives Dashboard zur Verwaltung Ihrer Produkte, Bestellungen und Kunden sowie zur Verfolgung Ihres Geschäftswachstums."
+          },
+          "mobile": {
+            "title": "Mobil-optimiert",
+            "description": "Ihr E-Shop sieht auf allen Geräten großartig aus, sodass Kunden Ihre Arbeit überall genießen können."
+          }
+        },
+        "ctaText": "Bereit, Ihr Handwerk zu präsentieren?",
+        "ctaLink": "Starten Sie jetzt Ihren E-Shop →"
+      },
+      "cta": {
+        "titleStart": "Bereit, Ihre Kunst",
+        "titleEnd": "mit der Welt zu teilen?",
+        "subtitle": "Schließen Sie sich talentierten Handwerkern an, die Craftorea vertrauen, um ihre handgefertigten Kreationen zu präsentieren. Beginnen Sie noch heute Ihre kreative Reise mit unserer risikofreien Testphase.",
+        "benefits": {
+          "trial": "30 Tage kostenlos testen",
+          "noFees": "Keine Einrichtungsgebühren",
+          "support": "Creator-Support",
+          "cancel": "Jederzeit kündbar"
+        },
+        "button": "Beginnen Sie Ihre kreative Reise",
+        "footnote": "Keine Kreditkarte erforderlich • In unter 5 Minuten startklar"
+      },
+      "footer": {
+        "tagline": "Wir befähigen Handwerker, ihre handgefertigten Kreationen mit schönen, funktionsreichen E-Shops zu präsentieren, die Kunden weltweit erreichen.",
+        "platform": "Plattform",
+        "resources": "Ressourcen",
+        "legal": "Rechtliches",
+        "links": {
+          "features": "Funktionen",
+          "pricing": "Preise",
+          "contact": "Kontakt",
+          "creatorGuide": "Creator-Leitfaden",
+          "helpCenter": "Hilfecenter",
+          "status": "Status",
+          "privacy": "Datenschutzerklärung",
+          "terms": "Nutzungsbedingungen",
+          "cookies": "Cookie-Richtlinie",
+          "agreement": "Servicevereinbarung",
+          "dpa": "Auftragsverarbeitungsvertrag",
+          "comingSoon": "Demnächst"
+        },
+        "rights": "© {year} Craftorea. Alle Rechte vorbehalten."
+      }
+    },
+    "pricing": {
+      "badge": "Preispläne",
+      "titleStart": "Wählen Sie Ihren perfekten",
+      "titleHighlight": "Handwerksplan",
+      "subtitle": "Starten Sie kostenlos und skalieren Sie mit Ihrem Wachstum. Alle Pläne enthalten unsere Kernfunktionen, die Ihnen zum Erfolg verhelfen.",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "saveBadge": "17 % sparen",
+      "free": "Kostenlos",
+      "perYear": "/ Jahr",
+      "perMonth": "/ Monat",
+      "saveVsMonthly": "{percent} % sparen ggü. monatlich",
+      "mostPopular": "Am beliebtesten",
+      "getStartedFree": "Kostenlos starten",
+      "choosePlan": "Plan wählen",
+      "tiers": {
+        "hobby": {
+          "name": "Hobby",
+          "description": "Perfekt für neue Handwerker, die ihr Geschäft starten"
+        },
+        "growth": {
+          "name": "Growth",
+          "description": "Ideal für wachsende Unternehmen mit etabliertem Kundenstamm"
+        },
+        "pro": {
+          "name": "Pro",
+          "description": "Für etablierte Unternehmen und den Betrieb mehrerer Shops"
+        }
+      },
+      "features": {
+        "basicStorefront": "Basis-Shop",
+        "products10": "Bis zu 10 Produkte",
+        "subdomain": "Craftorea.com-Subdomain",
+        "mobileResponsive": "Mobil-optimiertes Design",
+        "emailSupport": "E-Mail-Support",
+        "basicSeo": {
+          "name": "Basis-SEO-Optimierung",
+          "tooltip": "Grundlegende SEO-Tools und Meta-Tag-Optimierung, damit Ihr Shop in Suchmaschinen besser rankt"
+        },
+        "allHobby": "Alle Funktionen des Hobby-Plans",
+        "products100": "Bis zu 100 Produkte",
+        "customDomain": "Eigene Domain",
+        "priorityEmail": "Bevorzugter E-Mail-Support",
+        "seo": {
+          "name": "SEO-Optimierung",
+          "tooltip": "Erweiterte SEO-Tools inklusive Meta-Tags, Sitemaps und Funktionen zur Suchmaschinenoptimierung"
+        },
+        "variants20": {
+          "name": "Bis zu 20 Produktvarianten pro Produkt",
+          "tooltip": "Erstellen Sie verschiedene Versionen Ihrer Produkte (Größe, Farbe, Material usw.) mit bis zu 20 Varianten je Produkt. Die Anzahl der Varianten ergibt sich aus der Multiplikation Ihrer Optionen (z. B. 2 Farben × 3 Größen = 6 Varianten)"
+        },
+        "invoiceManagement": {
+          "name": "Rechnungsverwaltung",
+          "tooltip": "Automatische Rechnungserstellung, Nachverfolgung und Verwaltung der Kundenabrechnung"
+        },
+        "discounts": {
+          "name": "Rabatte & Gutscheincodes",
+          "tooltip": "Erstellen Sie prozentuale oder feste Rabatte mit eigenen Codes für Marketingkampagnen"
+        },
+        "advancedAnalytics": {
+          "name": "Erweiterte Analysen",
+          "tooltip": "Detailliertes Kundenverhalten, Conversion-Tracking und Umsatzeinblicke"
+        },
+        "allGrowth": "Alle Funktionen des Growth-Plans",
+        "unlimitedProducts": "Unbegrenzte Produkte",
+        "phoneEmail": "Telefon- + E-Mail-Support",
+        "variants1000": {
+          "name": "Bis zu 1000 Produktvarianten pro Produkt",
+          "tooltip": "Erstellen Sie umfangreiche Produktvariationen mit bis zu 1000 Varianten pro Produkt für komplexe Kataloge. Die Anzahl der Varianten ergibt sich aus der Multiplikation Ihrer Optionen (z. B. 5 Farben × 4 Größen × 2 Materialien = 40 Varianten)"
+        },
+        "multiLanguage": {
+          "name": "Mehrsprachiger E-Shop",
+          "tooltip": "Übersetzen Sie Ihren Shop in mehrere Sprachen für internationale Kunden und Märkte"
+        },
+        "personalizedProducts": {
+          "name": "Unterstützung für personalisierte Produkte",
+          "tooltip": "Ermöglichen Sie Kunden, Produkte mit eigenem Text, Bildern oder Designentscheidungen anzupassen"
+        },
+        "customDevelopment": {
+          "name": "Individuelle Entwicklung",
+          "tooltip": "Maßgeschneiderte Funktionen und Integrationen, speziell für Ihre Geschäftsanforderungen entwickelt"
+        },
+        "advancedIntegrations": {
+          "name": "Erweiterte Integrationen",
+          "tooltip": "Verbindung mit externen Diensten wie Buchhaltungssoftware, CRM-Systemen und Marketing-Tools"
+        },
+        "apiAccess": {
+          "name": "API-Zugang",
+          "tooltip": "Voller programmatischer Zugriff auf Ihre Shop-Daten für eigene Anwendungen und Integrationen von Drittanbietern"
+        },
+        "productVariants": "Produktvarianten",
+        "basicAnalyticsOnly": "Nur Basis-Analysen",
+        "oneLanguage": "Nur 1 Sprache"
+      },
+      "comparison": {
+        "title": "Alle Funktionen vergleichen",
+        "featuresColumn": "Funktionen",
+        "categories": {
+          "core": "Kernfunktionen",
+          "ecommerce": "E-Commerce-Funktionen",
+          "analytics": "Analysen & Support",
+          "advanced": "Erweiterte Funktionen"
+        },
+        "values": {
+          "unlimited": "Unbegrenzt",
+          "subdomainShort": "Craftorea-Subdomain",
+          "customDomain": "Eigene Domain",
+          "basic": "Basis",
+          "advanced": "Erweitert",
+          "variants20short": "Bis zu 20 pro Produkt",
+          "variants1000short": "Bis zu 1000 pro Produkt",
+          "emailSupport": "E-Mail-Support",
+          "priorityEmail": "Bevorzugter E-Mail",
+          "phoneEmail": "Telefon + E-Mail"
+        },
+        "features": {
+          "products": {
+            "name": "Produkte"
+          },
+          "domain": {
+            "name": "Domain"
+          },
+          "mobileResponsive": {
+            "name": "Mobil-optimiertes Design"
+          },
+          "seo": {
+            "name": "SEO-Optimierung",
+            "tooltip": "Basis: Meta-Tags und Optimierung. Erweitert: Sitemaps, eigene Meta-Tags und erweiterte Funktionen"
+          },
+          "productVariants": {
+            "name": "Produktvarianten",
+            "tooltip": "Verschiedene Versionen Ihrer Produkte (Größe, Farbe, Material usw.), aus denen Kunden wählen können. Die Anzahl der Varianten ergibt sich aus der Multiplikation Ihrer Optionen (z. B. 2 Farben × 3 Größen = 6 Varianten)"
+          },
+          "invoiceManagement": {
+            "name": "Rechnungsverwaltung",
+            "tooltip": "Automatische Rechnungserstellung, Nachverfolgung und Verwaltung der Kundenabrechnung"
+          },
+          "discounts": {
+            "name": "Rabatte & Gutscheincodes",
+            "tooltip": "Erstellen Sie prozentuale oder feste Rabatte mit eigenen Codes für Marketingkampagnen"
+          },
+          "translations": {
+            "name": "Übersetzungen",
+            "tooltip": "Die Mehrsprachenunterstützung ermöglicht es Ihnen, Ihren Shop in mehrere Sprachen zu übersetzen für internationale Kunden"
+          },
+          "analytics": {
+            "name": "Analysen",
+            "tooltip": "Erweitert: detailliertes Kundenverhalten, Conversion-Tracking und Umsatzeinblicke"
+          },
+          "supportType": {
+            "name": "Support-Art"
+          },
+          "personalizedProducts": {
+            "name": "Personalisierte Produkte",
+            "tooltip": "Ermöglichen Sie Kunden, Produkte mit eigenem Text, Bildern oder Designentscheidungen anzupassen"
+          },
+          "customDevelopment": {
+            "name": "Individuelle Entwicklung",
+            "tooltip": "Maßgeschneiderte Funktionen und Integrationen, speziell für Ihre Geschäftsanforderungen entwickelt"
+          },
+          "advancedIntegrations": {
+            "name": "Erweiterte Integrationen",
+            "tooltip": "Verbindung mit externen Diensten wie Buchhaltungssoftware, CRM-Systemen und Marketing-Tools"
+          },
+          "apiAccess": {
+            "name": "API-Zugang",
+            "tooltip": "Voller programmatischer Zugriff auf Ihre Shop-Daten für eigene Anwendungen und Integrationen von Drittanbietern"
+          }
+        }
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Wir haben die wichtigsten Informationen zusammengestellt, damit Sie das Beste aus Ihrer Plattform für Ihr Handwerk herausholen.",
+        "stillTitle": "Noch Fragen?",
+        "stillText": "Unser Team hilft Ihnen, den perfekten Plan für Ihr Handwerksgeschäft zu wählen, und beantwortet alle Fragen zu Funktionen, Preisen oder Umsetzung.",
+        "contactButton": "Kontaktieren Sie uns",
+        "contactAria": "Unser Support-Team kontaktieren",
+        "items": {
+          "startHobby": {
+            "question": "Kann ich mit dem Hobby-Plan starten und später upgraden?",
+            "answer": "Auf jeden Fall! Starten Sie mit unserem kostenlosen Hobby-Plan und testen Sie alles in Ruhe. Sie können jederzeit auf Growth oder Pro upgraden, wenn Ihr Geschäft wächst. Alle Upgrades sind sofort wirksam und etwaige Abrechnungsdifferenzen rechnen wir anteilig ab."
+          },
+          "freeIncludes": {
+            "question": "Was ist im kostenlosen Hobby-Plan enthalten?",
+            "answer": "Der Hobby-Plan enthält alles, was Sie für den Start brauchen: einen Basis-Shop, bis zu 10 Produkte, eine Craftorea.com-Subdomain, mobil-optimiertes Design, E-Mail-Support und Basis-SEO-Optimierung. Perfekt, um Ihre Geschäftsidee im Handwerk zu testen!"
+          },
+          "variants": {
+            "question": "Was sind Produktvarianten und wie viele brauche ich?",
+            "answer": "Produktvarianten sind verschiedene Optionen desselben Produkts (wie Größen, Farben oder Materialien). Die Anzahl der Varianten ergibt sich aus der Multiplikation Ihrer Optionen – zum Beispiel 2 Farben × 3 Größen = 6 Varianten. Der Growth-Plan enthält bis zu 20 Varianten pro Produkt, während Pro bis zu 1000 Varianten bietet – perfekt für komplexe Produktkataloge mit vielen Anpassungsoptionen."
+          },
+          "multiLanguage": {
+            "question": "Bieten Sie Mehrsprachenunterstützung an?",
+            "answer": "Die Mehrsprachenunterstützung ist exklusiv im Pro-Plan verfügbar und ermöglicht es Ihnen, Ihren gesamten Shop zu übersetzen und internationale Kunden zu erreichen. Diese Funktion ist entscheidend, um Ihr Handwerksgeschäft weltweit auszubauen."
+          },
+          "paymentMethods": {
+            "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+            "answer": "Für Pro-Pläne akzeptieren wir alle gängigen Kreditkarten, PayPal und Banküberweisungen. Alle Zahlungen werden sicher mit branchenüblicher Verschlüsselung verarbeitet. Keine Einrichtungsgebühren – Sie zahlen nur die monatliche oder jährliche Abogebühr."
+          },
+          "exceedLimits": {
+            "question": "Was passiert, wenn ich meine Produktlimits überschreite?",
+            "answer": "Wir benachrichtigen Sie, wenn Sie sich Ihren Limits nähern, und schlagen ein Upgrade auf die nächste Stufe vor. Sie können die Limits auch vorübergehend zu angemessenen Mehrkosten überschreiten, wir empfehlen jedoch ein Upgrade für das beste Erlebnis und zusätzliche Funktionen."
+          },
+          "customDevelopment": {
+            "question": "Kann ich Hilfe bei individueller Entwicklung bekommen?",
+            "answer": "Individuelle Entwicklung ist im Pro-Plan enthalten. Unser Team kann spezifische Funktionen und Integrationen entwickeln, die auf Ihre Geschäftsanforderungen zugeschnitten sind. Dazu gehören API-Integrationen, individuelle Workflows und spezialisierte Tools für das Handwerksgeschäft."
+          }
+        }
+      }
+    },
+    "contact": {
+      "badge": "Kontaktieren Sie uns",
+      "title": "Kontakt aufnehmen",
+      "subtitle": "Haben Sie Fragen zu Craftorea? Möchten Sie mehr über unsere Pläne erfahren? Wir freuen uns, von Ihnen zu hören und Ihnen beim Wachstum Ihres Handwerksgeschäfts zu helfen.",
+      "helpTitle": "Wie können wir Ihnen helfen?",
+      "helpText": "Ob Sie gerade erst mit dem Hobby-Plan starten oder mit unseren Pro-Funktionen skalieren möchten – unser Team unterstützt Sie auf Ihrem Weg im Handwerksgeschäft.",
+      "helpListTitle": "Wobei wir helfen können:",
+      "helpList": [
+        "Den richtigen Preisplan wählen",
+        "Anfragen zur individuellen Entwicklung",
+        "Fragen zum technischen Support",
+        "Partnerschaftsmöglichkeiten",
+        "Allgemeine Fragen zur Plattform"
+      ],
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Ihr vollständiger Name",
+        "email": "E-Mail",
+        "emailPlaceholder": "ihre.email@example.com",
+        "phone": "Telefon (optional)",
+        "phonePlaceholder": "+49 151 23456789",
+        "pricingPlan": "Preisplan (optional)",
+        "pricingPlanPlaceholder": "Preisplan auswählen",
+        "free": "Kostenlos",
+        "perMonth": "{price} € / Monat",
+        "message": "Ihre Nachricht",
+        "messagePlaceholder": "Erzählen Sie uns von Ihrem Handwerksgeschäft, Fragen zu unserer Plattform oder wie wir Ihnen beim Wachstum helfen können...",
+        "submit": "Nachricht senden",
+        "submitting": "Senden...",
+        "errors": {
+          "nameRequired": "Name ist erforderlich",
+          "nameMax": "Name muss weniger als 100 Zeichen haben",
+          "emailRequired": "E-Mail ist erforderlich",
+          "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+          "inquiryRequired": "Bitte erzählen Sie uns von Ihrem Anliegen",
+          "inquiryMin": "Bitte geben Sie mehr Details an (mindestens 10 Zeichen)",
+          "inquiryMax": "Nachricht muss weniger als 1000 Zeichen haben"
+        },
+        "toast": {
+          "successTitle": "Nachricht gesendet!",
+          "successDesc": "Danke für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden.",
+          "errorTitle": "Fehler",
+          "errorDesc": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+        }
+      }
     }
   }
 }
