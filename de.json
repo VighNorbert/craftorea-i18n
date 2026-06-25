@@ -2400,6 +2400,61 @@
           "errorDesc": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
         }
       }
+    },
+    "errors": {
+      "notFound": {
+        "title": "Seite nicht gefunden",
+        "message": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+        "home": "Zurück zur Startseite"
+      },
+      "serverError": {
+        "title": "Etwas ist schiefgelaufen",
+        "message": "Auf unserer Seite ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es in einem Moment erneut.",
+        "home": "Zurück zur Startseite",
+        "retry": "Erneut versuchen"
+      }
+    },
+    "seo": {
+      "home": {
+        "title": "E-Commerce-Plattform für Macher & Kreative",
+        "description": "Eröffnen Sie einen schönen Onlineshop für Ihre handgemachten Produkte. Erreichen Sie Kunden weltweit, verwalten Sie Bestellungen und wachsen Sie mit Craftorea."
+      },
+      "pricing": {
+        "title": "Preise",
+        "description": "Einfache, transparente Preise für Macher und Kreative. Wählen Sie einen Plan für Ihr Geschäft und verkaufen Sie noch heute online."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Kontaktieren Sie das Craftorea-Team. Wir helfen Ihnen, Ihren Shop einzurichten und Ihr Geschäft auszubauen."
+      },
+      "login": {
+        "title": "Anmelden",
+        "description": "Melden Sie sich bei Ihrem Craftorea-Konto an, um Shop, Produkte und Bestellungen zu verwalten."
+      },
+      "logout": {
+        "title": "Abmelden",
+        "description": "Melden Sie sich von Ihrem Craftorea-Konto ab."
+      },
+      "terms": {
+        "title": "Allgemeine Geschäftsbedingungen",
+        "description": "Die Geschäftsbedingungen für die Nutzung der Craftorea-Plattform."
+      },
+      "privacy": {
+        "title": "Datenschutzerklärung",
+        "description": "Wie Craftorea Ihre personenbezogenen Daten erhebt, verwendet und schützt."
+      },
+      "agreement": {
+        "title": "Dienstleistungsvertrag",
+        "description": "Der Dienstleistungsvertrag für Händler, die die Craftorea-Plattform nutzen."
+      },
+      "dpa": {
+        "title": "Auftragsverarbeitungsvertrag",
+        "description": "Der Auftragsverarbeitungsvertrag für die Craftorea-Plattform."
+      },
+      "cookies": {
+        "title": "Cookie-Richtlinie",
+        "description": "Wie Craftorea Cookies und ähnliche Technologien verwendet."
+      }
     }
   }
 }

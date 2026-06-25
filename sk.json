@@ -2400,6 +2400,61 @@
           "errorDesc": "Niečo sa pokazilo. Skúste to znova."
         }
       }
+    },
+    "errors": {
+      "notFound": {
+        "title": "Stránka sa nenašla",
+        "message": "Stránka, ktorú hľadáte, neexistuje alebo bola presunutá.",
+        "home": "Späť na domov"
+      },
+      "serverError": {
+        "title": "Niečo sa pokazilo",
+        "message": "Na našej strane došlo k neočakávanej chybe. Skúste to o chvíľu znova.",
+        "home": "Späť na domov",
+        "retry": "Skúsiť znova"
+      }
+    },
+    "seo": {
+      "home": {
+        "title": "E-shop platforma pre tvorcov a remeselníkov",
+        "description": "Spustite krásny online obchod pre svoje ručne vyrábané produkty. Získajte zákazníkov z celého sveta, spravujte objednávky a rozvíjajte podnikanie s Craftoreou."
+      },
+      "pricing": {
+        "title": "Cenník",
+        "description": "Jednoduché a transparentné ceny pre tvorcov a remeselníkov. Vyberte si plán, ktorý vyhovuje vášmu podnikaniu, a začnite predávať online už dnes."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Spojte sa s tímom Craftorea. Radi vám pomôžeme nastaviť obchod a rozvíjať vaše remeselné podnikanie."
+      },
+      "login": {
+        "title": "Prihlásenie",
+        "description": "Prihláste sa do svojho účtu Craftorea a spravujte obchod, produkty a objednávky."
+      },
+      "logout": {
+        "title": "Odhlásenie",
+        "description": "Odhláste sa zo svojho účtu Craftorea."
+      },
+      "terms": {
+        "title": "Obchodné podmienky",
+        "description": "Obchodné podmienky používania platformy Craftorea."
+      },
+      "privacy": {
+        "title": "Ochrana osobných údajov",
+        "description": "Ako Craftorea zhromažďuje, používa a chráni vaše osobné údaje."
+      },
+      "agreement": {
+        "title": "Zmluva o poskytovaní služieb",
+        "description": "Zmluva o poskytovaní služieb pre obchodníkov používajúcich platformu Craftorea."
+      },
+      "dpa": {
+        "title": "Zmluva o spracúvaní údajov",
+        "description": "Zmluva o spracúvaní osobných údajov pre platformu Craftorea."
+      },
+      "cookies": {
+        "title": "Zásady používania súborov cookie",
+        "description": "Ako Craftorea používa súbory cookie a podobné technológie."
+      }
     }
   }
 }

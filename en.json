@@ -2400,6 +2400,61 @@
           "errorDesc": "Something went wrong. Please try again."
         }
       }
+    },
+    "errors": {
+      "notFound": {
+        "title": "Page not found",
+        "message": "The page you're looking for doesn't exist or may have been moved.",
+        "home": "Back to home"
+      },
+      "serverError": {
+        "title": "Something went wrong",
+        "message": "An unexpected error occurred on our end. Please try again in a moment.",
+        "home": "Back to home",
+        "retry": "Try again"
+      }
+    },
+    "seo": {
+      "home": {
+        "title": "E-commerce platform for makers & creators",
+        "description": "Launch a beautiful online store for your handmade products. Reach global customers, manage orders, and grow your craft business with Craftorea."
+      },
+      "pricing": {
+        "title": "Pricing",
+        "description": "Simple, transparent pricing for makers and creators. Choose a plan that fits your craft business and start selling handmade products online today."
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Get in touch with the Craftorea team. We're here to help you set up your store and grow your handmade product business."
+      },
+      "login": {
+        "title": "Log in",
+        "description": "Log in to your Craftorea account to manage your store, products, and orders."
+      },
+      "logout": {
+        "title": "Log out",
+        "description": "Sign out of your Craftorea account."
+      },
+      "terms": {
+        "title": "Terms & Conditions",
+        "description": "The terms and conditions governing the use of the Craftorea platform."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "description": "How Craftorea collects, uses, and protects your personal data."
+      },
+      "agreement": {
+        "title": "Service Agreement",
+        "description": "The service agreement for merchants using the Craftorea platform."
+      },
+      "dpa": {
+        "title": "Data Processing Agreement",
+        "description": "The data processing agreement for the Craftorea platform."
+      },
+      "cookies": {
+        "title": "Cookie Policy",
+        "description": "How Craftorea uses cookies and similar technologies."
+      }
     }
   }
 }
