@@ -99,7 +99,8 @@
         "faq": "FAQ",
         "docs": "Documents",
         "settings_email": "Email (SMTP)",
-        "settings_api_keys": "API keys"
+        "settings_api_keys": "API keys",
+        "settings_billing": "Subscription"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
@@ -2144,6 +2145,38 @@
           "comingSoon": "Coming soon"
         },
         "rights": "© {year} Craftorea. All rights reserved."
+      }
+    },
+    "subscription": {
+      "meta_title": "Subscription · Admin",
+      "title": "Subscription",
+      "subtitle": "Manage your plan, billing and usage.",
+      "current_plan": "Current plan",
+      "current_badge": "Current",
+      "manage_billing": "Manage billing",
+      "products_usage": "Products",
+      "products_unlimited": "{count} (unlimited)",
+      "free_plan_hint": "You're on the free Hobby plan. Upgrade any time.",
+      "managed_billing_hint": "This account is billed by invoice. Your plan is managed by our team — contact us to change it.",
+      "renews_on": "Renews on {date}.",
+      "cancels_on": "Your plan will be cancelled on {date}.",
+      "upgrade": "Upgrade",
+      "choose_plan": "Choose plan",
+      "change_plan": "Change plan",
+      "downgrade_via_portal": "Downgrade",
+      "checkout_success": "Your subscription is now active. Welcome aboard!",
+      "checkout_cancelled": "Checkout was cancelled. No changes were made.",
+      "upsell_blocked": "That feature isn't included in your current plan. Upgrade to unlock it.",
+      "action_error": "Something went wrong. Please try again.",
+      "status": {
+        "active": "Active",
+        "trialing": "Trial",
+        "past_due": "Past due",
+        "canceled": "Canceled",
+        "incomplete": "Incomplete",
+        "incomplete_expired": "Expired",
+        "unpaid": "Unpaid",
+        "paused": "Paused"
       }
     },
     "pricing": {

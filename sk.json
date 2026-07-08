@@ -99,7 +99,8 @@
         "faq": "Časté otázky",
         "docs": "Dokumenty",
         "settings_email": "E-mail (SMTP)",
-        "settings_api_keys": "API kľúče"
+        "settings_api_keys": "API kľúče",
+        "settings_billing": "Predplatné"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -2144,6 +2145,38 @@
           "comingSoon": "Pripravujeme"
         },
         "rights": "© {year} Craftorea. Všetky práva vyhradené."
+      }
+    },
+    "subscription": {
+      "meta_title": "Predplatné · Admin",
+      "title": "Predplatné",
+      "subtitle": "Spravujte svoj balík, fakturáciu a využitie.",
+      "current_plan": "Aktuálny balík",
+      "current_badge": "Aktuálny",
+      "manage_billing": "Spravovať fakturáciu",
+      "products_usage": "Produkty",
+      "products_unlimited": "{count} (neobmedzene)",
+      "free_plan_hint": "Používate bezplatný balík Hobby. Kedykoľvek môžete prejsť na vyšší.",
+      "managed_billing_hint": "Toto konto je fakturované manuálne. Váš balík spravuje náš tím — pre zmenu nás kontaktujte.",
+      "renews_on": "Obnovuje sa dňa {date}.",
+      "cancels_on": "Váš balík bude zrušený dňa {date}.",
+      "upgrade": "Vylepšiť",
+      "choose_plan": "Vybrať balík",
+      "change_plan": "Zmeniť balík",
+      "downgrade_via_portal": "Znížiť balík",
+      "checkout_success": "Vaše predplatné je aktívne. Vitajte!",
+      "checkout_cancelled": "Platba bola zrušená. Neboli vykonané žiadne zmeny.",
+      "upsell_blocked": "Táto funkcia nie je súčasťou vášho balíka. Vylepšite balík na jej odomknutie.",
+      "action_error": "Niečo sa pokazilo. Skúste to znova.",
+      "status": {
+        "active": "Aktívne",
+        "trialing": "Skúšobné",
+        "past_due": "Po splatnosti",
+        "canceled": "Zrušené",
+        "incomplete": "Nedokončené",
+        "incomplete_expired": "Vypršané",
+        "unpaid": "Nezaplatené",
+        "paused": "Pozastavené"
       }
     },
     "pricing": {

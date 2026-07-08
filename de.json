@@ -99,7 +99,8 @@
         "faq": "FAQ",
         "docs": "Dokumente",
         "settings_email": "E-Mail (SMTP)",
-        "settings_api_keys": "API-Schlüssel"
+        "settings_api_keys": "API-Schlüssel",
+        "settings_billing": "Abonnement"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -2144,6 +2145,38 @@
           "comingSoon": "Demnächst"
         },
         "rights": "© {year} Craftorea. Alle Rechte vorbehalten."
+      }
+    },
+    "subscription": {
+      "meta_title": "Abonnement · Admin",
+      "title": "Abonnement",
+      "subtitle": "Verwalten Sie Ihren Tarif, die Abrechnung und die Nutzung.",
+      "current_plan": "Aktueller Tarif",
+      "current_badge": "Aktuell",
+      "manage_billing": "Abrechnung verwalten",
+      "products_usage": "Produkte",
+      "products_unlimited": "{count} (unbegrenzt)",
+      "free_plan_hint": "Sie nutzen den kostenlosen Hobby-Tarif. Jederzeit upgraden möglich.",
+      "managed_billing_hint": "Dieses Konto wird per Rechnung abgerechnet. Ihr Tarif wird von unserem Team verwaltet — kontaktieren Sie uns für Änderungen.",
+      "renews_on": "Verlängert sich am {date}.",
+      "cancels_on": "Ihr Tarif wird am {date} gekündigt.",
+      "upgrade": "Upgraden",
+      "choose_plan": "Tarif wählen",
+      "change_plan": "Tarif ändern",
+      "downgrade_via_portal": "Herabstufen",
+      "checkout_success": "Ihr Abonnement ist jetzt aktiv. Willkommen!",
+      "checkout_cancelled": "Der Bezahlvorgang wurde abgebrochen. Es wurden keine Änderungen vorgenommen.",
+      "upsell_blocked": "Diese Funktion ist in Ihrem aktuellen Tarif nicht enthalten. Upgraden Sie, um sie freizuschalten.",
+      "action_error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "status": {
+        "active": "Aktiv",
+        "trialing": "Testphase",
+        "past_due": "Überfällig",
+        "canceled": "Gekündigt",
+        "incomplete": "Unvollständig",
+        "incomplete_expired": "Abgelaufen",
+        "unpaid": "Unbezahlt",
+        "paused": "Pausiert"
       }
     },
     "pricing": {
