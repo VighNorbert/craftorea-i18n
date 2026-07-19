@@ -55,6 +55,7 @@
     "nav": {
       "all_products": "Alle Produkte",
       "about": "Über uns",
+      "blog": "Blog",
       "order_status": "Bestellstatus",
       "favourites": "Ihre Favoriten",
       "faq": "Häufig gestellte Fragen",
@@ -100,7 +101,8 @@
         "docs": "Dokumente",
         "settings_email": "E-Mail (SMTP)",
         "settings_api_keys": "API-Schlüssel",
-        "settings_billing": "Abonnement"
+        "settings_billing": "Abonnement",
+        "blog": "Blog"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -288,6 +290,21 @@
       },
       "filters": {
         "email": "E-Mail"
+      }
+    },
+    "AdminBlogPostsGrid": {
+      "cover_image": "Bild",
+      "title": "Titel",
+      "status": "Status",
+      "language_id": "Sprache",
+      "published_at": "Veröffentlicht",
+      "updated_at": "Aktualisiert",
+      "buttons": {
+        "new_post": "Neu hinzufügen"
+      },
+      "filters": {
+        "title": "Titel",
+        "status": "Status"
       }
     }
   },
@@ -1168,6 +1185,15 @@
     "title": "Über uns",
     "no_text": "Dieser Inhalt wird derzeit vorbereitet."
   },
+  "blog": {
+    "title": "Blog",
+    "meta_title": "Blog",
+    "empty": "Noch keine Artikel.",
+    "read_more": "Weiterlesen",
+    "published_on": "Veröffentlicht am {date}",
+    "related_products": "Im Artikel erwähnte Produkte",
+    "back_to_blog": "Zurück zum Blog"
+  },
   "unit": {
     "ks": "Stk.",
     "pár": "Paar",
@@ -1861,6 +1887,8 @@
       "feature_allow_invoices_desc": "Aktiviert die Rechnungserstellung für Bestellungen und zeigt das Menü Rechnungen.",
       "feature_allow_availability": "Verfügbarkeits- (Bestands-) Verfolgung aktivieren",
       "feature_allow_availability_desc": "Verfolgt und zeigt die Lagerverfügbarkeit bei Produkten und in Bestell-E-Mails.",
+      "feature_allow_blog": "Blog",
+      "feature_allow_blog_desc": "Zeigt in Ihrem E-Shop einen Blog mit KI-unterstützten Artikeln. Artikel verbessern die SEO und werden vor der Veröffentlichung immer von Ihnen geprüft.",
       "field_frame_photo_price": "Preis pro gerahmtes Foto",
       "field_frame_photo_price_desc": "Preis für die Option „Foto im Rahmen“ im Shop.",
       "email_meta_title": "E-Mail (SMTP)",
@@ -2044,6 +2072,93 @@
       "answer": "Antwort",
       "add_question": "Frage hinzufügen"
     },
+    "blog": {
+      "meta_title": "Blog",
+      "title": "Blog",
+      "subtitle": "Erstellen Sie SEO-Artikel mit KI auf Basis Ihrer Produkte. Vor der Veröffentlichung prüfen und bearbeiten immer Sie.",
+      "new_post": "Neuer Artikel",
+      "not_enabled": "Der Blog ist in Ihrem E-Shop nicht aktiviert. Kunden sehen ihn erst, wenn Sie ihn unter Einstellungen → Funktionen aktivieren.",
+      "not_enabled_link": "Funktionseinstellungen öffnen",
+      "no_ai_key": "Es ist kein AI-API-Schlüssel hinterlegt. Fügen Sie zuerst einen Anthropic- oder OpenAI-Schlüssel hinzu.",
+      "no_ai_key_link": "API-Schlüssel öffnen",
+      "test_connection": "Verbindung testen",
+      "test_ok": "Verbindung funktioniert",
+      "outline_stale": "Der Artikeltext wurde aus der vorherigen Gliederung generiert. Schreiben Sie betroffene Abschnitte nach einer Gliederungsänderung neu.",
+      "suggestions": {
+        "title": "Themenvorschläge",
+        "empty": "Noch keine Vorschläge. Lassen Sie sich welche von der KI generieren.",
+        "create": "Artikel schreiben",
+        "dismiss": "Ablehnen",
+        "refresh": "Themen vorschlagen",
+        "refreshing": "Vorschläge werden generiert…",
+        "limit_reached": "Sie haben bereits die maximale Anzahl offener Vorschläge."
+      },
+      "wizard": {
+        "step_topic": "Thema",
+        "step_outline": "Gliederung",
+        "step_draft": "Entwurf",
+        "step_seo": "SEO",
+        "step_review": "Prüfen & veröffentlichen"
+      },
+      "form": {
+        "topic": "Thema",
+        "topic_placeholder": "Worum soll es im Artikel gehen?",
+        "language": "Sprache",
+        "keywords": "Ziel-Keywords",
+        "keywords_placeholder": "Keyword eingeben und Enter drücken",
+        "products": "Vorgestellte Produkte",
+        "products_hint": "Die KI verlinkt diese Produkte auf natürliche Weise im Artikel.",
+        "brief": "Ton & Zielgruppe (optional)",
+        "brief_placeholder": "Z. B. freundlich, für Eltern, die handgemachtes Spielzeug kaufen",
+        "provider": "KI-Modell",
+        "title": "Titel",
+        "slug": "URL-Slug",
+        "excerpt": "Auszug",
+        "meta_title": "Meta-Titel",
+        "meta_description": "Meta-Beschreibung",
+        "cover_image": "Titelbild"
+      },
+      "actions": {
+        "generate_outline": "Gliederung generieren",
+        "regenerate": "Neu generieren",
+        "regenerate_section": "Abschnitt neu schreiben",
+        "generate_draft": "Entwurf generieren",
+        "generating_section": "Schreibe Abschnitt {current} von {total}…",
+        "generate_seo": "SEO-Prüfung starten",
+        "apply_suggestion": "Übernehmen",
+        "add_section": "Abschnitt hinzufügen",
+        "remove_section": "Entfernen",
+        "instructions_placeholder": "Optionale Anweisungen für die KI…",
+        "publish": "Veröffentlichen",
+        "unpublish": "Veröffentlichung aufheben",
+        "archive": "Archivieren",
+        "restore": "Wiederherstellen",
+        "delete": "Löschen",
+        "save": "Speichern",
+        "continue": "Weiter"
+      },
+      "seo": {
+        "internal_links": "Vorgeschlagene Produktlinks",
+        "keyword_review": "Keyword-Auswertung",
+        "suggested_slug": "Vorgeschlagener Slug"
+      },
+      "status": {
+        "topic": "Thema",
+        "outline": "Gliederung",
+        "draft": "Entwurf",
+        "review": "In Prüfung",
+        "published": "Veröffentlicht",
+        "archived": "Archiviert"
+      },
+      "errors": {
+        "not_configured": "Es ist kein AI-API-Schlüssel hinterlegt. Fügen Sie ihn unter Einstellungen → API-Schlüssel hinzu.",
+        "invalid_key": "Der API-Schlüssel ist ungültig.",
+        "generation_failed": "Die Generierung ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "slug_taken": "Dieser URL-Slug wird bereits von einem anderen Artikel verwendet.",
+        "publish_incomplete": "Ergänzen Sie vor der Veröffentlichung Titel, URL-Slug und Artikeltext.",
+        "delete_published": "Ein veröffentlichter Artikel kann nicht gelöscht werden. Archivieren Sie ihn stattdessen."
+      }
+    },
     "api_keys": {
       "meta_title": "API-Schlüssel",
       "title": "API-Schlüssel der Integrationen",
@@ -2055,6 +2170,7 @@
       "category_shipping": "Versand",
       "category_marketplace": "Marktplätze",
       "category_invoicing": "Rechnungsstellung",
+      "category_ai": "KI",
       "add_integration": "Integration hinzufügen",
       "add_description": "Wählen Sie eine Integration zum Verbinden und geben Sie die Zugangsdaten ein.",
       "all_configured": "Alle Integrationen sind bereits verbunden.",

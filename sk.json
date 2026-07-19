@@ -55,6 +55,7 @@
     "nav": {
       "all_products": "Všetky výrobky",
       "about": "O nás",
+      "blog": "Blog",
       "order_status": "Stav objednávky",
       "favourites": "Obľúbené výrobky",
       "faq": "Najčastejšie otázky",
@@ -100,7 +101,8 @@
         "docs": "Dokumenty",
         "settings_email": "E-mail (SMTP)",
         "settings_api_keys": "API kľúče",
-        "settings_billing": "Predplatné"
+        "settings_billing": "Predplatné",
+        "blog": "Blog"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -288,6 +290,21 @@
       },
       "filters": {
         "email": "E-mail"
+      }
+    },
+    "AdminBlogPostsGrid": {
+      "cover_image": "Obrázok",
+      "title": "Názov",
+      "status": "Stav",
+      "language_id": "Jazyk",
+      "published_at": "Zverejnené",
+      "updated_at": "Upravené",
+      "buttons": {
+        "new_post": "Pridať nový"
+      },
+      "filters": {
+        "title": "Názov",
+        "status": "Stav"
       }
     }
   },
@@ -1168,6 +1185,15 @@
     "title": "O nás",
     "no_text": "Tento obsah pre Vás momentálne pripravujeme."
   },
+  "blog": {
+    "title": "Blog",
+    "meta_title": "Blog",
+    "empty": "Zatiaľ žiadne články.",
+    "read_more": "Čítať viac",
+    "published_on": "Zverejnené {date}",
+    "related_products": "Produkty spomenuté v článku",
+    "back_to_blog": "Späť na blog"
+  },
   "unit": {
     "ks": "ks",
     "pár": "pár",
@@ -1861,6 +1887,8 @@
       "feature_allow_invoices_desc": "Povolí generovanie faktúr k objednávkam a zobrazí menu Faktúry.",
       "feature_allow_availability": "Povoliť sledovanie dostupnosti (skladu)",
       "feature_allow_availability_desc": "Sleduje a zobrazuje skladovú dostupnosť pri produktoch a v e-mailoch objednávok.",
+      "feature_allow_blog": "Blog",
+      "feature_allow_blog_desc": "Zobrazí na vašom eshope blog s článkami písanými pomocou AI. Články zlepšujú SEO a pred zverejnením ich vždy schvaľujete vy.",
       "field_frame_photo_price": "Cena za fotografiu v ráme",
       "field_frame_photo_price_desc": "Cena za možnosť „fotografia v ráme“ v obchode.",
       "email_meta_title": "E-mail (SMTP)",
@@ -2044,6 +2072,93 @@
       "answer": "Odpoveď",
       "add_question": "Pridať otázku"
     },
+    "blog": {
+      "meta_title": "Blog",
+      "title": "Blog",
+      "subtitle": "Vytvárajte SEO články pomocou AI na základe vašich produktov. Pred zverejnením ich vždy skontrolujete a upravíte vy.",
+      "new_post": "Nový článok",
+      "not_enabled": "Blog nie je na vašom eshope zapnutý. Zákazníci ho neuvidia, kým ho nezapnete v Nastavenia → Funkcie.",
+      "not_enabled_link": "Otvoriť nastavenia funkcií",
+      "no_ai_key": "Nie je nastavený žiadny AI API kľúč. Najprv pridajte kľúč Anthropic alebo OpenAI.",
+      "no_ai_key_link": "Otvoriť API kľúče",
+      "test_connection": "Otestovať pripojenie",
+      "test_ok": "Pripojenie funguje",
+      "outline_stale": "Telo článku bolo vygenerované z predchádzajúcej osnovy. Po zmene osnovy prepíšte dotknuté sekcie.",
+      "suggestions": {
+        "title": "Návrhy tém",
+        "empty": "Zatiaľ žiadne návrhy. Nechajte si ich vygenerovať pomocou AI.",
+        "create": "Napísať článok",
+        "dismiss": "Zamietnuť",
+        "refresh": "Navrhnúť témy",
+        "refreshing": "Generujem návrhy…",
+        "limit_reached": "Už máte maximálny počet čakajúcich návrhov."
+      },
+      "wizard": {
+        "step_topic": "Téma",
+        "step_outline": "Osnova",
+        "step_draft": "Koncept",
+        "step_seo": "SEO",
+        "step_review": "Kontrola a zverejnenie"
+      },
+      "form": {
+        "topic": "Téma",
+        "topic_placeholder": "O čom má článok byť?",
+        "language": "Jazyk",
+        "keywords": "Cieľové kľúčové slová",
+        "keywords_placeholder": "Zadajte kľúčové slovo a stlačte Enter",
+        "products": "Prezentované produkty",
+        "products_hint": "AI tieto produkty prirodzene prepojí v článku.",
+        "brief": "Tón a publikum (voliteľné)",
+        "brief_placeholder": "Napr. priateľský, pre rodičov kupujúcich ručne robené hračky",
+        "provider": "AI model",
+        "title": "Názov",
+        "slug": "URL adresa",
+        "excerpt": "Perex",
+        "meta_title": "Meta titulok",
+        "meta_description": "Meta popis",
+        "cover_image": "Úvodný obrázok"
+      },
+      "actions": {
+        "generate_outline": "Vygenerovať osnovu",
+        "regenerate": "Vygenerovať znova",
+        "regenerate_section": "Prepísať sekciu",
+        "generate_draft": "Vygenerovať článok",
+        "generating_section": "Píšem sekciu {current} z {total}…",
+        "generate_seo": "Spustiť SEO kontrolu",
+        "apply_suggestion": "Použiť",
+        "add_section": "Pridať sekciu",
+        "remove_section": "Odstrániť",
+        "instructions_placeholder": "Voliteľné pokyny pre AI…",
+        "publish": "Zverejniť",
+        "unpublish": "Zrušiť zverejnenie",
+        "archive": "Archivovať",
+        "restore": "Obnoviť",
+        "delete": "Vymazať",
+        "save": "Uložiť",
+        "continue": "Pokračovať"
+      },
+      "seo": {
+        "internal_links": "Navrhované odkazy na produkty",
+        "keyword_review": "Vyhodnotenie kľúčových slov",
+        "suggested_slug": "Navrhovaná URL adresa"
+      },
+      "status": {
+        "topic": "Téma",
+        "outline": "Osnova",
+        "draft": "Koncept",
+        "review": "Na kontrolu",
+        "published": "Zverejnený",
+        "archived": "Archivovaný"
+      },
+      "errors": {
+        "not_configured": "Nie je nastavený žiadny AI API kľúč. Pridajte ho v Nastavenia → API kľúče.",
+        "invalid_key": "API kľúč je neplatný.",
+        "generation_failed": "Generovanie zlyhalo. Skúste to znova.",
+        "slug_taken": "Túto URL adresu už používa iný článok.",
+        "publish_incomplete": "Pred zverejnením doplňte názov, URL adresu a telo článku.",
+        "delete_published": "Zverejnený článok nie je možné vymazať. Namiesto toho ho archivujte."
+      }
+    },
     "api_keys": {
       "meta_title": "API kľúče",
       "title": "API kľúče integrácií",
@@ -2055,6 +2170,7 @@
       "category_shipping": "Doprava",
       "category_marketplace": "Trhoviská",
       "category_invoicing": "Fakturácia",
+      "category_ai": "AI",
       "add_integration": "Pridať integráciu",
       "add_description": "Vyberte integráciu, ktorú chcete pripojiť, a zadajte prístupové údaje.",
       "all_configured": "Všetky integrácie sú už pripojené.",

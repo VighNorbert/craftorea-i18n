@@ -55,6 +55,7 @@
     "nav": {
       "all_products": "All products",
       "about": "About us",
+      "blog": "Blog",
       "order_status": "Order status",
       "favourites": "Your favorites",
       "faq": "FAQ",
@@ -100,7 +101,8 @@
         "docs": "Documents",
         "settings_email": "Email (SMTP)",
         "settings_api_keys": "API keys",
-        "settings_billing": "Subscription"
+        "settings_billing": "Subscription",
+        "blog": "Blog"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
@@ -288,6 +290,21 @@
       },
       "filters": {
         "email": "Email"
+      }
+    },
+    "AdminBlogPostsGrid": {
+      "cover_image": "Cover",
+      "title": "Title",
+      "status": "Status",
+      "language_id": "Language",
+      "published_at": "Published",
+      "updated_at": "Updated",
+      "buttons": {
+        "new_post": "Add new"
+      },
+      "filters": {
+        "title": "Title",
+        "status": "Status"
       }
     }
   },
@@ -1168,6 +1185,15 @@
     "title": "About us",
     "no_text": "This content is currently being prepared."
   },
+  "blog": {
+    "title": "Blog",
+    "meta_title": "Blog",
+    "empty": "No articles yet.",
+    "read_more": "Read more",
+    "published_on": "Published on {date}",
+    "related_products": "Products mentioned in this article",
+    "back_to_blog": "Back to blog"
+  },
   "unit": {
     "ks": "pc",
     "pár": "pair",
@@ -1861,6 +1887,8 @@
       "feature_allow_invoices_desc": "Enables invoice generation for orders and shows the Invoices menu.",
       "feature_allow_availability": "Enable availability (stock) tracking",
       "feature_allow_availability_desc": "Tracks and displays stock availability on products and in order emails.",
+      "feature_allow_blog": "Blog",
+      "feature_allow_blog_desc": "Show an AI-assisted blog on your storefront. Articles improve SEO and are always reviewed by you before publishing.",
       "field_frame_photo_price": "Price per framed photo",
       "field_frame_photo_price_desc": "Price charged for the photo-in-frame option in the shop.",
       "email_meta_title": "Email (SMTP)",
@@ -2044,6 +2072,93 @@
       "answer": "Answer",
       "add_question": "Add question"
     },
+    "blog": {
+      "meta_title": "Blog",
+      "title": "Blog",
+      "subtitle": "Create SEO articles with AI, grounded in your products. You always review and edit before publishing.",
+      "new_post": "New article",
+      "not_enabled": "The blog is not enabled on your eshop. Customers will not see it until you enable it in Settings → Features.",
+      "not_enabled_link": "Open feature settings",
+      "no_ai_key": "No AI API key is configured. Add an Anthropic or OpenAI key first.",
+      "no_ai_key_link": "Open API keys",
+      "test_connection": "Test connection",
+      "test_ok": "Connection works",
+      "outline_stale": "The article body was generated from the previous outline. Regenerate the affected sections after changing the outline.",
+      "suggestions": {
+        "title": "Topic suggestions",
+        "empty": "No suggestions yet. Generate some with AI.",
+        "create": "Write article",
+        "dismiss": "Dismiss",
+        "refresh": "Suggest topics",
+        "refreshing": "Generating suggestions…",
+        "limit_reached": "You already have the maximum number of pending suggestions."
+      },
+      "wizard": {
+        "step_topic": "Topic",
+        "step_outline": "Outline",
+        "step_draft": "Draft",
+        "step_seo": "SEO",
+        "step_review": "Review & publish"
+      },
+      "form": {
+        "topic": "Topic",
+        "topic_placeholder": "What should the article be about?",
+        "language": "Language",
+        "keywords": "Target keywords",
+        "keywords_placeholder": "Add a keyword and press Enter",
+        "products": "Featured products",
+        "products_hint": "The AI links these products naturally in the article.",
+        "brief": "Tone & audience (optional)",
+        "brief_placeholder": "E.g. friendly, for parents buying handmade toys",
+        "provider": "AI model",
+        "title": "Title",
+        "slug": "URL slug",
+        "excerpt": "Excerpt",
+        "meta_title": "Meta title",
+        "meta_description": "Meta description",
+        "cover_image": "Cover image"
+      },
+      "actions": {
+        "generate_outline": "Generate outline",
+        "regenerate": "Regenerate",
+        "regenerate_section": "Regenerate section",
+        "generate_draft": "Generate draft",
+        "generating_section": "Writing section {current} of {total}…",
+        "generate_seo": "Run SEO check",
+        "apply_suggestion": "Apply",
+        "add_section": "Add section",
+        "remove_section": "Remove",
+        "instructions_placeholder": "Optional instructions for the AI…",
+        "publish": "Publish",
+        "unpublish": "Unpublish",
+        "archive": "Archive",
+        "restore": "Restore",
+        "delete": "Delete",
+        "save": "Save",
+        "continue": "Continue"
+      },
+      "seo": {
+        "internal_links": "Suggested product links",
+        "keyword_review": "Keyword review",
+        "suggested_slug": "Suggested slug"
+      },
+      "status": {
+        "topic": "Topic",
+        "outline": "Outline",
+        "draft": "Draft",
+        "review": "In review",
+        "published": "Published",
+        "archived": "Archived"
+      },
+      "errors": {
+        "not_configured": "No AI API key is set. Add one in Settings → API keys.",
+        "invalid_key": "The API key is invalid.",
+        "generation_failed": "Generation failed. Please try again.",
+        "slug_taken": "This URL slug is already used by another article.",
+        "publish_incomplete": "Add a title, URL slug and article body before publishing.",
+        "delete_published": "A published article cannot be deleted. Archive it instead."
+      }
+    },
     "api_keys": {
       "meta_title": "API keys",
       "title": "Integration API keys",
@@ -2055,6 +2170,7 @@
       "category_shipping": "Shipping",
       "category_marketplace": "Marketplaces",
       "category_invoicing": "Invoicing",
+      "category_ai": "AI",
       "add_integration": "Add integration",
       "add_description": "Choose an integration to connect, then enter its credentials.",
       "all_configured": "All integrations are already connected.",
