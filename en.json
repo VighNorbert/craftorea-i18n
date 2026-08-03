@@ -491,6 +491,7 @@
       "same_as_billing": "Same as billing",
       "shipping_payment": "Shipping and payment",
       "shipping_method": "Delivery method",
+      "pickup_point": "Pickup point",
       "payment_method": "Payment method",
       "gdpr_consent": "I agree to the",
       "gdpr_link": "processing of personal data",
@@ -986,6 +987,7 @@
       "delivery_payment": {
         "title": "Shipping and payment",
         "shipping_method": "Delivery method",
+        "pickup_point": "Pickup point",
         "payment_method": "Payment method"
       },
       "note": "Order note"

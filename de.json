@@ -491,6 +491,7 @@
       "same_as_billing": "Gleich wie Rechnungsadresse",
       "shipping_payment": "Versand und Zahlung",
       "shipping_method": "Liefermethode",
+      "pickup_point": "Abholpunkt",
       "payment_method": "Zahlungsart",
       "gdpr_consent": "Ich habe Kenntnis genommen von der",
       "gdpr_link": "Verarbeitung personenbezogener Daten",
@@ -986,6 +987,7 @@
       "delivery_payment": {
         "title": "Versand und Zahlung",
         "shipping_method": "Liefermethode",
+        "pickup_point": "Abholpunkt",
         "payment_method": "Zahlungsart"
       },
       "note": "Bestellnotiz"

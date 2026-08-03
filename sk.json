@@ -491,6 +491,7 @@
       "same_as_billing": "Rovnaká ako fakturačná",
       "shipping_payment": "Doprava a platba",
       "shipping_method": "Spôsob doručenia",
+      "pickup_point": "Výdajné miesto",
       "payment_method": "Spôsob platby",
       "gdpr_consent": "Beriem na vedomie",
       "gdpr_link": "spracovanie osobných údajov",
@@ -986,6 +987,7 @@
       "delivery_payment": {
         "title": "Doprava a platba",
         "shipping_method": "Spôsob doručenia",
+        "pickup_point": "Výdajné miesto",
         "payment_method": "Spôsob platby"
       },
       "note": "Poznámka k objednávke"
