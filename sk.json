@@ -1719,6 +1719,7 @@
       "country": "Štát",
       "delivery_address": "Doručovacia adresa",
       "same_as_billing": "Rovnaká ako fakturačná",
+      "pickup_point": "Výdajné miesto",
       "recipient_name": "Meno adresáta",
       "invoice_creation_failed": "Nepodarilo sa vytvoriť faktúru",
       "confirm_order": "Potvrdiť objednávku",

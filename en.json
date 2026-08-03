@@ -1719,6 +1719,7 @@
       "country": "Country",
       "delivery_address": "Delivery address",
       "same_as_billing": "Same as billing",
+      "pickup_point": "Pickup point",
       "recipient_name": "Recipient name",
       "invoice_creation_failed": "Failed to create invoice",
       "confirm_order": "Confirm order",

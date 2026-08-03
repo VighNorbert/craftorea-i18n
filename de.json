@@ -1719,6 +1719,7 @@
       "country": "Land",
       "delivery_address": "Lieferadresse",
       "same_as_billing": "Wie Rechnungsadresse",
+      "pickup_point": "Abholpunkt",
       "recipient_name": "Name des Empfängers",
       "invoice_creation_failed": "Rechnung konnte nicht erstellt werden",
       "confirm_order": "Bestellung bestätigen",
