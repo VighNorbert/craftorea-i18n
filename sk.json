@@ -654,7 +654,8 @@
       "slovak_post": "doručovanie Slovenskou poštou",
       "pickup": "osobný odber v dohodnutom čase na adrese:",
       "packeta": "doručenie do výdajného miesta siete Packeta",
-      "gls": "doručenie GLS kuriérom"
+      "gls": "doručenie GLS kuriérom",
+      "dpd": "doručenie DPD kuriérom"
     },
     "shipping_cost": {
       "title": "Cena dopravy",

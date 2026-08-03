@@ -654,7 +654,8 @@
       "slovak_post": "delivery by Slovak Post",
       "pickup": "personal pickup at agreed time at the address:",
       "packeta": "delivery to a Packeta network pickup point",
-      "gls": "delivery by GLS courier"
+      "gls": "delivery by GLS courier",
+      "dpd": "delivery by DPD courier"
     },
     "shipping_cost": {
       "title": "Shipping cost",

@@ -654,7 +654,8 @@
       "slovak_post": "Lieferung per Slowakischer Post",
       "pickup": "Persönliche Abholung zum vereinbarten Zeitpunkt unter folgender Adresse:",
       "packeta": "Lieferung zu einem Packeta-Abholpunkt",
-      "gls": "Lieferung per GLS-Kurier"
+      "gls": "Lieferung per GLS-Kurier",
+      "dpd": "Lieferung per DPD-Kurier"
     },
     "shipping_cost": {
       "title": "Versandkosten",
