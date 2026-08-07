@@ -1204,6 +1204,59 @@
     }
   },
   "admin": {
+    "documents": {
+      "new_document": "New document",
+      "edit_document": "Edit document",
+      "empty": "No documents yet.",
+      "preview": "Preview",
+      "columns": {
+        "title": "Title",
+        "type": "Type",
+        "language": "Language",
+        "updated_at": "Updated"
+      },
+      "fields": {
+        "type": "Type",
+        "language": "Language",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "content": "Content"
+      },
+      "types": {
+        "vop": "Terms and conditions",
+        "gdpr": "Personal data protection",
+        "reklamacie": "Complaint policy",
+        "odstupenie": "Right of withdrawal",
+        "povinnosti": "Special informational obligations",
+        "ars": "Alternative dispute resolution"
+      },
+      "content_mode": {
+        "rich": "Rich text",
+        "html": "HTML source",
+        "hint": "Edit visually, or switch to HTML source to fine-tune the markup used for the PDF."
+      },
+      "buttons": {
+        "new": "New document",
+        "edit": "Edit",
+        "save": "Save",
+        "saving": "Saving…",
+        "cancel": "Cancel",
+        "delete": "Delete"
+      },
+      "delete_confirm": {
+        "title": "Delete document?",
+        "description": "This permanently removes the document. This action cannot be undone."
+      },
+      "errors": {
+        "title_required": "Title is required."
+      },
+      "toasts": {
+        "created": "Document created.",
+        "updated": "Document updated.",
+        "deleted": "Document deleted.",
+        "error": "Something went wrong. Please try again."
+      }
+    },
     "onboarding": {
       "getting_started": "Getting started",
       "create_shop": "Create shop",

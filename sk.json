@@ -1204,6 +1204,59 @@
     }
   },
   "admin": {
+    "documents": {
+      "new_document": "Nový dokument",
+      "edit_document": "Upraviť dokument",
+      "empty": "Zatiaľ žiadne dokumenty.",
+      "preview": "Náhľad",
+      "columns": {
+        "title": "Názov",
+        "type": "Typ",
+        "language": "Jazyk",
+        "updated_at": "Upravené"
+      },
+      "fields": {
+        "type": "Typ",
+        "language": "Jazyk",
+        "title": "Názov",
+        "subtitle": "Podnadpis",
+        "content": "Obsah"
+      },
+      "types": {
+        "vop": "Všeobecné obchodné podmienky",
+        "gdpr": "Ochrana osobných údajov",
+        "reklamacie": "Reklamačný poriadok",
+        "odstupenie": "Právo na odstúpenie od zmluvy",
+        "povinnosti": "Osobitné informačné povinnosti",
+        "ars": "Alternatívne riešenie sporov"
+      },
+      "content_mode": {
+        "rich": "Formátovaný text",
+        "html": "HTML zdroj",
+        "hint": "Upravujte vizuálne alebo prepnite na HTML zdroj a doladťe značkovanie pre PDF."
+      },
+      "buttons": {
+        "new": "Nový dokument",
+        "edit": "Upraviť",
+        "save": "Uložiť",
+        "saving": "Ukladá sa…",
+        "cancel": "Zrušiť",
+        "delete": "Odstrániť"
+      },
+      "delete_confirm": {
+        "title": "Odstrániť dokument?",
+        "description": "Týmto sa dokument natrvalo odstráni. Túto akciu nie je možné vrátiť späť."
+      },
+      "errors": {
+        "title_required": "Názov je povinný."
+      },
+      "toasts": {
+        "created": "Dokument bol vytvorený.",
+        "updated": "Dokument bol upravený.",
+        "deleted": "Dokument bol odstránený.",
+        "error": "Niečo sa pokazilo. Skúste to znova."
+      }
+    },
     "onboarding": {
       "getting_started": "Začíname",
       "create_shop": "Vytvoriť obchod",
