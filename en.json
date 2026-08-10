@@ -1912,8 +1912,12 @@
       "kpi_items_sold": "Items sold",
       "kpi_review_rate": "Review rate",
       "kpi_review_rate_hint": "Reviewed web orders",
-      "chart_current": "Current",
-      "chart_previous": "Previous"
+      "chart_previous": "Previous",
+      "chart_total": "Total",
+      "source_web": "Web",
+      "source_sashe": "Sashe.sk",
+      "source_etsy": "Etsy",
+      "source_in_person": "In person"
     },
     "promos": {
       "new_promo": "New promo code",

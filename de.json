@@ -1912,8 +1912,12 @@
       "kpi_items_sold": "Verkaufte Artikel",
       "kpi_review_rate": "Bewertungsrate",
       "kpi_review_rate_hint": "Bewertete Web-Bestellungen",
-      "chart_current": "Aktuell",
-      "chart_previous": "Vorherige"
+      "chart_previous": "Vorherige",
+      "chart_total": "Gesamt",
+      "source_web": "Web",
+      "source_sashe": "Sashe.sk",
+      "source_etsy": "Etsy",
+      "source_in_person": "Vor Ort"
     },
     "promos": {
       "new_promo": "Neuer Rabattcode",

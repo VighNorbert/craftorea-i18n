@@ -1912,8 +1912,12 @@
       "kpi_items_sold": "Predané kusy",
       "kpi_review_rate": "Miera recenzií",
       "kpi_review_rate_hint": "Recenzované webové objednávky",
-      "chart_current": "Aktuálne",
-      "chart_previous": "Predchádzajúce"
+      "chart_previous": "Predchádzajúce",
+      "chart_total": "Spolu",
+      "source_web": "Web",
+      "source_sashe": "Sashe.sk",
+      "source_etsy": "Etsy",
+      "source_in_person": "Osobné"
     },
     "promos": {
       "new_promo": "Nový zľavový kód",
