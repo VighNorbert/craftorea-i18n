@@ -1662,7 +1662,11 @@
       "delete_item_confirm": "Naozaj chcete odstrániť túto položku?",
       "business_reg_id": "IČO",
       "tax_id": "DIČ",
-      "vat_id": "IČ DPH"
+      "vat_id": "IČ DPH",
+      "create_title": "Vytvoriť novú faktúru",
+      "create_description": "Vyberte typ faktúry a dodávateľskú firmu.",
+      "create": "Vytvoriť faktúru",
+      "invoice_type": "Typ faktúry"
     },
     "orders": {
       "invoices": "Faktúry",

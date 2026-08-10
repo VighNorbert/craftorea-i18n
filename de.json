@@ -1662,7 +1662,11 @@
       "delete_item_confirm": "Möchten Sie diese Position wirklich löschen?",
       "business_reg_id": "Firmen-ID",
       "tax_id": "Steuernummer",
-      "vat_id": "USt-IdNr."
+      "vat_id": "USt-IdNr.",
+      "create_title": "Neue Rechnung erstellen",
+      "create_description": "Wählen Sie den Rechnungstyp und das Lieferantenunternehmen aus.",
+      "create": "Rechnung erstellen",
+      "invoice_type": "Rechnungstyp"
     },
     "orders": {
       "invoices": "Rechnungen",

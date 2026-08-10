@@ -1662,7 +1662,11 @@
       "delete_item_confirm": "Do you really want to delete this item?",
       "business_reg_id": "Company ID",
       "tax_id": "Tax ID",
-      "vat_id": "VAT ID"
+      "vat_id": "VAT ID",
+      "create_title": "Create a new invoice",
+      "create_description": "Choose the invoice type and the supplier company.",
+      "create": "Create invoice",
+      "invoice_type": "Invoice type"
     },
     "orders": {
       "invoices": "Invoices",
