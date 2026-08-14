@@ -2077,6 +2077,7 @@
       "header": {
         "features": "Funktionen",
         "pricing": "Preise",
+        "compare": "Vergleich",
         "contact": "Kontakt",
         "login": "Anmelden",
         "getStarted": "Loslegen",
@@ -2145,6 +2146,7 @@
         "links": {
           "features": "Funktionen",
           "pricing": "Preise",
+          "compare": "Vergleich",
           "contact": "Kontakt",
           "creatorGuide": "Creator-Leitfaden",
           "helpCenter": "Hilfecenter",
@@ -2400,6 +2402,194 @@
         }
       }
     },
+    "compare": {
+      "badge": "Ein ehrlicher Vergleich",
+      "titleStart": "Craftorea vs.",
+      "titleHighlight": "Shopify & Shoptet",
+      "subtitle": "Wie sich eine Plattform für Kreative gegen die großen Allzweck-E-Commerce-Anbieter schlägt.",
+      "intro": "Shopify und Shoptet sind hervorragende Plattformen — für den passenden Shop-Typ. Unten finden Sie einen konstruktiven Blick darauf, wo Craftorea Machern und Kunsthandwerkern einen echten Vorsprung verschafft, einen Funktionsvergleich Punkt für Punkt und eine ehrliche Einschätzung, wann eine andere Plattform besser zu Ihnen passt.",
+      "advantages": {
+        "title": "Wo Craftorea vorne liegt",
+        "subtitle": "Sechs Dinge, die Macher sofort mitgeliefert bekommen — anderswo braucht es Apps, kostenpflichtige Add-ons oder eine Agentur.",
+        "items": {
+          "madeForMakers": {
+            "title": "Nur für Macher gebaut",
+            "description": "Shopify und Shoptet bedienen jede Art von Shop, von Dropshipping bis Lebensmittel. Craftorea ist um handgefertigte Produkte herum entworfen: Fertigung auf Bestellung, Geschenk-Extras, Pflegesymbole für Textilien, bevorzugte Auftragsbearbeitung sowie Bestellungen von Etsy, SAShE, Märkten und dem eigenen Onlineshop in einem Dashboard."
+          },
+          "allInclusive": {
+            "title": "Ein Preis, alles inklusive",
+            "description": "Ein typischer Shopify-Shop zahlt für den Tarif, ein Premium-Theme und einen Stapel monatlicher Apps; Shoptet verkauft viele Funktionen als kostenpflichtige Add-ons. Die Craftorea-Tarife (kostenlos, 39 €, 99 €) enthalten alle Funktionen der Stufe — ohne Einrichtungsgebühren und ohne Plattformgebühr auf Ihre Verkäufe."
+          },
+          "personalization": {
+            "title": "Personalisierung inklusive",
+            "description": "Vom Käufer eingegebene Texte (Gravuren, Widmungen), bepreiste Optionen, Geschenkverpackung als Zusatzprodukte, Foto-Uploads für gerahmte Produkte und bis zu 1.000 Varianten pro Produkt gehören zur Plattform. Bei Shopify bedeutet dasselbe Setup meist eine Personalisierungs-App für bis zu 49 $ im Monat — teils mit eigener Gebühr pro Bestellung."
+          },
+          "invoicing": {
+            "title": "Rechnungen, die Ihre Buchhaltung liebt",
+            "description": "Rechnungen mit fortlaufender Nummerierung, Gutschriften und QR-Zahlungscode werden automatisch erstellt und in der Sprache Ihrer Kundschaft versendet. Exportieren Sie einen ganzen Monat für die Buchhaltung oder übergeben Sie Rechnungen an SuperFaktúra — ganz ohne externe Rechnungs-App."
+          },
+          "euCompliance": {
+            "title": "EU-Konformität ab Werk",
+            "description": "Versionierte AGB, DSGVO- und Reklamationsrichtlinien werden als PDF veröffentlicht und automatisch an jede Bestellbestätigung angehängt. Das 14-tägige EU-Widerrufsrecht ist von Anfang bis Ende abgebildet — inklusive der gesetzlichen Ausnahme für Sonderanfertigungen. Anderswo ist das Ihre Aufgabe."
+          },
+          "multiLanguage": {
+            "title": "Wirklich mehrsprachige Shops",
+            "description": "Betreiben Sie einen Shop in bis zu sieben Sprachen — Produkte, Kategorien, Banner, Rechtsdokumente, Bestell-E-Mails und sogar Rechnungen folgen der Sprache Ihrer Kundschaft. Shopify setzt auf eine Übersetzungs-App mit Limits; bei Shoptet sind Fremdsprachen ein kostenpflichtiges Add-on oder ein separater Shop pro Markt."
+          }
+        }
+      },
+      "table": {
+        "title": "Funktionsvergleich im Detail",
+        "subtitle": "Kurz gesagt: Was bei Craftorea eingebaut ist — und was anderswo Apps, Add-ons oder Umwege erfordert.",
+        "featuresColumn": "Funktion",
+        "platforms": {
+          "craftorea": "Craftorea",
+          "shopify": "Shopify",
+          "shoptet": "Shoptet"
+        },
+        "categories": {
+          "focus": "Fokus & Preise",
+          "makers": "Für Macher",
+          "storefront": "Shop & Reichweite",
+          "operations": "Betrieb & Support"
+        },
+        "rows": {
+          "audience": {
+            "name": "Primäre Zielgruppe"
+          },
+          "freePlan": {
+            "name": "Kostenloser Tarif"
+          },
+          "paidPlans": {
+            "name": "Bezahlte Tarife",
+            "tooltip": "Beworbene Basispreise des Abos — ohne Themes, Apps, Add-ons und Zahlungsabwicklungskosten."
+          },
+          "salesFee": {
+            "name": "Plattformgebühr auf Verkäufe",
+            "tooltip": "Craftorea berechnet nur das Abo — Sie verbinden Ihr eigenes Zahlungsgateway, die Plattform greift nicht auf Ihren Umsatz zu. Shopify berechnet bis zu 2 % extra, wenn Sie nicht Shopify Payments nutzen."
+          },
+          "extrasNeeded": {
+            "name": "Nötige Extras für den vollen Umfang"
+          },
+          "personalization": {
+            "name": "Produktpersonalisierung",
+            "tooltip": "Vom Käufer eingegebene Texte, bepreiste Optionen, Geschenk-Extras und Foto-Uploads für Sonderanfertigungen."
+          },
+          "variants": {
+            "name": "Produktvarianten",
+            "tooltip": "Die Variantenzahl ergibt sich aus multiplizierten Optionen (z. B. 5 Farben × 4 Größen × 2 Materialien = 40 Varianten). Craftorea Pro unterstützt bis zu 1.000 pro Produkt."
+          },
+          "etsyOrders": {
+            "name": "Etsy-Bestellungen & Rechnungen",
+            "tooltip": "Craftorea importiert bezahlte Etsy-Bestellungen in Echtzeit, zeigt sie neben Ihren Shop-Bestellungen an und kann sie automatisch fakturieren."
+          },
+          "customDevelopment": {
+            "name": "Individuelle Entwicklung",
+            "tooltip": "Das Craftorea-Team baut im Pro-Tarif Funktionen und Integrationen, die auf Ihren Shop zugeschnitten sind."
+          },
+          "multiLanguage": {
+            "name": "Mehrsprachiger Shop",
+            "tooltip": "Craftorea Pro übersetzt Produkte, Kategorien, Banner, Dokumente, E-Mails und Rechnungen. Shopifys kostenlose Übersetzungs-App übersetzt automatisch höchstens zwei Sprachen; Shoptet erfordert ein kostenpflichtiges Add-on oder einen separaten Shop pro Markt."
+          },
+          "customDomain": {
+            "name": "Eigene Domain"
+          },
+          "themes": {
+            "name": "Design & Branding"
+          },
+          "mobileResponsive": {
+            "name": "Mobil optimiert"
+          },
+          "seo": {
+            "name": "SEO-Werkzeuge"
+          },
+          "invoicing": {
+            "name": "Rechnungserstellung",
+            "tooltip": "Fortlaufende Nummerierung, Gutschriften, QR-Zahlungscodes, PDFs in der Kundensprache und SuperFaktúra-Integration — eingebaut."
+          },
+          "accountingExport": {
+            "name": "Buchhaltungsexport",
+            "tooltip": "Monatsexport mit einem Klick in einem Format, das slowakische Buchhaltungssoftware direkt importiert."
+          },
+          "euWithdrawal": {
+            "name": "14-tägiges EU-Widerrufsrecht",
+            "tooltip": "Gesetzeskonforme Abwicklung: Fristen, Teilwiderrufe, Ausnahmen für Sonderanfertigungen, Formulare und Bestätigungs-E-Mails."
+          },
+          "discounts": {
+            "name": "Rabatte & Gutscheincodes"
+          },
+          "reviews": {
+            "name": "Bewertungen mit Kundenfotos"
+          },
+          "support": {
+            "name": "Support"
+          }
+        },
+        "values": {
+          "makersOnly": "Macher & Kunsthandwerk",
+          "generalPurpose": "Alle Shop-Typen",
+          "generalCzSk": "Alle Shop-Typen (CZ/SK)",
+          "freeForever": "Dauerhaft kostenloser Tarif",
+          "craftoreaPricing": "39–99 € / Monat",
+          "shopifyPricing": "Ab ca. 29 $ / Monat",
+          "shoptetPricing": "Ab ca. 18 € / Monat",
+          "noneFee": "Keine",
+          "extraGatewayFee": "Bis zu 2 % bei externen Gateways",
+          "allInclusive": "Alles inklusive",
+          "paidAppsThemes": "Kostenpflichtige Apps & Themes",
+          "paidAddons": "Kostenpflichtige Add-ons",
+          "builtIn": "Eingebaut",
+          "viaPaidApps": "Über kostenpflichtige Apps",
+          "viaApps": "Über Apps",
+          "viaAddons": "Über Add-ons",
+          "viaThirdParty": "Über Drittanbieter-Tools",
+          "notNative": "Keine native Funktion",
+          "variants1000": "Bis zu 1.000 pro Produkt",
+          "variants100": "Typischerweise 100 pro Produkt",
+          "includedPro": "Im Pro-Tarif enthalten",
+          "hireAgency": "Über eine Agentur",
+          "premiumOnly": "Nur im Premium-Tarif",
+          "nativePro": "Nativ (Pro-Tarif)",
+          "viaAppLimited": "Per App, mit Limits",
+          "paidAddon": "Kostenpflichtiges Add-on",
+          "guidedSetup": "Geführte automatische Einrichtung",
+          "craftoreaThemes": "Individuelles Branding & Themes",
+          "shopifyThemes": "Kostenlose & bezahlte Themes",
+          "shoptetThemes": "Kleine Vorlagenauswahl",
+          "genericReturns": "Allgemeine Retouren-Tools",
+          "personalSupport": "Persönlich, E-Mail + Telefon",
+          "chatSupport": "24/7-Chat",
+          "businessHours": "Geschäftszeiten (CZ/SK)"
+        },
+        "disclaimer": "Basierend auf öffentlich verfügbaren Informationen zu Shopify und Shoptet, Stand August 2026. Funktionen und Preise ändern sich und können je nach Land und Tarif variieren — prüfen Sie stets die Websites der Anbieter. Shopify und Shoptet sind Marken ihrer jeweiligen Inhaber; keine davon ist mit Craftorea verbunden."
+      },
+      "fair": {
+        "title": "Wann eine andere Plattform besser passt",
+        "subtitle": "Ein Vergleich ist nur nützlich, wenn er ehrlich ist — in diesen Fällen würden wir Sie woanders hinschicken.",
+        "items": {
+          "shopify": {
+            "title": "Shopify: Skalierung und App-Tiefe",
+            "description": "Wenn Sie ein großes Multichannel-Geschäft betreiben, Kassensysteme im Einzelhandel brauchen oder auf einen ganz bestimmten Stack aus Drittanbieter-Tools angewiesen sind, ist Shopifys Ökosystem aus Tausenden Apps, Themes und Agenturen unerreicht."
+          },
+          "shoptet": {
+            "title": "Shoptet: breiter tschechischer E-Commerce",
+            "description": "Wenn Sie ein breites allgemeines Sortiment vor allem auf dem tschechischen Markt verkaufen und von lokalen Preisvergleichen und Marktplatz-Anbindungen leben, ist Shoptets tief verwurzeltes lokales Ökosystem eine bewährte Wahl."
+          }
+        },
+        "closing": "Wenn Ihr Geschäft aber Ihr Handwerk ist, wurde Craftorea genau für Sie gebaut."
+      },
+      "cta": {
+        "title": "Überzeugen Sie sich selbst",
+        "subtitle": "Starten Sie kostenlos, legen Sie Ihre ersten Produkte an und beurteilen Sie Craftorea anhand Ihres eigenen Shops — nicht anhand einer Tabelle.",
+        "benefits": {
+          "freePlan": "Dauerhaft kostenloser Tarif",
+          "noSetupFees": "Keine Einrichtungsgebühren",
+          "personalSupport": "Persönlicher Support"
+        },
+        "button": "Kostenlos starten",
+        "pricingLink": "Preise ansehen"
+      }
+    },
     "contact": {
       "badge": "Kontaktieren Sie uns",
       "title": "Kontakt aufnehmen",
@@ -2467,6 +2657,10 @@
       "pricing": {
         "title": "Preise",
         "description": "Einfache, transparente Preise für Macher und Kreative. Wählen Sie einen Plan für Ihr Geschäft und verkaufen Sie noch heute online."
+      },
+      "compare": {
+        "title": "Craftorea vs. Shopify vs. Shoptet",
+        "description": "Ein ehrlicher Vergleich von Craftorea, Shopify und Shoptet für Macher: Preise, Personalisierung, mehrsprachige Shops, Rechnungen, EU-Konformität und Etsy-Bestellungen."
       },
       "contact": {
         "title": "Kontakt",

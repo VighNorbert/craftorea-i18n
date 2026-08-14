@@ -2077,6 +2077,7 @@
       "header": {
         "features": "Funkcie",
         "pricing": "Cenník",
+        "compare": "Porovnanie",
         "contact": "Kontakt",
         "login": "Prihlásiť sa",
         "getStarted": "Začať",
@@ -2145,6 +2146,7 @@
         "links": {
           "features": "Funkcie",
           "pricing": "Cenník",
+          "compare": "Porovnanie",
           "contact": "Kontakt",
           "creatorGuide": "Príručka pre tvorcov",
           "helpCenter": "Centrum pomoci",
@@ -2400,6 +2402,194 @@
         }
       }
     },
+    "compare": {
+      "badge": "Úprimné porovnanie",
+      "titleStart": "Craftorea vs",
+      "titleHighlight": "Shopify a Shoptet",
+      "subtitle": "Ako si platforma stavaná pre tvorcov stojí v porovnaní s veľkými univerzálnymi e-commerce platformami.",
+      "intro": "Shopify aj Shoptet sú výborné platformy — pre správny typ obchodu. Nižšie nájdete konštruktívny pohľad na to, v čom dáva Craftorea tvorcom a remeselníkom skutočný náskok, porovnanie funkcií bod po bode a úprimnú poznámku, kedy vám môže lepšie poslúžiť iná platforma.",
+      "advantages": {
+        "title": "V čom je Craftorea vpredu",
+        "subtitle": "Šesť vecí, ktoré tvorcovia dostanú hneď v základe — inde si vyžadujú aplikácie, platené doplnky alebo agentúru.",
+        "items": {
+          "madeForMakers": {
+            "title": "Stavaná len pre tvorcov",
+            "description": "Shopify a Shoptet slúžia všetkým typom obchodov, od dropshippingu po potraviny. Craftorea je navrhnutá okolo ručnej výroby: zákazková výroba, darčekové doplnky, symboly údržby pre textil, prednostné spracovanie objednávok a objednávky z Etsy, SAShE, trhov aj vlastného e-shopu v jednom prehľade."
+          },
+          "allInclusive": {
+            "title": "Jedna cena, všetko v nej",
+            "description": "Typický obchod na Shopify platí za plán, prémiovú tému a kopu mesačných aplikácií; Shoptet predáva množstvo funkcií ako platené doplnky. Plány Craftorey (zadarmo, 39 €, 99 €) obsahujú všetky funkcie daného stupňa — bez zriaďovacích poplatkov a bez poplatku platformy z vašich predajov."
+          },
+          "personalization": {
+            "title": "Personalizácia v základe",
+            "description": "Vlastný text od zákazníka (gravírovanie, venovania), spoplatnené možnosti, darčekové balenie ako doplnkové produkty, nahranie fotografie pre rámované produkty a až 1 000 variantov na produkt sú súčasťou platformy. Na Shopify rovnaké nastavenie zvyčajne znamená aplikáciu na personalizáciu až za 49 $ mesačne — niekedy aj s vlastným poplatkom z každej objednávky."
+          },
+          "invoicing": {
+            "title": "Fakturácia, ktorú si účtovníci pochvaľujú",
+            "description": "Faktúry s poradovým číslovaním, dobropisy a QR kód na úhradu sa generujú automaticky a odosielajú v jazyku zákazníka. Celý mesiac vyexportujete pre účtovníka na jedno kliknutie alebo faktúry odošlete do SuperFaktúry — bez externej fakturačnej aplikácie."
+          },
+          "euCompliance": {
+            "title": "Súlad s legislatívou EÚ v základe",
+            "description": "Verziované obchodné podmienky, GDPR a reklamačný poriadok sa publikujú ako PDF a automaticky prikladajú ku každému potvrdeniu objednávky. 14-dňové odstúpenie od zmluvy je vyriešené od začiatku do konca — vrátane zákonnej výnimky pre tovar vyrobený na mieru. Inde je to vaša starosť."
+          },
+          "multiLanguage": {
+            "title": "Skutočne viacjazyčné e-shopy",
+            "description": "Prevádzkujte jeden obchod až v siedmich jazykoch — produkty, kategórie, bannery, dokumenty, e-maily k objednávkam aj faktúry sledujú jazyk zákazníka. Shopify sa spolieha na prekladovú aplikáciu s limitmi; na Shoptete sú cudzie jazyky platený doplnok alebo samostatný e-shop pre každý trh."
+          }
+        }
+      },
+      "table": {
+        "title": "Podrobné porovnanie funkcií",
+        "subtitle": "V skratke: čo má Craftorea v základe a čo inde vyžaduje aplikácie, doplnky či obchádzky.",
+        "featuresColumn": "Funkcia",
+        "platforms": {
+          "craftorea": "Craftorea",
+          "shopify": "Shopify",
+          "shoptet": "Shoptet"
+        },
+        "categories": {
+          "focus": "Zameranie a ceny",
+          "makers": "Pre tvorcov",
+          "storefront": "E-shop a dosah",
+          "operations": "Prevádzka a podpora"
+        },
+        "rows": {
+          "audience": {
+            "name": "Primárne publikum"
+          },
+          "freePlan": {
+            "name": "Bezplatný plán"
+          },
+          "paidPlans": {
+            "name": "Platené plány",
+            "tooltip": "Uvádzané základné ceny predplatného — bez tém, aplikácií, doplnkov a nákladov na spracovanie platieb."
+          },
+          "salesFee": {
+            "name": "Poplatok platformy z predaja",
+            "tooltip": "Craftorea si účtuje len predplatné — platobnú bránu si pripojíte vlastnú a platforma na vaše tržby nesiaha. Shopify si účtuje až 2 % navyše, ak nepoužívate Shopify Payments."
+          },
+          "extrasNeeded": {
+            "name": "Čo si treba doplácať"
+          },
+          "personalization": {
+            "name": "Personalizácia produktov",
+            "tooltip": "Vlastný text od zákazníka, spoplatnené možnosti, darčekové doplnky a nahrávanie fotografií pri výrobe na mieru."
+          },
+          "variants": {
+            "name": "Varianty produktov",
+            "tooltip": "Počet variantov je násobkom možností (napr. 5 farieb × 4 veľkosti × 2 materiály = 40 variantov). Craftorea Pro podporuje až 1 000 na produkt."
+          },
+          "etsyOrders": {
+            "name": "Objednávky z Etsy a fakturácia",
+            "tooltip": "Craftorea importuje zaplatené objednávky z Etsy v reálnom čase, zobrazuje ich vedľa objednávok z webu a vie ich automaticky fakturovať."
+          },
+          "customDevelopment": {
+            "name": "Vývoj na mieru",
+            "tooltip": "Tím Craftorey vám v rámci plánu Pro postaví funkcie a integrácie šité na váš obchod."
+          },
+          "multiLanguage": {
+            "name": "Viacjazyčný e-shop",
+            "tooltip": "Craftorea Pro prekladá produkty, kategórie, bannery, dokumenty, e-maily aj faktúry. Bezplatná prekladová aplikácia Shopify automaticky prekladá najviac dva jazyky; Shoptet vyžaduje platený doplnok alebo samostatný e-shop pre každý trh."
+          },
+          "customDomain": {
+            "name": "Vlastná doména"
+          },
+          "themes": {
+            "name": "Dizajn a branding"
+          },
+          "mobileResponsive": {
+            "name": "Responzívny dizajn"
+          },
+          "seo": {
+            "name": "SEO nástroje"
+          },
+          "invoicing": {
+            "name": "Generovanie faktúr",
+            "tooltip": "Poradové číslovanie, dobropisy, QR kódy na úhradu, PDF v jazyku zákazníka a integrácia so SuperFaktúrou — v základe."
+          },
+          "accountingExport": {
+            "name": "Export pre účtovníctvo",
+            "tooltip": "Mesačný export na jedno kliknutie vo formáte, ktorý slovenský účtovný softvér importuje priamo."
+          },
+          "euWithdrawal": {
+            "name": "14-dňové odstúpenie od zmluvy",
+            "tooltip": "Zákonné odstúpenie od zmluvy: lehoty, čiastočné odstúpenia, výnimky pre tovar na mieru, formuláre a potvrdzujúce e-maily."
+          },
+          "discounts": {
+            "name": "Zľavy a promo kódy"
+          },
+          "reviews": {
+            "name": "Recenzie s fotkami zákazníkov"
+          },
+          "support": {
+            "name": "Podpora"
+          }
+        },
+        "values": {
+          "makersOnly": "Tvorcovia a remeselníci",
+          "generalPurpose": "Všetky typy obchodov",
+          "generalCzSk": "Všetky typy obchodov (CZ/SK)",
+          "freeForever": "Trvalo bezplatný plán",
+          "craftoreaPricing": "39–99 € / mesiac",
+          "shopifyPricing": "Od cca 29 $ / mesiac",
+          "shoptetPricing": "Od cca 18 € / mesiac",
+          "noneFee": "Žiadny",
+          "extraGatewayFee": "Až 2 % pri externých bránach",
+          "allInclusive": "Všetko v cene",
+          "paidAppsThemes": "Platené aplikácie a témy",
+          "paidAddons": "Platené doplnky",
+          "builtIn": "V základe",
+          "viaPaidApps": "Cez platené aplikácie",
+          "viaApps": "Cez aplikácie",
+          "viaAddons": "Cez doplnky",
+          "viaThirdParty": "Cez nástroje tretích strán",
+          "notNative": "Nie je natívna funkcia",
+          "variants1000": "Až 1 000 na produkt",
+          "variants100": "Typicky 100 na produkt",
+          "includedPro": "V cene plánu Pro",
+          "hireAgency": "Cez agentúru",
+          "premiumOnly": "Len v tarife Premium",
+          "nativePro": "Natívne (plán Pro)",
+          "viaAppLimited": "Cez aplikáciu, s limitmi",
+          "paidAddon": "Platený doplnok",
+          "guidedSetup": "Sprievodca s automatickým nastavením",
+          "craftoreaThemes": "Branding a témy na mieru",
+          "shopifyThemes": "Bezplatné aj platené témy",
+          "shoptetThemes": "Malý výber šablón",
+          "genericReturns": "Všeobecné nástroje na vrátenia",
+          "personalSupport": "Osobná, e-mail + telefón",
+          "chatSupport": "Chat 24/7",
+          "businessHours": "Pracovné hodiny (CZ/SK)"
+        },
+        "disclaimer": "Vychádza z verejne dostupných informácií o platformách Shopify a Shoptet k augustu 2026. Funkcie a ceny sa menia a môžu sa líšiť podľa krajiny a plánu — aktuálne podmienky si vždy overte na stránkach poskytovateľov. Shopify a Shoptet sú ochranné známky ich vlastníkov; žiadna z nich nie je prepojená s Craftoreou."
+      },
+      "fair": {
+        "title": "Kedy je lepšou voľbou iná platforma",
+        "subtitle": "Porovnanie má zmysel, len ak je úprimné — toto sú situácie, keď by sme vás nasmerovali inam.",
+        "items": {
+          "shopify": {
+            "title": "Shopify: škálovanie a hĺbka aplikácií",
+            "description": "Ak prevádzkujete veľký viackanálový biznis, potrebujete pokladničný systém v kamenných predajniach alebo ste závislí od špecifickej sady nástrojov tretích strán, ekosystém tisícok aplikácií, tém a agentúr okolo Shopify nemá konkurenciu."
+          },
+          "shoptet": {
+            "title": "Shoptet: široký český e-commerce",
+            "description": "Ak predávate široký všeobecný sortiment najmä na českom trhu a žijete z lokálnych porovnávačov cien a napojení na tržiská, hlboko zakorenený lokálny ekosystém Shoptetu je overená voľba."
+          }
+        },
+        "closing": "Ak je však vaším biznisom vaše remeslo, Craftorea vznikla presne pre vás."
+      },
+      "cta": {
+        "title": "Presvedčte sa na vlastné oči",
+        "subtitle": "Začnite zadarmo, pridajte prvé produkty a posúďte Craftoreu podľa vlastného obchodu — nie podľa tabuľky.",
+        "benefits": {
+          "freePlan": "Trvalo bezplatný plán",
+          "noSetupFees": "Bez zriaďovacích poplatkov",
+          "personalSupport": "Osobná podpora"
+        },
+        "button": "Začať zadarmo",
+        "pricingLink": "Pozrieť cenník"
+      }
+    },
     "contact": {
       "badge": "Kontaktujte nás",
       "title": "Spojte sa s nami",
@@ -2467,6 +2657,10 @@
       "pricing": {
         "title": "Cenník",
         "description": "Jednoduché a transparentné ceny pre tvorcov a remeselníkov. Vyberte si plán, ktorý vyhovuje vášmu podnikaniu, a začnite predávať online už dnes."
+      },
+      "compare": {
+        "title": "Craftorea vs Shopify vs Shoptet",
+        "description": "Úprimné porovnanie platforiem Craftorea, Shopify a Shoptet pre tvorcov: ceny, personalizácia, viacjazyčné e-shopy, fakturácia, súlad s EÚ a objednávky z Etsy."
       },
       "contact": {
         "title": "Kontakt",
