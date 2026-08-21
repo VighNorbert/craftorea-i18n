@@ -100,7 +100,8 @@
         "docs": "Documents",
         "settings_email": "Email (SMTP)",
         "settings_api_keys": "API keys",
-        "settings_billing": "Subscription"
+        "settings_billing": "Subscription",
+        "platform": "Platform"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
@@ -288,6 +289,47 @@
       },
       "filters": {
         "email": "Email"
+      }
+    },
+    "PlatformEshopsGrid": {
+      "name": "Name",
+      "slug": "Slug",
+      "subscription_tier": "Plan",
+      "subscription_status": "Subscription",
+      "suspended": "Susp.",
+      "admin_count": "Admins",
+      "product_count": "Products",
+      "order_count": "Orders",
+      "created_at": "Created",
+      "filters": {
+        "name": "Name or slug",
+        "subscription_tier": "Plan",
+        "subscription_status": "Subscription",
+        "suspended": "Suspended"
+      }
+    },
+    "PlatformUsersGrid": {
+      "email": "Email",
+      "name": "Name",
+      "eshop_name": "Shop",
+      "is_superadmin": "Superadmin",
+      "confirmed": "Confirmed",
+      "created_at": "Created",
+      "filters": {
+        "email": "Email or name",
+        "role": "Role"
+      }
+    },
+    "PlatformInquiriesGrid": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "pricing_plan": "Plan",
+      "handled": "Handled",
+      "created_at": "Received",
+      "filters": {
+        "email": "Email or name",
+        "state": "State"
       }
     }
   },
@@ -833,6 +875,27 @@
         "already_confirmed": "This email address has already been verified.",
         "confirmation_failed": "Failed to verify the email address. Please try again."
       }
+    },
+    "forgot": {
+      "title": "Password reset",
+      "subtitle": "We will email you a link to set a new password.",
+      "email": "Email",
+      "submit": "Send link",
+      "sent": "If an admin account exists for this address, we have emailed a reset link. It is valid for 15 minutes.",
+      "error": "The request could not be sent.",
+      "back_to_login": "Back to sign in"
+    },
+    "reset": {
+      "title": "New password",
+      "subtitle": "Set a new admin panel password.",
+      "password": "New password",
+      "password_hint": "At least 8 characters.",
+      "confirm": "Repeat password",
+      "submit": "Set password",
+      "mismatch": "The passwords do not match.",
+      "error": "The password could not be set.",
+      "invalid_link": "The link is invalid or has expired.",
+      "request_new": "Request a new link"
     }
   },
   "order_status_labels": {
@@ -2500,6 +2563,125 @@
         "title": "Cookie Policy",
         "description": "How Craftorea uses cookies and similar technologies."
       }
+    }
+  },
+  "platform": {
+    "nav": {
+      "wordmark": "Platform",
+      "badge": "Platform",
+      "footer_note": "Internal Craftorea platform operator screens.",
+      "dashboard": "Overview",
+      "eshops": "Shops",
+      "users": "Admins",
+      "inquiries": "Leads",
+      "account": "My account"
+    },
+    "bar": {
+      "notice": "Platform access — you are in {eshop} as Craftorea staff.",
+      "exit": "Back to platform"
+    },
+    "confirm": {
+      "confirm": "Confirm",
+      "revoke_title": "Revoke admin access",
+      "revoke_description": "The account loses the admin role for this shop and is signed out immediately. Its data is kept and access can be granted again.",
+      "demote_title": "Revoke superadmin access",
+      "demote_description": "The platform account is deleted and the user is signed out. Their access to individual shops is unaffected."
+    },
+    "dashboard": {
+      "title": "Platform overview",
+      "subtitle": "The state of every shop on the platform.",
+      "eshops_total": "Shops",
+      "new_this_month": "{count} new this month",
+      "orders_this_month": "Orders this month",
+      "admins_total": "Shop admins",
+      "superadmins": "{count} superadmins",
+      "products_total": "Products",
+      "tiers": "Plans",
+      "statuses": "Subscription status",
+      "attention": "Needs attention",
+      "inquiries_unhandled": "Unhandled leads",
+      "eshops_suspended": "Suspended shops",
+      "signups": "New shops",
+      "signups_desc": "Over the last 12 months.",
+      "no_data": "No data."
+    },
+    "eshops": {
+      "title": "Shops",
+      "subtitle": "Every shop on the platform.",
+      "create": "Create shop",
+      "create_desc": "Creates the shop and grants access to its owner. You stay out of the shop.",
+      "create_error": "The shop could not be created.",
+      "field_name": "Name",
+      "field_slug": "Slug",
+      "field_domain": "Domain",
+      "field_owner_email": "Owner's email",
+      "field_owner_email_desc": "If no account exists yet it is created — the owner sets a password via password reset.",
+      "field_owner_name": "Owner's name",
+      "enter": "Enter shop",
+      "enter_error": "Could not enter the shop.",
+      "suspend": "Suspend",
+      "unsuspend": "Restore",
+      "suspend_confirm": "This shop's admins will not be able to sign in. The storefront keeps serving customers.",
+      "unsuspend_confirm": "This shop's admins regain access to the admin panel.",
+      "suspended": "Suspended",
+      "onboarding_pending": "Setup unfinished",
+      "identity": "Shop",
+      "subscription": "Subscription",
+      "subscription_readonly": "Read-only — this screen does not manage billing.",
+      "content": "Content",
+      "owners": "Shop admins",
+      "owners_desc": "Accounts holding the admin role in this shop.",
+      "no_owners": "This shop has no admin.",
+      "unconfirmed": "Unconfirmed",
+      "field_email": "Email",
+      "field_language": "Language",
+      "field_created": "Created",
+      "field_suspended_at": "Suspended since",
+      "field_tier": "Plan",
+      "field_status": "Status",
+      "field_billing_mode": "Billing mode",
+      "field_period_end": "Period ends",
+      "field_cancel_at_period_end": "Cancels at period end",
+      "field_stripe_customer": "Stripe customer",
+      "field_products": "Products",
+      "field_orders": "Orders",
+      "field_customers": "Customers",
+      "field_onboarding": "Setup",
+      "complete": "Complete",
+      "incomplete": "Unfinished",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "users": {
+      "title": "Admins",
+      "subtitle": "Accounts with admin panel access — per shop and platform-wide.",
+      "grant": "Grant access",
+      "grant_desc": "Grants the admin role for the selected shop. An existing account keeps its password.",
+      "grant_error": "Access could not be granted.",
+      "promote": "New superadmin",
+      "promote_desc": "Creates a platform account from an existing confirmed account.",
+      "promote_error": "The superadmin could not be created.",
+      "field_email": "Email",
+      "field_name": "Name",
+      "field_name_desc": "Required only for an email that has no account yet.",
+      "field_eshop": "Shop"
+    },
+    "inquiries": {
+      "title": "Leads",
+      "subtitle": "Messages from the website contact form.",
+      "unhandled_count": "{count} unhandled",
+      "note": "Internal note",
+      "note_placeholder": "Note for colleagues…",
+      "note_saved": "Saved.",
+      "save_error": "The change could not be saved.",
+      "mark_handled": "Mark handled",
+      "reopen": "Reopen",
+      "handled": "Handled",
+      "unhandled": "Unhandled",
+      "no_name": "No name",
+      "lead": "Lead",
+      "internal": "Internal",
+      "handled_by": "Handled by {email} · {date}"
     }
   }
 }

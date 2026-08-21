@@ -100,7 +100,8 @@
         "docs": "Dokumenty",
         "settings_email": "E-mail (SMTP)",
         "settings_api_keys": "API kľúče",
-        "settings_billing": "Predplatné"
+        "settings_billing": "Predplatné",
+        "platform": "Platforma"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -288,6 +289,47 @@
       },
       "filters": {
         "email": "E-mail"
+      }
+    },
+    "PlatformEshopsGrid": {
+      "name": "Názov",
+      "slug": "Slug",
+      "subscription_tier": "Balíček",
+      "subscription_status": "Predplatné",
+      "suspended": "Pozast.",
+      "admin_count": "Správcov",
+      "product_count": "Produktov",
+      "order_count": "Objednávok",
+      "created_at": "Vytvorený",
+      "filters": {
+        "name": "Názov alebo slug",
+        "subscription_tier": "Balíček",
+        "subscription_status": "Predplatné",
+        "suspended": "Pozastavený"
+      }
+    },
+    "PlatformUsersGrid": {
+      "email": "E-mail",
+      "name": "Meno",
+      "eshop_name": "Obchod",
+      "is_superadmin": "Superadmin",
+      "confirmed": "Potvrdený",
+      "created_at": "Vytvorený",
+      "filters": {
+        "email": "E-mail alebo meno",
+        "role": "Rola"
+      }
+    },
+    "PlatformInquiriesGrid": {
+      "name": "Meno",
+      "email": "E-mail",
+      "phone": "Telefón",
+      "pricing_plan": "Balíček",
+      "handled": "Vyriešené",
+      "created_at": "Prijaté",
+      "filters": {
+        "email": "E-mail alebo meno",
+        "state": "Stav"
       }
     }
   },
@@ -833,6 +875,27 @@
         "already_confirmed": "Táto e-mailová adresa už bola overená.",
         "confirmation_failed": "Nepodarilo sa overiť e-mailovú adresu. Skúste znova."
       }
+    },
+    "forgot": {
+      "title": "Obnovenie hesla",
+      "subtitle": "Pošleme vám odkaz na nastavenie nového hesla.",
+      "email": "E-mail",
+      "submit": "Poslať odkaz",
+      "sent": "Ak k tomuto e-mailu existuje účet správcu, poslali sme naň odkaz na obnovenie hesla. Platí 15 minút.",
+      "error": "Požiadavku sa nepodarilo odoslať.",
+      "back_to_login": "Späť na prihlásenie"
+    },
+    "reset": {
+      "title": "Nové heslo",
+      "subtitle": "Nastavte si nové heslo do administrácie.",
+      "password": "Nové heslo",
+      "password_hint": "Aspoň 8 znakov.",
+      "confirm": "Heslo znova",
+      "submit": "Nastaviť heslo",
+      "mismatch": "Heslá sa nezhodujú.",
+      "error": "Heslo sa nepodarilo nastaviť.",
+      "invalid_link": "Odkaz je neplatný alebo expiroval.",
+      "request_new": "Požiadať o nový odkaz"
     }
   },
   "order_status_labels": {
@@ -2500,6 +2563,125 @@
         "title": "Zásady používania súborov cookie",
         "description": "Ako Craftorea používa súbory cookie a podobné technológie."
       }
+    }
+  },
+  "platform": {
+    "nav": {
+      "wordmark": "Platforma",
+      "badge": "Platforma",
+      "footer_note": "Interné obrazovky správcu platformy Craftorea.",
+      "dashboard": "Prehľad",
+      "eshops": "Obchody",
+      "users": "Správcovia",
+      "inquiries": "Dopyty",
+      "account": "Môj účet"
+    },
+    "bar": {
+      "notice": "Prístup platformy — nachádzate sa v obchode {eshop} ako pracovník Craftorea.",
+      "exit": "Späť na platformu"
+    },
+    "confirm": {
+      "confirm": "Potvrdiť",
+      "revoke_title": "Odobrať prístup správcu",
+      "revoke_description": "Účtu bude odobraná rola správcu tohto obchodu a bude okamžite odhlásený. Údaje účtu zostanú zachované a prístup je možné znova prideliť.",
+      "demote_title": "Odobrať superadmin práva",
+      "demote_description": "Platformový účet bude odstránený a používateľ bude odhlásený. Jeho prístupy k jednotlivým obchodom zostanú nezmenené."
+    },
+    "dashboard": {
+      "title": "Prehľad platformy",
+      "subtitle": "Stav všetkých obchodov na platforme.",
+      "eshops_total": "Obchody",
+      "new_this_month": "{count} nových tento mesiac",
+      "orders_this_month": "Objednávky tento mesiac",
+      "admins_total": "Správcovia obchodov",
+      "superadmins": "{count} superadminov",
+      "products_total": "Produkty",
+      "tiers": "Balíčky",
+      "statuses": "Stav predplatného",
+      "attention": "Vyžaduje pozornosť",
+      "inquiries_unhandled": "Nevyriešené dopyty",
+      "eshops_suspended": "Pozastavené obchody",
+      "signups": "Nové obchody",
+      "signups_desc": "Za posledných 12 mesiacov.",
+      "no_data": "Žiadne údaje."
+    },
+    "eshops": {
+      "title": "Obchody",
+      "subtitle": "Všetky obchody na platforme.",
+      "create": "Vytvoriť obchod",
+      "create_desc": "Vytvorí obchod a pridelí prístup jeho vlastníkovi. Vy zostanete mimo obchodu.",
+      "create_error": "Obchod sa nepodarilo vytvoriť.",
+      "field_name": "Názov",
+      "field_slug": "Slug",
+      "field_domain": "Doména",
+      "field_owner_email": "E-mail vlastníka",
+      "field_owner_email_desc": "Ak účet ešte neexistuje, vytvorí sa — heslo si vlastník nastaví cez obnovenie hesla.",
+      "field_owner_name": "Meno vlastníka",
+      "enter": "Vstúpiť do obchodu",
+      "enter_error": "Do obchodu sa nepodarilo vstúpiť.",
+      "suspend": "Pozastaviť",
+      "unsuspend": "Obnoviť",
+      "suspend_confirm": "Správcovia tohto obchodu sa nebudú môcť prihlásiť. Zákaznícka časť obchodu zostane funkčná.",
+      "unsuspend_confirm": "Správcom tohto obchodu bude obnovený prístup do administrácie.",
+      "suspended": "Pozastavený",
+      "onboarding_pending": "Nedokončené nastavenie",
+      "identity": "Obchod",
+      "subscription": "Predplatné",
+      "subscription_readonly": "Iba na čítanie — fakturáciu táto obrazovka nespravuje.",
+      "content": "Obsah",
+      "owners": "Správcovia obchodu",
+      "owners_desc": "Účty s rolou správcu v tomto obchode.",
+      "no_owners": "Obchod nemá žiadneho správcu.",
+      "unconfirmed": "Nepotvrdený",
+      "field_email": "E-mail",
+      "field_language": "Jazyk",
+      "field_created": "Vytvorený",
+      "field_suspended_at": "Pozastavený od",
+      "field_tier": "Balíček",
+      "field_status": "Stav",
+      "field_billing_mode": "Režim fakturácie",
+      "field_period_end": "Koniec obdobia",
+      "field_cancel_at_period_end": "Zruší sa na konci obdobia",
+      "field_stripe_customer": "Stripe zákazník",
+      "field_products": "Produkty",
+      "field_orders": "Objednávky",
+      "field_customers": "Zákazníci",
+      "field_onboarding": "Nastavenie",
+      "complete": "Dokončené",
+      "incomplete": "Nedokončené",
+      "yes": "Áno",
+      "no": "Nie"
+    },
+    "users": {
+      "title": "Správcovia",
+      "subtitle": "Účty s prístupom do administrácie — po obchodoch a na úrovni platformy.",
+      "grant": "Prideliť prístup",
+      "grant_desc": "Pridelí rolu správcu pre vybraný obchod. Existujúci účet si ponechá svoje heslo.",
+      "grant_error": "Prístup sa nepodarilo prideliť.",
+      "promote": "Nový superadmin",
+      "promote_desc": "Vytvorí platformový účet z existujúceho potvrdeného účtu.",
+      "promote_error": "Superadmina sa nepodarilo vytvoriť.",
+      "field_email": "E-mail",
+      "field_name": "Meno",
+      "field_name_desc": "Povinné iba pri e-maile, ktorý ešte nemá účet.",
+      "field_eshop": "Obchod"
+    },
+    "inquiries": {
+      "title": "Dopyty",
+      "subtitle": "Správy z kontaktného formulára na webe.",
+      "unhandled_count": "{count} nevyriešených",
+      "note": "Interná poznámka",
+      "note_placeholder": "Poznámka pre kolegov…",
+      "note_saved": "Uložené.",
+      "save_error": "Zmenu sa nepodarilo uložiť.",
+      "mark_handled": "Označiť ako vyriešené",
+      "reopen": "Znova otvoriť",
+      "handled": "Vyriešené",
+      "unhandled": "Nevyriešené",
+      "no_name": "Bez mena",
+      "lead": "Dopyt",
+      "internal": "Interné",
+      "handled_by": "Vyriešil {email} · {date}"
     }
   }
 }

@@ -100,7 +100,8 @@
         "docs": "Dokumente",
         "settings_email": "E-Mail (SMTP)",
         "settings_api_keys": "API-Schlüssel",
-        "settings_billing": "Abonnement"
+        "settings_billing": "Abonnement",
+        "platform": "Plattform"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -288,6 +289,47 @@
       },
       "filters": {
         "email": "E-Mail"
+      }
+    },
+    "PlatformEshopsGrid": {
+      "name": "Name",
+      "slug": "Slug",
+      "subscription_tier": "Paket",
+      "subscription_status": "Abo",
+      "suspended": "Gesp.",
+      "admin_count": "Admins",
+      "product_count": "Produkte",
+      "order_count": "Bestellungen",
+      "created_at": "Erstellt",
+      "filters": {
+        "name": "Name oder Slug",
+        "subscription_tier": "Paket",
+        "subscription_status": "Abo",
+        "suspended": "Gesperrt"
+      }
+    },
+    "PlatformUsersGrid": {
+      "email": "E-Mail",
+      "name": "Name",
+      "eshop_name": "Shop",
+      "is_superadmin": "Superadmin",
+      "confirmed": "Bestätigt",
+      "created_at": "Erstellt",
+      "filters": {
+        "email": "E-Mail oder Name",
+        "role": "Rolle"
+      }
+    },
+    "PlatformInquiriesGrid": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "pricing_plan": "Paket",
+      "handled": "Erledigt",
+      "created_at": "Eingegangen",
+      "filters": {
+        "email": "E-Mail oder Name",
+        "state": "Status"
       }
     }
   },
@@ -833,6 +875,27 @@
         "already_confirmed": "Diese E-Mail-Adresse wurde bereits bestätigt.",
         "confirmation_failed": "E-Mail-Bestätigung fehlgeschlagen. Bitte versuchen Sie es erneut."
       }
+    },
+    "forgot": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Wir senden Ihnen einen Link zum Festlegen eines neuen Passworts.",
+      "email": "E-Mail",
+      "submit": "Link senden",
+      "sent": "Falls für diese Adresse ein Administratorkonto existiert, haben wir einen Link zum Zurücksetzen gesendet. Er ist 15 Minuten gültig.",
+      "error": "Die Anfrage konnte nicht gesendet werden.",
+      "back_to_login": "Zurück zur Anmeldung"
+    },
+    "reset": {
+      "title": "Neues Passwort",
+      "subtitle": "Legen Sie ein neues Passwort für die Verwaltung fest.",
+      "password": "Neues Passwort",
+      "password_hint": "Mindestens 8 Zeichen.",
+      "confirm": "Passwort wiederholen",
+      "submit": "Passwort festlegen",
+      "mismatch": "Die Passwörter stimmen nicht überein.",
+      "error": "Das Passwort konnte nicht festgelegt werden.",
+      "invalid_link": "Der Link ist ungültig oder abgelaufen.",
+      "request_new": "Neuen Link anfordern"
     }
   },
   "order_status_labels": {
@@ -2500,6 +2563,125 @@
         "title": "Cookie-Richtlinie",
         "description": "Wie Craftorea Cookies und ähnliche Technologien verwendet."
       }
+    }
+  },
+  "platform": {
+    "nav": {
+      "wordmark": "Plattform",
+      "badge": "Plattform",
+      "footer_note": "Interne Bildschirme des Craftorea-Plattformbetreibers.",
+      "dashboard": "Übersicht",
+      "eshops": "Shops",
+      "users": "Administratoren",
+      "inquiries": "Anfragen",
+      "account": "Mein Konto"
+    },
+    "bar": {
+      "notice": "Plattformzugriff — Sie befinden sich als Craftorea-Mitarbeiter im Shop {eshop}.",
+      "exit": "Zurück zur Plattform"
+    },
+    "confirm": {
+      "confirm": "Bestätigen",
+      "revoke_title": "Administratorzugriff entziehen",
+      "revoke_description": "Dem Konto wird die Administratorrolle für diesen Shop entzogen und es wird sofort abgemeldet. Die Kontodaten bleiben erhalten, der Zugriff kann erneut erteilt werden.",
+      "demote_title": "Superadmin-Rechte entziehen",
+      "demote_description": "Das Plattformkonto wird gelöscht und der Benutzer abgemeldet. Zugriffe auf einzelne Shops bleiben unverändert."
+    },
+    "dashboard": {
+      "title": "Plattformübersicht",
+      "subtitle": "Der Zustand aller Shops der Plattform.",
+      "eshops_total": "Shops",
+      "new_this_month": "{count} neu in diesem Monat",
+      "orders_this_month": "Bestellungen diesen Monat",
+      "admins_total": "Shop-Administratoren",
+      "superadmins": "{count} Superadmins",
+      "products_total": "Produkte",
+      "tiers": "Pakete",
+      "statuses": "Abo-Status",
+      "attention": "Erfordert Aufmerksamkeit",
+      "inquiries_unhandled": "Offene Anfragen",
+      "eshops_suspended": "Gesperrte Shops",
+      "signups": "Neue Shops",
+      "signups_desc": "In den letzten 12 Monaten.",
+      "no_data": "Keine Daten."
+    },
+    "eshops": {
+      "title": "Shops",
+      "subtitle": "Alle Shops der Plattform.",
+      "create": "Shop erstellen",
+      "create_desc": "Erstellt den Shop und erteilt dem Inhaber Zugriff. Sie selbst bleiben außerhalb des Shops.",
+      "create_error": "Der Shop konnte nicht erstellt werden.",
+      "field_name": "Name",
+      "field_slug": "Slug",
+      "field_domain": "Domain",
+      "field_owner_email": "E-Mail des Inhabers",
+      "field_owner_email_desc": "Existiert noch kein Konto, wird es erstellt — das Passwort setzt der Inhaber über die Passwortwiederherstellung.",
+      "field_owner_name": "Name des Inhabers",
+      "enter": "Shop betreten",
+      "enter_error": "Der Shop konnte nicht betreten werden.",
+      "suspend": "Sperren",
+      "unsuspend": "Entsperren",
+      "suspend_confirm": "Die Administratoren dieses Shops können sich nicht mehr anmelden. Der Storefront bleibt für Kunden erreichbar.",
+      "unsuspend_confirm": "Die Administratoren dieses Shops erhalten den Zugang zur Verwaltung zurück.",
+      "suspended": "Gesperrt",
+      "onboarding_pending": "Einrichtung unvollständig",
+      "identity": "Shop",
+      "subscription": "Abonnement",
+      "subscription_readonly": "Nur lesend — dieser Bildschirm verwaltet keine Abrechnung.",
+      "content": "Inhalt",
+      "owners": "Shop-Administratoren",
+      "owners_desc": "Konten mit Administratorrolle in diesem Shop.",
+      "no_owners": "Dieser Shop hat keinen Administrator.",
+      "unconfirmed": "Nicht bestätigt",
+      "field_email": "E-Mail",
+      "field_language": "Sprache",
+      "field_created": "Erstellt",
+      "field_suspended_at": "Gesperrt seit",
+      "field_tier": "Paket",
+      "field_status": "Status",
+      "field_billing_mode": "Abrechnungsmodus",
+      "field_period_end": "Periodenende",
+      "field_cancel_at_period_end": "Endet zum Periodenende",
+      "field_stripe_customer": "Stripe-Kunde",
+      "field_products": "Produkte",
+      "field_orders": "Bestellungen",
+      "field_customers": "Kunden",
+      "field_onboarding": "Einrichtung",
+      "complete": "Abgeschlossen",
+      "incomplete": "Unvollständig",
+      "yes": "Ja",
+      "no": "Nein"
+    },
+    "users": {
+      "title": "Administratoren",
+      "subtitle": "Konten mit Zugang zur Verwaltung — pro Shop und plattformweit.",
+      "grant": "Zugriff erteilen",
+      "grant_desc": "Erteilt die Administratorrolle für den gewählten Shop. Ein bestehendes Konto behält sein Passwort.",
+      "grant_error": "Der Zugriff konnte nicht erteilt werden.",
+      "promote": "Neuer Superadmin",
+      "promote_desc": "Erstellt ein Plattformkonto aus einem bestehenden bestätigten Konto.",
+      "promote_error": "Der Superadmin konnte nicht erstellt werden.",
+      "field_email": "E-Mail",
+      "field_name": "Name",
+      "field_name_desc": "Nur erforderlich bei einer E-Mail ohne bestehendes Konto.",
+      "field_eshop": "Shop"
+    },
+    "inquiries": {
+      "title": "Anfragen",
+      "subtitle": "Nachrichten aus dem Kontaktformular der Website.",
+      "unhandled_count": "{count} offen",
+      "note": "Interne Notiz",
+      "note_placeholder": "Notiz für Kollegen…",
+      "note_saved": "Gespeichert.",
+      "save_error": "Die Änderung konnte nicht gespeichert werden.",
+      "mark_handled": "Als erledigt markieren",
+      "reopen": "Wieder öffnen",
+      "handled": "Erledigt",
+      "unhandled": "Offen",
+      "no_name": "Ohne Namen",
+      "lead": "Anfrage",
+      "internal": "Intern",
+      "handled_by": "Erledigt von {email} · {date}"
     }
   }
 }
