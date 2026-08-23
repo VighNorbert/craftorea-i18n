@@ -838,6 +838,42 @@
       },
       "banner": "Handmade, beautifully managed."
     },
+    "signup": {
+      "welcome": "Create your shop",
+      "subtitle": "Start selling your handmade products in minutes. No credit card required.",
+      "banner": "Your craft deserves its own shop.",
+      "have_account": "Already have an account?",
+      "login_link": "Log in",
+      "success": {
+        "title": "Check your email inbox",
+        "instructions": "Before continuing, you need to verify your email address. A verification link has been sent to your email inbox. If you did not receive it, please check the SPAM folder. Email delivery may take a few minutes."
+      },
+      "form": {
+        "shop_name": "Shop name",
+        "slug": "Shop address (slug)",
+        "slug_hint": "Your shop will be available at {domain}",
+        "name": "Your name",
+        "email": "Email",
+        "password": "Password",
+        "password_confirm": "Password again",
+        "terms_prefix": "I agree with the",
+        "terms_link": "Terms & Conditions",
+        "terms_and": "and the",
+        "agreement_link": "Service Agreement",
+        "submit": "Create shop"
+      },
+      "errors": {
+        "required": "This field is required.",
+        "invalid_email": "Invalid email address.",
+        "invalid_slug": "The address may only contain lowercase letters, digits and hyphens.",
+        "password_min": "The password must be at least 8 characters long.",
+        "passwords_mismatch": "The passwords do not match.",
+        "terms_required": "You need to accept the terms to create a shop.",
+        "email_taken": "An account with this email already exists. Log in and create the shop from the administration.",
+        "slug_taken": "A shop with this address already exists. Choose a different one.",
+        "signup_failed": "The shop could not be created. Please try again."
+      }
+    },
     "forgot_password": {
       "title": "Forgot password",
       "instructions": "If you forgot your password, enter the email you used during registration.",
@@ -2542,6 +2578,22 @@
       "logout": {
         "title": "Log out",
         "description": "Sign out of your Craftorea account."
+      },
+      "signup": {
+        "title": "Create your shop",
+        "description": "Create your own Craftorea shop in minutes — sell handmade products online with no setup fees and a free plan to start."
+      },
+      "forgot_password": {
+        "title": "Forgot password",
+        "description": "Request a password reset link for your Craftorea admin account."
+      },
+      "reset_password": {
+        "title": "New password",
+        "description": "Set a new password for your Craftorea admin account."
+      },
+      "confirm_email": {
+        "title": "Email confirmation",
+        "description": "Confirm the email address for your Craftorea account."
       },
       "terms": {
         "title": "Terms & Conditions",

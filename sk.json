@@ -838,6 +838,42 @@
       },
       "banner": "Ručná práca, krásne spravovaná."
     },
+    "signup": {
+      "welcome": "Vytvorte si obchod",
+      "subtitle": "Začnite predávať svoje ručne robené výrobky za pár minút. Bez platobnej karty.",
+      "banner": "Vaša tvorba si zaslúži vlastný obchod.",
+      "have_account": "Už máte účet?",
+      "login_link": "Prihláste sa",
+      "success": {
+        "title": "Skontrolujte si e-mailovú schránku",
+        "instructions": "Pred pokračovaním je potrebné overiť Vašu e-mailovú adresu. Overovací odkaz sme odoslali do Vašej e-mailovej schránky. Ak Vám e-mail neprišiel, skontrolujte prosím priečinok SPAM. Doručenie môže trvať niekoľko minút."
+      },
+      "form": {
+        "shop_name": "Názov obchodu",
+        "slug": "Adresa obchodu (slug)",
+        "slug_hint": "Váš obchod bude dostupný na adrese {domain}",
+        "name": "Vaše meno",
+        "email": "E-mail",
+        "password": "Heslo",
+        "password_confirm": "Heslo znova",
+        "terms_prefix": "Súhlasím s",
+        "terms_link": "obchodnými podmienkami",
+        "terms_and": "a so",
+        "agreement_link": "zmluvou o poskytovaní služieb",
+        "submit": "Vytvoriť obchod"
+      },
+      "errors": {
+        "required": "Toto pole je povinné.",
+        "invalid_email": "Neplatná e-mailová adresa.",
+        "invalid_slug": "Adresa môže obsahovať iba malé písmená, číslice a pomlčky.",
+        "password_min": "Heslo musí mať aspoň 8 znakov.",
+        "passwords_mismatch": "Heslá sa nezhodujú.",
+        "terms_required": "Pre vytvorenie obchodu je potrebné súhlasiť s podmienkami.",
+        "email_taken": "Účet s týmto e-mailom už existuje. Prihláste sa a vytvorte obchod v administrácii.",
+        "slug_taken": "Obchod s touto adresou už existuje. Zvoľte inú.",
+        "signup_failed": "Obchod sa nepodarilo vytvoriť. Skúste to prosím znova."
+      }
+    },
     "forgot_password": {
       "title": "Zabudnuté heslo",
       "instructions": "V prípade ak ste zabudli Vaše heslo, zadajte Váš e‑mail, ktorý ste použili pri registrácii.",
@@ -2542,6 +2578,22 @@
       "logout": {
         "title": "Odhlásenie",
         "description": "Odhláste sa zo svojho účtu Craftorea."
+      },
+      "signup": {
+        "title": "Vytvorte si obchod",
+        "description": "Vytvorte si vlastný obchod na Craftorea za pár minút — predávajte ručne robené výrobky online bez vstupných poplatkov, so štartom zadarmo."
+      },
+      "forgot_password": {
+        "title": "Zabudnuté heslo",
+        "description": "Vyžiadajte si odkaz na obnovenie hesla k Vášmu administrátorskému účtu Craftorea."
+      },
+      "reset_password": {
+        "title": "Nové heslo",
+        "description": "Nastavte si nové heslo k Vášmu administrátorskému účtu Craftorea."
+      },
+      "confirm_email": {
+        "title": "Potvrdenie e-mailu",
+        "description": "Potvrďte e-mailovú adresu k Vášmu účtu Craftorea."
       },
       "terms": {
         "title": "Obchodné podmienky",

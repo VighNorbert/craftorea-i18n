@@ -838,6 +838,42 @@
       },
       "banner": "Handgemacht, schön verwaltet."
     },
+    "signup": {
+      "welcome": "Erstellen Sie Ihren Shop",
+      "subtitle": "Verkaufen Sie Ihre handgefertigten Produkte in wenigen Minuten. Keine Kreditkarte erforderlich.",
+      "banner": "Ihr Handwerk verdient einen eigenen Shop.",
+      "have_account": "Sie haben bereits ein Konto?",
+      "login_link": "Anmelden",
+      "success": {
+        "title": "Überprüfen Sie Ihren E-Mail-Posteingang",
+        "instructions": "Bevor Sie fortfahren, müssen Sie Ihre E-Mail-Adresse bestätigen. Ein Bestätigungslink wurde an Ihre E-Mail-Adresse gesendet. Falls Sie ihn nicht erhalten haben, überprüfen Sie bitte den SPAM-Ordner. Die Zustellung kann einige Minuten dauern."
+      },
+      "form": {
+        "shop_name": "Shop-Name",
+        "slug": "Shop-Adresse (Slug)",
+        "slug_hint": "Ihr Shop wird unter {domain} erreichbar sein",
+        "name": "Ihr Name",
+        "email": "E-Mail",
+        "password": "Passwort",
+        "password_confirm": "Passwort wiederholen",
+        "terms_prefix": "Ich stimme den",
+        "terms_link": "Allgemeinen Geschäftsbedingungen",
+        "terms_and": "und der",
+        "agreement_link": "Dienstleistungsvereinbarung",
+        "submit": "Shop erstellen"
+      },
+      "errors": {
+        "required": "Dieses Feld ist erforderlich.",
+        "invalid_email": "Ungültige E-Mail-Adresse.",
+        "invalid_slug": "Die Adresse darf nur Kleinbuchstaben, Ziffern und Bindestriche enthalten.",
+        "password_min": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+        "passwords_mismatch": "Die Passwörter stimmen nicht überein.",
+        "terms_required": "Zum Erstellen eines Shops müssen Sie den Bedingungen zustimmen.",
+        "email_taken": "Ein Konto mit dieser E-Mail existiert bereits. Melden Sie sich an und erstellen Sie den Shop in der Verwaltung.",
+        "slug_taken": "Ein Shop mit dieser Adresse existiert bereits. Wählen Sie eine andere.",
+        "signup_failed": "Der Shop konnte nicht erstellt werden. Bitte versuchen Sie es erneut."
+      }
+    },
     "forgot_password": {
       "title": "Passwort vergessen",
       "instructions": "Wenn Sie Ihr Passwort vergessen haben, geben Sie bitte Ihre Registrierungs-E-Mail-Adresse ein.",
@@ -2542,6 +2578,22 @@
       "logout": {
         "title": "Abmelden",
         "description": "Melden Sie sich von Ihrem Craftorea-Konto ab."
+      },
+      "signup": {
+        "title": "Shop erstellen",
+        "description": "Erstellen Sie Ihren eigenen Craftorea-Shop in wenigen Minuten — verkaufen Sie handgefertigte Produkte online, ohne Einrichtungsgebühren und mit kostenlosem Einstiegsplan."
+      },
+      "forgot_password": {
+        "title": "Passwort vergessen",
+        "description": "Fordern Sie einen Link zum Zurücksetzen des Passworts für Ihr Craftorea-Administratorkonto an."
+      },
+      "reset_password": {
+        "title": "Neues Passwort",
+        "description": "Legen Sie ein neues Passwort für Ihr Craftorea-Administratorkonto fest."
+      },
+      "confirm_email": {
+        "title": "E-Mail-Bestätigung",
+        "description": "Bestätigen Sie die E-Mail-Adresse Ihres Craftorea-Kontos."
       },
       "terms": {
         "title": "Allgemeine Geschäftsbedingungen",
