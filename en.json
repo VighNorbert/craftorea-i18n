@@ -101,7 +101,8 @@
         "settings_email": "Email (SMTP)",
         "settings_api_keys": "API keys",
         "settings_billing": "Subscription",
-        "platform": "Platform"
+        "platform": "Platform",
+        "stock": "Stock"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
@@ -424,7 +425,8 @@
       },
       "addons": {
         "title": "Product addons"
-      }
+      },
+      "stock_reduced": "Only {available} left in stock — please reduce the quantity."
     },
     "addons": {
       "description": "Customize your product with these optional extras. Each addon can be personalized to make your item truly unique.",
@@ -750,6 +752,7 @@
       "description": "Product description",
       "price_from": "from",
       "unavailable": "Temporarily unavailable",
+      "out_of_stock": "Out of stock",
       "in_stock": "In stock",
       "to_order": "Made to Order",
       "production_time": "Production time",
@@ -1930,8 +1933,8 @@
       "feature_allow_priority_desc": "Lets customers choose priority order processing in the shop.",
       "feature_allow_invoices": "Enable invoices",
       "feature_allow_invoices_desc": "Enables invoice generation for orders and shows the Invoices menu.",
-      "feature_allow_availability": "Enable availability (stock) tracking",
-      "feature_allow_availability_desc": "Tracks and displays stock availability on products and in order emails.",
+      "feature_allow_availability": "Show delivery times",
+      "feature_allow_availability_desc": "Displays production and delivery time on products and in order emails.",
       "field_frame_photo_price": "Price per framed photo",
       "field_frame_photo_price_desc": "Price charged for the photo-in-frame option in the shop.",
       "email_meta_title": "Email (SMTP)",
@@ -1943,7 +1946,12 @@
       "email_field_from": "From address",
       "email_field_username": "Username",
       "email_field_password": "Password",
-      "email_password_keep": "leave blank to keep"
+      "email_password_keep": "leave blank to keep",
+      "feature_allow_stock": "Enable stock management",
+      "feature_allow_stock_desc": "Counts on-hand quantities and blocks checkout when a tracked product runs out. Products opt in individually.",
+      "feature_allow_stock_pro_only": "Available on the Pro plan.",
+      "field_low_stock_threshold": "Low stock threshold",
+      "field_low_stock_threshold_desc": "Default for products without their own threshold."
     },
     "dashboard": {
       "subtitle": "Overview of your shop's performance and tasks.",
@@ -2563,6 +2571,68 @@
         "title": "Cookie Policy",
         "description": "How Craftorea uses cookies and similar technologies."
       }
+    },
+    "stock": {
+      "pro_only": "Stock management is available on the Pro plan.",
+      "not_enabled": "Stock management is not enabled for this shop. Turn it on in Settings → Features.",
+      "marketplace_warning": "Marketplace orders (Etsy, Sashe) do not change stock — their order lines are not linked to your products. If you sell the same items there, on-hand here will read high.",
+      "filter_name": "Search products",
+      "filter_tracked_only": "Tracked only",
+      "filter_low_only": "Low stock only",
+      "column_product": "Product",
+      "column_category": "Category",
+      "column_sku": "SKU",
+      "column_on_hand": "On hand",
+      "column_threshold": "Low at",
+      "badge_untracked": "Not tracked",
+      "badge_backorder": "Backorder",
+      "empty": "No products found.",
+      "adjust_failed": "Could not save the quantity.",
+      "reconcile": "Reconcile",
+      "reconcile_clean": "All quantities match the movement history.",
+      "reconcile_repaired": "Repaired {count} quantities from the movement history.",
+      "reconcile_failed": "Reconciliation failed.",
+      "history_title": "Stock history",
+      "history_empty": "No movements yet.",
+      "reason_initial": "Initial",
+      "reason_order": "Order",
+      "reason_cancellation": "Cancellation",
+      "reason_receipt": "Received",
+      "reason_return": "Return",
+      "reason_adjustment": "Adjustment",
+      "reason_stocktake": "Stock-take",
+      "stock_takes": "Stock-takes",
+      "stock_take": "Stock-take",
+      "start_stock_take": "Start stock-take",
+      "continue_stock_take": "Continue stock-take",
+      "no_stock_takes": "No stock-takes yet.",
+      "open": "Open",
+      "column_started": "Started",
+      "column_status": "Status",
+      "column_by": "By",
+      "column_lines": "Counted",
+      "column_variance": "Variance",
+      "column_expected": "Expected",
+      "column_counted": "Counted",
+      "status_open": "Open",
+      "status_committed": "Committed",
+      "status_abandoned": "Abandoned",
+      "commit": "Commit",
+      "abandon": "Abandon",
+      "commit_failed": "Could not close the stock-take.",
+      "count_failed": "Could not save the count.",
+      "nothing_tracked": "No products are stock-tracked yet.",
+      "variance_summary": "Counted {counted} of {total} items, {variances} with a variance.",
+      "tracking_title": "Stock tracking",
+      "tracking_on_desc": "On-hand is counted and checkout is blocked at zero.",
+      "tracking_off_desc": "This product is made to order and sells without a stock limit.",
+      "start_tracking": "Start tracking",
+      "stop_tracking": "Stop tracking",
+      "initial_quantity": "Count now",
+      "tracking_failed": "Could not change stock tracking.",
+      "allow_backorder_label": "Allow backorders (sell past zero)",
+      "low_stock_threshold_label": "Low stock threshold",
+      "low_stock_threshold_desc": "Leave empty to use the shop-wide value."
     }
   },
   "platform": {

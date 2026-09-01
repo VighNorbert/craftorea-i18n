@@ -101,7 +101,8 @@
         "settings_email": "E-Mail (SMTP)",
         "settings_api_keys": "API-Schlüssel",
         "settings_billing": "Abonnement",
-        "platform": "Plattform"
+        "platform": "Plattform",
+        "stock": "Lager"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -424,7 +425,8 @@
       },
       "addons": {
         "title": "Produktdoppelungen"
-      }
+      },
+      "stock_reduced": "Nur noch {available} auf Lager — bitte reduzieren Sie die Menge."
     },
     "addons": {
       "description": "Passen Sie Ihr Produkt mit diesen optionalen Extras an. Jedes Addon kann personalisiert werden, um Ihr Produkt wirklich einzigartig zu machen.",
@@ -750,6 +752,7 @@
       "description": "Produktbeschreibung",
       "price_from": "ab",
       "unavailable": "Vorübergehend nicht verfügbar",
+      "out_of_stock": "Nicht auf Lager",
       "in_stock": "Auf Lager",
       "to_order": "Auf Bestellung",
       "production_time": "Produktionszeit",
@@ -1930,8 +1933,8 @@
       "feature_allow_priority_desc": "Ermöglicht Kunden, im Shop eine vorrangige Auftragsbearbeitung zu wählen.",
       "feature_allow_invoices": "Rechnungen aktivieren",
       "feature_allow_invoices_desc": "Aktiviert die Rechnungserstellung für Bestellungen und zeigt das Menü Rechnungen.",
-      "feature_allow_availability": "Verfügbarkeits- (Bestands-) Verfolgung aktivieren",
-      "feature_allow_availability_desc": "Verfolgt und zeigt die Lagerverfügbarkeit bei Produkten und in Bestell-E-Mails.",
+      "feature_allow_availability": "Lieferzeiten anzeigen",
+      "feature_allow_availability_desc": "Zeigt Produktions- und Lieferzeit bei Produkten und in Bestell-E-Mails.",
       "field_frame_photo_price": "Preis pro gerahmtes Foto",
       "field_frame_photo_price_desc": "Preis für die Option „Foto im Rahmen“ im Shop.",
       "email_meta_title": "E-Mail (SMTP)",
@@ -1943,7 +1946,12 @@
       "email_field_from": "Absenderadresse",
       "email_field_username": "Benutzername",
       "email_field_password": "Passwort",
-      "email_password_keep": "leer lassen zum Beibehalten"
+      "email_password_keep": "leer lassen zum Beibehalten",
+      "feature_allow_stock": "Lagerverwaltung aktivieren",
+      "feature_allow_stock_desc": "Zählt Bestände und stoppt den Kauf, wenn ein verfolgtes Produkt ausverkauft ist. Produkte werden einzeln aktiviert.",
+      "feature_allow_stock_pro_only": "Im Pro-Tarif verfügbar.",
+      "field_low_stock_threshold": "Schwelle für niedrigen Bestand",
+      "field_low_stock_threshold_desc": "Standard für Produkte ohne eigene Schwelle."
     },
     "dashboard": {
       "subtitle": "Überblick über Leistung und Aufgaben Ihres Shops.",
@@ -2563,6 +2571,68 @@
         "title": "Cookie-Richtlinie",
         "description": "Wie Craftorea Cookies und ähnliche Technologien verwendet."
       }
+    },
+    "stock": {
+      "pro_only": "Die Lagerverwaltung ist im Pro-Tarif verfügbar.",
+      "not_enabled": "Die Lagerverwaltung ist für diesen Shop nicht aktiviert. Aktivieren Sie sie unter Einstellungen → Funktionen.",
+      "marketplace_warning": "Marktplatz-Bestellungen (Etsy, Sashe) verändern den Lagerbestand nicht — ihre Positionen sind nicht mit Ihren Produkten verknüpft. Wenn Sie dieselben Stücke dort verkaufen, ist der Bestand hier zu hoch.",
+      "filter_name": "Produkte suchen",
+      "filter_tracked_only": "Nur verfolgte",
+      "filter_low_only": "Nur niedriger Bestand",
+      "column_product": "Produkt",
+      "column_category": "Kategorie",
+      "column_sku": "SKU",
+      "column_on_hand": "Bestand",
+      "column_threshold": "Niedrig ab",
+      "badge_untracked": "Nicht verfolgt",
+      "badge_backorder": "Nachbestellung",
+      "empty": "Keine Produkte gefunden.",
+      "adjust_failed": "Die Menge konnte nicht gespeichert werden.",
+      "reconcile": "Abgleichen",
+      "reconcile_clean": "Alle Mengen stimmen mit der Bewegungshistorie überein.",
+      "reconcile_repaired": "{count} Mengen anhand der Bewegungshistorie korrigiert.",
+      "reconcile_failed": "Der Abgleich ist fehlgeschlagen.",
+      "history_title": "Bestandshistorie",
+      "history_empty": "Noch keine Bewegungen.",
+      "reason_initial": "Anfangsbestand",
+      "reason_order": "Bestellung",
+      "reason_cancellation": "Storno",
+      "reason_receipt": "Zugang",
+      "reason_return": "Rückgabe",
+      "reason_adjustment": "Korrektur",
+      "reason_stocktake": "Inventur",
+      "stock_takes": "Inventuren",
+      "stock_take": "Inventur",
+      "start_stock_take": "Inventur starten",
+      "continue_stock_take": "Inventur fortsetzen",
+      "no_stock_takes": "Noch keine Inventuren.",
+      "open": "Öffnen",
+      "column_started": "Begonnen",
+      "column_status": "Status",
+      "column_by": "Von",
+      "column_lines": "Gezählt",
+      "column_variance": "Differenz",
+      "column_expected": "Erwartet",
+      "column_counted": "Gezählt",
+      "status_open": "Offen",
+      "status_committed": "Abgeschlossen",
+      "status_abandoned": "Abgebrochen",
+      "commit": "Abschließen",
+      "abandon": "Abbrechen",
+      "commit_failed": "Die Inventur konnte nicht abgeschlossen werden.",
+      "count_failed": "Die Zählung konnte nicht gespeichert werden.",
+      "nothing_tracked": "Für kein Produkt wird der Bestand verfolgt.",
+      "variance_summary": "{counted} von {total} Positionen gezählt, {variances} mit Differenz.",
+      "tracking_title": "Bestandsverfolgung",
+      "tracking_on_desc": "Der Bestand wird gezählt und der Kauf bei null gestoppt.",
+      "tracking_off_desc": "Dieses Produkt wird auf Bestellung gefertigt und ohne Limit verkauft.",
+      "start_tracking": "Verfolgung starten",
+      "stop_tracking": "Verfolgung beenden",
+      "initial_quantity": "Jetzt zählen",
+      "tracking_failed": "Die Bestandsverfolgung konnte nicht geändert werden.",
+      "allow_backorder_label": "Nachbestellungen erlauben (Verkauf unter null)",
+      "low_stock_threshold_label": "Schwelle für niedrigen Bestand",
+      "low_stock_threshold_desc": "Leer lassen, um den shopweiten Wert zu verwenden."
     }
   },
   "platform": {

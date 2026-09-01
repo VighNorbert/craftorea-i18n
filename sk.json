@@ -101,7 +101,8 @@
         "settings_email": "E-mail (SMTP)",
         "settings_api_keys": "API kľúče",
         "settings_billing": "Predplatné",
-        "platform": "Platforma"
+        "platform": "Platforma",
+        "stock": "Sklad"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -424,7 +425,8 @@
       },
       "addons": {
         "title": "Doplnky k produktu"
-      }
+      },
+      "stock_reduced": "Na sklade zostáva už len {available} ks — znížte, prosím, množstvo."
     },
     "addons": {
       "description": "Prispôsobte si produkt týmito voliteľnými doplnkami. Každý doplnok môže byť personalizovaný, aby bol váš produkt skutočne jedinečný.",
@@ -750,6 +752,7 @@
       "description": "Popis výrobku",
       "price_from": "od",
       "unavailable": "Dočasne nedostupné",
+      "out_of_stock": "Vypredané",
       "in_stock": "Na sklade",
       "to_order": "Na objednávku",
       "production_time": "Výrobná doba",
@@ -1930,8 +1933,8 @@
       "feature_allow_priority_desc": "Umožní zákazníkom v obchode zvoliť prioritné spracovanie objednávky.",
       "feature_allow_invoices": "Povoliť faktúry",
       "feature_allow_invoices_desc": "Povolí generovanie faktúr k objednávkam a zobrazí menu Faktúry.",
-      "feature_allow_availability": "Povoliť sledovanie dostupnosti (skladu)",
-      "feature_allow_availability_desc": "Sleduje a zobrazuje skladovú dostupnosť pri produktoch a v e-mailoch objednávok.",
+      "feature_allow_availability": "Zobrazovať dodacie lehoty",
+      "feature_allow_availability_desc": "Zobrazuje čas výroby a dodania pri produktoch a v e-mailoch objednávok.",
       "field_frame_photo_price": "Cena za fotografiu v ráme",
       "field_frame_photo_price_desc": "Cena za možnosť „fotografia v ráme“ v obchode.",
       "email_meta_title": "E-mail (SMTP)",
@@ -1943,7 +1946,12 @@
       "email_field_from": "Adresa odosielateľa",
       "email_field_username": "Používateľské meno",
       "email_field_password": "Heslo",
-      "email_password_keep": "nechajte prázdne pre zachovanie"
+      "email_password_keep": "nechajte prázdne pre zachovanie",
+      "feature_allow_stock": "Povoliť správu skladu",
+      "feature_allow_stock_desc": "Počíta stav na sklade a zastaví nákup, keď sledovaný produkt dojde. Produkty sa zapájajú jednotlivo.",
+      "feature_allow_stock_pro_only": "Dostupné v pláne Pro.",
+      "field_low_stock_threshold": "Hranica nízkej zásoby",
+      "field_low_stock_threshold_desc": "Predvolená hodnota pre produkty bez vlastnej hranice."
     },
     "dashboard": {
       "subtitle": "Prehľad výkonu a úloh vášho obchodu.",
@@ -2563,6 +2571,68 @@
         "title": "Zásady používania súborov cookie",
         "description": "Ako Craftorea používa súbory cookie a podobné technológie."
       }
+    },
+    "stock": {
+      "pro_only": "Správa skladu je dostupná v pláne Pro.",
+      "not_enabled": "Správa skladu nie je pre tento e-shop zapnutá. Zapnete ju v Nastavenia → Funkcie.",
+      "marketplace_warning": "Objednávky z trhovísk (Etsy, Sashe) sklad nemenia — ich položky nie sú prepojené s vašimi produktmi. Ak tam predávate tie isté kusy, stav na sklade tu bude vyšší než v skutočnosti.",
+      "filter_name": "Hľadať produkty",
+      "filter_tracked_only": "Len sledované",
+      "filter_low_only": "Len nízka zásoba",
+      "column_product": "Produkt",
+      "column_category": "Kategória",
+      "column_sku": "SKU",
+      "column_on_hand": "Na sklade",
+      "column_threshold": "Nízka pri",
+      "badge_untracked": "Nesledované",
+      "badge_backorder": "Na objednávku",
+      "empty": "Nenašli sa žiadne produkty.",
+      "adjust_failed": "Množstvo sa nepodarilo uložiť.",
+      "reconcile": "Prepočítať",
+      "reconcile_clean": "Všetky množstvá zodpovedajú histórii pohybov.",
+      "reconcile_repaired": "Opravených {count} množstiev podľa histórie pohybov.",
+      "reconcile_failed": "Prepočet sa nepodaril.",
+      "history_title": "História zásoby",
+      "history_empty": "Zatiaľ žiadne pohyby.",
+      "reason_initial": "Počiatočný stav",
+      "reason_order": "Objednávka",
+      "reason_cancellation": "Zrušenie",
+      "reason_receipt": "Príjem",
+      "reason_return": "Vrátenie",
+      "reason_adjustment": "Úprava",
+      "reason_stocktake": "Inventúra",
+      "stock_takes": "Inventúry",
+      "stock_take": "Inventúra",
+      "start_stock_take": "Začať inventúru",
+      "continue_stock_take": "Pokračovať v inventúre",
+      "no_stock_takes": "Zatiaľ žiadne inventúry.",
+      "open": "Otvoriť",
+      "column_started": "Začatá",
+      "column_status": "Stav",
+      "column_by": "Kto",
+      "column_lines": "Spočítané",
+      "column_variance": "Rozdiel",
+      "column_expected": "Očakávané",
+      "column_counted": "Spočítané",
+      "status_open": "Otvorená",
+      "status_committed": "Uzavretá",
+      "status_abandoned": "Zrušená",
+      "commit": "Uzavrieť",
+      "abandon": "Zrušiť",
+      "commit_failed": "Inventúru sa nepodarilo uzavrieť.",
+      "count_failed": "Spočítané množstvo sa nepodarilo uložiť.",
+      "nothing_tracked": "Žiadny produkt zatiaľ nemá sledovanú zásobu.",
+      "variance_summary": "Spočítaných {counted} z {total} položiek, {variances} s rozdielom.",
+      "tracking_title": "Sledovanie zásoby",
+      "tracking_on_desc": "Stav na sklade sa počíta a pri nule sa nákup zastaví.",
+      "tracking_off_desc": "Tento produkt sa vyrába na objednávku a predáva sa bez limitu.",
+      "start_tracking": "Začať sledovať",
+      "stop_tracking": "Prestať sledovať",
+      "initial_quantity": "Aktuálny počet",
+      "tracking_failed": "Sledovanie zásoby sa nepodarilo zmeniť.",
+      "allow_backorder_label": "Povoliť predaj do mínusu (na objednávku)",
+      "low_stock_threshold_label": "Hranica nízkej zásoby",
+      "low_stock_threshold_desc": "Ponechajte prázdne pre hodnotu z nastavení e-shopu."
     }
   },
   "platform": {
