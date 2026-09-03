@@ -68,6 +68,8 @@
         "statistics": "Statistiken",
         "invoices": "Rechnungen",
         "orders": "Bestellungen",
+        "delivery": "Lieferung",
+        "payments": "Zahlungsarten",
         "documents": "Dokumente",
         "dashboard": "Dashboard",
         "new": "Neu",
