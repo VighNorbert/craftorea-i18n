@@ -1770,7 +1770,20 @@
       "create_title": "Neue Rechnung erstellen",
       "create_description": "Wählen Sie den Rechnungstyp und das Lieferantenunternehmen aus.",
       "create": "Rechnung erstellen",
-      "invoice_type": "Rechnungstyp"
+      "invoice_type": "Rechnungstyp",
+      "original_invoice": "Ursprungsrechnung",
+      "original_invoice_hint": "Die Rechnung, auf die sich diese Gutschrift bezieht.",
+      "original_invoice_search": "Nach Rechnungsnummer oder Kunde suchen…",
+      "original_invoice_no_results": "Keine Rechnung gefunden.",
+      "original_invoice_not_selected": "Keine Ursprungsrechnung",
+      "original_invoice_clear": "Auswahl aufheben",
+      "original_invoice_not_found": "Die Ursprungsrechnung wurde nicht gefunden.",
+      "copy_customer_from_original": "Kundendaten aus der Ursprungsrechnung übernehmen",
+      "refunded_items": "Zu erstattende Positionen",
+      "refunded_items_hint": "Wählen Sie die Positionen der Ursprungsrechnung aus, die mit dieser Gutschrift erstattet werden, und passen Sie die Mengen an.",
+      "refunded_items_none": "Die Ursprungsrechnung enthält keine Positionen.",
+      "select_all": "Alle auswählen",
+      "deselect_all": "Alle abwählen"
     },
     "orders": {
       "invoices": "Rechnungen",

@@ -1770,7 +1770,20 @@
       "create_title": "Vytvoriť novú faktúru",
       "create_description": "Vyberte typ faktúry a dodávateľskú firmu.",
       "create": "Vytvoriť faktúru",
-      "invoice_type": "Typ faktúry"
+      "invoice_type": "Typ faktúry",
+      "original_invoice": "Pôvodná faktúra",
+      "original_invoice_hint": "Faktúra, ku ktorej sa tento dobropis vzťahuje.",
+      "original_invoice_search": "Hľadať podľa čísla faktúry alebo odberateľa…",
+      "original_invoice_no_results": "Žiadna faktúra nebola nájdená.",
+      "original_invoice_not_selected": "Žiadna pôvodná faktúra",
+      "original_invoice_clear": "Zrušiť výber",
+      "original_invoice_not_found": "Pôvodná faktúra nebola nájdená.",
+      "copy_customer_from_original": "Skopírovať údaje odberateľa z pôvodnej faktúry",
+      "refunded_items": "Položky na vrátenie",
+      "refunded_items_hint": "Vyberte položky z pôvodnej faktúry, ktoré sa majú dobropisom vrátiť, a upravte množstvo.",
+      "refunded_items_none": "Pôvodná faktúra neobsahuje žiadne položky.",
+      "select_all": "Vybrať všetko",
+      "deselect_all": "Zrušiť výber všetkých"
     },
     "orders": {
       "invoices": "Faktúry",

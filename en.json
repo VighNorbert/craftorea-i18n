@@ -1770,7 +1770,20 @@
       "create_title": "Create a new invoice",
       "create_description": "Choose the invoice type and the supplier company.",
       "create": "Create invoice",
-      "invoice_type": "Invoice type"
+      "invoice_type": "Invoice type",
+      "original_invoice": "Original invoice",
+      "original_invoice_hint": "The invoice this credit note refers to.",
+      "original_invoice_search": "Search by invoice number or customer…",
+      "original_invoice_no_results": "No invoice found.",
+      "original_invoice_not_selected": "No original invoice",
+      "original_invoice_clear": "Clear selection",
+      "original_invoice_not_found": "The original invoice was not found.",
+      "copy_customer_from_original": "Copy customer details from the original invoice",
+      "refunded_items": "Items to refund",
+      "refunded_items_hint": "Select the items from the original invoice that this credit note refunds and adjust the quantities.",
+      "refunded_items_none": "The original invoice has no items.",
+      "select_all": "Select all",
+      "deselect_all": "Deselect all"
     },
     "orders": {
       "invoices": "Invoices",
