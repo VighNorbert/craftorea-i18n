@@ -68,8 +68,8 @@
         "statistics": "Statistiken",
         "invoices": "Rechnungen",
         "orders": "Bestellungen",
-        "delivery": "Lieferung",
-        "payments": "Zahlungsarten",
+        "delivery": "Versand",
+        "payments": "Zahlungen",
         "documents": "Dokumente",
         "dashboard": "Dashboard",
         "new": "Neu",
@@ -77,8 +77,6 @@
         "settings": "Einstellungen",
         "create_shop": "Neuen E-Shop erstellen",
         "switch_shop": "E-Shop wechseln",
-        "delivery": "Versand",
-        "payments": "Zahlungen",
         "regions": "Regionen",
         "settings_general": "Allgemein",
         "settings_domains": "Domains",
@@ -309,6 +307,9 @@
         "subscription_tier": "Paket",
         "subscription_status": "Abo",
         "suspended": "Gesperrt"
+      },
+      "actions": {
+        "enter": "Betreten"
       }
     },
     "PlatformUsersGrid": {
@@ -3013,6 +3014,13 @@
       "lead": "Anfrage",
       "internal": "Intern",
       "handled_by": "Erledigt von {email} · {date}"
+    },
+    "switcher": {
+      "enter": "Shop betreten",
+      "count": "{count} Shops auf der Plattform",
+      "all_shops": "Alle Shops auf der Plattform",
+      "search": "Shops suchen…",
+      "no_results": "Kein Shop gefunden."
     }
   }
 }
