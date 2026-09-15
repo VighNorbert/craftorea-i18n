@@ -3075,7 +3075,8 @@
       "eshops": "Shops",
       "users": "Admins",
       "inquiries": "Leads",
-      "account": "My account"
+      "account": "My account",
+      "inquiries_unhandled_badge": "{count} unhandled leads"
     },
     "bar": {
       "notice": "Platform access — you are in {eshop} as Craftorea staff.",

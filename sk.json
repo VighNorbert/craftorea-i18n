@@ -3075,7 +3075,8 @@
       "eshops": "Obchody",
       "users": "Správcovia",
       "inquiries": "Dopyty",
-      "account": "Môj účet"
+      "account": "Môj účet",
+      "inquiries_unhandled_badge": "{count} nevyriešených dopytov"
     },
     "bar": {
       "notice": "Prístup platformy — nachádzate sa v obchode {eshop} ako pracovník Craftorea.",

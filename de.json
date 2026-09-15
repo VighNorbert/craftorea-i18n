@@ -3075,7 +3075,8 @@
       "eshops": "Shops",
       "users": "Administratoren",
       "inquiries": "Anfragen",
-      "account": "Mein Konto"
+      "account": "Mein Konto",
+      "inquiries_unhandled_badge": "{count} offene Anfragen"
     },
     "bar": {
       "notice": "Plattformzugriff — Sie befinden sich als Craftorea-Mitarbeiter im Shop {eshop}.",
