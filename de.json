@@ -1805,6 +1805,7 @@
       "details": "Details",
       "preview": "Rechnungsvorschau",
       "refresh": "Aktualisieren",
+      "download": "Herunterladen",
       "invoice_number": "Rechnungsnummer",
       "invoice_number_prefix": "Rechnung Nr.",
       "order_number": "Bestellnummer",

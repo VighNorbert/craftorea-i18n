@@ -1805,6 +1805,7 @@
       "details": "Details",
       "preview": "Invoice preview",
       "refresh": "Refresh",
+      "download": "Download",
       "invoice_number": "Invoice number",
       "invoice_number_prefix": "Invoice no.",
       "order_number": "Order number",
