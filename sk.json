@@ -104,7 +104,8 @@
         "settings_billing": "Predplatné",
         "blog": "Blog",
         "platform": "Platforma",
-        "stock": "Sklad"
+        "stock": "Sklad",
+        "stock_takes": "Inventúry"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -3066,7 +3067,9 @@
       "tracking_failed": "Sledovanie zásoby sa nepodarilo zmeniť.",
       "allow_backorder_label": "Povoliť predaj do mínusu (na objednávku)",
       "low_stock_threshold_label": "Hranica nízkej zásoby",
-      "low_stock_threshold_desc": "Ponechajte prázdne pre hodnotu z nastavení e-shopu."
+      "low_stock_threshold_desc": "Ponechajte prázdne pre hodnotu z nastavení e-shopu.",
+      "tracking_variants_desc": "Tento produkt má varianty. Sledovanie začne každý variant na 0 — spočítajte ich na obrazovke zásob. Dovtedy sa produkt nedá predať.",
+      "mark_counted": "Označiť {product} ako spočítané"
     }
   },
   "platform": {

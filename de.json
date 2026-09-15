@@ -104,7 +104,8 @@
         "settings_billing": "Abonnement",
         "blog": "Blog",
         "platform": "Plattform",
-        "stock": "Lager"
+        "stock": "Lager",
+        "stock_takes": "Inventuren"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -3066,7 +3067,9 @@
       "tracking_failed": "Die Bestandsverfolgung konnte nicht geändert werden.",
       "allow_backorder_label": "Nachbestellungen erlauben (Verkauf unter null)",
       "low_stock_threshold_label": "Schwelle für niedrigen Bestand",
-      "low_stock_threshold_desc": "Leer lassen, um den shopweiten Wert zu verwenden."
+      "low_stock_threshold_desc": "Leer lassen, um den shopweiten Wert zu verwenden.",
+      "tracking_variants_desc": "Dieses Produkt hat Varianten. Das Tracking startet jede Variante bei 0 — zählen Sie sie auf der Bestandsseite. Bis dahin ist das Produkt nicht verkäuflich.",
+      "mark_counted": "{product} als gezählt markieren"
     }
   },
   "platform": {

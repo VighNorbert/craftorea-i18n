@@ -104,7 +104,8 @@
         "settings_billing": "Subscription",
         "blog": "Blog",
         "platform": "Platform",
-        "stock": "Stock"
+        "stock": "Stock",
+        "stock_takes": "Stock-takes"
       }
     },
     "join_newsletter": "Subscribe to newsletter"
@@ -3066,7 +3067,9 @@
       "tracking_failed": "Could not change stock tracking.",
       "allow_backorder_label": "Allow backorders (sell past zero)",
       "low_stock_threshold_label": "Low stock threshold",
-      "low_stock_threshold_desc": "Leave empty to use the shop-wide value."
+      "low_stock_threshold_desc": "Leave empty to use the shop-wide value.",
+      "tracking_variants_desc": "This product has variants. Tracking starts every variant at 0 — count them on the stock screen. The product cannot be sold until you do.",
+      "mark_counted": "Mark {product} as counted"
     }
   },
   "platform": {
