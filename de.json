@@ -69,6 +69,8 @@
         "statistics": "Statistiken",
         "invoices": "Rechnungen",
         "orders": "Bestellungen",
+        "delivery": "Versand",
+        "payments": "Zahlungen",
         "documents": "Dokumente",
         "dashboard": "Dashboard",
         "new": "Neu",
@@ -76,8 +78,6 @@
         "settings": "Einstellungen",
         "create_shop": "Neuen E-Shop erstellen",
         "switch_shop": "E-Shop wechseln",
-        "delivery": "Versand",
-        "payments": "Zahlungen",
         "regions": "Regionen",
         "settings_general": "Allgemein",
         "settings_domains": "Domains",
@@ -102,7 +102,9 @@
         "settings_email": "E-Mail (SMTP)",
         "settings_api_keys": "API-Schlüssel",
         "settings_billing": "Abonnement",
-        "blog": "Blog"
+        "blog": "Blog",
+        "platform": "Plattform",
+        "stock": "Lager"
       }
     },
     "join_newsletter": "Newsletter abonnieren"
@@ -306,6 +308,50 @@
         "title": "Titel",
         "status": "Status"
       }
+    },
+    "PlatformEshopsGrid": {
+      "name": "Name",
+      "slug": "Slug",
+      "subscription_tier": "Paket",
+      "subscription_status": "Abo",
+      "suspended": "Gesp.",
+      "admin_count": "Admins",
+      "product_count": "Produkte",
+      "order_count": "Bestellungen",
+      "created_at": "Erstellt",
+      "filters": {
+        "name": "Name oder Slug",
+        "subscription_tier": "Paket",
+        "subscription_status": "Abo",
+        "suspended": "Gesperrt"
+      },
+      "actions": {
+        "enter": "Betreten"
+      }
+    },
+    "PlatformUsersGrid": {
+      "email": "E-Mail",
+      "name": "Name",
+      "eshop_name": "Shop",
+      "is_superadmin": "Superadmin",
+      "confirmed": "Bestätigt",
+      "created_at": "Erstellt",
+      "filters": {
+        "email": "E-Mail oder Name",
+        "role": "Rolle"
+      }
+    },
+    "PlatformInquiriesGrid": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "pricing_plan": "Paket",
+      "handled": "Erledigt",
+      "created_at": "Eingegangen",
+      "filters": {
+        "email": "E-Mail oder Name",
+        "state": "Status"
+      }
     }
   },
   "forms": {
@@ -399,7 +445,8 @@
       },
       "addons": {
         "title": "Produktdoppelungen"
-      }
+      },
+      "stock_reduced": "Nur noch {available} auf Lager — bitte reduzieren Sie die Menge."
     },
     "addons": {
       "description": "Passen Sie Ihr Produkt mit diesen optionalen Extras an. Jedes Addon kann personalisiert werden, um Ihr Produkt wirklich einzigartig zu machen.",
@@ -508,6 +555,7 @@
       "same_as_billing": "Gleich wie Rechnungsadresse",
       "shipping_payment": "Versand und Zahlung",
       "shipping_method": "Liefermethode",
+      "pickup_point": "Abholpunkt",
       "payment_method": "Zahlungsart",
       "gdpr_consent": "Ich habe Kenntnis genommen von der",
       "gdpr_link": "Verarbeitung personenbezogener Daten",
@@ -670,7 +718,8 @@
       "slovak_post": "Lieferung per Slowakischer Post",
       "pickup": "Persönliche Abholung zum vereinbarten Zeitpunkt unter folgender Adresse:",
       "packeta": "Lieferung zu einem Packeta-Abholpunkt",
-      "gls": "Lieferung per GLS-Kurier"
+      "gls": "Lieferung per GLS-Kurier",
+      "dpd": "Lieferung per DPD-Kurier"
     },
     "shipping_cost": {
       "title": "Versandkosten",
@@ -723,6 +772,7 @@
       "description": "Produktbeschreibung",
       "price_from": "ab",
       "unavailable": "Vorübergehend nicht verfügbar",
+      "out_of_stock": "Nicht auf Lager",
       "in_stock": "Auf Lager",
       "to_order": "Auf Bestellung",
       "production_time": "Produktionszeit",
@@ -811,6 +861,42 @@
       },
       "banner": "Handgemacht, schön verwaltet."
     },
+    "signup": {
+      "welcome": "Erstellen Sie Ihren Shop",
+      "subtitle": "Verkaufen Sie Ihre handgefertigten Produkte in wenigen Minuten. Keine Kreditkarte erforderlich.",
+      "banner": "Ihr Handwerk verdient einen eigenen Shop.",
+      "have_account": "Sie haben bereits ein Konto?",
+      "login_link": "Anmelden",
+      "success": {
+        "title": "Überprüfen Sie Ihren E-Mail-Posteingang",
+        "instructions": "Bevor Sie fortfahren, müssen Sie Ihre E-Mail-Adresse bestätigen. Ein Bestätigungslink wurde an Ihre E-Mail-Adresse gesendet. Falls Sie ihn nicht erhalten haben, überprüfen Sie bitte den SPAM-Ordner. Die Zustellung kann einige Minuten dauern."
+      },
+      "form": {
+        "shop_name": "Shop-Name",
+        "slug": "Shop-Adresse (Slug)",
+        "slug_hint": "Ihr Shop wird unter {domain} erreichbar sein",
+        "name": "Ihr Name",
+        "email": "E-Mail",
+        "password": "Passwort",
+        "password_confirm": "Passwort wiederholen",
+        "terms_prefix": "Ich stimme den",
+        "terms_link": "Allgemeinen Geschäftsbedingungen",
+        "terms_and": "und der",
+        "agreement_link": "Dienstleistungsvereinbarung",
+        "submit": "Shop erstellen"
+      },
+      "errors": {
+        "required": "Dieses Feld ist erforderlich.",
+        "invalid_email": "Ungültige E-Mail-Adresse.",
+        "invalid_slug": "Die Adresse darf nur Kleinbuchstaben, Ziffern und Bindestriche enthalten.",
+        "password_min": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+        "passwords_mismatch": "Die Passwörter stimmen nicht überein.",
+        "terms_required": "Zum Erstellen eines Shops müssen Sie den Bedingungen zustimmen.",
+        "email_taken": "Ein Konto mit dieser E-Mail existiert bereits. Melden Sie sich an und erstellen Sie den Shop in der Verwaltung.",
+        "slug_taken": "Ein Shop mit dieser Adresse existiert bereits. Wählen Sie eine andere.",
+        "signup_failed": "Der Shop konnte nicht erstellt werden. Bitte versuchen Sie es erneut."
+      }
+    },
     "forgot_password": {
       "title": "Passwort vergessen",
       "instructions": "Wenn Sie Ihr Passwort vergessen haben, geben Sie bitte Ihre Registrierungs-E-Mail-Adresse ein.",
@@ -848,6 +934,27 @@
         "already_confirmed": "Diese E-Mail-Adresse wurde bereits bestätigt.",
         "confirmation_failed": "E-Mail-Bestätigung fehlgeschlagen. Bitte versuchen Sie es erneut."
       }
+    },
+    "forgot": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Wir senden Ihnen einen Link zum Festlegen eines neuen Passworts.",
+      "email": "E-Mail",
+      "submit": "Link senden",
+      "sent": "Falls für diese Adresse ein Administratorkonto existiert, haben wir einen Link zum Zurücksetzen gesendet. Er ist 15 Minuten gültig.",
+      "error": "Die Anfrage konnte nicht gesendet werden.",
+      "back_to_login": "Zurück zur Anmeldung"
+    },
+    "reset": {
+      "title": "Neues Passwort",
+      "subtitle": "Legen Sie ein neues Passwort für die Verwaltung fest.",
+      "password": "Neues Passwort",
+      "password_hint": "Mindestens 8 Zeichen.",
+      "confirm": "Passwort wiederholen",
+      "submit": "Passwort festlegen",
+      "mismatch": "Die Passwörter stimmen nicht überein.",
+      "error": "Das Passwort konnte nicht festgelegt werden.",
+      "invalid_link": "Der Link ist ungültig oder abgelaufen.",
+      "request_new": "Neuen Link anfordern"
     }
   },
   "order_status_labels": {
@@ -1003,6 +1110,7 @@
       "delivery_payment": {
         "title": "Versand und Zahlung",
         "shipping_method": "Liefermethode",
+        "pickup_point": "Abholpunkt",
         "payment_method": "Zahlungsart"
       },
       "note": "Bestellnotiz"
@@ -1227,6 +1335,59 @@
     }
   },
   "admin": {
+    "documents": {
+      "new_document": "Neues Dokument",
+      "edit_document": "Dokument bearbeiten",
+      "empty": "Noch keine Dokumente.",
+      "preview": "Vorschau",
+      "columns": {
+        "title": "Titel",
+        "type": "Typ",
+        "language": "Sprache",
+        "updated_at": "Aktualisiert"
+      },
+      "fields": {
+        "type": "Typ",
+        "language": "Sprache",
+        "title": "Titel",
+        "subtitle": "Untertitel",
+        "content": "Inhalt"
+      },
+      "types": {
+        "vop": "Allgemeine Geschäftsbedingungen",
+        "gdpr": "Schutz personenbezogener Daten",
+        "reklamacie": "Reklamationsordnung",
+        "odstupenie": "Widerrufsrecht",
+        "povinnosti": "Besondere Informationspflichten",
+        "ars": "Alternative Streitbeilegung"
+      },
+      "content_mode": {
+        "rich": "Rich-Text",
+        "html": "HTML-Quelle",
+        "hint": "Visuell bearbeiten oder zur HTML-Quelle wechseln, um das Markup für das PDF zu verfeinern."
+      },
+      "buttons": {
+        "new": "Neues Dokument",
+        "edit": "Bearbeiten",
+        "save": "Speichern",
+        "saving": "Wird gespeichert…",
+        "cancel": "Abbrechen",
+        "delete": "Löschen"
+      },
+      "delete_confirm": {
+        "title": "Dokument löschen?",
+        "description": "Dadurch wird das Dokument dauerhaft entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
+      },
+      "errors": {
+        "title_required": "Titel ist erforderlich."
+      },
+      "toasts": {
+        "created": "Dokument erstellt.",
+        "updated": "Dokument aktualisiert.",
+        "deleted": "Dokument gelöscht.",
+        "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+      }
+    },
     "onboarding": {
       "getting_started": "Erste Schritte",
       "create_shop": "Shop erstellen",
@@ -1685,7 +1846,24 @@
       "delete_item_confirm": "Möchten Sie diese Position wirklich löschen?",
       "business_reg_id": "Firmen-ID",
       "tax_id": "Steuernummer",
-      "vat_id": "USt-IdNr."
+      "vat_id": "USt-IdNr.",
+      "create_title": "Neue Rechnung erstellen",
+      "create_description": "Wählen Sie den Rechnungstyp und das Lieferantenunternehmen aus.",
+      "create": "Rechnung erstellen",
+      "invoice_type": "Rechnungstyp",
+      "original_invoice": "Ursprungsrechnung",
+      "original_invoice_hint": "Die Rechnung, auf die sich diese Gutschrift bezieht.",
+      "original_invoice_search": "Nach Rechnungsnummer oder Kunde suchen…",
+      "original_invoice_no_results": "Keine Rechnung gefunden.",
+      "original_invoice_not_selected": "Keine Ursprungsrechnung",
+      "original_invoice_clear": "Auswahl aufheben",
+      "original_invoice_not_found": "Die Ursprungsrechnung wurde nicht gefunden.",
+      "copy_customer_from_original": "Kundendaten aus der Ursprungsrechnung übernehmen",
+      "refunded_items": "Zu erstattende Positionen",
+      "refunded_items_hint": "Wählen Sie die Positionen der Ursprungsrechnung aus, die mit dieser Gutschrift erstattet werden, und passen Sie die Mengen an.",
+      "refunded_items_none": "Die Ursprungsrechnung enthält keine Positionen.",
+      "select_all": "Alle auswählen",
+      "deselect_all": "Alle abwählen"
     },
     "orders": {
       "invoices": "Rechnungen",
@@ -1742,6 +1920,7 @@
       "country": "Land",
       "delivery_address": "Lieferadresse",
       "same_as_billing": "Wie Rechnungsadresse",
+      "pickup_point": "Abholpunkt",
       "recipient_name": "Name des Empfängers",
       "invoice_creation_failed": "Rechnung konnte nicht erstellt werden",
       "confirm_order": "Bestellung bestätigen",
@@ -1885,10 +2064,10 @@
       "feature_allow_priority_desc": "Ermöglicht Kunden, im Shop eine vorrangige Auftragsbearbeitung zu wählen.",
       "feature_allow_invoices": "Rechnungen aktivieren",
       "feature_allow_invoices_desc": "Aktiviert die Rechnungserstellung für Bestellungen und zeigt das Menü Rechnungen.",
-      "feature_allow_availability": "Verfügbarkeits- (Bestands-) Verfolgung aktivieren",
-      "feature_allow_availability_desc": "Verfolgt und zeigt die Lagerverfügbarkeit bei Produkten und in Bestell-E-Mails.",
       "feature_allow_blog": "Blog",
       "feature_allow_blog_desc": "Zeigt in Ihrem E-Shop einen Blog mit KI-unterstützten Artikeln. Artikel verbessern die SEO und werden vor der Veröffentlichung immer von Ihnen geprüft.",
+      "feature_allow_availability": "Lieferzeiten anzeigen",
+      "feature_allow_availability_desc": "Zeigt Produktions- und Lieferzeit bei Produkten und in Bestell-E-Mails.",
       "field_frame_photo_price": "Preis pro gerahmtes Foto",
       "field_frame_photo_price_desc": "Preis für die Option „Foto im Rahmen“ im Shop.",
       "email_meta_title": "E-Mail (SMTP)",
@@ -1900,7 +2079,12 @@
       "email_field_from": "Absenderadresse",
       "email_field_username": "Benutzername",
       "email_field_password": "Passwort",
-      "email_password_keep": "leer lassen zum Beibehalten"
+      "email_password_keep": "leer lassen zum Beibehalten",
+      "feature_allow_stock": "Lagerverwaltung aktivieren",
+      "feature_allow_stock_desc": "Zählt Bestände und stoppt den Kauf, wenn ein verfolgtes Produkt ausverkauft ist. Produkte werden einzeln aktiviert.",
+      "feature_allow_stock_pro_only": "Im Pro-Tarif verfügbar.",
+      "field_low_stock_threshold": "Schwelle für niedrigen Bestand",
+      "field_low_stock_threshold_desc": "Standard für Produkte ohne eigene Schwelle."
     },
     "dashboard": {
       "subtitle": "Überblick über Leistung und Aufgaben Ihres Shops.",
@@ -1936,8 +2120,12 @@
       "kpi_items_sold": "Verkaufte Artikel",
       "kpi_review_rate": "Bewertungsrate",
       "kpi_review_rate_hint": "Bewertete Web-Bestellungen",
-      "chart_current": "Aktuell",
-      "chart_previous": "Vorherige"
+      "chart_previous": "Vorherige",
+      "chart_total": "Gesamt",
+      "source_web": "Web",
+      "source_sashe": "Sashe.sk",
+      "source_etsy": "Etsy",
+      "source_in_person": "Vor Ort"
     },
     "promos": {
       "new_promo": "Neuer Rabattcode",
@@ -2181,6 +2369,7 @@
       "header": {
         "features": "Funktionen",
         "pricing": "Preise",
+        "compare": "Vergleich",
         "contact": "Kontakt",
         "login": "Anmelden",
         "getStarted": "Loslegen",
@@ -2249,6 +2438,7 @@
         "links": {
           "features": "Funktionen",
           "pricing": "Preise",
+          "compare": "Vergleich",
           "contact": "Kontakt",
           "creatorGuide": "Creator-Leitfaden",
           "helpCenter": "Hilfecenter",
@@ -2504,6 +2694,194 @@
         }
       }
     },
+    "compare": {
+      "badge": "Ein ehrlicher Vergleich",
+      "titleStart": "Craftorea vs.",
+      "titleHighlight": "Shopify & Shoptet",
+      "subtitle": "Wie sich eine Plattform für Kreative gegen die großen Allzweck-E-Commerce-Anbieter schlägt.",
+      "intro": "Shopify und Shoptet sind hervorragende Plattformen — für den passenden Shop-Typ. Unten finden Sie einen konstruktiven Blick darauf, wo Craftorea Machern und Kunsthandwerkern einen echten Vorsprung verschafft, einen Funktionsvergleich Punkt für Punkt und eine ehrliche Einschätzung, wann eine andere Plattform besser zu Ihnen passt.",
+      "advantages": {
+        "title": "Wo Craftorea vorne liegt",
+        "subtitle": "Sechs Dinge, die Macher sofort mitgeliefert bekommen — anderswo braucht es Apps, kostenpflichtige Add-ons oder eine Agentur.",
+        "items": {
+          "madeForMakers": {
+            "title": "Nur für Macher gebaut",
+            "description": "Shopify und Shoptet bedienen jede Art von Shop, von Dropshipping bis Lebensmittel. Craftorea ist um handgefertigte Produkte herum entworfen: Fertigung auf Bestellung, Geschenk-Extras, Pflegesymbole für Textilien, bevorzugte Auftragsbearbeitung sowie Bestellungen von Etsy, SAShE, Märkten und dem eigenen Onlineshop in einem Dashboard."
+          },
+          "allInclusive": {
+            "title": "Ein Preis, alles inklusive",
+            "description": "Ein typischer Shopify-Shop zahlt für den Tarif, ein Premium-Theme und einen Stapel monatlicher Apps; Shoptet verkauft viele Funktionen als kostenpflichtige Add-ons. Die Craftorea-Tarife (kostenlos, 39 €, 99 €) enthalten alle Funktionen der Stufe — ohne Einrichtungsgebühren und ohne Plattformgebühr auf Ihre Verkäufe."
+          },
+          "personalization": {
+            "title": "Personalisierung inklusive",
+            "description": "Vom Käufer eingegebene Texte (Gravuren, Widmungen), bepreiste Optionen, Geschenkverpackung als Zusatzprodukte, Foto-Uploads für gerahmte Produkte und bis zu 1.000 Varianten pro Produkt gehören zur Plattform. Bei Shopify bedeutet dasselbe Setup meist eine Personalisierungs-App für bis zu 49 $ im Monat — teils mit eigener Gebühr pro Bestellung."
+          },
+          "invoicing": {
+            "title": "Rechnungen, die Ihre Buchhaltung liebt",
+            "description": "Rechnungen mit fortlaufender Nummerierung, Gutschriften und QR-Zahlungscode werden automatisch erstellt und in der Sprache Ihrer Kundschaft versendet. Exportieren Sie einen ganzen Monat für die Buchhaltung oder übergeben Sie Rechnungen an SuperFaktúra — ganz ohne externe Rechnungs-App."
+          },
+          "euCompliance": {
+            "title": "EU-Konformität ab Werk",
+            "description": "Versionierte AGB, DSGVO- und Reklamationsrichtlinien werden als PDF veröffentlicht und automatisch an jede Bestellbestätigung angehängt. Das 14-tägige EU-Widerrufsrecht ist von Anfang bis Ende abgebildet — inklusive der gesetzlichen Ausnahme für Sonderanfertigungen. Anderswo ist das Ihre Aufgabe."
+          },
+          "multiLanguage": {
+            "title": "Wirklich mehrsprachige Shops",
+            "description": "Betreiben Sie einen Shop in bis zu sieben Sprachen — Produkte, Kategorien, Banner, Rechtsdokumente, Bestell-E-Mails und sogar Rechnungen folgen der Sprache Ihrer Kundschaft. Shopify setzt auf eine Übersetzungs-App mit Limits; bei Shoptet sind Fremdsprachen ein kostenpflichtiges Add-on oder ein separater Shop pro Markt."
+          }
+        }
+      },
+      "table": {
+        "title": "Funktionsvergleich im Detail",
+        "subtitle": "Kurz gesagt: Was bei Craftorea eingebaut ist — und was anderswo Apps, Add-ons oder Umwege erfordert.",
+        "featuresColumn": "Funktion",
+        "platforms": {
+          "craftorea": "Craftorea",
+          "shopify": "Shopify",
+          "shoptet": "Shoptet"
+        },
+        "categories": {
+          "focus": "Fokus & Preise",
+          "makers": "Für Macher",
+          "storefront": "Shop & Reichweite",
+          "operations": "Betrieb & Support"
+        },
+        "rows": {
+          "audience": {
+            "name": "Primäre Zielgruppe"
+          },
+          "freePlan": {
+            "name": "Kostenloser Tarif"
+          },
+          "paidPlans": {
+            "name": "Bezahlte Tarife",
+            "tooltip": "Beworbene Basispreise des Abos — ohne Themes, Apps, Add-ons und Zahlungsabwicklungskosten."
+          },
+          "salesFee": {
+            "name": "Plattformgebühr auf Verkäufe",
+            "tooltip": "Craftorea berechnet nur das Abo — Sie verbinden Ihr eigenes Zahlungsgateway, die Plattform greift nicht auf Ihren Umsatz zu. Shopify berechnet bis zu 2 % extra, wenn Sie nicht Shopify Payments nutzen."
+          },
+          "extrasNeeded": {
+            "name": "Nötige Extras für den vollen Umfang"
+          },
+          "personalization": {
+            "name": "Produktpersonalisierung",
+            "tooltip": "Vom Käufer eingegebene Texte, bepreiste Optionen, Geschenk-Extras und Foto-Uploads für Sonderanfertigungen."
+          },
+          "variants": {
+            "name": "Produktvarianten",
+            "tooltip": "Die Variantenzahl ergibt sich aus multiplizierten Optionen (z. B. 5 Farben × 4 Größen × 2 Materialien = 40 Varianten). Craftorea Pro unterstützt bis zu 1.000 pro Produkt."
+          },
+          "etsyOrders": {
+            "name": "Etsy-Bestellungen & Rechnungen",
+            "tooltip": "Craftorea importiert bezahlte Etsy-Bestellungen in Echtzeit, zeigt sie neben Ihren Shop-Bestellungen an und kann sie automatisch fakturieren."
+          },
+          "customDevelopment": {
+            "name": "Individuelle Entwicklung",
+            "tooltip": "Das Craftorea-Team baut im Pro-Tarif Funktionen und Integrationen, die auf Ihren Shop zugeschnitten sind."
+          },
+          "multiLanguage": {
+            "name": "Mehrsprachiger Shop",
+            "tooltip": "Craftorea Pro übersetzt Produkte, Kategorien, Banner, Dokumente, E-Mails und Rechnungen. Shopifys kostenlose Übersetzungs-App übersetzt automatisch höchstens zwei Sprachen; Shoptet erfordert ein kostenpflichtiges Add-on oder einen separaten Shop pro Markt."
+          },
+          "customDomain": {
+            "name": "Eigene Domain"
+          },
+          "themes": {
+            "name": "Design & Branding"
+          },
+          "mobileResponsive": {
+            "name": "Mobil optimiert"
+          },
+          "seo": {
+            "name": "SEO-Werkzeuge"
+          },
+          "invoicing": {
+            "name": "Rechnungserstellung",
+            "tooltip": "Fortlaufende Nummerierung, Gutschriften, QR-Zahlungscodes, PDFs in der Kundensprache und SuperFaktúra-Integration — eingebaut."
+          },
+          "accountingExport": {
+            "name": "Buchhaltungsexport",
+            "tooltip": "Monatsexport mit einem Klick in einem Format, das slowakische Buchhaltungssoftware direkt importiert."
+          },
+          "euWithdrawal": {
+            "name": "14-tägiges EU-Widerrufsrecht",
+            "tooltip": "Gesetzeskonforme Abwicklung: Fristen, Teilwiderrufe, Ausnahmen für Sonderanfertigungen, Formulare und Bestätigungs-E-Mails."
+          },
+          "discounts": {
+            "name": "Rabatte & Gutscheincodes"
+          },
+          "reviews": {
+            "name": "Bewertungen mit Kundenfotos"
+          },
+          "support": {
+            "name": "Support"
+          }
+        },
+        "values": {
+          "makersOnly": "Macher & Kunsthandwerk",
+          "generalPurpose": "Alle Shop-Typen",
+          "generalCzSk": "Alle Shop-Typen (CZ/SK)",
+          "freeForever": "Dauerhaft kostenloser Tarif",
+          "craftoreaPricing": "39–99 € / Monat",
+          "shopifyPricing": "Ab ca. 29 $ / Monat",
+          "shoptetPricing": "Ab ca. 18 € / Monat",
+          "noneFee": "Keine",
+          "extraGatewayFee": "Bis zu 2 % bei externen Gateways",
+          "allInclusive": "Alles inklusive",
+          "paidAppsThemes": "Kostenpflichtige Apps & Themes",
+          "paidAddons": "Kostenpflichtige Add-ons",
+          "builtIn": "Eingebaut",
+          "viaPaidApps": "Über kostenpflichtige Apps",
+          "viaApps": "Über Apps",
+          "viaAddons": "Über Add-ons",
+          "viaThirdParty": "Über Drittanbieter-Tools",
+          "notNative": "Keine native Funktion",
+          "variants1000": "Bis zu 1.000 pro Produkt",
+          "variants100": "Typischerweise 100 pro Produkt",
+          "includedPro": "Im Pro-Tarif enthalten",
+          "hireAgency": "Über eine Agentur",
+          "premiumOnly": "Nur im Premium-Tarif",
+          "nativePro": "Nativ (Pro-Tarif)",
+          "viaAppLimited": "Per App, mit Limits",
+          "paidAddon": "Kostenpflichtiges Add-on",
+          "guidedSetup": "Geführte automatische Einrichtung",
+          "craftoreaThemes": "Individuelles Branding & Themes",
+          "shopifyThemes": "Kostenlose & bezahlte Themes",
+          "shoptetThemes": "Kleine Vorlagenauswahl",
+          "genericReturns": "Allgemeine Retouren-Tools",
+          "personalSupport": "Persönlich, E-Mail + Telefon",
+          "chatSupport": "24/7-Chat",
+          "businessHours": "Geschäftszeiten (CZ/SK)"
+        },
+        "disclaimer": "Basierend auf öffentlich verfügbaren Informationen zu Shopify und Shoptet, Stand August 2026. Funktionen und Preise ändern sich und können je nach Land und Tarif variieren — prüfen Sie stets die Websites der Anbieter. Shopify und Shoptet sind Marken ihrer jeweiligen Inhaber; keine davon ist mit Craftorea verbunden."
+      },
+      "fair": {
+        "title": "Wann eine andere Plattform besser passt",
+        "subtitle": "Ein Vergleich ist nur nützlich, wenn er ehrlich ist — in diesen Fällen würden wir Sie woanders hinschicken.",
+        "items": {
+          "shopify": {
+            "title": "Shopify: Skalierung und App-Tiefe",
+            "description": "Wenn Sie ein großes Multichannel-Geschäft betreiben, Kassensysteme im Einzelhandel brauchen oder auf einen ganz bestimmten Stack aus Drittanbieter-Tools angewiesen sind, ist Shopifys Ökosystem aus Tausenden Apps, Themes und Agenturen unerreicht."
+          },
+          "shoptet": {
+            "title": "Shoptet: breiter tschechischer E-Commerce",
+            "description": "Wenn Sie ein breites allgemeines Sortiment vor allem auf dem tschechischen Markt verkaufen und von lokalen Preisvergleichen und Marktplatz-Anbindungen leben, ist Shoptets tief verwurzeltes lokales Ökosystem eine bewährte Wahl."
+          }
+        },
+        "closing": "Wenn Ihr Geschäft aber Ihr Handwerk ist, wurde Craftorea genau für Sie gebaut."
+      },
+      "cta": {
+        "title": "Überzeugen Sie sich selbst",
+        "subtitle": "Starten Sie kostenlos, legen Sie Ihre ersten Produkte an und beurteilen Sie Craftorea anhand Ihres eigenen Shops — nicht anhand einer Tabelle.",
+        "benefits": {
+          "freePlan": "Dauerhaft kostenloser Tarif",
+          "noSetupFees": "Keine Einrichtungsgebühren",
+          "personalSupport": "Persönlicher Support"
+        },
+        "button": "Kostenlos starten",
+        "pricingLink": "Preise ansehen"
+      }
+    },
     "contact": {
       "badge": "Kontaktieren Sie uns",
       "title": "Kontakt aufnehmen",
@@ -2572,6 +2950,10 @@
         "title": "Preise",
         "description": "Einfache, transparente Preise für Macher und Kreative. Wählen Sie einen Plan für Ihr Geschäft und verkaufen Sie noch heute online."
       },
+      "compare": {
+        "title": "Craftorea vs. Shopify vs. Shoptet",
+        "description": "Ein ehrlicher Vergleich von Craftorea, Shopify und Shoptet für Macher: Preise, Personalisierung, mehrsprachige Shops, Rechnungen, EU-Konformität und Etsy-Bestellungen."
+      },
       "contact": {
         "title": "Kontakt",
         "description": "Kontaktieren Sie das Craftorea-Team. Wir helfen Ihnen, Ihren Shop einzurichten und Ihr Geschäft auszubauen."
@@ -2583,6 +2965,22 @@
       "logout": {
         "title": "Abmelden",
         "description": "Melden Sie sich von Ihrem Craftorea-Konto ab."
+      },
+      "signup": {
+        "title": "Shop erstellen",
+        "description": "Erstellen Sie Ihren eigenen Craftorea-Shop in wenigen Minuten — verkaufen Sie handgefertigte Produkte online, ohne Einrichtungsgebühren und mit kostenlosem Einstiegsplan."
+      },
+      "forgot_password": {
+        "title": "Passwort vergessen",
+        "description": "Fordern Sie einen Link zum Zurücksetzen des Passworts für Ihr Craftorea-Administratorkonto an."
+      },
+      "reset_password": {
+        "title": "Neues Passwort",
+        "description": "Legen Sie ein neues Passwort für Ihr Craftorea-Administratorkonto fest."
+      },
+      "confirm_email": {
+        "title": "E-Mail-Bestätigung",
+        "description": "Bestätigen Sie die E-Mail-Adresse Ihres Craftorea-Kontos."
       },
       "terms": {
         "title": "Allgemeine Geschäftsbedingungen",
@@ -2604,6 +3002,194 @@
         "title": "Cookie-Richtlinie",
         "description": "Wie Craftorea Cookies und ähnliche Technologien verwendet."
       }
+    },
+    "stock": {
+      "pro_only": "Die Lagerverwaltung ist im Pro-Tarif verfügbar.",
+      "not_enabled": "Die Lagerverwaltung ist für diesen Shop nicht aktiviert. Aktivieren Sie sie unter Einstellungen → Funktionen.",
+      "marketplace_warning": "Marktplatz-Bestellungen (Etsy, Sashe) verändern den Lagerbestand nicht — ihre Positionen sind nicht mit Ihren Produkten verknüpft. Wenn Sie dieselben Stücke dort verkaufen, ist der Bestand hier zu hoch.",
+      "filter_name": "Produkte suchen",
+      "filter_tracked_only": "Nur verfolgte",
+      "filter_low_only": "Nur niedriger Bestand",
+      "column_product": "Produkt",
+      "column_category": "Kategorie",
+      "column_sku": "SKU",
+      "column_on_hand": "Bestand",
+      "column_threshold": "Niedrig ab",
+      "badge_untracked": "Nicht verfolgt",
+      "badge_backorder": "Nachbestellung",
+      "empty": "Keine Produkte gefunden.",
+      "adjust_failed": "Die Menge konnte nicht gespeichert werden.",
+      "reconcile": "Abgleichen",
+      "reconcile_clean": "Alle Mengen stimmen mit der Bewegungshistorie überein.",
+      "reconcile_repaired": "{count} Mengen anhand der Bewegungshistorie korrigiert.",
+      "reconcile_failed": "Der Abgleich ist fehlgeschlagen.",
+      "history_title": "Bestandshistorie",
+      "history_empty": "Noch keine Bewegungen.",
+      "reason_initial": "Anfangsbestand",
+      "reason_order": "Bestellung",
+      "reason_cancellation": "Storno",
+      "reason_receipt": "Zugang",
+      "reason_return": "Rückgabe",
+      "reason_adjustment": "Korrektur",
+      "reason_stocktake": "Inventur",
+      "stock_takes": "Inventuren",
+      "stock_take": "Inventur",
+      "start_stock_take": "Inventur starten",
+      "continue_stock_take": "Inventur fortsetzen",
+      "no_stock_takes": "Noch keine Inventuren.",
+      "open": "Öffnen",
+      "column_started": "Begonnen",
+      "column_status": "Status",
+      "column_by": "Von",
+      "column_lines": "Gezählt",
+      "column_variance": "Differenz",
+      "column_expected": "Erwartet",
+      "column_counted": "Gezählt",
+      "status_open": "Offen",
+      "status_committed": "Abgeschlossen",
+      "status_abandoned": "Abgebrochen",
+      "commit": "Abschließen",
+      "abandon": "Abbrechen",
+      "commit_failed": "Die Inventur konnte nicht abgeschlossen werden.",
+      "count_failed": "Die Zählung konnte nicht gespeichert werden.",
+      "nothing_tracked": "Für kein Produkt wird der Bestand verfolgt.",
+      "variance_summary": "{counted} von {total} Positionen gezählt, {variances} mit Differenz.",
+      "tracking_title": "Bestandsverfolgung",
+      "tracking_on_desc": "Der Bestand wird gezählt und der Kauf bei null gestoppt.",
+      "tracking_off_desc": "Dieses Produkt wird auf Bestellung gefertigt und ohne Limit verkauft.",
+      "start_tracking": "Verfolgung starten",
+      "stop_tracking": "Verfolgung beenden",
+      "initial_quantity": "Jetzt zählen",
+      "tracking_failed": "Die Bestandsverfolgung konnte nicht geändert werden.",
+      "allow_backorder_label": "Nachbestellungen erlauben (Verkauf unter null)",
+      "low_stock_threshold_label": "Schwelle für niedrigen Bestand",
+      "low_stock_threshold_desc": "Leer lassen, um den shopweiten Wert zu verwenden."
+    }
+  },
+  "platform": {
+    "nav": {
+      "wordmark": "Plattform",
+      "badge": "Plattform",
+      "footer_note": "Interne Bildschirme des Craftorea-Plattformbetreibers.",
+      "dashboard": "Übersicht",
+      "eshops": "Shops",
+      "users": "Administratoren",
+      "inquiries": "Anfragen",
+      "account": "Mein Konto"
+    },
+    "bar": {
+      "notice": "Plattformzugriff — Sie befinden sich als Craftorea-Mitarbeiter im Shop {eshop}.",
+      "exit": "Zurück zur Plattform"
+    },
+    "confirm": {
+      "confirm": "Bestätigen",
+      "revoke_title": "Administratorzugriff entziehen",
+      "revoke_description": "Dem Konto wird die Administratorrolle für diesen Shop entzogen und es wird sofort abgemeldet. Die Kontodaten bleiben erhalten, der Zugriff kann erneut erteilt werden.",
+      "demote_title": "Superadmin-Rechte entziehen",
+      "demote_description": "Das Plattformkonto wird gelöscht und der Benutzer abgemeldet. Zugriffe auf einzelne Shops bleiben unverändert."
+    },
+    "dashboard": {
+      "title": "Plattformübersicht",
+      "subtitle": "Der Zustand aller Shops der Plattform.",
+      "eshops_total": "Shops",
+      "new_this_month": "{count} neu in diesem Monat",
+      "orders_this_month": "Bestellungen diesen Monat",
+      "admins_total": "Shop-Administratoren",
+      "superadmins": "{count} Superadmins",
+      "products_total": "Produkte",
+      "tiers": "Pakete",
+      "statuses": "Abo-Status",
+      "attention": "Erfordert Aufmerksamkeit",
+      "inquiries_unhandled": "Offene Anfragen",
+      "eshops_suspended": "Gesperrte Shops",
+      "signups": "Neue Shops",
+      "signups_desc": "In den letzten 12 Monaten.",
+      "no_data": "Keine Daten."
+    },
+    "eshops": {
+      "title": "Shops",
+      "subtitle": "Alle Shops der Plattform.",
+      "create": "Shop erstellen",
+      "create_desc": "Erstellt den Shop und erteilt dem Inhaber Zugriff. Sie selbst bleiben außerhalb des Shops.",
+      "create_error": "Der Shop konnte nicht erstellt werden.",
+      "field_name": "Name",
+      "field_slug": "Slug",
+      "field_domain": "Domain",
+      "field_owner_email": "E-Mail des Inhabers",
+      "field_owner_email_desc": "Existiert noch kein Konto, wird es erstellt — das Passwort setzt der Inhaber über die Passwortwiederherstellung.",
+      "field_owner_name": "Name des Inhabers",
+      "enter": "Shop betreten",
+      "enter_error": "Der Shop konnte nicht betreten werden.",
+      "suspend": "Sperren",
+      "unsuspend": "Entsperren",
+      "suspend_confirm": "Die Administratoren dieses Shops können sich nicht mehr anmelden. Der Storefront bleibt für Kunden erreichbar.",
+      "unsuspend_confirm": "Die Administratoren dieses Shops erhalten den Zugang zur Verwaltung zurück.",
+      "suspended": "Gesperrt",
+      "onboarding_pending": "Einrichtung unvollständig",
+      "identity": "Shop",
+      "subscription": "Abonnement",
+      "subscription_readonly": "Nur lesend — dieser Bildschirm verwaltet keine Abrechnung.",
+      "content": "Inhalt",
+      "owners": "Shop-Administratoren",
+      "owners_desc": "Konten mit Administratorrolle in diesem Shop.",
+      "no_owners": "Dieser Shop hat keinen Administrator.",
+      "unconfirmed": "Nicht bestätigt",
+      "field_email": "E-Mail",
+      "field_language": "Sprache",
+      "field_created": "Erstellt",
+      "field_suspended_at": "Gesperrt seit",
+      "field_tier": "Paket",
+      "field_status": "Status",
+      "field_billing_mode": "Abrechnungsmodus",
+      "field_period_end": "Periodenende",
+      "field_cancel_at_period_end": "Endet zum Periodenende",
+      "field_stripe_customer": "Stripe-Kunde",
+      "field_products": "Produkte",
+      "field_orders": "Bestellungen",
+      "field_customers": "Kunden",
+      "field_onboarding": "Einrichtung",
+      "complete": "Abgeschlossen",
+      "incomplete": "Unvollständig",
+      "yes": "Ja",
+      "no": "Nein"
+    },
+    "users": {
+      "title": "Administratoren",
+      "subtitle": "Konten mit Zugang zur Verwaltung — pro Shop und plattformweit.",
+      "grant": "Zugriff erteilen",
+      "grant_desc": "Erteilt die Administratorrolle für den gewählten Shop. Ein bestehendes Konto behält sein Passwort.",
+      "grant_error": "Der Zugriff konnte nicht erteilt werden.",
+      "promote": "Neuer Superadmin",
+      "promote_desc": "Erstellt ein Plattformkonto aus einem bestehenden bestätigten Konto.",
+      "promote_error": "Der Superadmin konnte nicht erstellt werden.",
+      "field_email": "E-Mail",
+      "field_name": "Name",
+      "field_name_desc": "Nur erforderlich bei einer E-Mail ohne bestehendes Konto.",
+      "field_eshop": "Shop"
+    },
+    "inquiries": {
+      "title": "Anfragen",
+      "subtitle": "Nachrichten aus dem Kontaktformular der Website.",
+      "unhandled_count": "{count} offen",
+      "note": "Interne Notiz",
+      "note_placeholder": "Notiz für Kollegen…",
+      "note_saved": "Gespeichert.",
+      "save_error": "Die Änderung konnte nicht gespeichert werden.",
+      "mark_handled": "Als erledigt markieren",
+      "reopen": "Wieder öffnen",
+      "handled": "Erledigt",
+      "unhandled": "Offen",
+      "no_name": "Ohne Namen",
+      "lead": "Anfrage",
+      "internal": "Intern",
+      "handled_by": "Erledigt von {email} · {date}"
+    },
+    "switcher": {
+      "enter": "Shop betreten",
+      "count": "{count} Shops auf der Plattform",
+      "all_shops": "Alle Shops auf der Plattform",
+      "search": "Shops suchen…",
+      "no_results": "Kein Shop gefunden."
     }
   }
 }

@@ -69,6 +69,8 @@
         "statistics": "Štatistiky",
         "invoices": "Faktúry",
         "orders": "Objednávky",
+        "delivery": "Doprava",
+        "payments": "Platby",
         "documents": "Dokumenty",
         "dashboard": "Prehľad",
         "new": "Nové",
@@ -76,8 +78,6 @@
         "settings": "Nastavenia",
         "create_shop": "Vytvoriť nový e-obchod",
         "switch_shop": "Prepnúť e-obchod",
-        "delivery": "Doprava",
-        "payments": "Platby",
         "regions": "Regióny",
         "settings_general": "Všeobecné",
         "settings_domains": "Domény",
@@ -102,7 +102,9 @@
         "settings_email": "E-mail (SMTP)",
         "settings_api_keys": "API kľúče",
         "settings_billing": "Predplatné",
-        "blog": "Blog"
+        "blog": "Blog",
+        "platform": "Platforma",
+        "stock": "Sklad"
       }
     },
     "join_newsletter": "Prihláste sa na odber noviniek"
@@ -306,6 +308,50 @@
         "title": "Názov",
         "status": "Stav"
       }
+    },
+    "PlatformEshopsGrid": {
+      "name": "Názov",
+      "slug": "Slug",
+      "subscription_tier": "Balíček",
+      "subscription_status": "Predplatné",
+      "suspended": "Pozast.",
+      "admin_count": "Správcov",
+      "product_count": "Produktov",
+      "order_count": "Objednávok",
+      "created_at": "Vytvorený",
+      "filters": {
+        "name": "Názov alebo slug",
+        "subscription_tier": "Balíček",
+        "subscription_status": "Predplatné",
+        "suspended": "Pozastavený"
+      },
+      "actions": {
+        "enter": "Vstúpiť"
+      }
+    },
+    "PlatformUsersGrid": {
+      "email": "E-mail",
+      "name": "Meno",
+      "eshop_name": "Obchod",
+      "is_superadmin": "Superadmin",
+      "confirmed": "Potvrdený",
+      "created_at": "Vytvorený",
+      "filters": {
+        "email": "E-mail alebo meno",
+        "role": "Rola"
+      }
+    },
+    "PlatformInquiriesGrid": {
+      "name": "Meno",
+      "email": "E-mail",
+      "phone": "Telefón",
+      "pricing_plan": "Balíček",
+      "handled": "Vyriešené",
+      "created_at": "Prijaté",
+      "filters": {
+        "email": "E-mail alebo meno",
+        "state": "Stav"
+      }
     }
   },
   "forms": {
@@ -399,7 +445,8 @@
       },
       "addons": {
         "title": "Doplnky k produktu"
-      }
+      },
+      "stock_reduced": "Na sklade zostáva už len {available} ks — znížte, prosím, množstvo."
     },
     "addons": {
       "description": "Prispôsobte si produkt týmito voliteľnými doplnkami. Každý doplnok môže byť personalizovaný, aby bol váš produkt skutočne jedinečný.",
@@ -508,6 +555,7 @@
       "same_as_billing": "Rovnaká ako fakturačná",
       "shipping_payment": "Doprava a platba",
       "shipping_method": "Spôsob doručenia",
+      "pickup_point": "Výdajné miesto",
       "payment_method": "Spôsob platby",
       "gdpr_consent": "Beriem na vedomie",
       "gdpr_link": "spracovanie osobných údajov",
@@ -670,7 +718,8 @@
       "slovak_post": "doručovanie Slovenskou poštou",
       "pickup": "osobný odber v dohodnutom čase na adrese:",
       "packeta": "doručenie do výdajného miesta siete Packeta",
-      "gls": "doručenie GLS kuriérom"
+      "gls": "doručenie GLS kuriérom",
+      "dpd": "doručenie DPD kuriérom"
     },
     "shipping_cost": {
       "title": "Cena dopravy",
@@ -723,6 +772,7 @@
       "description": "Popis výrobku",
       "price_from": "od",
       "unavailable": "Dočasne nedostupné",
+      "out_of_stock": "Vypredané",
       "in_stock": "Na sklade",
       "to_order": "Na objednávku",
       "production_time": "Výrobná doba",
@@ -811,6 +861,42 @@
       },
       "banner": "Ručná práca, krásne spravovaná."
     },
+    "signup": {
+      "welcome": "Vytvorte si obchod",
+      "subtitle": "Začnite predávať svoje ručne robené výrobky za pár minút. Bez platobnej karty.",
+      "banner": "Vaša tvorba si zaslúži vlastný obchod.",
+      "have_account": "Už máte účet?",
+      "login_link": "Prihláste sa",
+      "success": {
+        "title": "Skontrolujte si e-mailovú schránku",
+        "instructions": "Pred pokračovaním je potrebné overiť Vašu e-mailovú adresu. Overovací odkaz sme odoslali do Vašej e-mailovej schránky. Ak Vám e-mail neprišiel, skontrolujte prosím priečinok SPAM. Doručenie môže trvať niekoľko minút."
+      },
+      "form": {
+        "shop_name": "Názov obchodu",
+        "slug": "Adresa obchodu (slug)",
+        "slug_hint": "Váš obchod bude dostupný na adrese {domain}",
+        "name": "Vaše meno",
+        "email": "E-mail",
+        "password": "Heslo",
+        "password_confirm": "Heslo znova",
+        "terms_prefix": "Súhlasím s",
+        "terms_link": "obchodnými podmienkami",
+        "terms_and": "a so",
+        "agreement_link": "zmluvou o poskytovaní služieb",
+        "submit": "Vytvoriť obchod"
+      },
+      "errors": {
+        "required": "Toto pole je povinné.",
+        "invalid_email": "Neplatná e-mailová adresa.",
+        "invalid_slug": "Adresa môže obsahovať iba malé písmená, číslice a pomlčky.",
+        "password_min": "Heslo musí mať aspoň 8 znakov.",
+        "passwords_mismatch": "Heslá sa nezhodujú.",
+        "terms_required": "Pre vytvorenie obchodu je potrebné súhlasiť s podmienkami.",
+        "email_taken": "Účet s týmto e-mailom už existuje. Prihláste sa a vytvorte obchod v administrácii.",
+        "slug_taken": "Obchod s touto adresou už existuje. Zvoľte inú.",
+        "signup_failed": "Obchod sa nepodarilo vytvoriť. Skúste to prosím znova."
+      }
+    },
     "forgot_password": {
       "title": "Zabudnuté heslo",
       "instructions": "V prípade ak ste zabudli Vaše heslo, zadajte Váš e‑mail, ktorý ste použili pri registrácii.",
@@ -848,6 +934,27 @@
         "already_confirmed": "Táto e-mailová adresa už bola overená.",
         "confirmation_failed": "Nepodarilo sa overiť e-mailovú adresu. Skúste znova."
       }
+    },
+    "forgot": {
+      "title": "Obnovenie hesla",
+      "subtitle": "Pošleme vám odkaz na nastavenie nového hesla.",
+      "email": "E-mail",
+      "submit": "Poslať odkaz",
+      "sent": "Ak k tomuto e-mailu existuje účet správcu, poslali sme naň odkaz na obnovenie hesla. Platí 15 minút.",
+      "error": "Požiadavku sa nepodarilo odoslať.",
+      "back_to_login": "Späť na prihlásenie"
+    },
+    "reset": {
+      "title": "Nové heslo",
+      "subtitle": "Nastavte si nové heslo do administrácie.",
+      "password": "Nové heslo",
+      "password_hint": "Aspoň 8 znakov.",
+      "confirm": "Heslo znova",
+      "submit": "Nastaviť heslo",
+      "mismatch": "Heslá sa nezhodujú.",
+      "error": "Heslo sa nepodarilo nastaviť.",
+      "invalid_link": "Odkaz je neplatný alebo expiroval.",
+      "request_new": "Požiadať o nový odkaz"
     }
   },
   "order_status_labels": {
@@ -1003,6 +1110,7 @@
       "delivery_payment": {
         "title": "Doprava a platba",
         "shipping_method": "Spôsob doručenia",
+        "pickup_point": "Výdajné miesto",
         "payment_method": "Spôsob platby"
       },
       "note": "Poznámka k objednávke"
@@ -1227,6 +1335,59 @@
     }
   },
   "admin": {
+    "documents": {
+      "new_document": "Nový dokument",
+      "edit_document": "Upraviť dokument",
+      "empty": "Zatiaľ žiadne dokumenty.",
+      "preview": "Náhľad",
+      "columns": {
+        "title": "Názov",
+        "type": "Typ",
+        "language": "Jazyk",
+        "updated_at": "Upravené"
+      },
+      "fields": {
+        "type": "Typ",
+        "language": "Jazyk",
+        "title": "Názov",
+        "subtitle": "Podnadpis",
+        "content": "Obsah"
+      },
+      "types": {
+        "vop": "Všeobecné obchodné podmienky",
+        "gdpr": "Ochrana osobných údajov",
+        "reklamacie": "Reklamačný poriadok",
+        "odstupenie": "Právo na odstúpenie od zmluvy",
+        "povinnosti": "Osobitné informačné povinnosti",
+        "ars": "Alternatívne riešenie sporov"
+      },
+      "content_mode": {
+        "rich": "Formátovaný text",
+        "html": "HTML zdroj",
+        "hint": "Upravujte vizuálne alebo prepnite na HTML zdroj a doladťe značkovanie pre PDF."
+      },
+      "buttons": {
+        "new": "Nový dokument",
+        "edit": "Upraviť",
+        "save": "Uložiť",
+        "saving": "Ukladá sa…",
+        "cancel": "Zrušiť",
+        "delete": "Odstrániť"
+      },
+      "delete_confirm": {
+        "title": "Odstrániť dokument?",
+        "description": "Týmto sa dokument natrvalo odstráni. Túto akciu nie je možné vrátiť späť."
+      },
+      "errors": {
+        "title_required": "Názov je povinný."
+      },
+      "toasts": {
+        "created": "Dokument bol vytvorený.",
+        "updated": "Dokument bol upravený.",
+        "deleted": "Dokument bol odstránený.",
+        "error": "Niečo sa pokazilo. Skúste to znova."
+      }
+    },
     "onboarding": {
       "getting_started": "Začíname",
       "create_shop": "Vytvoriť obchod",
@@ -1685,7 +1846,24 @@
       "delete_item_confirm": "Naozaj chcete odstrániť túto položku?",
       "business_reg_id": "IČO",
       "tax_id": "DIČ",
-      "vat_id": "IČ DPH"
+      "vat_id": "IČ DPH",
+      "create_title": "Vytvoriť novú faktúru",
+      "create_description": "Vyberte typ faktúry a dodávateľskú firmu.",
+      "create": "Vytvoriť faktúru",
+      "invoice_type": "Typ faktúry",
+      "original_invoice": "Pôvodná faktúra",
+      "original_invoice_hint": "Faktúra, ku ktorej sa tento dobropis vzťahuje.",
+      "original_invoice_search": "Hľadať podľa čísla faktúry alebo odberateľa…",
+      "original_invoice_no_results": "Žiadna faktúra nebola nájdená.",
+      "original_invoice_not_selected": "Žiadna pôvodná faktúra",
+      "original_invoice_clear": "Zrušiť výber",
+      "original_invoice_not_found": "Pôvodná faktúra nebola nájdená.",
+      "copy_customer_from_original": "Skopírovať údaje odberateľa z pôvodnej faktúry",
+      "refunded_items": "Položky na vrátenie",
+      "refunded_items_hint": "Vyberte položky z pôvodnej faktúry, ktoré sa majú dobropisom vrátiť, a upravte množstvo.",
+      "refunded_items_none": "Pôvodná faktúra neobsahuje žiadne položky.",
+      "select_all": "Vybrať všetko",
+      "deselect_all": "Zrušiť výber všetkých"
     },
     "orders": {
       "invoices": "Faktúry",
@@ -1742,6 +1920,7 @@
       "country": "Štát",
       "delivery_address": "Doručovacia adresa",
       "same_as_billing": "Rovnaká ako fakturačná",
+      "pickup_point": "Výdajné miesto",
       "recipient_name": "Meno adresáta",
       "invoice_creation_failed": "Nepodarilo sa vytvoriť faktúru",
       "confirm_order": "Potvrdiť objednávku",
@@ -1885,10 +2064,10 @@
       "feature_allow_priority_desc": "Umožní zákazníkom v obchode zvoliť prioritné spracovanie objednávky.",
       "feature_allow_invoices": "Povoliť faktúry",
       "feature_allow_invoices_desc": "Povolí generovanie faktúr k objednávkam a zobrazí menu Faktúry.",
-      "feature_allow_availability": "Povoliť sledovanie dostupnosti (skladu)",
-      "feature_allow_availability_desc": "Sleduje a zobrazuje skladovú dostupnosť pri produktoch a v e-mailoch objednávok.",
       "feature_allow_blog": "Blog",
       "feature_allow_blog_desc": "Zobrazí na vašom eshope blog s článkami písanými pomocou AI. Články zlepšujú SEO a pred zverejnením ich vždy schvaľujete vy.",
+      "feature_allow_availability": "Zobrazovať dodacie lehoty",
+      "feature_allow_availability_desc": "Zobrazuje čas výroby a dodania pri produktoch a v e-mailoch objednávok.",
       "field_frame_photo_price": "Cena za fotografiu v ráme",
       "field_frame_photo_price_desc": "Cena za možnosť „fotografia v ráme“ v obchode.",
       "email_meta_title": "E-mail (SMTP)",
@@ -1900,7 +2079,12 @@
       "email_field_from": "Adresa odosielateľa",
       "email_field_username": "Používateľské meno",
       "email_field_password": "Heslo",
-      "email_password_keep": "nechajte prázdne pre zachovanie"
+      "email_password_keep": "nechajte prázdne pre zachovanie",
+      "feature_allow_stock": "Povoliť správu skladu",
+      "feature_allow_stock_desc": "Počíta stav na sklade a zastaví nákup, keď sledovaný produkt dojde. Produkty sa zapájajú jednotlivo.",
+      "feature_allow_stock_pro_only": "Dostupné v pláne Pro.",
+      "field_low_stock_threshold": "Hranica nízkej zásoby",
+      "field_low_stock_threshold_desc": "Predvolená hodnota pre produkty bez vlastnej hranice."
     },
     "dashboard": {
       "subtitle": "Prehľad výkonu a úloh vášho obchodu.",
@@ -1936,8 +2120,12 @@
       "kpi_items_sold": "Predané kusy",
       "kpi_review_rate": "Miera recenzií",
       "kpi_review_rate_hint": "Recenzované webové objednávky",
-      "chart_current": "Aktuálne",
-      "chart_previous": "Predchádzajúce"
+      "chart_previous": "Predchádzajúce",
+      "chart_total": "Spolu",
+      "source_web": "Web",
+      "source_sashe": "Sashe.sk",
+      "source_etsy": "Etsy",
+      "source_in_person": "Osobné"
     },
     "promos": {
       "new_promo": "Nový zľavový kód",
@@ -2181,6 +2369,7 @@
       "header": {
         "features": "Funkcie",
         "pricing": "Cenník",
+        "compare": "Porovnanie",
         "contact": "Kontakt",
         "login": "Prihlásiť sa",
         "getStarted": "Začať",
@@ -2249,6 +2438,7 @@
         "links": {
           "features": "Funkcie",
           "pricing": "Cenník",
+          "compare": "Porovnanie",
           "contact": "Kontakt",
           "creatorGuide": "Príručka pre tvorcov",
           "helpCenter": "Centrum pomoci",
@@ -2504,6 +2694,194 @@
         }
       }
     },
+    "compare": {
+      "badge": "Úprimné porovnanie",
+      "titleStart": "Craftorea vs",
+      "titleHighlight": "Shopify a Shoptet",
+      "subtitle": "Ako si platforma stavaná pre tvorcov stojí v porovnaní s veľkými univerzálnymi e-commerce platformami.",
+      "intro": "Shopify aj Shoptet sú výborné platformy — pre správny typ obchodu. Nižšie nájdete konštruktívny pohľad na to, v čom dáva Craftorea tvorcom a remeselníkom skutočný náskok, porovnanie funkcií bod po bode a úprimnú poznámku, kedy vám môže lepšie poslúžiť iná platforma.",
+      "advantages": {
+        "title": "V čom je Craftorea vpredu",
+        "subtitle": "Šesť vecí, ktoré tvorcovia dostanú hneď v základe — inde si vyžadujú aplikácie, platené doplnky alebo agentúru.",
+        "items": {
+          "madeForMakers": {
+            "title": "Stavaná len pre tvorcov",
+            "description": "Shopify a Shoptet slúžia všetkým typom obchodov, od dropshippingu po potraviny. Craftorea je navrhnutá okolo ručnej výroby: zákazková výroba, darčekové doplnky, symboly údržby pre textil, prednostné spracovanie objednávok a objednávky z Etsy, SAShE, trhov aj vlastného e-shopu v jednom prehľade."
+          },
+          "allInclusive": {
+            "title": "Jedna cena, všetko v nej",
+            "description": "Typický obchod na Shopify platí za plán, prémiovú tému a kopu mesačných aplikácií; Shoptet predáva množstvo funkcií ako platené doplnky. Plány Craftorey (zadarmo, 39 €, 99 €) obsahujú všetky funkcie daného stupňa — bez zriaďovacích poplatkov a bez poplatku platformy z vašich predajov."
+          },
+          "personalization": {
+            "title": "Personalizácia v základe",
+            "description": "Vlastný text od zákazníka (gravírovanie, venovania), spoplatnené možnosti, darčekové balenie ako doplnkové produkty, nahranie fotografie pre rámované produkty a až 1 000 variantov na produkt sú súčasťou platformy. Na Shopify rovnaké nastavenie zvyčajne znamená aplikáciu na personalizáciu až za 49 $ mesačne — niekedy aj s vlastným poplatkom z každej objednávky."
+          },
+          "invoicing": {
+            "title": "Fakturácia, ktorú si účtovníci pochvaľujú",
+            "description": "Faktúry s poradovým číslovaním, dobropisy a QR kód na úhradu sa generujú automaticky a odosielajú v jazyku zákazníka. Celý mesiac vyexportujete pre účtovníka na jedno kliknutie alebo faktúry odošlete do SuperFaktúry — bez externej fakturačnej aplikácie."
+          },
+          "euCompliance": {
+            "title": "Súlad s legislatívou EÚ v základe",
+            "description": "Verziované obchodné podmienky, GDPR a reklamačný poriadok sa publikujú ako PDF a automaticky prikladajú ku každému potvrdeniu objednávky. 14-dňové odstúpenie od zmluvy je vyriešené od začiatku do konca — vrátane zákonnej výnimky pre tovar vyrobený na mieru. Inde je to vaša starosť."
+          },
+          "multiLanguage": {
+            "title": "Skutočne viacjazyčné e-shopy",
+            "description": "Prevádzkujte jeden obchod až v siedmich jazykoch — produkty, kategórie, bannery, dokumenty, e-maily k objednávkam aj faktúry sledujú jazyk zákazníka. Shopify sa spolieha na prekladovú aplikáciu s limitmi; na Shoptete sú cudzie jazyky platený doplnok alebo samostatný e-shop pre každý trh."
+          }
+        }
+      },
+      "table": {
+        "title": "Podrobné porovnanie funkcií",
+        "subtitle": "V skratke: čo má Craftorea v základe a čo inde vyžaduje aplikácie, doplnky či obchádzky.",
+        "featuresColumn": "Funkcia",
+        "platforms": {
+          "craftorea": "Craftorea",
+          "shopify": "Shopify",
+          "shoptet": "Shoptet"
+        },
+        "categories": {
+          "focus": "Zameranie a ceny",
+          "makers": "Pre tvorcov",
+          "storefront": "E-shop a dosah",
+          "operations": "Prevádzka a podpora"
+        },
+        "rows": {
+          "audience": {
+            "name": "Primárne publikum"
+          },
+          "freePlan": {
+            "name": "Bezplatný plán"
+          },
+          "paidPlans": {
+            "name": "Platené plány",
+            "tooltip": "Uvádzané základné ceny predplatného — bez tém, aplikácií, doplnkov a nákladov na spracovanie platieb."
+          },
+          "salesFee": {
+            "name": "Poplatok platformy z predaja",
+            "tooltip": "Craftorea si účtuje len predplatné — platobnú bránu si pripojíte vlastnú a platforma na vaše tržby nesiaha. Shopify si účtuje až 2 % navyše, ak nepoužívate Shopify Payments."
+          },
+          "extrasNeeded": {
+            "name": "Čo si treba doplácať"
+          },
+          "personalization": {
+            "name": "Personalizácia produktov",
+            "tooltip": "Vlastný text od zákazníka, spoplatnené možnosti, darčekové doplnky a nahrávanie fotografií pri výrobe na mieru."
+          },
+          "variants": {
+            "name": "Varianty produktov",
+            "tooltip": "Počet variantov je násobkom možností (napr. 5 farieb × 4 veľkosti × 2 materiály = 40 variantov). Craftorea Pro podporuje až 1 000 na produkt."
+          },
+          "etsyOrders": {
+            "name": "Objednávky z Etsy a fakturácia",
+            "tooltip": "Craftorea importuje zaplatené objednávky z Etsy v reálnom čase, zobrazuje ich vedľa objednávok z webu a vie ich automaticky fakturovať."
+          },
+          "customDevelopment": {
+            "name": "Vývoj na mieru",
+            "tooltip": "Tím Craftorey vám v rámci plánu Pro postaví funkcie a integrácie šité na váš obchod."
+          },
+          "multiLanguage": {
+            "name": "Viacjazyčný e-shop",
+            "tooltip": "Craftorea Pro prekladá produkty, kategórie, bannery, dokumenty, e-maily aj faktúry. Bezplatná prekladová aplikácia Shopify automaticky prekladá najviac dva jazyky; Shoptet vyžaduje platený doplnok alebo samostatný e-shop pre každý trh."
+          },
+          "customDomain": {
+            "name": "Vlastná doména"
+          },
+          "themes": {
+            "name": "Dizajn a branding"
+          },
+          "mobileResponsive": {
+            "name": "Responzívny dizajn"
+          },
+          "seo": {
+            "name": "SEO nástroje"
+          },
+          "invoicing": {
+            "name": "Generovanie faktúr",
+            "tooltip": "Poradové číslovanie, dobropisy, QR kódy na úhradu, PDF v jazyku zákazníka a integrácia so SuperFaktúrou — v základe."
+          },
+          "accountingExport": {
+            "name": "Export pre účtovníctvo",
+            "tooltip": "Mesačný export na jedno kliknutie vo formáte, ktorý slovenský účtovný softvér importuje priamo."
+          },
+          "euWithdrawal": {
+            "name": "14-dňové odstúpenie od zmluvy",
+            "tooltip": "Zákonné odstúpenie od zmluvy: lehoty, čiastočné odstúpenia, výnimky pre tovar na mieru, formuláre a potvrdzujúce e-maily."
+          },
+          "discounts": {
+            "name": "Zľavy a promo kódy"
+          },
+          "reviews": {
+            "name": "Recenzie s fotkami zákazníkov"
+          },
+          "support": {
+            "name": "Podpora"
+          }
+        },
+        "values": {
+          "makersOnly": "Tvorcovia a remeselníci",
+          "generalPurpose": "Všetky typy obchodov",
+          "generalCzSk": "Všetky typy obchodov (CZ/SK)",
+          "freeForever": "Trvalo bezplatný plán",
+          "craftoreaPricing": "39–99 € / mesiac",
+          "shopifyPricing": "Od cca 29 $ / mesiac",
+          "shoptetPricing": "Od cca 18 € / mesiac",
+          "noneFee": "Žiadny",
+          "extraGatewayFee": "Až 2 % pri externých bránach",
+          "allInclusive": "Všetko v cene",
+          "paidAppsThemes": "Platené aplikácie a témy",
+          "paidAddons": "Platené doplnky",
+          "builtIn": "V základe",
+          "viaPaidApps": "Cez platené aplikácie",
+          "viaApps": "Cez aplikácie",
+          "viaAddons": "Cez doplnky",
+          "viaThirdParty": "Cez nástroje tretích strán",
+          "notNative": "Nie je natívna funkcia",
+          "variants1000": "Až 1 000 na produkt",
+          "variants100": "Typicky 100 na produkt",
+          "includedPro": "V cene plánu Pro",
+          "hireAgency": "Cez agentúru",
+          "premiumOnly": "Len v tarife Premium",
+          "nativePro": "Natívne (plán Pro)",
+          "viaAppLimited": "Cez aplikáciu, s limitmi",
+          "paidAddon": "Platený doplnok",
+          "guidedSetup": "Sprievodca s automatickým nastavením",
+          "craftoreaThemes": "Branding a témy na mieru",
+          "shopifyThemes": "Bezplatné aj platené témy",
+          "shoptetThemes": "Malý výber šablón",
+          "genericReturns": "Všeobecné nástroje na vrátenia",
+          "personalSupport": "Osobná, e-mail + telefón",
+          "chatSupport": "Chat 24/7",
+          "businessHours": "Pracovné hodiny (CZ/SK)"
+        },
+        "disclaimer": "Vychádza z verejne dostupných informácií o platformách Shopify a Shoptet k augustu 2026. Funkcie a ceny sa menia a môžu sa líšiť podľa krajiny a plánu — aktuálne podmienky si vždy overte na stránkach poskytovateľov. Shopify a Shoptet sú ochranné známky ich vlastníkov; žiadna z nich nie je prepojená s Craftoreou."
+      },
+      "fair": {
+        "title": "Kedy je lepšou voľbou iná platforma",
+        "subtitle": "Porovnanie má zmysel, len ak je úprimné — toto sú situácie, keď by sme vás nasmerovali inam.",
+        "items": {
+          "shopify": {
+            "title": "Shopify: škálovanie a hĺbka aplikácií",
+            "description": "Ak prevádzkujete veľký viackanálový biznis, potrebujete pokladničný systém v kamenných predajniach alebo ste závislí od špecifickej sady nástrojov tretích strán, ekosystém tisícok aplikácií, tém a agentúr okolo Shopify nemá konkurenciu."
+          },
+          "shoptet": {
+            "title": "Shoptet: široký český e-commerce",
+            "description": "Ak predávate široký všeobecný sortiment najmä na českom trhu a žijete z lokálnych porovnávačov cien a napojení na tržiská, hlboko zakorenený lokálny ekosystém Shoptetu je overená voľba."
+          }
+        },
+        "closing": "Ak je však vaším biznisom vaše remeslo, Craftorea vznikla presne pre vás."
+      },
+      "cta": {
+        "title": "Presvedčte sa na vlastné oči",
+        "subtitle": "Začnite zadarmo, pridajte prvé produkty a posúďte Craftoreu podľa vlastného obchodu — nie podľa tabuľky.",
+        "benefits": {
+          "freePlan": "Trvalo bezplatný plán",
+          "noSetupFees": "Bez zriaďovacích poplatkov",
+          "personalSupport": "Osobná podpora"
+        },
+        "button": "Začať zadarmo",
+        "pricingLink": "Pozrieť cenník"
+      }
+    },
     "contact": {
       "badge": "Kontaktujte nás",
       "title": "Spojte sa s nami",
@@ -2572,6 +2950,10 @@
         "title": "Cenník",
         "description": "Jednoduché a transparentné ceny pre tvorcov a remeselníkov. Vyberte si plán, ktorý vyhovuje vášmu podnikaniu, a začnite predávať online už dnes."
       },
+      "compare": {
+        "title": "Craftorea vs Shopify vs Shoptet",
+        "description": "Úprimné porovnanie platforiem Craftorea, Shopify a Shoptet pre tvorcov: ceny, personalizácia, viacjazyčné e-shopy, fakturácia, súlad s EÚ a objednávky z Etsy."
+      },
       "contact": {
         "title": "Kontakt",
         "description": "Spojte sa s tímom Craftorea. Radi vám pomôžeme nastaviť obchod a rozvíjať vaše remeselné podnikanie."
@@ -2583,6 +2965,22 @@
       "logout": {
         "title": "Odhlásenie",
         "description": "Odhláste sa zo svojho účtu Craftorea."
+      },
+      "signup": {
+        "title": "Vytvorte si obchod",
+        "description": "Vytvorte si vlastný obchod na Craftorea za pár minút — predávajte ručne robené výrobky online bez vstupných poplatkov, so štartom zadarmo."
+      },
+      "forgot_password": {
+        "title": "Zabudnuté heslo",
+        "description": "Vyžiadajte si odkaz na obnovenie hesla k Vášmu administrátorskému účtu Craftorea."
+      },
+      "reset_password": {
+        "title": "Nové heslo",
+        "description": "Nastavte si nové heslo k Vášmu administrátorskému účtu Craftorea."
+      },
+      "confirm_email": {
+        "title": "Potvrdenie e-mailu",
+        "description": "Potvrďte e-mailovú adresu k Vášmu účtu Craftorea."
       },
       "terms": {
         "title": "Obchodné podmienky",
@@ -2604,6 +3002,194 @@
         "title": "Zásady používania súborov cookie",
         "description": "Ako Craftorea používa súbory cookie a podobné technológie."
       }
+    },
+    "stock": {
+      "pro_only": "Správa skladu je dostupná v pláne Pro.",
+      "not_enabled": "Správa skladu nie je pre tento e-shop zapnutá. Zapnete ju v Nastavenia → Funkcie.",
+      "marketplace_warning": "Objednávky z trhovísk (Etsy, Sashe) sklad nemenia — ich položky nie sú prepojené s vašimi produktmi. Ak tam predávate tie isté kusy, stav na sklade tu bude vyšší než v skutočnosti.",
+      "filter_name": "Hľadať produkty",
+      "filter_tracked_only": "Len sledované",
+      "filter_low_only": "Len nízka zásoba",
+      "column_product": "Produkt",
+      "column_category": "Kategória",
+      "column_sku": "SKU",
+      "column_on_hand": "Na sklade",
+      "column_threshold": "Nízka pri",
+      "badge_untracked": "Nesledované",
+      "badge_backorder": "Na objednávku",
+      "empty": "Nenašli sa žiadne produkty.",
+      "adjust_failed": "Množstvo sa nepodarilo uložiť.",
+      "reconcile": "Prepočítať",
+      "reconcile_clean": "Všetky množstvá zodpovedajú histórii pohybov.",
+      "reconcile_repaired": "Opravených {count} množstiev podľa histórie pohybov.",
+      "reconcile_failed": "Prepočet sa nepodaril.",
+      "history_title": "História zásoby",
+      "history_empty": "Zatiaľ žiadne pohyby.",
+      "reason_initial": "Počiatočný stav",
+      "reason_order": "Objednávka",
+      "reason_cancellation": "Zrušenie",
+      "reason_receipt": "Príjem",
+      "reason_return": "Vrátenie",
+      "reason_adjustment": "Úprava",
+      "reason_stocktake": "Inventúra",
+      "stock_takes": "Inventúry",
+      "stock_take": "Inventúra",
+      "start_stock_take": "Začať inventúru",
+      "continue_stock_take": "Pokračovať v inventúre",
+      "no_stock_takes": "Zatiaľ žiadne inventúry.",
+      "open": "Otvoriť",
+      "column_started": "Začatá",
+      "column_status": "Stav",
+      "column_by": "Kto",
+      "column_lines": "Spočítané",
+      "column_variance": "Rozdiel",
+      "column_expected": "Očakávané",
+      "column_counted": "Spočítané",
+      "status_open": "Otvorená",
+      "status_committed": "Uzavretá",
+      "status_abandoned": "Zrušená",
+      "commit": "Uzavrieť",
+      "abandon": "Zrušiť",
+      "commit_failed": "Inventúru sa nepodarilo uzavrieť.",
+      "count_failed": "Spočítané množstvo sa nepodarilo uložiť.",
+      "nothing_tracked": "Žiadny produkt zatiaľ nemá sledovanú zásobu.",
+      "variance_summary": "Spočítaných {counted} z {total} položiek, {variances} s rozdielom.",
+      "tracking_title": "Sledovanie zásoby",
+      "tracking_on_desc": "Stav na sklade sa počíta a pri nule sa nákup zastaví.",
+      "tracking_off_desc": "Tento produkt sa vyrába na objednávku a predáva sa bez limitu.",
+      "start_tracking": "Začať sledovať",
+      "stop_tracking": "Prestať sledovať",
+      "initial_quantity": "Aktuálny počet",
+      "tracking_failed": "Sledovanie zásoby sa nepodarilo zmeniť.",
+      "allow_backorder_label": "Povoliť predaj do mínusu (na objednávku)",
+      "low_stock_threshold_label": "Hranica nízkej zásoby",
+      "low_stock_threshold_desc": "Ponechajte prázdne pre hodnotu z nastavení e-shopu."
+    }
+  },
+  "platform": {
+    "nav": {
+      "wordmark": "Platforma",
+      "badge": "Platforma",
+      "footer_note": "Interné obrazovky správcu platformy Craftorea.",
+      "dashboard": "Prehľad",
+      "eshops": "Obchody",
+      "users": "Správcovia",
+      "inquiries": "Dopyty",
+      "account": "Môj účet"
+    },
+    "bar": {
+      "notice": "Prístup platformy — nachádzate sa v obchode {eshop} ako pracovník Craftorea.",
+      "exit": "Späť na platformu"
+    },
+    "confirm": {
+      "confirm": "Potvrdiť",
+      "revoke_title": "Odobrať prístup správcu",
+      "revoke_description": "Účtu bude odobraná rola správcu tohto obchodu a bude okamžite odhlásený. Údaje účtu zostanú zachované a prístup je možné znova prideliť.",
+      "demote_title": "Odobrať superadmin práva",
+      "demote_description": "Platformový účet bude odstránený a používateľ bude odhlásený. Jeho prístupy k jednotlivým obchodom zostanú nezmenené."
+    },
+    "dashboard": {
+      "title": "Prehľad platformy",
+      "subtitle": "Stav všetkých obchodov na platforme.",
+      "eshops_total": "Obchody",
+      "new_this_month": "{count} nových tento mesiac",
+      "orders_this_month": "Objednávky tento mesiac",
+      "admins_total": "Správcovia obchodov",
+      "superadmins": "{count} superadminov",
+      "products_total": "Produkty",
+      "tiers": "Balíčky",
+      "statuses": "Stav predplatného",
+      "attention": "Vyžaduje pozornosť",
+      "inquiries_unhandled": "Nevyriešené dopyty",
+      "eshops_suspended": "Pozastavené obchody",
+      "signups": "Nové obchody",
+      "signups_desc": "Za posledných 12 mesiacov.",
+      "no_data": "Žiadne údaje."
+    },
+    "eshops": {
+      "title": "Obchody",
+      "subtitle": "Všetky obchody na platforme.",
+      "create": "Vytvoriť obchod",
+      "create_desc": "Vytvorí obchod a pridelí prístup jeho vlastníkovi. Vy zostanete mimo obchodu.",
+      "create_error": "Obchod sa nepodarilo vytvoriť.",
+      "field_name": "Názov",
+      "field_slug": "Slug",
+      "field_domain": "Doména",
+      "field_owner_email": "E-mail vlastníka",
+      "field_owner_email_desc": "Ak účet ešte neexistuje, vytvorí sa — heslo si vlastník nastaví cez obnovenie hesla.",
+      "field_owner_name": "Meno vlastníka",
+      "enter": "Vstúpiť do obchodu",
+      "enter_error": "Do obchodu sa nepodarilo vstúpiť.",
+      "suspend": "Pozastaviť",
+      "unsuspend": "Obnoviť",
+      "suspend_confirm": "Správcovia tohto obchodu sa nebudú môcť prihlásiť. Zákaznícka časť obchodu zostane funkčná.",
+      "unsuspend_confirm": "Správcom tohto obchodu bude obnovený prístup do administrácie.",
+      "suspended": "Pozastavený",
+      "onboarding_pending": "Nedokončené nastavenie",
+      "identity": "Obchod",
+      "subscription": "Predplatné",
+      "subscription_readonly": "Iba na čítanie — fakturáciu táto obrazovka nespravuje.",
+      "content": "Obsah",
+      "owners": "Správcovia obchodu",
+      "owners_desc": "Účty s rolou správcu v tomto obchode.",
+      "no_owners": "Obchod nemá žiadneho správcu.",
+      "unconfirmed": "Nepotvrdený",
+      "field_email": "E-mail",
+      "field_language": "Jazyk",
+      "field_created": "Vytvorený",
+      "field_suspended_at": "Pozastavený od",
+      "field_tier": "Balíček",
+      "field_status": "Stav",
+      "field_billing_mode": "Režim fakturácie",
+      "field_period_end": "Koniec obdobia",
+      "field_cancel_at_period_end": "Zruší sa na konci obdobia",
+      "field_stripe_customer": "Stripe zákazník",
+      "field_products": "Produkty",
+      "field_orders": "Objednávky",
+      "field_customers": "Zákazníci",
+      "field_onboarding": "Nastavenie",
+      "complete": "Dokončené",
+      "incomplete": "Nedokončené",
+      "yes": "Áno",
+      "no": "Nie"
+    },
+    "users": {
+      "title": "Správcovia",
+      "subtitle": "Účty s prístupom do administrácie — po obchodoch a na úrovni platformy.",
+      "grant": "Prideliť prístup",
+      "grant_desc": "Pridelí rolu správcu pre vybraný obchod. Existujúci účet si ponechá svoje heslo.",
+      "grant_error": "Prístup sa nepodarilo prideliť.",
+      "promote": "Nový superadmin",
+      "promote_desc": "Vytvorí platformový účet z existujúceho potvrdeného účtu.",
+      "promote_error": "Superadmina sa nepodarilo vytvoriť.",
+      "field_email": "E-mail",
+      "field_name": "Meno",
+      "field_name_desc": "Povinné iba pri e-maile, ktorý ešte nemá účet.",
+      "field_eshop": "Obchod"
+    },
+    "inquiries": {
+      "title": "Dopyty",
+      "subtitle": "Správy z kontaktného formulára na webe.",
+      "unhandled_count": "{count} nevyriešených",
+      "note": "Interná poznámka",
+      "note_placeholder": "Poznámka pre kolegov…",
+      "note_saved": "Uložené.",
+      "save_error": "Zmenu sa nepodarilo uložiť.",
+      "mark_handled": "Označiť ako vyriešené",
+      "reopen": "Znova otvoriť",
+      "handled": "Vyriešené",
+      "unhandled": "Nevyriešené",
+      "no_name": "Bez mena",
+      "lead": "Dopyt",
+      "internal": "Interné",
+      "handled_by": "Vyriešil {email} · {date}"
+    },
+    "switcher": {
+      "enter": "Vstúpiť do obchodu",
+      "count": "{count} obchodov na platforme",
+      "all_shops": "Všetky obchody na platforme",
+      "search": "Hľadať obchod…",
+      "no_results": "Žiadny obchod nezodpovedá."
     }
   }
 }
