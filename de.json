@@ -1809,6 +1809,8 @@
       "invoice_number_prefix": "Rechnung Nr.",
       "order_number": "Bestellnummer",
       "order_not_found": "Eine Bestellung mit dieser Nummer wurde nicht gefunden.",
+      "open_order": "Bestellung öffnen",
+      "open_original_invoice": "Rechnung öffnen",
       "variable_symbol": "Variables Symbol",
       "payment_method": "Zahlungsart",
       "order_date": "Bestelldatum",

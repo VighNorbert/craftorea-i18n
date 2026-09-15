@@ -1809,6 +1809,8 @@
       "invoice_number_prefix": "Faktúra č.",
       "order_number": "Číslo objednávky",
       "order_not_found": "Objednávka s týmto číslom nebola nájdená.",
+      "open_order": "Otvoriť objednávku",
+      "open_original_invoice": "Otvoriť faktúru",
       "variable_symbol": "Variabilný symbol",
       "payment_method": "Forma úhrady",
       "order_date": "Dátum objednávky",

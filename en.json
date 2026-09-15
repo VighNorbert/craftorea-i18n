@@ -1809,6 +1809,8 @@
       "invoice_number_prefix": "Invoice no.",
       "order_number": "Order number",
       "order_not_found": "An order with this number was not found.",
+      "open_order": "Open order",
+      "open_original_invoice": "Open invoice",
       "variable_symbol": "Variable symbol",
       "payment_method": "Payment method",
       "order_date": "Order date",
