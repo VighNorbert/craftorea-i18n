@@ -581,7 +581,8 @@
   "options": {
     "option": "Option",
     "your_choice": "Ihre Auswahl",
-    "custom_instruction": "Wenn Sie die Option \"Individuell\" wählen, notieren Sie Ihren Wunsch bitte im Notizfeld."
+    "custom_instruction": "Wenn Sie die Option \"Individuell\" wählen, notieren Sie Ihren Wunsch bitte im Notizfeld.",
+    "required_fields": "Pflichtfelder"
   },
   "contact": {
     "title": "Kontakt",
@@ -778,7 +779,9 @@
       },
       "product": "{count, plural, =0 {Produkte} one {Produkt} few {Produkte} other {Produkte}}",
       "swiper_photos": "Bild {index} von {total}",
-      "similar_products": "Ähnliche Produkte"
+      "similar_products": "Ähnliche Produkte",
+      "surcharges": "Aufpreise",
+      "select_variant": "Auswählen…"
     }
   },
   "gdpr": {

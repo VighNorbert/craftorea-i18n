@@ -581,7 +581,8 @@
   "options": {
     "option": "Možnosť",
     "your_choice": "Váš výber",
-    "custom_instruction": "Ak vyberiete možnosť \"Vlastné\", dopíšte Vaše želanie do Poznámky."
+    "custom_instruction": "Ak vyberiete možnosť \"Vlastné\", dopíšte Vaše želanie do Poznámky.",
+    "required_fields": "povinné polia"
   },
   "contact": {
     "title": "Kontakt",
@@ -778,7 +779,9 @@
       },
       "product": "{count, plural, =0 {produktov} one {produkt} few {produkty} other {produktov}}",
       "swiper_photos": "Obrázok {index} z {total}",
-      "similar_products": "Podobné produkty"
+      "similar_products": "Podobné produkty",
+      "surcharges": "Príplatky",
+      "select_variant": "Vyberte…"
     }
   },
   "gdpr": {
