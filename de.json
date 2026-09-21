@@ -616,6 +616,8 @@
     "tax_id": "Steuernummer",
     "vat_id": "USt-IdNr.",
     "not_vat_payer": "Kein MwSt.-Zahler",
+    "faq_hint": "Antworten auf die häufigsten Fragen zu Bestellungen, Versand und Zahlung finden Sie in unserem FAQ-Bereich.",
+    "faq_button": "Häufig gestellte Fragen",
     "form": {
       "title": "Kontaktformular",
       "description": "Wenn Sie Fragen haben, kontaktieren Sie mich gerne über dieses Formular.",
