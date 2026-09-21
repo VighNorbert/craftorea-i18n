@@ -616,6 +616,8 @@
     "tax_id": "DIČ",
     "vat_id": "IČ DPH",
     "not_vat_payer": "Nie je platcom DPH",
+    "faq_hint": "Odpovede na najčastejšie otázky týkajúce sa objednávok, dopravy a platby nájdete v sekcii Najčastejšie otázky.",
+    "faq_button": "Najčastejšie otázky",
     "form": {
       "title": "Kontaktný formulár",
       "description": "V prípade otázok ma neváhajte kontaktovať pomocou tohto formulára.",

@@ -616,6 +616,8 @@
     "tax_id": "Tax ID",
     "vat_id": "VAT ID",
     "not_vat_payer": "Not VAT payer",
+    "faq_hint": "Answers to the most common questions about orders, shipping and payment can be found in our FAQ section.",
+    "faq_button": "Frequently Asked Questions",
     "form": {
       "title": "Contact form",
       "description": "If you have any questions, feel free to contact me using this form.",
