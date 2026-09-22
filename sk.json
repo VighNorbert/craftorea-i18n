@@ -3024,6 +3024,15 @@
         "description": "Ako Craftorea používa súbory cookie a podobné technológie."
       }
     },
+    "tracking": {
+      "title": "Sledovanie zásielky",
+      "parcel": "Balík",
+      "depot": "Depo",
+      "receiver": "Prevzal",
+      "service": "Produkt",
+      "scan": "Sken",
+      "no_events": "Zatiaľ žiadne udalosti od prepravcu."
+    },
     "stock": {
       "pro_only": "Správa skladu je dostupná v pláne Pro.",
       "not_enabled": "Správa skladu nie je pre tento e-shop zapnutá. Zapnete ju v Nastavenia → Funkcie.",

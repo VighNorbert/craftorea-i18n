@@ -3024,6 +3024,15 @@
         "description": "Wie Craftorea Cookies und ähnliche Technologien verwendet."
       }
     },
+    "tracking": {
+      "title": "Sendungsverfolgung",
+      "parcel": "Paket",
+      "depot": "Depot",
+      "receiver": "Empfangen von",
+      "service": "Produkt",
+      "scan": "Scan",
+      "no_events": "Noch keine Ereignisse vom Versanddienstleister."
+    },
     "stock": {
       "pro_only": "Die Lagerverwaltung ist im Pro-Tarif verfügbar.",
       "not_enabled": "Die Lagerverwaltung ist für diesen Shop nicht aktiviert. Aktivieren Sie sie unter Einstellungen → Funktionen.",

@@ -3024,6 +3024,15 @@
         "description": "How Craftorea uses cookies and similar technologies."
       }
     },
+    "tracking": {
+      "title": "Shipment tracking",
+      "parcel": "Parcel",
+      "depot": "Depot",
+      "receiver": "Received by",
+      "service": "Product",
+      "scan": "Scan",
+      "no_events": "No carrier events yet."
+    },
     "stock": {
       "pro_only": "Stock management is available on the Pro plan.",
       "not_enabled": "Stock management is not enabled for this shop. Turn it on in Settings → Features.",
