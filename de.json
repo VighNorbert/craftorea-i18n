@@ -787,6 +787,17 @@
       "show_less_photos": "Weniger Fotos anzeigen",
       "show_all_photos": "Alle Fotos anzeigen",
       "cancellation_impossible": "Ein Rücktritt vom Vertrag ist bei diesem Produkt nicht möglich, da es nach individuellen Wünschen angefertigt oder speziell für einen Kunden bestimmt ist.",
+      "filters": {
+        "title": "Filter",
+        "price": "Preis",
+        "min": "von",
+        "max": "bis",
+        "subcategory": "Produkttyp",
+        "show_results": "{count, plural, =0 {Produkte anzeigen} one {# Produkt anzeigen} other {# Produkte anzeigen}}",
+        "clear": "Filter zurücksetzen",
+        "no_results": "Keine Produkte entsprechen den gewählten Filtern.",
+        "remove": "Filter {name} entfernen"
+      },
       "sort": {
         "sort_by": "Sortieren nach",
         "best_selling": "Bestseller",

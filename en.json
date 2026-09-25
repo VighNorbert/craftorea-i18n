@@ -787,6 +787,17 @@
       "show_less_photos": "Show fewer photos",
       "show_all_photos": "Show all photos",
       "cancellation_impossible": "Withdrawal from the contract is not possible for this product as it is made to the consumer's specific requests, custom-made, or intended specifically for one consumer.",
+      "filters": {
+        "title": "Filters",
+        "price": "Price",
+        "min": "from",
+        "max": "to",
+        "subcategory": "Product type",
+        "show_results": "Show {count, plural, =0 {products} one {# product} other {# products}}",
+        "clear": "Clear filters",
+        "no_results": "No products match the selected filters.",
+        "remove": "Remove filter {name}"
+      },
       "sort": {
         "sort_by": "Sort by",
         "best_selling": "Best selling",
