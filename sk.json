@@ -21,6 +21,7 @@
     "cart": "Nákupný košík",
     "profile": "Môj profil",
     "show_more": "Zobraziť viac",
+    "show_less": "Zobraziť menej",
     "secure_payment": "Bezpečná platba | Všetky kartové informácie sú plne šifrované, bezpečné a chránené.",
     "home": "Domov",
     "increase": "Zvýšiť",
@@ -789,8 +790,7 @@
       "sort": {
         "sort_by": "Zoradiť podľa",
         "best_selling": "Najpredávanejšie",
-        "alphabetically_az": "Podľa názvu A-Z",
-        "alphabetically_za": "Podľa názvu Z-A",
+        "newest": "Najnovšie",
         "price_low_high": "Najlacnejšie",
         "price_high_low": "Najdrahšie"
       },
