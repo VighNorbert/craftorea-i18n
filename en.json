@@ -21,6 +21,7 @@
     "cart": "Shopping cart",
     "profile": "My profile",
     "show_more": "Show more",
+    "show_less": "Show less",
     "secure_payment": "Secure payment | All card information is fully encrypted, secure, and protected.",
     "home": "Home",
     "increase": "Increase",
@@ -789,8 +790,7 @@
       "sort": {
         "sort_by": "Sort by",
         "best_selling": "Best selling",
-        "alphabetically_az": "Alphabetically, A-Z",
-        "alphabetically_za": "Alphabetically, Z-A",
+        "newest": "Newest",
         "price_low_high": "Cheapest",
         "price_high_low": "Most expensive"
       },
