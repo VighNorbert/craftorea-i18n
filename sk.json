@@ -788,7 +788,7 @@
       "show_all_photos": "Zobraziť všetky fotky",
       "cancellation_impossible": "Pri tomto produkte nie je možné odstúpiť od zmluvy, keďže sa jedná o tovar zhotovený podľa osobitných požiadaviek spotrebiteľa, tovar vyrobený na mieru alebo tovar určený osobitne pre jedného spotrebiteľa.",
       "filters": {
-        "title": "Filtre",
+        "title": "Filtrovanie",
         "price": "Cena",
         "min": "od",
         "max": "do",
