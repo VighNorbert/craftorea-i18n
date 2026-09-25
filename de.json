@@ -2153,6 +2153,31 @@
       "source_in_person": "Vor Ort",
       "chart_not_yet": "Noch nicht begonnen"
     },
+    "assistant": {
+      "title": "Assistent",
+      "intro": "Fragen Sie nach Umsatz, Lagerbestand oder Katalog Ihres Shops.",
+      "placeholder": "Assistent fragen…",
+      "send": "Senden",
+      "starters": {
+        "digest": "Was braucht heute meine Aufmerksamkeit?",
+        "sales": "Wie entwickelt sich der Umsatz?",
+        "stock": "Was geht mir auf Lager aus?",
+        "listing": "Hilf mir, dieses Angebot zu verbessern"
+      },
+      "open": "Assistent öffnen",
+      "close": "Schließen",
+      "fullscreen": "Vollbild",
+      "activity": "Arbeitet…",
+      "memory_title": "Was sich der Assistent merkt",
+      "memory_empty": "Noch nichts gemerkt.",
+      "forget": "Vergessen",
+      "new_conversation": "Neue Unterhaltung",
+      "change_actions_soon": "Demnächst verfügbar",
+      "approve": "Genehmigen",
+      "dismiss": "Verwerfen",
+      "unreachable": "Der Assistent ist gerade nicht erreichbar. Bitte versuchen Sie es erneut.",
+      "skipped_metrics": "Einige Kennzahlen waren nicht verfügbar und wurden übersprungen."
+    },
     "promos": {
       "new_promo": "Neuer Rabattcode",
       "edit_promo": "Rabattcode bearbeiten",

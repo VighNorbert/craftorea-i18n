@@ -2153,6 +2153,31 @@
       "source_in_person": "Osobné",
       "chart_not_yet": "Ešte nezačalo"
     },
+    "assistant": {
+      "title": "Asistent",
+      "intro": "Spýtajte sa na tržby, sklad alebo katalóg vášho obchodu.",
+      "placeholder": "Napíšte asistentovi…",
+      "send": "Odoslať",
+      "starters": {
+        "digest": "Čo potrebuje moju pozornosť dnes?",
+        "sales": "Ako sa vyvíjajú tržby?",
+        "stock": "Čo mi dochádza na sklade?",
+        "listing": "Pomôž mi vylepšiť tento produkt"
+      },
+      "open": "Otvoriť asistenta",
+      "close": "Zavrieť",
+      "fullscreen": "Na celú obrazovku",
+      "activity": "Pracujem…",
+      "memory_title": "Čo si asistent pamätá",
+      "memory_empty": "Zatiaľ si nič nepamätá.",
+      "forget": "Zabudnúť",
+      "new_conversation": "Nová konverzácia",
+      "change_actions_soon": "Čoskoro",
+      "approve": "Schváliť",
+      "dismiss": "Zamietnuť",
+      "unreachable": "Asistent je momentálne nedostupný. Skúste to prosím znova.",
+      "skipped_metrics": "Niektoré metriky neboli dostupné a boli vynechané."
+    },
     "promos": {
       "new_promo": "Nový zľavový kód",
       "edit_promo": "Upraviť zľavový kód",
