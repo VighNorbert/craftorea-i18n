@@ -2153,6 +2153,35 @@
       "source_in_person": "In person",
       "chart_not_yet": "Not started yet"
     },
+    "assistant": {
+      "title": "Assistant",
+      "intro": "Ask about your shop's sales, stock, or catalog.",
+      "placeholder": "Ask the assistant…",
+      "send": "Send",
+      "starters": {
+        "digest": "What needs my attention today?",
+        "sales": "How are sales trending?",
+        "stock": "What's running low on stock?",
+        "listing": "Help me improve this listing"
+      },
+      "open": "Open assistant",
+      "close": "Close",
+      "fullscreen": "Full screen",
+      "resize": "Resize assistant panel",
+      "activity": "Working…",
+      "inspector_title": "Assistant activity",
+      "inspector_steps": "Steps",
+      "inspector_empty": "No tool calls in this session yet.",
+      "memory_title": "What the assistant remembers",
+      "memory_empty": "Nothing remembered yet.",
+      "forget": "Forget",
+      "new_conversation": "New conversation",
+      "change_actions_soon": "Coming soon",
+      "approve": "Approve",
+      "dismiss": "Dismiss",
+      "unreachable": "The assistant is unavailable right now. Please try again.",
+      "skipped_metrics": "Some metrics weren't available and were skipped."
+    },
     "promos": {
       "new_promo": "New promo code",
       "edit_promo": "Edit promo code",
