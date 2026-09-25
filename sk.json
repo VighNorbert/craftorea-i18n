@@ -787,6 +787,17 @@
       "show_less_photos": "Zobraziť menej fotiek",
       "show_all_photos": "Zobraziť všetky fotky",
       "cancellation_impossible": "Pri tomto produkte nie je možné odstúpiť od zmluvy, keďže sa jedná o tovar zhotovený podľa osobitných požiadaviek spotrebiteľa, tovar vyrobený na mieru alebo tovar určený osobitne pre jedného spotrebiteľa.",
+      "filters": {
+        "title": "Filtre",
+        "price": "Cena",
+        "min": "od",
+        "max": "do",
+        "subcategory": "Typ produktu",
+        "show_results": "Zobraziť {count, plural, =0 {produkty} one {# produkt} few {# produkty} other {# produktov}}",
+        "clear": "Zrušiť filtre",
+        "no_results": "Žiadne produkty nezodpovedajú zvoleným filtrom.",
+        "remove": "Odstrániť filter {name}"
+      },
       "sort": {
         "sort_by": "Zoradiť podľa",
         "best_selling": "Najpredávanejšie",
