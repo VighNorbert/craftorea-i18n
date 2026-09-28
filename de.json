@@ -1942,6 +1942,7 @@
       "same_as_billing": "Wie Rechnungsadresse",
       "pickup_point": "Abholpunkt",
       "recipient_name": "Name des Empfängers",
+      "delivery_email": "Liefer-E-Mail (für den Zusteller)",
       "invoice_creation_failed": "Rechnung konnte nicht erstellt werden",
       "confirm_order": "Bestellung bestätigen",
       "order_paid": "Bestellung bezahlt",
