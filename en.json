@@ -529,6 +529,13 @@
       },
       "continue_to_shipping": "Continue to shipping and payment"
     },
+    "steps": {
+      "label": "Checkout steps",
+      "details": "Personal details",
+      "options": "Shipping and payment",
+      "summary": "Summary",
+      "back_to_cart": "Back to cart"
+    },
     "options": {
       "title": "Shipping and Payment",
       "step_title": "2/3. Shipping and Payment",
