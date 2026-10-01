@@ -529,6 +529,13 @@
       },
       "continue_to_shipping": "Weiter zu Versand und Zahlung"
     },
+    "steps": {
+      "label": "Bestellschritte",
+      "details": "Persönliche Angaben",
+      "options": "Versand und Zahlung",
+      "summary": "Übersicht",
+      "back_to_cart": "Zurück zum Warenkorb"
+    },
     "options": {
       "title": "Versand und Zahlung",
       "step_title": "2/3. Versand und Zahlung",

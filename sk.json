@@ -529,6 +529,13 @@
       },
       "continue_to_shipping": "Pokračovať na dopravu a platbu"
     },
+    "steps": {
+      "label": "Kroky objednávky",
+      "details": "Osobné údaje",
+      "options": "Doprava a platba",
+      "summary": "Zhrnutie",
+      "back_to_cart": "Späť do košíka"
+    },
     "options": {
       "title": "Doprava a Platba",
       "step_title": "2/3. Doprava a Platba",
