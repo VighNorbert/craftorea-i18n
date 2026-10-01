@@ -415,6 +415,7 @@
     "priority_handling": "Priorisierte Bestellbearbeitung innerhalb von 7 Tagen nach Vertragsabschluss",
     "discount_code_section": "Rabattcode anwenden",
     "discount_code_label": "Rabattcode",
+    "discount_code_toggle": "Ich habe einen Rabattcode",
     "discount_code_error": "Der eingegebene Rabattcode ist ungültig.",
     "discount_code_required": "Bitte geben Sie den Rabattcode ein.",
     "discount_code_min_price": "Der eingegebene Rabattcode kann nicht auf Ihre Bestellung angewendet werden. Der Mindestbestellwert muss betragen",

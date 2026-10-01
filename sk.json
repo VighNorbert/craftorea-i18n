@@ -415,6 +415,7 @@
     "priority_handling": "Prednostné vybavenie objednávky do 7 dní od uzavretia zmluvy",
     "discount_code_section": "Uplatniť zľavový kód",
     "discount_code_label": "Zľavový kód",
+    "discount_code_toggle": "Mám zľavový kód",
     "discount_code_error": "Zadaný zľavový kód nie je platný.",
     "discount_code_required": "Prosím vyplňte zľavový kód.",
     "discount_code_min_price": "Zadaný zľavový kód nie je možné použiť pre Vašu objednávku. Minimálna cena objednávky musí byť",

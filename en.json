@@ -415,6 +415,7 @@
     "priority_handling": "Priority order handling within 7 days from contract conclusion",
     "discount_code_section": "Apply discount code",
     "discount_code_label": "Discount code",
+    "discount_code_toggle": "I have a discount code",
     "discount_code_error": "The entered discount code is not valid.",
     "discount_code_required": "Please enter the discount code.",
     "discount_code_min_price": "The entered discount code cannot be applied to your order. The minimum order price must be",
