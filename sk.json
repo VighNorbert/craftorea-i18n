@@ -32,7 +32,9 @@
       "registration_id": "IČO",
       "tax_id": "DIČ",
       "vat_id": "IČ DPH",
-      "button": "Kontaktovať"
+      "button": "Kontaktovať",
+      "call_us": "Zavolajte nám",
+      "opening_hours": "Otváracie hodiny"
     },
     "follow_us": {
       "title": "Sledujte nás"
