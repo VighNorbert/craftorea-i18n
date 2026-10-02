@@ -34,7 +34,8 @@
       "vat_id": "VAT ID",
       "button": "Contact",
       "call_us": "Call us",
-      "opening_hours": "Opening hours"
+      "opening_hours": "Opening hours",
+      "availability": "Availability"
     },
     "follow_us": {
       "title": "Follow us"

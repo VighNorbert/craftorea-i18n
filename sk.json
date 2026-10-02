@@ -34,7 +34,8 @@
       "vat_id": "IČ DPH",
       "button": "Kontaktovať",
       "call_us": "Zavolajte nám",
-      "opening_hours": "Otváracie hodiny"
+      "opening_hours": "Otváracie hodiny",
+      "availability": "Dostupnosť"
     },
     "follow_us": {
       "title": "Sledujte nás"
