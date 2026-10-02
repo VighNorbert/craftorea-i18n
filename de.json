@@ -1215,7 +1215,8 @@
     "review_count": "{count, plural, =0 {0 Bewertungen} one {1 Bewertung} few {# Bewertungen} other {# Bewertungen}}",
     "unreviewed_product": "Produkt wurde noch nicht bewertet",
     "verified_customers": "Alle Bewertungen stammen von verifizierten E-Shop-Kunden.",
-    "filter_by_stars": "Nur Bewertungen mit {stars} ★ anzeigen"
+    "filter_by_stars": "Nur Bewertungen mit {stars} ★ anzeigen",
+    "no_text": "Der Kunde hat keine schriftliche Bewertung hinterlassen."
   },
   "reviews_page": {
     "title": "Kundenbewertungen",

@@ -1215,7 +1215,8 @@
     "review_count": "{count, plural, =0 {0 reviews} one {1 review} few {# reviews} other {# reviews}}",
     "unreviewed_product": "Product has not been reviewed yet",
     "verified_customers": "All reviews come from verified customers from our e-shop.",
-    "filter_by_stars": "Show only {stars} ★ reviews"
+    "filter_by_stars": "Show only {stars} ★ reviews",
+    "no_text": "The customer left no written review."
   },
   "reviews_page": {
     "title": "Customer reviews",
