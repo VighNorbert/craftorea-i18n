@@ -1216,7 +1216,9 @@
     "unreviewed_product": "Produkt wurde noch nicht bewertet",
     "verified_customers": "Alle Bewertungen stammen von verifizierten E-Shop-Kunden.",
     "filter_by_stars": "Nur Bewertungen mit {stars} ★ anzeigen",
-    "no_text": "Der Kunde hat keine schriftliche Bewertung hinterlassen."
+    "no_text": "Der Kunde hat keine schriftliche Bewertung hinterlassen.",
+    "verified_customer": "Verifizierter Kunde",
+    "verified_customer_title": "Diese Bewertung stammt aus einer verifizierten Bestellung in unserem E-Shop."
   },
   "reviews_page": {
     "title": "Kundenbewertungen",

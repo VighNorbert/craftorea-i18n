@@ -1216,7 +1216,9 @@
     "unreviewed_product": "Produkt zatiaľ nebol ohodnotený",
     "verified_customers": "Všetky hodnotenia pochádzajú od overených zákazníkov z nášho e-shopu.",
     "filter_by_stars": "Zobraziť len hodnotenia {stars} ★",
-    "no_text": "Zákazník nepridal slovné hodnotenie."
+    "no_text": "Zákazník nepridal slovné hodnotenie.",
+    "verified_customer": "Overený zákazník",
+    "verified_customer_title": "Hodnotenie pochádza z overenej objednávky v našom e-shope."
   },
   "reviews_page": {
     "title": "Recenzie zákazníkov",
