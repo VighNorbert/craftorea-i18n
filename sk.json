@@ -48,7 +48,8 @@
       "privacy": "Ochrana osobných údajov",
       "cookies": "Prehľad súborov Cookie",
       "cookie_settings": "Spravovať nastavenia Cookies",
-      "downloads": "Informácie a poučenia pre spotrebiteľa"
+      "downloads": "Informácie a poučenia pre spotrebiteľa",
+      "reviews": "Recenzie zákazníkov"
     },
     "product_categories": {
       "title": "Kategórie výrobkov"
@@ -383,6 +384,7 @@
     "bestsellers": "Bestsellery",
     "our_reviews": "Naše recenzie",
     "latest_reviews": "Najnovšie recenzie",
+    "all_reviews": "Všetky recenzie",
     "banners_cta_button": "Nakupovať",
     "colors_title": "Nakupovať podľa farby",
     "customer_stories": "Príbehy našich zákazníkov",
@@ -1213,6 +1215,18 @@
     "review_count": "{count, plural, =0 {0 hodnotení} one {1 hodnotenie} few {# hodnotenia} other {# hodnotení}}",
     "unreviewed_product": "Produkt zatiaľ nebol ohodnotený",
     "verified_customers": "Všetky hodnotenia pochádzajú od overených zákazníkov z nášho e-shopu."
+  },
+  "reviews_page": {
+    "title": "Recenzie zákazníkov",
+    "title_page": "Recenzie zákazníkov – strana {page}",
+    "description": "Prečítajte si všetky hodnotenia a recenzie od overených zákazníkov nášho e-shopu.",
+    "all_reviews": "Všetky recenzie",
+    "empty": "Zatiaľ nemáme žiadne recenzie.",
+    "page_of": "Strana {page} z {total}",
+    "pagination": "Stránkovanie recenzií",
+    "previous_page": "Predchádzajúca strana",
+    "next_page": "Ďalšia strana",
+    "go_to_page": "Strana {page}"
   },
   "search": {
     "title": "Vyhľadávanie",
