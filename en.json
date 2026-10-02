@@ -1236,7 +1236,13 @@
     "searching": "Searching",
     "view_all_results": "View all {count} results",
     "no_results_for": "No results found for \"{query}\"",
-    "type_to_search": "Type at least 2 characters to search"
+    "type_to_search": "Type at least 2 characters to search",
+    "no_results_hint": "Check the spelling or try a shorter, more general term.",
+    "browse_categories": "Browse by category",
+    "all_products": "All products",
+    "bestsellers": "Our bestsellers",
+    "contact_prompt": "Can't find what you're looking for?",
+    "contact_link": "Contact us"
   },
   "unsubscribe": {
     "title": "Unsubscribe from newsletter",

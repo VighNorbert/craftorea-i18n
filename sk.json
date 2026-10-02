@@ -1236,7 +1236,13 @@
     "searching": "Vyhľadávam",
     "view_all_results": "Zobraziť všetkých {count} výsledkov",
     "no_results_for": "Žiadne výsledky pre \"{query}\"",
-    "type_to_search": "Zadajte aspoň 2 znaky na vyhľadávanie"
+    "type_to_search": "Zadajte aspoň 2 znaky na vyhľadávanie",
+    "no_results_hint": "Skontrolujte preklepy alebo skúste kratší, všeobecnejší výraz.",
+    "browse_categories": "Prezrite si kategórie",
+    "all_products": "Všetky produkty",
+    "bestsellers": "Naše najpredávanejšie",
+    "contact_prompt": "Nenašli ste, čo hľadáte?",
+    "contact_link": "Napíšte nám"
   },
   "unsubscribe": {
     "title": "Odhlásiť sa z odberu noviniek",
