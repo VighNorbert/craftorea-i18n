@@ -748,6 +748,13 @@
       "terms_link": "the Terms and Conditions"
     }
   },
+  "shipping_info": {
+    "from_and_free": "Shipping from {from} €, free over {threshold} €",
+    "from": "Shipping from {from} €",
+    "free_over": "Free shipping over {threshold} €",
+    "free": "Free shipping",
+    "link": "Shipping details"
+  },
   "errors": {
     "not_found": {
       "title": "Page not found",

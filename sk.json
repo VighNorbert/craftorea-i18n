@@ -748,6 +748,13 @@
       "terms_link": "Obchodných podmienkach"
     }
   },
+  "shipping_info": {
+    "from_and_free": "Doprava od {from} €, zadarmo nad {threshold} €",
+    "from": "Doprava od {from} €",
+    "free_over": "Doprava zadarmo nad {threshold} €",
+    "free": "Doprava zadarmo",
+    "link": "Viac o doprave"
+  },
   "errors": {
     "not_found": {
       "title": "Stránku sa nepodarilo nájsť",
