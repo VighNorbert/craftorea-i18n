@@ -32,7 +32,9 @@
       "registration_id": "Registration ID",
       "tax_id": "Tax ID",
       "vat_id": "VAT ID",
-      "button": "Contact"
+      "button": "Contact",
+      "call_us": "Call us",
+      "opening_hours": "Opening hours"
     },
     "follow_us": {
       "title": "Follow us"

@@ -32,7 +32,9 @@
       "registration_id": "Registrierungsnummer",
       "tax_id": "Steuernummer",
       "vat_id": "USt-IdNr.",
-      "button": "Kontakt"
+      "button": "Kontakt",
+      "call_us": "Rufen Sie uns an",
+      "opening_hours": "Öffnungszeiten"
     },
     "follow_us": {
       "title": "Folgen Sie uns"
