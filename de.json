@@ -50,7 +50,8 @@
       "privacy": "Datenschutzrichtlinie",
       "cookies": "Cookie-Übersicht",
       "cookie_settings": "Cookie-Einstellungen verwalten",
-      "downloads": "Verbraucherinformationen und Anleitungen"
+      "downloads": "Verbraucherinformationen und Anleitungen",
+      "reviews": "Kundenbewertungen"
     },
     "product_categories": {
       "title": "Produktkategorien"
@@ -385,6 +386,7 @@
     "bestsellers": "Bestseller",
     "our_reviews": "Unsere Bewertungen",
     "latest_reviews": "Neueste Bewertungen",
+    "all_reviews": "Alle Bewertungen",
     "banners_cta_button": "Einkaufen",
     "colors_title": "Nach Farbe einkaufen",
     "customer_stories": "Kunden Geschichten",
@@ -1222,6 +1224,18 @@
     "review_count": "{count, plural, =0 {0 Bewertungen} one {1 Bewertung} few {# Bewertungen} other {# Bewertungen}}",
     "unreviewed_product": "Produkt wurde noch nicht bewertet",
     "verified_customers": "Alle Bewertungen stammen von verifizierten E-Shop-Kunden."
+  },
+  "reviews_page": {
+    "title": "Kundenbewertungen",
+    "title_page": "Kundenbewertungen – Seite {page}",
+    "description": "Lesen Sie alle Bewertungen und Rezensionen von verifizierten Kunden unseres E-Shops.",
+    "all_reviews": "Alle Bewertungen",
+    "empty": "Es gibt noch keine Bewertungen.",
+    "page_of": "Seite {page} von {total}",
+    "pagination": "Seitennavigation der Bewertungen",
+    "previous_page": "Vorherige Seite",
+    "next_page": "Nächste Seite",
+    "go_to_page": "Seite {page}"
   },
   "search": {
     "title": "Suche",
