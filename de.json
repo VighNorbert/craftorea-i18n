@@ -34,7 +34,8 @@
       "vat_id": "USt-IdNr.",
       "button": "Kontakt",
       "call_us": "Rufen Sie uns an",
-      "opening_hours": "Öffnungszeiten"
+      "opening_hours": "Öffnungszeiten",
+      "availability": "Erreichbarkeit"
     },
     "follow_us": {
       "title": "Folgen Sie uns"
