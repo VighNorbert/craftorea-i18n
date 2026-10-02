@@ -1227,7 +1227,13 @@
     "searching": "Suche läuft",
     "view_all_results": "Alle {count} Ergebnisse anzeigen",
     "no_results_for": "Keine Ergebnisse für \"{query}\" gefunden",
-    "type_to_search": "Mindestens 2 Zeichen eingeben zum Suchen"
+    "type_to_search": "Mindestens 2 Zeichen eingeben zum Suchen",
+    "no_results_hint": "Prüfen Sie die Schreibweise oder versuchen Sie einen kürzeren, allgemeineren Begriff.",
+    "browse_categories": "Nach Kategorie stöbern",
+    "all_products": "Alle Produkte",
+    "bestsellers": "Unsere Bestseller",
+    "contact_prompt": "Nicht gefunden, was Sie suchen?",
+    "contact_link": "Kontaktieren Sie uns"
   },
   "unsubscribe": {
     "title": "Vom Newsletter abmelden",
