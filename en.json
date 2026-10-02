@@ -1214,13 +1214,17 @@
     },
     "review_count": "{count, plural, =0 {0 reviews} one {1 review} few {# reviews} other {# reviews}}",
     "unreviewed_product": "Product has not been reviewed yet",
-    "verified_customers": "All reviews come from verified customers from our e-shop."
+    "verified_customers": "All reviews come from verified customers from our e-shop.",
+    "filter_by_stars": "Show only {stars} ★ reviews"
   },
   "reviews_page": {
     "title": "Customer reviews",
     "title_page": "Customer reviews – page {page}",
     "description": "Read all ratings and reviews from verified customers of our e-shop.",
     "all_reviews": "All reviews",
+    "filtered_title": "{stars} ★ reviews",
+    "filter_active": "{count, plural, =0 {No reviews} one {# review} other {# reviews}} with {stars} ★.",
+    "clear_filter": "Show all reviews",
     "empty": "There are no reviews yet.",
     "page_of": "Page {page} of {total}",
     "pagination": "Reviews pagination",
