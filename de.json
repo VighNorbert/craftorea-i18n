@@ -1218,7 +1218,7 @@
     "filter_by_stars": "Nur Bewertungen mit {stars} ★ anzeigen",
     "no_text": "Der Kunde hat keine schriftliche Bewertung hinterlassen.",
     "verified_customer": "Verifizierter Kunde",
-    "verified_customer_title": "Diese Bewertung stammt aus einer verifizierten Bestellung in unserem E-Shop."
+    "verified_customer_title": "Dieser Kunde hat eine verifizierte Bestellung auf unserer Website aufgegeben."
   },
   "reviews_page": {
     "title": "Kundenbewertungen",

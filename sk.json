@@ -1218,7 +1218,7 @@
     "filter_by_stars": "Zobraziť len hodnotenia {stars} ★",
     "no_text": "Zákazník nepridal slovné hodnotenie.",
     "verified_customer": "Overený zákazník",
-    "verified_customer_title": "Hodnotenie pochádza z overenej objednávky v našom e-shope."
+    "verified_customer_title": "Tento zákazník mal overenú objednávku na našej stránke."
   },
   "reviews_page": {
     "title": "Recenzie zákazníkov",

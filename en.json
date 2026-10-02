@@ -1218,7 +1218,7 @@
     "filter_by_stars": "Show only {stars} ★ reviews",
     "no_text": "The customer left no written review.",
     "verified_customer": "Verified customer",
-    "verified_customer_title": "This review comes from a verified order in our e-shop."
+    "verified_customer_title": "This customer placed a verified order on our website."
   },
   "reviews_page": {
     "title": "Customer reviews",
