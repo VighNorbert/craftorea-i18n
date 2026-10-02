@@ -1223,13 +1223,17 @@
     },
     "review_count": "{count, plural, =0 {0 hodnotení} one {1 hodnotenie} few {# hodnotenia} other {# hodnotení}}",
     "unreviewed_product": "Produkt zatiaľ nebol ohodnotený",
-    "verified_customers": "Všetky hodnotenia pochádzajú od overených zákazníkov z nášho e-shopu."
+    "verified_customers": "Všetky hodnotenia pochádzajú od overených zákazníkov z nášho e-shopu.",
+    "filter_by_stars": "Zobraziť len hodnotenia {stars} ★"
   },
   "reviews_page": {
     "title": "Recenzie zákazníkov",
     "title_page": "Recenzie zákazníkov – strana {page}",
     "description": "Prečítajte si všetky hodnotenia a recenzie od overených zákazníkov nášho e-shopu.",
     "all_reviews": "Všetky recenzie",
+    "filtered_title": "Hodnotenia {stars} ★",
+    "filter_active": "{count, plural, =0 {Žiadne hodnotenia} one {# hodnotenie} few {# hodnotenia} other {# hodnotení}} s {stars} ★.",
+    "clear_filter": "Zobraziť všetky hodnotenia",
     "empty": "Zatiaľ nemáme žiadne recenzie.",
     "page_of": "Strana {page} z {total}",
     "pagination": "Stránkovanie recenzií",
