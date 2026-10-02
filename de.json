@@ -748,6 +748,13 @@
       "terms_link": "den AGB"
     }
   },
+  "shipping_info": {
+    "from_and_free": "Versand ab {from} €, kostenlos ab {threshold} €",
+    "from": "Versand ab {from} €",
+    "free_over": "Kostenloser Versand ab {threshold} €",
+    "free": "Kostenloser Versand",
+    "link": "Mehr zum Versand"
+  },
   "errors": {
     "not_found": {
       "title": "Seite nicht gefunden",
