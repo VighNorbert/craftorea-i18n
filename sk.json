@@ -1224,7 +1224,8 @@
     "review_count": "{count, plural, =0 {0 hodnotení} one {1 hodnotenie} few {# hodnotenia} other {# hodnotení}}",
     "unreviewed_product": "Produkt zatiaľ nebol ohodnotený",
     "verified_customers": "Všetky hodnotenia pochádzajú od overených zákazníkov z nášho e-shopu.",
-    "filter_by_stars": "Zobraziť len hodnotenia {stars} ★"
+    "filter_by_stars": "Zobraziť len hodnotenia {stars} ★",
+    "no_text": "Zákazník nepridal slovné hodnotenie."
   },
   "reviews_page": {
     "title": "Recenzie zákazníkov",
