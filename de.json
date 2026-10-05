@@ -1738,6 +1738,8 @@
       "field_record_id": "Eintragungsnummer",
       "section_bank": "Bankverbindung",
       "field_bank": "Bank",
+      "field_beneficiary_name": "Kontoinhaber (Empfängername)",
+      "field_beneficiary_name_placeholder": "Erscheint im PAY-by-square-QR-Code; leer lassen zum Weglassen",
       "section_signing": "Unterschrift und Verantwortung",
       "field_signing_name": "Unterzeichnende Person",
       "field_responsible_person": "Verantwortliche Person",
