@@ -1693,6 +1693,8 @@
       "field_record_id": "Registration number",
       "section_bank": "Bank details",
       "field_bank": "Bank",
+      "field_beneficiary_name": "Account holder (beneficiary name)",
+      "field_beneficiary_name_placeholder": "Shown in the PAY by square QR code; leave empty to omit",
       "section_signing": "Signature and responsibility",
       "field_signing_name": "Signing person",
       "field_responsible_person": "Responsible person",

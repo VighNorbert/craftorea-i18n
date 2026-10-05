@@ -1693,6 +1693,8 @@
       "field_record_id": "Číslo zápisu",
       "section_bank": "Bankové údaje",
       "field_bank": "Banka",
+      "field_beneficiary_name": "Majiteľ účtu (názov príjemcu)",
+      "field_beneficiary_name_placeholder": "Zobrazí sa v QR kóde PAY by square; prázdne = nevyplní sa",
       "section_signing": "Podpis a zodpovednosť",
       "field_signing_name": "Podpisujúca osoba",
       "field_responsible_person": "Zodpovedná osoba",
