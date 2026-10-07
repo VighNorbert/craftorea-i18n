@@ -123,6 +123,20 @@
     "actions": "Aktionen",
     "loading": "Daten werden geladen",
     "no_results": "Keine Einträge gefunden",
+    "bulk": {
+      "select_all": "Alle auf dieser Seite auswählen",
+      "selected_count": "{count} ausgewählt",
+      "clear": "Auswahl aufheben",
+      "confirm_title": "Massenaktion bestätigen",
+      "confirm_description": "Die Aktion wird auf {count} ausgewählte {count, plural, one {Position} other {Positionen}} angewendet. Möchten Sie fortfahren?",
+      "confirm": "Bestätigen",
+      "cancel": "Abbrechen",
+      "done_title": "Massenaktion abgeschlossen",
+      "done_description": "{ok} von {total} erfolgreich.",
+      "failed_description": "Fehlgeschlagen: {ids}.",
+      "error_title": "Massenaktion fehlgeschlagen",
+      "too_many": "Es können höchstens {max} Positionen gleichzeitig ausgewählt werden."
+    },
     "AdminProductsGrid": {
       "photo": "Foto",
       "name": "Name",
@@ -217,6 +231,12 @@
       "buttons": {
         "sp_export": "In Post exportieren",
         "sp_import": "Aus Post importieren"
+      },
+      "bulk_actions": {
+        "sp_export": "In Post exportieren",
+        "superfaktura_invoice": "SuperFaktúra-Rechnungen erstellen",
+        "start_production": "Produktion starten",
+        "archive": "Archivieren"
       },
       "filters": {
         "name": "Kunde",

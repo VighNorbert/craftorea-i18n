@@ -123,6 +123,20 @@
     "actions": "Akcie",
     "loading": "Načítavam dáta",
     "no_results": "Nenašli sa žiadne položky",
+    "bulk": {
+      "select_all": "Vybrať všetko na tejto strane",
+      "selected_count": "Vybrané: {count}",
+      "clear": "Zrušiť výber",
+      "confirm_title": "Potvrdiť hromadnú akciu",
+      "confirm_description": "Akcia sa vykoná pre {count} {count, plural, one {vybranú položku} few {vybrané položky} other {vybraných položiek}}. Chcete pokračovať?",
+      "confirm": "Potvrdiť",
+      "cancel": "Zrušiť",
+      "done_title": "Hromadná akcia dokončená",
+      "done_description": "Úspešných: {ok} z {total}.",
+      "failed_description": "Neúspešné: {ids}.",
+      "error_title": "Hromadná akcia zlyhala",
+      "too_many": "Naraz je možné vybrať najviac {max} položiek."
+    },
     "AdminProductsGrid": {
       "photo": "Fotka",
       "name": "Názov",
@@ -217,6 +231,12 @@
       "buttons": {
         "sp_export": "Exportovať na poštu",
         "sp_import": "Importovať z pošty"
+      },
+      "bulk_actions": {
+        "sp_export": "Exportovať na poštu",
+        "superfaktura_invoice": "Vytvoriť faktúry v SuperFaktúre",
+        "start_production": "Spustiť výrobu",
+        "archive": "Archivovať"
       },
       "filters": {
         "name": "Kupujúci",
