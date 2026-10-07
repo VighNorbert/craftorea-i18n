@@ -123,6 +123,20 @@
     "actions": "Actions",
     "loading": "Loading data",
     "no_results": "No items found",
+    "bulk": {
+      "select_all": "Select all on this page",
+      "selected_count": "{count} selected",
+      "clear": "Clear selection",
+      "confirm_title": "Confirm bulk action",
+      "confirm_description": "The action will be applied to {count} selected {count, plural, one {item} other {items}}. Do you want to continue?",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "done_title": "Bulk action finished",
+      "done_description": "{ok} of {total} succeeded.",
+      "failed_description": "Failed: {ids}.",
+      "error_title": "Bulk action failed",
+      "too_many": "You can select at most {max} items at once."
+    },
     "AdminProductsGrid": {
       "photo": "Photo",
       "name": "Name",
@@ -217,6 +231,12 @@
       "buttons": {
         "sp_export": "Export to post",
         "sp_import": "Import from post"
+      },
+      "bulk_actions": {
+        "sp_export": "Export to post",
+        "superfaktura_invoice": "Create SuperFaktúra invoices",
+        "start_production": "Start production",
+        "archive": "Archive"
       },
       "filters": {
         "name": "Buyer",
