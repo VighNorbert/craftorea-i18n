@@ -127,7 +127,6 @@
       "select_all": "Alle auf dieser Seite auswählen",
       "selected_count": "{count} ausgewählt",
       "clear": "Auswahl aufheben",
-      "no_actions": "Für die ausgewählten Positionen ist keine Massenaktion verfügbar.",
       "confirm_title": "Massenaktion bestätigen",
       "confirm_description": "Die Aktion wird auf {count} ausgewählte {count, plural, one {Position} other {Positionen}} angewendet. Möchten Sie fortfahren?",
       "confirm": "Bestätigen",

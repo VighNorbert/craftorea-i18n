@@ -127,7 +127,6 @@
       "select_all": "Vybrať všetko na tejto strane",
       "selected_count": "Vybrané: {count}",
       "clear": "Zrušiť výber",
-      "no_actions": "Pre vybrané položky nie je dostupná žiadna hromadná akcia.",
       "confirm_title": "Potvrdiť hromadnú akciu",
       "confirm_description": "Akcia sa vykoná pre {count} {count, plural, one {vybranú položku} few {vybrané položky} other {vybraných položiek}}. Chcete pokračovať?",
       "confirm": "Potvrdiť",

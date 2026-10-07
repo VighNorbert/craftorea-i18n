@@ -127,7 +127,6 @@
       "select_all": "Select all on this page",
       "selected_count": "{count} selected",
       "clear": "Clear selection",
-      "no_actions": "No bulk action applies to all selected items.",
       "confirm_title": "Confirm bulk action",
       "confirm_description": "The action will be applied to {count} selected {count, plural, one {item} other {items}}. Do you want to continue?",
       "confirm": "Confirm",
