@@ -1635,7 +1635,8 @@
       "no_addons_available": "No add-ons are currently available.",
       "select_addons": "Select add-ons...",
       "search_addons": "Search add-ons...",
-      "nothing_found": "Nothing found."
+      "nothing_found": "Nothing found.",
+      "product_limit_reached": "You have reached the {limit}-product limit of your plan. <link>Upgrade your plan</link> to add more products."
     },
     "options": {
       "new_options": "New options",
@@ -1724,7 +1725,9 @@
       "drop_to_upload": "Drop here to upload the photo",
       "drag_or_click": "Drag a photo here or click here",
       "upload": "Upload",
-      "saving": "Saving..."
+      "saving": "Saving...",
+      "variants_not_in_plan": "Product variants are not included in your plan. <link>Upgrade your plan</link> to add variants to products.",
+      "variant_limit_reached": "Your plan allows at most {limit} variants per product. Reduce the number of attributes or <link>upgrade your plan</link>."
     },
     "companies": {
       "metadata_title": "Companies · Settings · Admin",
@@ -2172,7 +2175,9 @@
       "feature_allow_stock_desc": "Counts on-hand quantities and blocks checkout when a tracked product runs out. Products opt in individually.",
       "feature_allow_stock_pro_only": "Available on the Pro plan.",
       "field_low_stock_threshold": "Low stock threshold",
-      "field_low_stock_threshold_desc": "Default for products without their own threshold."
+      "field_low_stock_threshold_desc": "Default for products without their own threshold.",
+      "languages_single_language_hint": "Your plan includes one storefront language. You can change the default language at any time; <link>upgrade your plan</link> to add more languages.",
+      "domains_not_in_plan": "A custom domain is not included in your plan. Your shop runs on a free subdomain; <link>upgrade your plan</link> to use your own domain."
     },
     "dashboard": {
       "subtitle": "Overview of your shop's performance and tasks.",
@@ -2230,7 +2235,8 @@
       "source_sashe": "Sashe.sk",
       "source_etsy": "Etsy",
       "source_in_person": "In person",
-      "chart_not_yet": "Not started yet"
+      "chart_not_yet": "Not started yet",
+      "advanced_analytics_upsell": "Advanced analytics (period picker, comparison with the previous period and top products) are available from the Growth plan. <link>Upgrade your plan</link>"
     },
     "assistant": {
       "title": "Assistant",

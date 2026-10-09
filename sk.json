@@ -1635,7 +1635,8 @@
       "no_addons_available": "Momentálne nie sú k dispozícii žiadne doplnky.",
       "select_addons": "Vyberte doplnky...",
       "search_addons": "Hľadať doplnky...",
-      "nothing_found": "Nič sa nenašlo."
+      "nothing_found": "Nič sa nenašlo.",
+      "product_limit_reached": "Dosiahli ste limit {limit} produktov vášho balíka. <link>Vylepšite balík</link>, ak chcete pridať ďalšie produkty."
     },
     "options": {
       "new_options": "Nové možnosti",
@@ -1724,7 +1725,9 @@
       "drop_to_upload": "Pustite tu pre nahranie fotky",
       "drag_or_click": "Presuňte sem fotku alebo sem kliknite",
       "upload": "Nahrať",
-      "saving": "Ukladám..."
+      "saving": "Ukladám...",
+      "variants_not_in_plan": "Varianty produktov nie sú súčasťou vášho balíka. <link>Vylepšite balík</link>, ak chcete produktom pridať varianty.",
+      "variant_limit_reached": "Váš balík umožňuje najviac {limit} variantov na produkt. Znížte počet atribútov alebo <link>vylepšite balík</link>."
     },
     "companies": {
       "metadata_title": "Spoločnosti · Nastavenia · Admin",
@@ -2172,7 +2175,9 @@
       "feature_allow_stock_desc": "Počíta stav na sklade a zastaví nákup, keď sledovaný produkt dojde. Produkty sa zapájajú jednotlivo.",
       "feature_allow_stock_pro_only": "Dostupné v pláne Pro.",
       "field_low_stock_threshold": "Hranica nízkej zásoby",
-      "field_low_stock_threshold_desc": "Predvolená hodnota pre produkty bez vlastnej hranice."
+      "field_low_stock_threshold_desc": "Predvolená hodnota pre produkty bez vlastnej hranice.",
+      "languages_single_language_hint": "Váš balík umožňuje jeden jazyk obchodu. Predvolený jazyk môžete zmeniť kedykoľvek; <link>vylepšite balík</link>, ak chcete pridať ďalšie jazyky.",
+      "domains_not_in_plan": "Vlastná doména nie je súčasťou vášho balíka. Váš obchod beží na bezplatnej subdoméne; <link>vylepšite balík</link>, ak chcete použiť vlastnú doménu."
     },
     "dashboard": {
       "subtitle": "Prehľad výkonu a úloh vášho obchodu.",
@@ -2230,7 +2235,8 @@
       "source_sashe": "Sashe.sk",
       "source_etsy": "Etsy",
       "source_in_person": "Osobné",
-      "chart_not_yet": "Ešte nezačalo"
+      "chart_not_yet": "Ešte nezačalo",
+      "advanced_analytics_upsell": "Podrobné prehľady (výber obdobia, porovnanie s predchádzajúcim obdobím a najpredávanejšie produkty) sú dostupné od balíka Growth. <link>Vylepšiť balík</link>"
     },
     "assistant": {
       "title": "Asistent",

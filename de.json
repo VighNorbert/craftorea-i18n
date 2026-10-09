@@ -1635,7 +1635,8 @@
       "no_addons_available": "Derzeit sind keine Zusätze verfügbar.",
       "select_addons": "Zusätze auswählen...",
       "search_addons": "Zusätze suchen...",
-      "nothing_found": "Nichts gefunden."
+      "nothing_found": "Nichts gefunden.",
+      "product_limit_reached": "Sie haben das Limit von {limit} Produkten Ihres Tarifs erreicht. <link>Upgraden Sie Ihren Tarif</link>, um weitere Produkte hinzuzufügen."
     },
     "options": {
       "new_options": "Neue Optionen",
@@ -1724,7 +1725,9 @@
       "drop_to_upload": "Hier ablegen, um das Foto hochzuladen",
       "drag_or_click": "Ziehen Sie ein Foto hierher oder klicken Sie hier",
       "upload": "Hochladen",
-      "saving": "Speichern..."
+      "saving": "Speichern...",
+      "variants_not_in_plan": "Produktvarianten sind in Ihrem Tarif nicht enthalten. <link>Upgraden Sie Ihren Tarif</link>, um Produkten Varianten hinzuzufügen.",
+      "variant_limit_reached": "Ihr Tarif erlaubt höchstens {limit} Varianten pro Produkt. Reduzieren Sie die Anzahl der Attribute oder <link>upgraden Sie Ihren Tarif</link>."
     },
     "companies": {
       "metadata_title": "Unternehmen · Einstellungen · Admin",
@@ -2172,7 +2175,9 @@
       "feature_allow_stock_desc": "Zählt Bestände und stoppt den Kauf, wenn ein verfolgtes Produkt ausverkauft ist. Produkte werden einzeln aktiviert.",
       "feature_allow_stock_pro_only": "Im Pro-Tarif verfügbar.",
       "field_low_stock_threshold": "Schwelle für niedrigen Bestand",
-      "field_low_stock_threshold_desc": "Standard für Produkte ohne eigene Schwelle."
+      "field_low_stock_threshold_desc": "Standard für Produkte ohne eigene Schwelle.",
+      "languages_single_language_hint": "Ihr Tarif umfasst eine Shop-Sprache. Die Standardsprache können Sie jederzeit ändern; <link>upgraden Sie Ihren Tarif</link>, um weitere Sprachen hinzuzufügen.",
+      "domains_not_in_plan": "Eine eigene Domain ist in Ihrem Tarif nicht enthalten. Ihr Shop läuft auf einer kostenlosen Subdomain; <link>upgraden Sie Ihren Tarif</link>, um Ihre eigene Domain zu verwenden."
     },
     "dashboard": {
       "subtitle": "Überblick über Leistung und Aufgaben Ihres Shops.",
@@ -2230,7 +2235,8 @@
       "source_sashe": "Sashe.sk",
       "source_etsy": "Etsy",
       "source_in_person": "Vor Ort",
-      "chart_not_yet": "Noch nicht begonnen"
+      "chart_not_yet": "Noch nicht begonnen",
+      "advanced_analytics_upsell": "Erweiterte Auswertungen (Zeitraumauswahl, Vergleich mit dem Vorzeitraum und Topprodukte) sind ab dem Tarif Growth verfügbar. <link>Tarif upgraden</link>"
     },
     "assistant": {
       "title": "Assistent",
