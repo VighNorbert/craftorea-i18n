@@ -2684,6 +2684,10 @@
           "name": "Zľavy a promo kódy",
           "tooltip": "Vytvárajte percentuálne alebo pevné zľavy s vlastnými kódmi pre marketingové kampane"
         },
+        "aiBlog": {
+          "name": "AI blog",
+          "tooltip": "Píšte blogové články pripravené pre SEO s pomocou AI: návrhy tém, osnova, koncept a SEO úpravy, publikované priamo z administrácie"
+        },
         "advancedAnalytics": {
           "name": "Pokročilá analytika",
           "tooltip": "Podrobné správanie zákazníkov, sledovanie konverzií a prehľad o tržbách"
@@ -2765,6 +2769,10 @@
           "discounts": {
             "name": "Zľavy a promo kódy",
             "tooltip": "Vytvárajte percentuálne alebo pevné zľavy s vlastnými kódmi pre marketingové kampane"
+          },
+          "aiBlog": {
+            "name": "AI blog",
+            "tooltip": "Píšte blogové články pripravené pre SEO s pomocou AI: návrhy tém, osnova, koncept a SEO úpravy, publikované priamo z administrácie"
           },
           "translations": {
             "name": "Preklady",

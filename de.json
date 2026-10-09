@@ -2684,6 +2684,10 @@
           "name": "Rabatte & Gutscheincodes",
           "tooltip": "Erstellen Sie prozentuale oder feste Rabatte mit eigenen Codes für Marketingkampagnen"
         },
+        "aiBlog": {
+          "name": "KI-Blog",
+          "tooltip": "Schreiben Sie SEO-fertige Blogbeiträge mit KI-Unterstützung: Themenideen, Gliederung, Entwurf und SEO-Prüfung, direkt aus dem Dashboard veröffentlicht"
+        },
         "advancedAnalytics": {
           "name": "Erweiterte Analysen",
           "tooltip": "Detailliertes Kundenverhalten, Conversion-Tracking und Umsatzeinblicke"
@@ -2765,6 +2769,10 @@
           "discounts": {
             "name": "Rabatte & Gutscheincodes",
             "tooltip": "Erstellen Sie prozentuale oder feste Rabatte mit eigenen Codes für Marketingkampagnen"
+          },
+          "aiBlog": {
+            "name": "KI-Blog",
+            "tooltip": "Schreiben Sie SEO-fertige Blogbeiträge mit KI-Unterstützung: Themenideen, Gliederung, Entwurf und SEO-Prüfung, direkt aus dem Dashboard veröffentlicht"
           },
           "translations": {
             "name": "Übersetzungen",

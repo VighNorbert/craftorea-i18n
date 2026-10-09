@@ -2684,6 +2684,10 @@
           "name": "Discounts & Promo codes",
           "tooltip": "Create percentage or fixed-amount discounts with custom codes for marketing campaigns"
         },
+        "aiBlog": {
+          "name": "AI blog",
+          "tooltip": "Write SEO-ready blog posts with AI assistance: topic ideas, outline, draft and SEO pass, published straight from your dashboard"
+        },
         "advancedAnalytics": {
           "name": "Advanced analytics",
           "tooltip": "Detailed customer behavior, conversion tracking, and revenue insights"
@@ -2765,6 +2769,10 @@
           "discounts": {
             "name": "Discounts & Promo Codes",
             "tooltip": "Create percentage or fixed-amount discounts with custom codes for marketing campaigns"
+          },
+          "aiBlog": {
+            "name": "AI blog",
+            "tooltip": "Write SEO-ready blog posts with AI assistance: topic ideas, outline, draft and SEO pass, published straight from your dashboard"
           },
           "translations": {
             "name": "Translations",
